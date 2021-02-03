@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="0dip">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:orientation="vertical"
+        android:paddingRight="15dip"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/slide_system_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:paddingLeft="15dip"
+            android:src="@drawable/ic_effects_holo_light_large"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:text="@string/slide_music_system_ringtones" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:orientation="vertical"
+        android:paddingRight="15dip"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/slide_user_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:paddingLeft="15dip"
+            android:src="@drawable/ic_effects_holo_light_large"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:text="@string/slide_music_user_defined" />
+    </LinearLayout>
+
+</LinearLayout>

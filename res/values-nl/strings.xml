@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galerij"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Videospeler"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Video laden..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Video hervatten"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Afspelen hervatten vanaf ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Afspelen hervatten"</string>
+    <string name="loading" msgid="7038208555304563571">"Laden..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Kan niet laden"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Kan de afbeelding niet laden"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Geen miniatuur"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Opnieuw starten"</string>
+    <string name="ok" msgid="5296833083983263293">"OK"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Foto opslaan..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Foto opslaan in <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="crop_label" msgid="521114301871349328">"Foto bijsnijden"</string>
+    <string name="trim_label" msgid="274203231381209979">"Video bijsnijden"</string>
+    <string name="select_image" msgid="7841406150484742140">"Foto selecteren"</string>
+    <string name="select_video" msgid="4859510992798615076">"Video selecteren"</string>
+    <string name="select_item" msgid="2816923896202086390">"Item selecteren"</string>
+    <string name="select_album" msgid="1557063764849434077">"Album selecteren"</string>
+    <string name="select_group" msgid="6744208543323307114">"Groep selecteren"</string>
+    <string name="set_image" msgid="2331476809308010401">"Foto instellen als"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Achtergrond"</string>
+    <string name="delete" msgid="2839695998251824487">"Verwijderen"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Geselecteerd item verwijderen?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Geselect. items verwijderen?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Bevestigen"</string>
+    <string name="cancel" msgid="3637516880917356226">"Annuleren"</string>
+    <string name="share" msgid="3619042788254195341">"Delen"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Panorama delen"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Delen als foto"</string>
+    <string name="deleted" msgid="6795433049119073871">"Verwijderd"</string>
+    <string name="undo" msgid="2930873956446586313">"ONGEDAAN MAKEN"</string>
+    <string name="select_all" msgid="3403283025220282175">"Alles selecteren"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Alle selecties opheffen"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Diavoorstelling"</string>
+    <string name="details" msgid="8415120088556445230">"Details"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d van %2$d items:"</string>
+    <string name="close" msgid="5585646033158453043">"Sluiten"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Overschakelen naar Camera"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d geselecteerd"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d geselecteerd"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d geselecteerd"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Op kaart weergeven"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Linksom draaien"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Rechtsom draaien"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Kan item niet vinden."</string>
+    <string name="edit" msgid="1502273844748580847">"Bewerken"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Eenvoudig bewerken"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Bijsnijden"</string>
+    <string name="trim_action" msgid="703098114452883524">"Bijsnijden"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Dempen"</string>
+    <string name="set_as" msgid="3636764710790507868">"Instellen als"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Kan video niet dempen."</string>
+    <string name="video_err" msgid="7003051631792271009">"Video kan niet worden afgespeeld."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Op locatie"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Op tijd"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Op labels"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Op personen"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Op album"</string>
+    <string name="untagged" msgid="7281481064509590402">"Geen tags"</string>
+    <string name="no_location" msgid="4043624857489331676">"Geen locatie"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Sommige locaties kunnen wegens problemen met het netwerk niet worden geïdentificeerd."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Kan de foto\'s in dit album niet downloaden. Probeer het later opnieuw."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Alleen afbeeldingen"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Alleen video\'s"</string>
+    <string name="show_all" msgid="6963292714584735149">"Afbeeldingen en video\'s"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Fotogalerij"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Geen foto\'s."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Bijgesneden afbeelding is opgeslagen in <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Geen albums beschikbaar."</string>
+    <string name="empty_album" msgid="4542880442593595494">"0 afbeeldingen/video\'s beschikbaar."</string>
+    <string name="done" msgid="217672440064436595">"Gereed"</string>
+    <string name="title" msgid="7622928349908052569">"Titel"</string>
+    <string name="description" msgid="3016729318096557520">"Beschrijving"</string>
+    <string name="time" msgid="1367953006052876956">"Tijd"</string>
+    <string name="location" msgid="3432705876921618314">"Locatie"</string>
+    <string name="path" msgid="4725740395885105824">"Pad"</string>
+    <string name="width" msgid="9215847239714321097">"Breedte"</string>
+    <string name="height" msgid="3648885449443787772">"Hoogte"</string>
+    <string name="orientation" msgid="4958327983165245513">"Stand"</string>
+    <string name="duration" msgid="8160058911218541616">"Duur"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME-type"</string>
+    <string name="file_size" msgid="8486169301588318915">"Bestandsgrootte"</string>
+    <string name="maker" msgid="7921835498034236197">"Maker"</string>
+    <string name="model" msgid="8240207064064337366">"Model"</string>
+    <string name="flash" msgid="2816779031261147723">"Flits"</string>
+    <string name="aperture" msgid="5920657630303915195">"Diafragma"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Brandpuntsafst."</string>
+    <string name="white_balance" msgid="1582509289994216078">"Witbalans"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Belichtingstijd"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Handmatig"</string>
+    <string name="auto" msgid="4296941368722892821">"Autom."</string>
+    <string name="flash_on" msgid="7891556231891837284">"Geflitst"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Geen flits"</string>
+    <string name="unknown" msgid="3506693015896912952">"Onbekend"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Instant"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Bleek"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Blauw"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"Z/W"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Punch"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X-proces"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litho"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Alle albums"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Lokale albums"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> of kleiner"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> of groter"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> tot <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Importeren"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Importeren voltooid"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Een album selecteren"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Alle afbeeldingen verwisselen"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Een afbeelding kiezen"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Afbeeldingen kiezen"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Diavoorstelling"</string>
+    <string name="albums" msgid="7320787705180057947">"Albums"</string>
+    <string name="times" msgid="2023033894889499219">"Opnametijden"</string>
+    <string name="locations" msgid="6649297994083130305">"Locaties"</string>
+    <string name="people" msgid="4114003823747292747">"Mensen"</string>
+    <string name="tags" msgid="5539648765482935955">"Labels"</string>
+    <string name="group_by" msgid="4308299657902209357">"Groeperen op"</string>
+    <string name="settings" msgid="1534847740615665736">"Instellingen"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Camera"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Downloaden"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Bewerkte online foto\'s"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Geïmporteerd"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Screenshot"</string>
+    <string name="help" msgid="7368960711153618354">"Help"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Filmstrookweergave"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Rasterweergave"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Op volledig scherm"</string>
+    <string name="trimming" msgid="9122385768369143997">"Bijsnijden"</string>
+    <string name="muting" msgid="5094925919589915324">"Dempen"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Een ogenblik geduld"</string>
+    <string name="save_into" msgid="9155488424829609229">"Video opslaan in <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Panorama wordt gegenereerd"</string>
+    <string name="save" msgid="613976532235060516">"Opslaan"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Inhoud scannen..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d items gescand"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d item gescand"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d items gescand"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Sorteren..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Scannen gereed"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Importeren..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Er is geen inhoud om te importeren naar dit apparaat."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Er is geen MTP-apparaat verbonden"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Camera"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Video afspelen"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Tijdbalk videospeler"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Camera"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Zoeken"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Foto\'s"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Albums"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d foto"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d foto\'s"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Geen sleutelframes viedeo wordt opnieuw gestart"</string>
+    <string name="gif_decode_failed">"De bitmap is te groot om af te spelen"</string>
+    <string name="spaceLow_content">"Opslaan gefaald, het systeem kan onvoldoende opslagruimte hebben."</string>
+    <string name="wait_for_deleting">"Verwijderen, gelieve te wachten&#8230;"</string>
+    <string name="wait_for_rotating">"Roteren, gelieve te wachten&#8230;"</string>
+    <string name="video_bookmarks">"Bladwijzers"</string>
+    <string name="video_edit_bookmark">"Bewerk"</string>
+    <string name="video_delete_bookmark">Verwijder</string>
+    <string name="empty_bookmarks">"Ledig Bladwijzer"</string>
+    <string name="do_not_save">Beëindig</string>
+    <string name="net_location">"Adres"</string>
+    <string name="name">"Naam"</string>
+    <string name="bookmark_needs_title">Bladwijzer moet een naam hebben</string>
+    <string name="bookmark_needs_url">Bladwijzer moet een locatie hebben</string>
+    <string name="bookmark_invalid_url">Locatie moet beginnen met "http(s)://" of "rtsp://"</string>
+    <string name="processing_please_wait">Voortgang, wacht alstublieft.</string>
+    <string name="bookmark_exist">Bladwijzer met dezelfde locatie bestaat al.</string>
+    <string name="default_bookmark_title">standaard_titel</string>
+    <string name="bookmark_added">"Bewaard in bladwijzers"</string>
+    <string name="albums_video">"video"</string>
+    <string name="empty_album_video">"0 video\'s beschikbaar"</string>
+    <string name="border_brush">"Borstel"</string>
+    <string name="border_grunge">"Grunge"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Tape"</string>
+    <string name="border_black">"Zwart"</string>
+    <string name="border_black_rounded">"zwart_rd"</string>
+    <string name="border_white">"Wit"</string>
+    <string name="border_white_rounded">"wit_rd"</string>
+    <string name="border_cream">"créme"</string>
+    <string name="border_cream_rounded">"créme_rd"</string>
+    <string name="no_face">"Geen gezicht"</string>
+    <string name="can_not_share">"Het geselecteerde bestand is meer dan <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, Delen functie is niet beschikbaar"</string>
+
+    <string name="video_save_to_bookmark">"Opslaan in bladwijzers"</string>
+    <string name="video_view_bookmarks">"Bladwijzers"</string>
+    <string name="movie_view_proxy_set">"Proxy Ingesteld"</string>
+    <string name="movie_view_network">"Netwerk"</string>
+    <string name="movie_view_apn_set">"Apn Ingan Instellen"</string>
+    <string name="movie_view_proxy_ip_set">"Proxy IP instellingen"</string>
+    <string name="movie_view_proxy_port_set">"Proxy Poort instellingen"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP Poort instellingen"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP Max Poort instellingen"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP Min Poort instellingen"</string>
+    <string name="movie_view_proxy_ok">OK</string>
+    <string name="movie_view_proxy_port_seterror_info">"Een Gewaardeerde Poort Instelling moet een geheel getal tussen het opgegeven bereik zijn:"</string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP ongeldig!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"Poort ongeledig!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Stel Eerst Poort Bereik In ！"</string>
+    <string name="movie_view_proxy_enable">"Proxy Ingeschakeld"</string>
+    <string name="movie_view_parameter_set">"Parameter instellingen"</string>
+    <string name="dialog_dismiss">"Negeren"</string>
+    <string name="gallery_error_title">"Gallerij Fout"</string>
+    <string name="videoplayer_error_title">"Video Speler Fout"</string>
+    <string name="error_permissions">"De app beschikt niet over bepaalde essentiële rechten. Controleer uw instellingen voor rechten."</string>
+    <string name="gallery_premission_change">"Gallerij machtiging gewijzigd, opnieuw selecteren"</string>
+    <string name="gallery_premission_error">"Gallerij machtiging fout, reset de gallerij machtigingen."</string>
+    <string name="already_exist">"Het effect bestaat al"</string>
+    <string name="show_details_error">"Data laad, probeer later opnieuw."</string>
+    <string name="none_playback">"Niets afspelen"</string>
+    <string name="single_playback">"Enkel afspelen"</string>
+    <string name="all_playback">"Alles afspelen"</string>
+    <string name="playback_setting">"Afspeel modus"</string>
+    <string name="can_not_open_float_video">"Huidige video achtergrond, video zwevende vensters kan niet worden geopend."</string>
+    <string name="video_file_does_not_exist">"videobestand bestaat niet"</string>
+    <string name="movie_view_goto">"Ga naar"</string>
+    <string name="no_search_app">"geen zoek app"</string>
+    <string name="channel_setting_title">"Kanall Instelling"</string>
+    <string name="channel_setting_left">"Links"</string>
+    <string name="channel_setting_right">"Rechts"</string>
+    <string name="channel_setting_dual">"Dual"</string>
+    <string name="channel_setting_ok">OK</string>
+    <string name="channel_setting_cancel">Beëindig</string>
+    <string name="channel_setting">"Kanall Instelling"</string>
+    <string name="movie_view_calling_title">"Aan het bellen"</string>
+    <string name="movie_view_calling_msg">"Probeer opnieuw na het beëindigen van de oproep"</string>
+    <string name="movie_view_calling_try">"Probeer"</string>
+    <string name="movie_view_calling_cancel">Beëindig</string>
+    <string name="time_out">"Time-out"</string>
+    <string name="time_out_message">Netwerkfout of verbinding time-out, herstarten of niet?</string>
+    <string name="headset">"Koptelefoon"</string>
+    <string name="loud_speaker">"Luidspreker"</string>
+    <string name="cannot_load_crop_image">"Niet genoeg applicatie-runtime-geheugen, het laden van afbeeldingen is mislukt."</string>
+    <string name="back_exit">verlaten bij opnieuw drukken</string>
+    <string name="slideshow_music">"Schuif muziek"</string>
+    <string name="system_ringtones">"Systeem Beltonen"</string>
+    <string name="user_defined">"Gebruiker gedefinieerd"</string>
+    <string name="cannot_play_music">"Kan nu geen muziek spelen"</string>
+    <string name="play_audio_failed">"Kan nu geen audio spelen"</string>
+    <string-array name="planets_array">
+        <item>"Alle video\'s"</item>
+        <item>"Lokale video\'s"</item>
+        <item>"Gefilmde video\'s"</item>
+        <item>"Recent afgespeeld"</item>
+    </string-array>
+    <string name="last_play">"Laatst afgespeeld:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Nu de bestanden verwijderen?"</item>
+        <item quantity="other">"Nu de bestanden verwijderen?"</item>
+    </plurals>
+    <string name="today">"Vandaag"</string>
+    <string name="yesterday">"Gisteren"</string>
+    <string name="earlier">"Vroeger"</string>
+    <string name="drawer_open">"Video lijst"</string>
+    <string name="drawer_close">"Alle video\'s"</string>
+    <string name="share_actionmode">"Delen"</string>
+    <string name="delete_actionmode">Verwijder</string>
+    <string name="clear_all">"Verwiijder alles"</string>
+    <string name="video_list">"Video lijst"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Geselecteerd item verwijderen?"</item>
+        <item quantity="other">"Geselecteerd item verwijderen?"</item>
+    </plurals>
+    <string name="current_select">"%d geselecteerd"</string>
+    <string name="no_video_play_records">"Geen afspeel bestanden"</string>
+    <string name="no_videos">"Geen video\'s"</string>
+    <string name="video_not_exist">"De video bestaat niet"</string>
+    <string name="save_picture">"Opname werd opgeslagen op %s"</string>
+    <string name="mute">"Dempen"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Bescherming informatie"</string>
+    <string name="drm_info">"Bescherming informatie"</string>
+    <string name="file_name">"Bestandsnaam:"</string>
+    <string name="rights_validity">"Rechten Geldigheid:"</string>
+    <string name="rights_status">"Rechten Status:"</string>
+    <string name="start_time">"Starttijd:"</string>
+    <string name="end_time">"Eindtijd:"</string>
+    <string name="expiration_time">"Vervaltijd:"</string>
+    <string name="remain_times">"Overblijvende keren:"</string>
+    <string name="rights_validity_valid">"Geldig"</string>
+    <string name="rights_validity_invalid">"Ongeldig"</string>
+    <string name="rights_status_share">"Toegestaan om doorgestuurd te worden"</string>
+    <string name="rights_status_not_share">"Niet toegestaan om doorgestuurd teworden"</string>
+    <string name="drm_rights_no_limit">"Ongelimiteerd"</string>
+    <string name="drm_rights_unknown">Onbekend</string>
+    <string name="drm_rights_inactive">"Rechten niet actief"</string>
+    <string name="drm_file_invalid">"Bestand is verlopen"</string>
+    <string name="screenshot_failed">"Schermafbeelding mislukt"</string>
+    <string name="floatwindow_unsupported_device">"Zwevend venster wordt niet ondersteund op dit apparaat"</string>
+    <string name="floatwindow_unsupported_camera">"Zwevend venster wordt niet ondersteund in camera"</string>
+    <string name="floatwindow_unsupported_streaming">"Zwevend venster wordt niet ondersteund bij het afspelen van streaming video\'s"</string>
+    <string name="stream_screenshot_not_supported">"De opname functie wordt niet ondersteund tijdens het afspelen van streaming video\'s."</string>
+
+    <string name="movie_view_mms_processing_ok">"ontvangen voltooid"</string>
+    <string name="movie_view_sms_received_ok">Sms ontvangen</string>
+    <string name="movie_view_mms_process_title">"Mms Aan het verwerken"</string>
+    <string name="movie_view_sms_process_title">"Sms verwerking"</string>
+    <string name="movie_view_mms_ok">OK</string>
+    <string name="drm_consume_title">"Verbruik Drm rechten"</string>
+    <string name="drm_consumed">"Uw bewerking heeft Drm rechte verbruikt"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="drm_consume_hint">"Uw bewerking zal Drm rechten verbruiken"</string>
+    <string name="invalid_rights">"Dit bestand heeft geen geldige licentie"</string>
+    <string name="choose_drm_alert">"Kan Drm bestand niet kiezen, neem alstublieft een andere"</string>
+    <string name="ffx_dehaze">"Ontsluieren"</string>
+    <string name="select_music">"Muziek selecteren"</string>
+    <string name="slidemusic">"Muziek voor presentatie instellen"</string>
+    <string name="setas">"Instellen als"</string>
+    <string name="slide_music_system_ringtones">"Systeem Beltonen"</string>
+    <string name="slide_music_user_defined">"Gebruiker gedefinieerd"</string>
+    <string name="remove_usbdisk">"Gebruikersapparaat is verwijderd"</string>
+    <string name="edit_crop_free">"Vrij"</string>
+    <string name="edit_crop_square">"Vierkant"</string>
+    <string name="edit_crop_origin">"Oorspronkelijk"</string>
+    <string name="hide_albums">"Albums verbergen"</string>
+    <string name="show_local_albums">"Lokale albums weergeven"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"%1$d foto geselecteerd"</item>
+        <item quantity="other">"%1$d foto's geselecteerd"</item>
+    </plurals>
+    <string name="select">"Selecteren"</string>
+    <string name="popup_title_save_all_selected">"Alle foto's opslaan?"</string>
+    <string name="keep_all">"Alles opslaan"</string>
+    <string name="delete_all">"Verwiijder alles"</string>
+    <string name="burst_progress_dialog_title">"Verwerken..."</string>
+    <string name="side_bar_all_photos">"Alle"</string>
+    <string name="side_bar_photo">"Foto's"</string>
+    <string name="side_bar_video">"Video\'s"</string>
+    <string name="side_bar_album">"Albums"</string>
+    <string name="label_select">"Selecteren"</string>
+    <string name="no_photo_or_video">"Geen %1$s"</string>
+    <string name="no_photo_or_video_hint">"In dit apparaat opgeslagen foto's of video's worden hier weergegeven."</string>
+    <string name="detail_pop_title">"Informatie"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"Meer"</string>
+    <string name="detail_location">"Locatie"</string>
+    <string name="database_exception">"Uitzonderingsfout bij gegevensverwerking, de bewerking is mislukt."</string>
+    <string name="exit_multiwindow_tips">"Door foto's bladeren wordt niet ondersteund op gesplitst scherm"</string>
+    <string name="exit_multiwindow_video_tips">"Video bekijken wordt niet ondersteund op gesplitst scherm"</string>
+    <string name="decode_image_faild">"Afbeelding bijsnijden is mislukt"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"Vandaag"</string>
+    <string name="label_yesterday">"Gisteren"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"Gegevens worden geladen. Even geduld..."</string>
+    <string name="refocus_photo_edit_save">Bewaar</string>
+    <string name="distance_photo_unit_conversion">"Eenh. converteren"</string>
+    <string name="unit">"Eenheid"</string>
+    <string name="meter">"meter"</string>
+    <string name="centimeter">"Centimeter"</string>
+    <string name="foot">"Voet"</string>
+    <string name="inch">"Duim"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"Deze video is niet geschikt voor streamen naar dit apparaat."</string>
+    <string name="VideoView_error_text_unknown">"Kan deze video niet afspelen."</string>
+    <string name="no_touch_flip">"automatisch draaien"</string>
+    <string name="flip_summury">"secundaire camera 1 s afdekken om beeld te draaien"</string>
+    <string name="first_summary">"standaard volgende pagina"</string>
+    <string name="sencond_summury">"vorige pagina bij volume luider "</string>
+    <string name="third_summury">"volgende pagina bij volume stiller "</string>
+    <string name="fourth_summury">"opmerking: de volumetoets is bezet als deze functie actief is"</string>
+    <string name="dealing">Laden...</string>
+    <string name="slide_music_stop">"Presentatiemuziek gestopt"</string>
+    <string name="select_tips">"Het geselecteerde subject is in de achtergrond. Selecteer een nieuw punt in de voorgrond"</string>
+    <string name="definition_subject">"Onderwerp definiëren"</string>
+    <string name="fix_subject">"Als doel updaten"</string>
+    <string name="fix_background">"Als achtergrond updaten"</string>
+    <string name="replace_background">"Achtergrond vervangen"</string>
+    <string name="correct_object_tips">"Waar de contouren niet duidelijk zijn aangegeven moet u het gebied met één vinger aanduiden. Klik vervolgens op "Als doel updaten" om de aangeduide zone te markeren als doel of onderwerp, of klik de knop "Als achtergrond updaten" om de zone te markeren als achtergrond. U kunt ook inzoomen en foto's verplaatsen met twee vingers, zodat de bewerking nauwkeuriger kan worden uitgevoerd."</string>
+    <string name="def_object_tips">"Onderwerp definiëren: teken een rechthoek om de contouren te definiëren van het onderwerp dat u wilt extraheren. De rechthoek moet uw onderwerp nauw omsluiten."</string>
+    <string name="valid_point">"Het beginpunt of het eindpunt bevindt zich niet in het geldige bereik,"</string>
+    <string name="small_rect">"De getekende rechthoek is te klein."</string>
+    <string name="add">"Toevoegen"</string>
+    <string name="use_phone_photo">"Gebruik de foto's die u met uw smartphone hebt gemaakt"</string>
+    <string name="extract_failed">"Extractie is mislukt, probeer het opnieuw"</string>
+    <string name="blending_success">"Beelden zijn samengevoegd. Ga door met bewerken of druk op de knop Terug om af te sluiten"</string>
+    <string name="blending_failed">"Beelden samenvoegen is mislukt"</string>
+    <string name="extract_failed_notforground">"Extractie is mislukt, geen voorgrond-onderwerp, probeer het opnieuw"</string>
+    <string name="extract_failed_nomemory">"Extractie is mislukt, onvoldoende geheugen, probeer het opnieuw"</string>
+    <string name="extract_timeout">"Time-out van extractie, probeer het opnieuw"</string>
+    <string name="extract_forground">"Voorgrond-onderwerp wordt geëxtraheerd. Even geduld..."</string>
+    <string name="update_forground">"Voorgrond-onderwerp wordt bijgewerkt. Even geduld..."</string>
+    <string name="blending_image">"Beeld wordt samengevoegd. Even geduld..."</string>
+    <string name="select_foreground_subject">"Klik om voorgrond-onderwerp te selecteren"</string>
+    <string name="adjust_foreground_subject">"Voorgrond-onderwerp aanpassen"</string>
+    <string name="correct_subject_outline">"Contouren corrigeren"</string>
+    <string name="edit_background">"Achtergrond bewerken"</string>
+    <string name="verify_prompt">"De huidige positie is te dicht bij de rand, waardoor het resultaat slecht zal zijn. Wilt u toch doorgaan met de samenvoeging?"</string>
+    <string name="fg_too_large">"Het voorgrond-onderwerp is te groot voor samenvoeging."</string>
+    <string name="draw_tips">"Teken binnen de witte rechthoek"</string>
+    <string name="undo_faild">"ongedaan maken is mislukt"</string>
+    <string name="get_forfround_tips">"Kan niet alle voorgrond-onderwerpen omzetten in achtergrond. Teken opnieuw."</string>
+    <string name="blending_move_limit">"De rand van het scherm is bereikt. Geen verdere actie. Pas de positie aan om door te gaan."</string>
+    <string name="init_bitmap_faild">"Het verkregen beeld is mislukt. Probeer het opnieuw."</string>
+    <string name="next_video">"Volgende video"</string>
+    <string name="pre_video">"Vorige video"</string>
+    <string name="lock_control">"Bediening vergrendelen"</string>
+    <string name="lock_orintation">"Oriëntatie vergrendelen"</string>
+    <string name="print_screen">"Schermafdruk"</string>
+    <string name="float_player">"Zwevend afspelen"</string>
+    <string name="scale_screen">"Schaal aanpassen"</string>
+    <string name="back">"Terug"</string>
+    <string name="over_flow">"Overloop"</string>
+    <string name="slide_music_play_fail">"Bestand afspelen is mislukt"</string>
+    <string name="refocus_quit">stoppen</string>
+    <string name="refocus_save_change">"Wijzigingen opslaan"</string>
+    <string name="refocus_confirm_save">"Wilt u opslaan, of direct afsluiten?"</string>
+    <string name="refocus_save_success">"Opgeslagen"</string>
+    <string name="refocus_save_fail">"Opslaan is mislukt"</string>
+    <string name="none_input_tips">"Naam mag niet leeg zijn"</string>
+    <string name="floatview_notification_text">"De video wordt afgespeeld in een zwevend venster."</string>
+    <string name="voice_photo">"Audio Beeld"</string>
+    <string name="continuous_shooting">"Burst"</string>
+    <string name="refocus_image">"Beeld onscherp maken"</string>
+    <string name="blur_image_wait">"Beeld wordt onscherp gemaakt. Even geduld"</string>
+    <string name="blur_save_fail">"Onscherp maken. Opslaan is mislukt"</string>
+    <string name="refocus_init_fail">"Initialisatie van gegevens is mislukt"</string>
+    <string name="conversing">"Converteren..."</string>
+    <string name="share_as_image">"Delen als afbeelding"</string>
+    <string name="share_as_video">"Delen als video"</string>
+    <string name="converse_video_failed">"Conversie in video is mislukt."</string>
+    <string name="app_photo_edit">"Foto bewerken"</string>
+    <string name="cant_select_file">"Niet-ondersteund bestand"</string>
+    <string name="input_reached_max_length">"Invoer heeft max lengte bereikt"</string>
+    <string name="v2_photo">"Foto"</string>
+    <string name="v2_album">"Album"</string>
+    <string name="v2_discover">"Ontdekken"</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">"%1$d afbeelding"</item>
+        <item quantity="one">"%1$d afbeelding"</item>
+        <item quantity="other">"%1$d afbeeldingen"</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">"%1$d video"</item>
+        <item quantity="one">"%1$d video"</item>
+        <item quantity="other">"%1$d video's"</item>
+    </plurals>
+    <string name="new_album">"Nieuw album"</string>
+    <string name="already_select_count">"Geselecteerd %1$d"</string>
+    <string name="no_photos_or_videos">"Geen foto's of video's."</string>
+    <string name="no_albums">"Geen albums."</string>
+    <string name="badname_as_point">"Om verwarring in het bestandssysteem te voorkomen, mag het bestand (de clip) niet /,\\,. of .. worden genoemd"</string>
+    <string name="msg_folder_input_empty">Map naam is leeg</string>
+    <string name="badname_endwith_point">"Het einde van de naam van de map kan niet zijn met ."</string>
+    <string name="illegal_chars_of_foldername">"De mapnaam mag geen ongeldige tekens bevatten – \\:*?\"\u003C\u003E|/"</string>
+    <string name="msg_file_input_repeat">De naam %1$s bestaat al, geef alstublieft een nieuwe op.</string>
+    <string name="menu_mkdir_failed">Gefaald om map te creëren %1$s</string>
+    <string name="add_to_album">"Aan album toevoegen"</string>
+    <string name="internal_storage">"Interne opslag"</string>
+    <string name="external_storage">"SD-kaart"</string>
+    <string name="my_album">"Mijn album"</string>
+    <string name="failed_add_to_album">"Toevoegen aan album is mislukt"</string>
+    <string name="select_images_or_videos">"Selecteer afbeeldingen of video's"</string>
+    <string name="fragment_state_lost_msg">"Status is verloren. Herhaal de bewerking"</string>
+    <string name="recently_deleted">"Recent verwijderd"</string>
+    <string name="trash_restore">"Herstellen"</string>
+    <string name="wait_for_restoring">"Herstelling is bezig. Even geduld&#8230;"</string>
+    <plurals name="restore_selection">
+        <item quantity="one">"Geselecteerd item herstellen?"</item>
+        <item quantity="other">"Geselecteerde items herstellen?"</item>
+    </plurals>
+    <string name="trash_date_tip">"De foto's worden over 30 dagen permanent verwijderd."</string>
+    <plurals name="left_day">
+        <item quantity="one">"%1$d dag"</item>
+        <item quantity="other">"%1$d dagen"</item>
+    </plurals>
+    <string name="tf_discover_things">"Dingen"</string>
+    <string name="tf_discover_people">"Mensen"</string>
+    <string name="tf_discover_location">"Locatie"</string>
+    <string name="tf_unknown">Onbekend</string>
+    <string name="tf_aircraft">"Vliegtuigen"</string>
+    <string name="tf_animal">"Dieren"</string>
+    <string name="tf_baby">"Baby"</string>
+    <string name="tf_basketball">"Basketbal"</string>
+    <string name="tf_bedroom">"Slaapkamer"</string>
+    <string name="tf_bicycle">"Fiets"</string>
+    <string name="tf_bird">"Vogel"</string>
+    <string name="tf_bridge">"Brug"</string>
+    <string name="tf_building">"Architectuur"</string>
+    <string name="tf_bus">"Bus"</string>
+    <string name="tf_car">"Auto"</string>
+    <string name="tf_cat">"Kat"</string>
+    <string name="tf_classroom">"Klaslokaal"</string>
+    <string name="tf_conference_room">"Vergaderzaal"</string>
+    <string name="tf_crawling_animal">"Kruipdier"</string>
+    <string name="tf_desktop_computer">"Desktopcomputer"</string>
+    <string name="tf_document">"Document"</string>
+    <string name="tf_dog">"Hond"</string>
+    <string name="tf_electric_bicycle">"Elektrische fiets"</string>
+    <string name="tf_evergreen">"Groenblijvende planten"</string>
+    <string name="tf_farmland">"Landbouwgrond"</string>
+    <string name="tf_fish">"Vis"</string>
+    <string name="tf_flower">"Bloem"</string>
+    <string name="tf_food">"Culinair"</string>
+    <string name="tf_football">"Voetbal"</string>
+    <string name="tf_graduation_photo">"Afstudeerfoto"</string>
+    <string name="tf_grassland">"Grasland"</string>
+    <string name="tf_group_photo">"Groepsfoto"</string>
+    <string name="tf_helicopter">"Helikopter"</string>
+    <string name="tf_kitchen">"Keuken"</string>
+    <string name="tf_laptop">"Laptop"</string>
+    <string name="tf_metro">"Metro"</string>
+    <string name="tf_mobile_phone">"Mobiele telefoon"</string>
+    <string name="tf_motorcycle">"Motorfiets"</string>
+    <string name="tf_mountain">"Bergen"</string>
+    <string name="tf_office">"Kantoor"</string>
+    <string name="tf_parlour">"Woonkamer"</string>
+    <string name="tf_party">"Party"</string>
+    <string name="tf_people">"Mensen"</string>
+    <string name="tf_playground">"Speeltuin"</string>
+    <string name="tf_river">"Rivier"</string>
+    <string name="tf_road">"Weg"</string>
+    <string name="tf_sea">"Zee"</string>
+    <string name="tf_selfie">"Selfie"</string>
+    <string name="tf_ship">"Schip"</string>
+    <string name="tf_shopping_mall">"Winkelcentrum"</string>
+    <string name="tf_sky">"Lucht"</string>
+    <string name="tf_telephone">"Telefoon"</string>
+    <string name="tf_train">"Trein"</string>
+    <string name="tf_tree">"Boom"</string>
+    <string name="tf_waiting_room">"Wachtkamer"</string>
+    <string name="tf_night_scene">"Nachtscène"</string>
+    <string name="tf_cake">"Cake"</string>
+    <string name="tf_lake">"Meer"</string>
+    <string name="tf_indoor">"Binnenshuis"</string>
+    <string name="tf_computer">"Computer"</string>
+    <string name="tf_sport">"Sport"</string>
+    <string name="tf_sea_river">"Zee, rivier, meer"</string>
+    <string name="tf_phone">"Telefoon"</string>
+    <string name="move_out_of_this_classification">"Weghalen"</string>
+    <string name="move_out_classification_dialog_title">"Wilt u de geselecteerde items weghalen uit de categorie?"</string>
+    <string name="moving_out">"Weghalen&#8230;"</string>
+    <string name="image">"Afbeeldingen"</string>
+    <string name="video">"Video\'s"</string>
+    <string name="all_medias">"Alle"</string>
+    <string name="un_named">"Onbenoemd"</string>
+    <string name="move_out_of_this_people">"Weghalen"</string>
+    <string name="move_out_people_dialog_title">"Wilt u de geselecteerde items weghalen uit "Mensen"?"</string>
+    <string name="add_name">"Naam toevoegen"</string>
+    <string name="illegal_chars_of_name">"De naam mag geen ongeldige tekens bevatten – \\:*?\"\u003C\u003E|/"</string>
+    <string name="repeated_name">"Deze naam is al in gebruik"</string>
+    <string name="replay">"Sluit af en speel opnieuw af"</string>
+    <string name="bokeh_editor">"Bokeh-editor"</string>
+    <string name="merge_to">"Samenvoegen"</string>
+    <string name="hide_albums_v2">"Albums verbergen"</string>
+    <string name="request_delete_permission_title">"Galerie toegang geven tot uw SD-kaart?"</string>
+    <string name="request_delete_permission_msg">"Om foto's op uw SD-kaart te bewerken, verwijderen of verplaatsen, heeft Galerie toegang nodig"</string>
+    <string name="no_delete_permission_title">"Kan niet voltooien"</string>
+    <string name="no_delete_permission_msg">"Galerie heeft geen toegang tot uw SD-kaart. Geef machtiging of wis de opslag van de app en herhaal de bewerking"</string>
+    <string name="trash_restore_fail">"Herstellen is mislukt"</string>
+    <string name="delete_drm_file">"DRM-bestand wordt definitief verwijderd en wordt niet in Recent verwijderd geplaatst. Weet u zeker dat u wilt doorgaan?"</string>
+    <string name="tf_discover_story">"Herinneringen"</string>
+    <string name="prefered_motion_photo">"Voorkeursfoto"</string>
+    <string name="play_motion_photo">"Afspelen"</string>
+    <string name="stop_motion_photo">"Stoppen"</string>
+    <string name="superuser_request_confirm">"Videospeler heeft geen toegang tot uw SD-kaart. Selecteer de externe hoofdmap SANDISK SD-kaart en sta de werking van Videospeler toe"</string>
+    <string name="smarterase">"Slim wissen"</string>
+    <string name="share_max_warning">"Er zijn meer dan 100 bestanden geselecteerd, en er is geen Delen-functie beschikbaar"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"Wilt u de andere %1$d foto in deze burst-reeks behouden?"</item>
+        <item quantity="other">"Wilt u de overige %1$d fotos in deze burst-reeks behouden?"</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"Alleen %1$d geselecteerde foto opslaan"</item>
+        <item quantity="other">"Alleen %1$d geselecteerde fotos opslaan"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">"%1$d items geselecteerd"</item>
+        <item quantity="one">"%1$d item geselecteerd"</item>
+        <item quantity="other">"%1$d items geselecteerd"</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"%1$d geselecteerde foto verwijderen"</item>
+        <item quantity="other">"%1$d geselecteerde fotos verwijderen"</item>
+    </plurals>
+    <string name="no_sd_write_permission">"Videospeler heeft niet de nodige machtiging om video’s te verwijderen"</string>
+    <string name="next">"Volgende"</string>
+</resources>

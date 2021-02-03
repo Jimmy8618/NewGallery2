@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"المعرض"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"مشغّل الفيديو"</string>
+    <string name="loading_video" msgid="4013492720121891585">"جارٍ تحميل الفيديو…"</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"استئناف الفيديو"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"‏هل تريد استئناف التشغيل من  ؟"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"استئناف التشغيل"</string>
+    <string name="loading" msgid="7038208555304563571">"جارٍ التحميل…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"تعذر التحميل"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"تعذر تحميل الصورة"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"بلا صورة مصغرة"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"البدء من جديد"</string>
+    <string name="ok" msgid="5296833083983263293">"موافق"</string>
+    <string name="saving_image" msgid="7270334453636349407">"جارٍ حفظ الصورة..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"جارٍ حفظ الصورة في <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="crop_label" msgid="521114301871349328">"اقتصاص الصورة"</string>
+    <string name="trim_label" msgid="274203231381209979">"اقتصاص الفيديو"</string>
+    <string name="select_image" msgid="7841406150484742140">"تحديد صورة"</string>
+    <string name="select_video" msgid="4859510992798615076">"تحديد فيديو"</string>
+    <string name="select_item" msgid="2816923896202086390">"تحديد عنصر"</string>
+    <string name="select_album" msgid="1557063764849434077">"تحديد ألبوم"</string>
+    <string name="select_group" msgid="6744208543323307114">"تحديد مجموعة"</string>
+    <string name="set_image" msgid="2331476809308010401">"تعيين الصورة كـ"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"الخلفية"</string>
+    <string name="delete" msgid="2839695998251824487">"حذف"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"هل تريد حذف العنصر المحدد؟"</item>
+        <item msgid="5874316486520635333" quantity="other">"هل تريد حذف العناصر المحددة؟"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"تأكيد"</string>
+    <string name="cancel" msgid="3637516880917356226">"إلغاء"</string>
+    <string name="share" msgid="3619042788254195341">"مشاركة"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"مشاركة بانوراما"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"مشاركة كصورة"</string>
+    <string name="deleted" msgid="6795433049119073871">"تم حذفها"</string>
+    <string name="undo" msgid="2930873956446586313">"تراجع"</string>
+    <string name="select_all" msgid="3403283025220282175">"تحديد الكل"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"إلغاء تحديد الكل"</string>
+    <string name="slideshow" msgid="4355906903247112975">"عرض الشرائح"</string>
+    <string name="details" msgid="8415120088556445230">"التفاصيل"</string>
+    <string name="details_title" msgid="2611396603977441273">"‏%1$d من %2$d من العناصر:"</string>
+    <string name="close" msgid="5585646033158453043">"إغلاق"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"تبديل إلى الكاميرا"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"‏تم تحديد %1$d"</item>
+        <item msgid="2478365152745637768" quantity="one">"‏تم تحديد %1$d"</item>
+        <item msgid="754722656147810487" quantity="other">"‏تم تحديد %1$d"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"عرض على الخريطة"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"تدوير لليسار"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"تدوير لليمين"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"تعذر العثور على العنصر."</string>
+    <string name="edit" msgid="1502273844748580847">"تعديل"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"تعديل بسيط"</string>
+    <string name="crop_action" msgid="3427470284074377001">"اقتصاص"</string>
+    <string name="trim_action" msgid="703098114452883524">"اقتطاع"</string>
+    <string name="mute_action" msgid="5296241754753306251">"كتم الصوت"</string>
+    <string name="set_as" msgid="3636764710790507868">"تعيين كـ"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"لا يمكن كتم صوت الفيديو."</string>
+    <string name="video_err" msgid="7003051631792271009">"لا يمكن تشغيل الفيديو."</string>
+    <string name="group_by_location" msgid="316641628989023253">"بحسب الموقع"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"بحسب الوقت"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"بحسب العلامات"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"بحسب الأشخاص"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"بحسب الألبوم"</string>
+    <string name="untagged" msgid="7281481064509590402">"بلا علامات"</string>
+    <string name="no_location" msgid="4043624857489331676">"لا موقع"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"تعذر تحديد بعض المواقع بسبب مشاكل في الشبكة."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"تعذر تحميل الصور في هذا الألبوم. أعد المحاولة لاحقًا."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"الصور فقط"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"مقاطع الفيديو فقط"</string>
+    <string name="show_all" msgid="6963292714584735149">"الصور ومقاطع الفيديو"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"معرض الصور"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"ليست هناك أية صور."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"تم حفظ الصورة التي تم اقتصاصها في <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"ليست هناك أية ألبومات متاحة."</string>
+    <string name="empty_album" msgid="4542880442593595494">"لا تتوفر أية صور/مقاطع فيديو."</string>
+    <string name="done" msgid="217672440064436595">"تم"</string>
+    <string name="title" msgid="7622928349908052569">"العنوان"</string>
+    <string name="description" msgid="3016729318096557520">"الوصف"</string>
+    <string name="time" msgid="1367953006052876956">"الوقت"</string>
+    <string name="location" msgid="3432705876921618314">"الموقع"</string>
+    <string name="path" msgid="4725740395885105824">"المسار"</string>
+    <string name="width" msgid="9215847239714321097">"العرض"</string>
+    <string name="height" msgid="3648885449443787772">"الارتفاع"</string>
+    <string name="orientation" msgid="4958327983165245513">"الاتجاه"</string>
+    <string name="duration" msgid="8160058911218541616">"المدة"</string>
+    <string name="mimetype" msgid="8024168704337990470">"‏نوع MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"حجم الملف"</string>
+    <string name="maker" msgid="7921835498034236197">"منشئ الوسائط"</string>
+    <string name="model" msgid="8240207064064337366">"الطراز"</string>
+    <string name="flash" msgid="2816779031261147723">"الفلاش"</string>
+    <string name="aperture" msgid="5920657630303915195">"فتحة العدسة"</string>
+    <string name="focal_length" msgid="1291383769749877010">"البعد البؤري"</string>
+    <string name="white_balance" msgid="1582509289994216078">"موازنة اللون الأبيض"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"مدة التعرض للضوء"</string>
+    <string name="iso" msgid="5028296664327335940">"أيزو"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"ملليمتر"</string>
+    <string name="manual" msgid="6608905477477607865">"يدوية"</string>
+    <string name="auto" msgid="4296941368722892821">"تلقائية"</string>
+    <string name="flash_on" msgid="7891556231891837284">"تم تشغيل الفلاش"</string>
+    <string name="flash_off" msgid="1445443413822680010">"بلا فلاش"</string>
+    <string name="unknown" msgid="3506693015896912952">"غير معروف"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"فوري"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Bleach"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"أزرق"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"أبيض/أسود"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Punch"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X Process"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"تبييض"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"صخري"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"كل الألبومات"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"الألبومات المحلية"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> أو أقل"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> أو أكثر"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> إلى <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"استيراد"</string>
+    <string name="import_complete" msgid="3875040287486199999">"انتهى الاستيراد"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"اختيار ألبوم"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"ترتيب عشوائي لجميع الصور"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"اختيار صورة"</string>
+    <string name="widget_type" msgid="1364653978966343448">"اختيار صور"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"عرض الشرائح"</string>
+    <string name="albums" msgid="7320787705180057947">"ألبومات"</string>
+    <string name="times" msgid="2023033894889499219">"التواريخ"</string>
+    <string name="locations" msgid="6649297994083130305">"المواقع"</string>
+    <string name="people" msgid="4114003823747292747">"الأشخاص"</string>
+    <string name="tags" msgid="5539648765482935955">"العلامات"</string>
+    <string name="group_by" msgid="4308299657902209357">"تجميع بحسب"</string>
+    <string name="settings" msgid="1534847740615665736">"الإعدادات"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"الكاميرا"</string>
+    <string name="folder_download" msgid="7186215137642323932">"التنزيل"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"الصور المعدلة عبر الإنترنت"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"المستوردة"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"لقطة شاشة"</string>
+    <string name="help" msgid="7368960711153618354">"المساعدة"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"عرض شريط الفيلم"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"عرض الشبكة"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"عرض ملء الشاشة"</string>
+    <string name="trimming" msgid="9122385768369143997">"جارٍ الاقتطاع"</string>
+    <string name="muting" msgid="5094925919589915324">"جارِ كتم الصوت"</string>
+    <string name="please_wait" msgid="7296066089146487366">"الرجاء الانتظار"</string>
+    <string name="save_into" msgid="9155488424829609229">"جارٍ حفظ الفيديو <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"جارٍ عرض البانوراما"</string>
+    <string name="save" msgid="613976532235060516">"حفظ"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"جارٍ مسح المحتوى ضوئيًا..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"‏تم مسح %1$d من العناصر ضوئيًا"</item>
+        <item msgid="4340019444460561648" quantity="one">"‏تم مسح %1$d عنصر ضوئيًا"</item>
+        <item msgid="3138021473860555499" quantity="other">"‏تم مسح %1$d من العناصر ضوئيًا"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"جارٍ التصنيف..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"تم المسح الضوئي"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"جارٍ الاستيراد..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"لا يتوفر أي محتوى لاستيراده على هذا الجهاز."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"‏ليس هناك جهاز MTP متصل"</string>
+    <string name="camera_label" msgid="6346560772074764302">"الكاميرا"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"تشغيل الفيديو"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"شريط الوقت لمشغّل الفيديو"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"الكاميرا"</string>
+    <string name="menu_search" msgid="7580008232297437190">"البحث"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"الصور"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"الألبومات"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"‏%1$d صورة"</item>
+        <item msgid="3813306834113858135" quantity="other">"‏%1$d من الصور"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"ليس هناك فيديو مفتاح الإطار سيعاد تشغيله"</string>
+    <string name="gif_decode_failed">"الصورة كبيرة جدا و لا يمكن عرضها"</string>
+    <string name="spaceLow_content">"فشل الحفظ، قد تكون مساحة النظام الفارغة غير كافية"</string>
+    <string name="wait_for_deleting">"جاري الحذف، يرجى الانتظار&#8230;"</string>
+    <string name="wait_for_rotating">"جاري التدوير، يرجى الانتظار&#8230;"</string>
+    <string name="video_bookmarks">الإشارات</string>
+    <string name="video_edit_bookmark">تعديل</string>
+    <string name="video_delete_bookmark">"حذف"</string>
+    <string name="empty_bookmarks">"مرجعية فارغة"</string>
+    <string name="do_not_save">"إلغاء"</string>
+    <string name="net_location">"العنوان"</string>
+    <string name="name">"اسم"</string>
+    <string name="bookmark_needs_title">يجب أن يكون للعلامة المرجعية اسم</string>
+    <string name="bookmark_needs_url">يجب أن يكون للعلامة المرجعية موقع</string>
+    <string name="bookmark_invalid_url">يجب أن يبدأ الموقع بـ "http(s)://" أو "rtsp://"</string>
+    <string name="processing_please_wait">تتم المعالجة، يرجى الانتظار.</string>
+    <string name="bookmark_exist">العلامة المرجعية موجودة مسبقاً بنفس الموقع.</string>
+    <string name="default_bookmark_title">العنوان الافتراضي</string>
+    <string name="bookmark_added">"تم الحفظ إلى المرجعيات"</string>
+    <string name="albums_video">"الأفلام"</string>
+    <string name="empty_album_video">"لا توجد فيديوهات متاحة."</string>
+    <string name="border_brush">"فرشاة"</string>
+    <string name="border_grunge">"جرونج"</string>
+    <string name="border_sumi">"حبري"</string>
+    <string name="border_tape">"شريط"</string>
+    <string name="border_black">"أسود"</string>
+    <string name="border_black_rounded">"صندوق أسود مدور"</string>
+    <string name="border_white">"أبيض"</string>
+    <string name="border_white_rounded">"صندوق أبيض مدور"</string>
+    <string name="border_cream">"مزيج كريم"</string>
+    <string name="border_cream_rounded">"مزيج كريم مدور"</string>
+    <string name="no_face">"لا يوجد وجه"</string>
+    <string name="can_not_share">"الملفات المحددة تتجاوز <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>، خاصية المشاركة غير متاحة"</string>
+
+    <string name="video_save_to_bookmark">"حفظ إلى الإشارات المرجعية"</string>
+    <string name="video_view_bookmarks">الإشارات</string>
+    <string name="movie_view_proxy_set">"ضبط البروكسي"</string>
+    <string name="movie_view_network">"الشبكة"</string>
+    <string name="movie_view_apn_set">"تعييد إدخال Apn"</string>
+    <string name="movie_view_proxy_ip_set">"إعدادات IP بروكسي"</string>
+    <string name="movie_view_proxy_port_set">"إعدادات مدخل بروكسي"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"إعدادات مدخل RTP/RTCP"</string>
+    <string name="movie_view_max_port_set">"إعدادات الحد الأقصى لمدخل RTP/RTCP"</string>
+    <string name="movie_view_min_port_set">"إعدادات الحد الأدنى لمدخل RTP/RTCP"</string>
+    <string name="movie_view_proxy_ok">"موافق"</string>
+    <string name="movie_view_proxy_port_seterror_info">"يجب أن يكون اعدادات منفذ هام رقم صحيح من بين نطاق معين" </string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP غير صالح!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"منفذ غير صالح!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"تعيين نطاق المدخل أولا !"</string>
+    <string name="movie_view_proxy_enable">"تمكين البروكسي"</string>
+    <string name="movie_view_parameter_set">"إعدادات المقياس"</string>
+    <string name="dialog_dismiss">"إزالة"</string>
+    <string name="gallery_error_title">"خطأ بالمعرض"</string>
+    <string name="videoplayer_error_title">"خطأ بمشغل الفيديو"</string>
+    <string name="error_permissions">"لا يحتاج التطبيق إلى أذونات خطيرة لتشغيله، يرجى التحقق من إعدادات الأذونات."</string>
+    <string name="gallery_premission_change">"تغيير إذن المعرض، يرجى إعادة الاختيار"</string>
+    <string name="gallery_premission_error">"خطأ بإذن المعرض، يرجى إعادة تعيين أذون المعرض."</string>
+    <string name="already_exist">"التأثير موجود حاليا"</string>
+    <string name="show_details_error">"تحميل البيانات، يرجى إعادة المحاولة لاحقا."</string>
+    <string name="none_playback">"لا توجد إعادة تشغيل"</string>
+    <string name="single_playback">"إعادة التشغيل مرة واحدة"</string>
+    <string name="all_playback">"إعادة تشغيل الكل"</string>
+    <string name="playback_setting">"وضعية إعادة التشغيل"</string>
+    <string name="can_not_open_float_video">"خلفية الفيديو الحالية، لا يمكن فتح توافذ الفيديو الطافية."</string>
+    <string name="video_file_does_not_exist">"ملف الفيديو غير موجود"</string>
+    <string name="movie_view_goto">"اذهب إلى"</string>
+    <string name="no_search_app">"لا يوجد تطبيق بحث"</string>
+    <string name="channel_setting_title">"إعدادات القناة"</string>
+    <string name="channel_setting_left">"يسار"</string>
+    <string name="channel_setting_right">"يمين"</string>
+    <string name="channel_setting_dual">"ثنائي"</string>
+    <string name="channel_setting_ok">"موافق"</string>
+    <string name="channel_setting_cancel">"إلغاء"</string>
+    <string name="channel_setting">"إعدادات القناة"</string>
+    <string name="movie_view_calling_title">"اتصال"</string>
+    <string name="movie_view_calling_msg">"من فضلك حاول مرة أخرى بعد إنهاء الاتصال!"</string>
+    <string name="movie_view_calling_try">"محاولة"</string>
+    <string name="movie_view_calling_cancel">"إلغاء"</string>
+    <string name="time_out">"المهلة"</string>
+    <string name="time_out_message">مشكلة في الشبكة أو انتهاء مهلة الاتصال، هل تريد إعادة التشغيل؟</string>
+    <string name="headset">سماعة</string>
+    <string name="loud_speaker">"مكبر الصوت"</string>
+    <string name="cannot_load_crop_image">"ذاكرة تشغيل التطبيق غير كافية، فشل تحميل الصورة."</string>
+    <string name="back_exit">"الخروج عند الضغط مرة أخرى"</string>
+    <string name="slideshow_music">"موسيقى التمرير"</string>
+    <string name="system_ringtones">"نغمات رنين النظام"</string>
+    <string name="user_defined">"تحديد المستخدم"</string>
+    <string name="cannot_play_music">"لا يمكن اتشغيل الموسيقى الآن"</string>
+    <string name="play_audio_failed">"لا يمكن تشغيل الصوت الآن"</string>
+    <string-array name="planets_array">
+        <item>"جميع مقاطع الفيديو"</item>
+        <item>"الفيديوهات المحلية"</item>
+        <item>"الفيديوهات المسجلة"</item>
+        <item>"تم تشغيلها مؤخرا"</item>
+    </string-array>
+    <string name="last_play">"آخر تشغيل:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"حذف التسجيلات الآن؟"</item>
+        <item quantity="other">"حذف التسجيلات الآن؟"</item>
+    </plurals>
+    <string name="today">"اليوم"</string>
+    <string name="yesterday">"أمس"</string>
+    <string name="earlier">"سابقا"</string>
+    <string name="drawer_open">"قائمة الفيديوهات"</string>
+    <string name="drawer_close">"جميع مقاطع الفيديو"</string>
+    <string name="share_actionmode">"مشاركة"</string>
+    <string name="delete_actionmode">"حذف"</string>
+    <string name="clear_all">"حذف الكل"</string>
+    <string name="video_list">"قائمة الفيديوهات"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"هل تريد حذف العنصر المحدد؟"</item>
+        <item quantity="other">"هل تريد حذف العنصر المحدد؟"</item>
+    </plurals>
+    <string name="current_select">"تم اختيار %d"</string>
+    <string name="no_video_play_records">"لا توجد تسجيلات"</string>
+    <string name="no_videos">"ليس هناك أي مقاطع فيديو"</string>
+    <string name="video_not_exist">"الفيديو غير موجود"</string>
+    <string name="save_picture">"تم حفظ الالتقاط إلى %s"</string>
+    <string name="mute">"جارِ كتم الصوت"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"معلومات الحماية"</string>
+    <string name="drm_info">"معلومات الحماية"</string>
+    <string name="file_name">"اسم الملف:"</string>
+    <string name="rights_validity">"الحقوق الرقمية:"</string>
+    <string name="rights_status">"حالة الحماية:"</string>
+    <string name="start_time">"وقت البداية:"</string>
+    <string name="end_time">"وقت النهاية:"</string>
+    <string name="expiration_time">"وقت إنتهاء الصلاحية:"</string>
+    <string name="remain_times">"المرات المتبقية:"</string>
+    <string name="rights_validity_valid">"صحيح"</string>
+    <string name="rights_validity_invalid">"غير صحيح"</string>
+    <string name="rights_status_share">"السماح بإعادة التوجيه"</string>
+    <string name="rights_status_not_share">"عدم السماح بإعادة التوجيه"</string>
+    <string name="drm_rights_no_limit">"غير محدود"</string>
+    <string name="drm_rights_unknown">"غير معروف"</string>
+    <string name="drm_rights_inactive">"الحقوق غير نشطة"</string>
+    <string name="drm_file_invalid">"انتهت صلاحية الملف"</string>
+    <string name="screenshot_failed">"فشل التقاط صورة الشاشة"</string>
+    <string name="floatwindow_unsupported_device">"النافذة الطافية غير مدعومة في هذا الجهاز"</string>
+    <string name="floatwindow_unsupported_camera">"النافذة الطافية غير مدعومة في الكاميرا"</string>
+    <string name="floatwindow_unsupported_streaming">"النافذة الطافية غير مدعومة عند تشغيل بث الفيديوهات"</string>
+    <string name="stream_screenshot_not_supported">"خاصية الالتقاط غير مدعومة أثناء تشغيل بث الفيديوهات."</string>
+    <string name="movie_view_mms_process_title">"جاري معالجة Mms"</string>
+    <string name="movie_view_sms_process_title">"تحويل رسالة قصيرة"</string>
+    <string name="movie_view_mms_ok">"موافق"</string>
+    <string name="movie_view_mms_processing_ok">"إنتهاء عملية الاستقبال"</string>
+    <string name="movie_view_sms_received_ok">"استقبال sms"</string>
+    <string name="drm_consume_title">"استهلاك حقوق Drm"</string>
+    <string name="invalid_rights">"ليس لدى هذا الملف صلاحية سارية المفعول"</string>
+    <string name="drm_consume_hint">"إن عمليتك ستستهلك حقوق Drm"</string>
+    <string name="choose_drm_alert">"لا يمكن اختيار ملف Drm، يرجى أخذ واحد آخر"</string>
+    <string name="drm_unit_minutes">"ثانية"</string>
+    <string name="drm_consumed">"العملية الخاصة بك تستهلك حقوق Drm"</string>
+    <string name="slidemusic">"تعيين موسيقى لعرض الشرائح"</string>
+    <string name="setas">"تعيين كـ"</string>
+    <string name="slide_music_system_ringtones">"نغمات رنين النظام"</string>
+    <string name="slide_music_user_defined">"تحديد المستخدم"</string>
+    <string name="remove_usbdisk">"تمت إزالة جهاز المستخدم"</string>
+    <string name="edit_crop_free">"مجانا"</string>
+    <string name="edit_crop_square">"مربّع"</string>
+    <string name="edit_crop_origin">"الأصلي"</string>
+    <string name="hide_albums">"إخفاء الألبومات"</string>
+    <string name="show_local_albums">"إظهار الألبومات المحلية"</string>
+    <string name="select">تحديد</string>
+    <string name="popup_title_save_all_selected">"هل تريد حفظ كل الصور؟"</string>
+    <string name="keep_all">"حفظ الكل"</string>
+    <string name="burst_progress_dialog_title">"جارٍ المعالجة..."</string>
+    <string name="side_bar_all_photos">"الكل"</string>
+    <string name="side_bar_photo">"الصور"</string>
+    <string name="side_bar_video">"مقاطع الفيديو"</string>
+    <string name="side_bar_album">"الألبومات"</string>
+    <string name="label_select">تحديد</string>
+    <string name="no_photo_or_video">"لا يوجد ‪‎%1$s‬"</string>
+    <string name="no_photo_or_video_hint">"ستظهر هنا الصور أو مقاطع الفيديو المحفوظة على هذا الجهاز."</string>
+    <string name="detail_pop_title">"المعلومات"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"المزيد"</string>
+    <string name="detail_location">"الموقع"</string>
+    <string name="database_exception">"استثناء في معالجة البيانات، فشلت العملية."</string>
+    <string name="exit_multiwindow_tips">"لا يتوفر دعم استعراض الصور في وضع انقسام الشاشة"</string>
+    <string name="exit_multiwindow_video_tips">"لا يتوفر دعم مشاهدة الفيديو في وضع انقسام الشاشة"</string>
+    <string name="decode_image_faild">"فشل قص الصورة"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"اليوم"</string>
+    <string name="label_yesterday">"أمس"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"جارٍ تحميل البيانات، يُرجى الانتظار"</string>
+    <string name="distance_photo_unit_conversion">"تحويل الوحدات"</string>
+    <string name="unit">"الوحدة"</string>
+    <string name="meter">"متر"</string>
+    <string name="centimeter">"سنتيمتر"</string>
+    <string name="foot">"قدم"</string>
+    <string name="inch">"بوصة"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"عذرًا، هذا الفيديو غير صالح للبث على هذا الجهاز."</string>
+    <string name="VideoView_error_text_unknown">"لا يمكنك تشغيل هذا الفيديو."</string>
+    <string name="no_touch_flip">"لا يتوفر قلب باللمس"</string>
+    <string name="flip_summury">"تغطية الكاميرا البديلة بعد مرور ثانية واحدة لقلب الصورة"</string>
+    <string name="first_summary">"التصفح إلى أسفل افتراضيًا"</string>
+    <string name="sencond_summury">"التصفح لأعلى عند زيادة مستوى الصوت"</string>
+    <string name="third_summury">"التصفح لأسفل عند خفض مستوى الصوت"</string>
+    <string name="fourth_summury">"ملخص: التقاط مفتاح مستوى الصوت"</string>
+    <string name="dealing">"تحميل ..."</string>
+    <string name="slide_music_stop">"تم إيقاف موسيقى التمرير"</string>
+    <string name="select_tips">"الكائن المحدد هو الخلفية. يُرجى إعادة إنشاء النقطة في نطاق المقدمة"</string>
+    <string name="definition_subject">"تعريف الكائن"</string>
+    <string name="fix_subject">"كائن صحيح"</string>
+    <string name="fix_background">"خلفية صحيحة"</string>
+    <string name="replace_background">"استبدال الخلفية"</string>
+    <string name="correct_object_tips">"أولاً، يُرجى الرسم بشكل عشوائي أوالطلاء في الموضع الذي يبدو فيه تخطيط الموقع غير دقيق.‪‎\n‬ثم انقر فوق زر \"كائن صحيح\" لتحديث منطقة الطلاء وفقًا للكائن، أو انقر فوق زر \"خلفية صحيحة\" لتحديث منطقة الطلاء وفقًا للخلفية."</string>
+    <string name="def_object_tips">"تعريف الكائن: ارسم مستطيلًا لتغطية تخطيط الكائن الذي تريد استخراجه."</string>
+    <string name="valid_point">"نقطة البداية أو نقطة النهاية ليست ضمن النطاق الصالح،"</string>
+    <string name="small_rect">"المستطيل المرسوم صغير للغاية."</string>
+    <string name="add">إضافة</string>
+    <string name="use_phone_photo">"يُرجى استخدام الصور الملتقطة باستخدام هاتفك الخلوي"</string>
+    <string name="extract_failed">"فشل الاستخراج، يُرجى البدء من جديد"</string>
+    <string name="blending_success">"تم مزج الصورة بنجاح، استمر في العملية أو اضغط على زر السابق للخروج"</string>
+    <string name="blending_failed">"فشل مزج الصورة"</string>
+    <string name="extract_failed_notforground">"فشل الاستخراج، لا يوجد كائن في المقدمة، يُرجى البدء من جديد"</string>
+    <string name="extract_failed_nomemory">"فشل الاستخراج، مساحة الذاكرة منخفضة للغاية، يُرجى البدء من جديد"</string>
+    <string name="extract_timeout">"انتهت مهلة الاستخراج، يُرجى البدء من جديد"</string>
+    <string name="extract_forground">"جارٍ استخراج كائن المقدمة، يُرجى الانتظار لحظة."</string>
+    <string name="update_forground">"جارٍ تحديث كائن المقدمة، يُرجى الانتظار لحظة."</string>
+    <string name="blending_image">"جارٍ مزج الصورة، يُرجى الانتظار لحظة."</string>
+    <string name="select_foreground_subject">"انقر لتحديد كائن المقدمة"</string>
+    <string name="adjust_foreground_subject">"تعديل كائن المقدمة"</string>
+    <string name="correct_subject_outline">"تخطيط كائن صحيح"</string>
+    <string name="edit_background">"تحرير الخلفية"</string>
+    <string name="verify_prompt">"الموضع الحالي قريب جدًا من الحافة، وهو ما سيؤدي إلى ضعف التأثير، هل تريد القيام بالمزج بالفعل؟"</string>
+    <string name="fg_too_large">"كائن المقدمة كبير للغاية بحيث يتعذر مزجه。"</string>
+    <string name="draw_tips">"يُرجى الرسم داخل المستطيل الأبيض"</string>
+    <string name="undo_faild">"فشل التراجع عن العملية"</string>
+    <string name="get_forfround_tips">"يتعذر تغيير كل كائنات المقدمة إلى الخلفية. يُرجى إعادة الرسم."</string>
+    <string name="next_video">"الفيديو التالي"</string>
+    <string name="pre_video">"الفيديو السابق"</string>
+    <string name="lock_control">"قفل التحكم"</string>
+    <string name="lock_orintation">"قفل الاتجاه"</string>
+    <string name="print_screen">"طباعة الشاشة"</string>
+    <string name="float_player">"المشغل العائم"</string>
+    <string name="scale_screen">"تدرج الشاشة"</string>
+    <string name="back">"رجوع"</string>
+    <string name="over_flow">"تجاوز التدفق"</string>
+    <string name="slide_music_play_fail">"عذرًا، فشل تشغيل الملف"</string>
+    <string name="refocus_quit">"خروج"</string>
+    <string name="refocus_save_change">"حفظ التغييرات"</string>
+    <string name="refocus_confirm_save">"هل تريد الحفظ أو الخروج مباشرة؟"</string>
+    <string name="refocus_save_success">"تم الحفظ بنجاح"</string>
+    <string name="refocus_save_fail">"فشل الحفظ"</string>
+    <string name="none_input_tips">"لا يمكن أن يكون الاسم فارغًا"</string>
+    <string name="floatview_notification_text">"يجري تشغيل الفيديو في الإطار العائم."</string>
+    <string name="voice_photo">"الصورة الصوتية"</string>
+    <string name="continuous_shooting">"إنفجار"</string>
+    <string name="refocus_image">"صورة ضبابية"</string>
+    <string name="blur_image_wait">"جارٍ معالجة الصورة الضبابية، يُرجى الانتظار"</string>
+    <string name="blur_save_fail">"فشل حفظ الصورة الضبابية"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"تم تحديد ‪‎%1$d‬ صورة"</item>
+        <item quantity="other">"تم تحديد ‪‎%1$d‬ صور"</item>
+    </plurals>
+    <string name="ffx_dehaze">"إزالة التشوش"</string>
+    <string name="select_music">"تحديد موسيقى"</string>
+    <string name="delete_all">"حذف الكل"</string>
+    <string name="refocus_photo_edit_save">"استخدام هذا التسجيل"</string>
+    <string name="blending_move_limit">"تم الوصول إلى حافة الشاشة ولا يمكن القيام بأي إجراء آخر، يُرجى ضبط الوضع للمتابعة."</string>
+    <string name="init_bitmap_faild">"فشل التقاط الصورة، يُرجى المحاولة مرة أخرى"</string>
+    <string name="refocus_init_fail">"فشل تهيئة البيانات"</string>
+    <string name="conversing">"التحويل"</string>
+    <string name="share_as_image">"المشاركة كصورة"</string>
+    <string name="share_as_video">"المشاركة كفيديو"</string>
+    <string name="converse_video_failed">"فشل التحويل إلى فيديو."</string>
+    <string name="app_photo_edit">"تحرير صورة"</string>
+    <string name="cant_select_file">"ملف غير مدعوم"</string>
+    <string name="input_reached_max_length">"الإدخال وصل إلى الطول الأقصى"</string>
+    <string name="v2_photo">"صورة"</string>
+    <string name="v2_album">"ألبوم"</string>
+    <string name="v2_discover">"اكتشاف"</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">"%1$d صورة"</item>
+        <item quantity="one">"%1$d صورة"</item>
+        <item quantity="other">"%1$d من الصور"</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">"%1$d فيديو"</item>
+        <item quantity="one">"%1$d فيديو"</item>
+        <item quantity="other">"%1$d من مقاطع الفيديو"</item>
+    </plurals>
+    <string name="new_album">"ألبوم جديد"</string>
+    <string name="already_select_count">"تم تحديد %1$d"</string>
+    <string name="no_photos_or_videos">"لا توجد صور أو مقاطع فيديو."</string>
+    <string name="no_albums">"لا توجد ألبومات."</string>
+    <string name="badname_as_point">"لا ينبغي التسمية كا /,\\,. أو ..، والتي قد تربك ملف النظام الخاص بك"</string>
+    <string name="msg_folder_input_empty">"اسم المجلد فارغ"</string>
+    <string name="badname_endwith_point">"لا يمكن أن تكون نهاية المجلد مصحوبة مع."</string>
+    <string name="illegal_chars_of_foldername">"لا يمكن أن يحتوي اسم المجلد على حروف غير مسموح بها \\:*?\"\u003C\u003E|/"</string>
+    <string name="msg_file_input_repeat">الاسم %1$s موجود مسبقاً، يرجى إدخال اسم آخر.</string>
+    <string name="menu_mkdir_failed">فشل إنشاء المجلد %1$s </string>
+    <string name="add_to_album">"إضافة إلى الألبوم"</string>
+    <string name="internal_storage">"التخزين الداخلي"</string>
+    <string name="external_storage">" الذاكرة الرقمية المؤمنه"</string>
+    <string name="my_album">"ألبومي"</string>
+    <string name="failed_add_to_album">"فشل الإضافة إلى الألبوم"</string>
+    <string name="select_images_or_videos">"تحديد صور أو مقاطع فيديو"</string>
+    <string name="fragment_state_lost_msg">"الحالة مفقودة، يُرجى إعادة التشغيل"</string>
+    <string name="recently_deleted">"المحذوف مؤخرًا"</string>
+    <string name="trash_restore">"تخزين"</string>
+    <string name="wait_for_restoring">"جارٍ الاستعادة، يُرجى الانتظار&#8230;"</string>
+    <plurals name="restore_selection">
+        <item quantity="one">"هل تريد استعادة العنصر المحدد؟"</item>
+        <item quantity="other">"استعادة العناصر المحددة؟"</item>
+    </plurals>
+    <string name="trash_date_tip">"سيتم حذف الصور نهائيًا خلال 30 يومًا."</string>
+    <plurals name="left_day">
+        <item quantity="one">"%1$d يوم"</item>
+        <item quantity="other">"%1$d من الأيام"</item>
+    </plurals>
+    <string name="tf_discover_things">"أشياء"</string>
+    <string name="tf_discover_people">"أشخاص"</string>
+    <string name="tf_discover_location">"الموقع"</string>
+    <string name="tf_unknown">غير معروف</string>
+    <string name="tf_aircraft">"طائرة"</string>
+    <string name="tf_animal">"حيوان"</string>
+    <string name="tf_baby">"رضيع"</string>
+    <string name="tf_basketball">"كرة سلة"</string>
+    <string name="tf_bedroom">"غرفة نوم"</string>
+    <string name="tf_bicycle">"دراجة"</string>
+    <string name="tf_bird">"طائر"</string>
+    <string name="tf_bridge">"جسر"</string>
+    <string name="tf_building">"مبنى"</string>
+    <string name="tf_bus">"حافلة"</string>
+    <string name="tf_car">"سيارة"</string>
+    <string name="tf_cat">"قطة"</string>
+    <string name="tf_classroom">"فصل دراسي"</string>
+    <string name="tf_conference_room">"غرفة اجتماعات"</string>
+    <string name="tf_crawling_animal">"حيوان زاحف"</string>
+    <string name="tf_desktop_computer">"كمبيوتر سطح المكتب"</string>
+    <string name="tf_document">"مستند"</string>
+    <string name="tf_dog">"كلب"</string>
+    <string name="tf_electric_bicycle">"دراجة كهربائية"</string>
+    <string name="tf_evergreen">"دائم الخضرة"</string>
+    <string name="tf_farmland">"أرض زراعية"</string>
+    <string name="tf_fish">"سمكة"</string>
+    <string name="tf_flower">"زهرة"</string>
+    <string name="tf_food">"طعام"</string>
+    <string name="tf_football">"كرة قدم"</string>
+    <string name="tf_graduation_photo">"صورة تخرج"</string>
+    <string name="tf_grassland">"أرض عشبية"</string>
+    <string name="tf_group_photo">"صورة جماعية"</string>
+    <string name="tf_helicopter">"هليكوبتر"</string>
+    <string name="tf_kitchen">"مطبخ"</string>
+    <string name="tf_laptop">"كمبيوتر محمول"</string>
+    <string name="tf_metro">"مترو"</string>
+    <string name="tf_mobile_phone">"هاتف"</string>
+    <string name="tf_motorcycle">"دراجة بخارية"</string>
+    <string name="tf_mountain">"جبل"</string>
+    <string name="tf_office">"مكتب"</string>
+    <string name="tf_parlour">"غرفة استقبال"</string>
+    <string name="tf_party">"مجموعة"</string>
+    <string name="tf_people">"أشخاص"</string>
+    <string name="tf_playground">"ملعب"</string>
+    <string name="tf_river">"نهر"</string>
+    <string name="tf_road">"طريق"</string>
+    <string name="tf_sea">"بحر"</string>
+    <string name="tf_selfie">"صورة ذاتية"</string>
+    <string name="tf_ship">"سفينة"</string>
+    <string name="tf_shopping_mall">"مركز تسوق"</string>
+    <string name="tf_sky">"سماء"</string>
+    <string name="tf_telephone">"الهاتف"</string>
+    <string name="tf_train">"قطار"</string>
+    <string name="tf_tree">"شجرة"</string>
+    <string name="tf_waiting_room">"غرفة انتظار"</string>
+    <string name="tf_night_scene">"مشهد ليلي"</string>
+    <string name="tf_cake">"كعك"</string>
+    <string name="tf_lake">"بحيرة"</string>
+    <string name="tf_indoor">"مكان مغلق"</string>
+    <string name="tf_computer">"كمبيوتر"</string>
+    <string name="tf_sport">"رياضة"</string>
+    <string name="tf_sea_river">"بحر، نهر، بحيرة"</string>
+    <string name="tf_phone">"الهاتف"</string>
+    <string name="move_out_of_this_classification">"النقل إلى الخارج"</string>
+    <string name="move_out_classification_dialog_title">"هل تريد إزالة العناصر المحددة من التصنيف؟"</string>
+    <string name="moving_out">"جارٍ النقل&#8230;"</string>
+    <string name="image">"الصور"</string>
+    <string name="video">"مقاطع الفيديو"</string>
+    <string name="all_medias">"الكل"</string>
+    <string name="un_named">"بلا اسم"</string>
+    <string name="move_out_of_this_people">"النقل إلى الخارج"</string>
+    <string name="move_out_people_dialog_title">"هل تريد إزالة العناصر المحددة من الأشخاص؟"</string>
+    <string name="add_name">"إضافة اسم"</string>
+    <string name="illegal_chars_of_name">"لا يمكن أن يحتوي الاسم على الأحرف غير المسموح بها \\:*?\"\u003C\u003E|/"</string>
+    <string name="repeated_name">"الاسم موجود بالفعل"</string>
+    <string name="replay">"يُرجى الخروج وإعادة التشغيل"</string>
+    <string name="bokeh_editor">"محرر البوكيه"</string>
+    <string name="merge_to">"دمج في"</string>
+    <string name="hide_albums_v2">"إخفاء الألبومات"</string>
+    <string name="request_delete_permission_title">"هل تريد منح المعرض إمكانية الوصول إلى بطاقة SD الخاصة بك؟"</string>
+    <string name="request_delete_permission_msg">"لتحرير الصور أو حذفها أو نقلها من بطاقة SD، يحتاج المعرض إلى إمكانية الوصول"</string>
+    <string name="no_delete_permission_title">"يتعذر الإكمال"</string>
+    <string name="no_delete_permission_msg">"ليس لدى المعرض إمكانية الوصول إلى بطاقة SD، يُرجى منح تصريح أو مسح مساحة تخزين التطبيق والتشغيل مرة أخرى"</string>
+    <string name="trash_restore_fail">"فشل الاستعادة"</string>
+    <string name="tf_discover_story">"الذكريات"</string>
+    <string name="superuser_request_confirm">"لا يمكن لمشغل الفيديو الوصول إلى بطاقة SD الخاصة بك، يُرجى تحديد الدليل الجذر لبطاقة SANDISK SD الخارجية والسماح لمشغل الفيديو بالعمل."</string>
+    <string name="stop_motion_photo">"إيقاف"</string>
+    <string name="smarterase">"المسح الذكي"</string>
+    <string name="prefered_motion_photo">"الصورة المفضلة"</string>
+    <string name="play_motion_photo">"تشغيل"</string>
+    <string name="delete_drm_file">"سيتم حذف ملف DRM نهائيًا ولن يتم وضعه في المحذوف مؤخرًا. هل أنت متأكد من رغبتك في المتابعة؟"</string>
+    <string name="share_max_warning">"تم تحديد أكثر من 100 ملف، ولم تكن وظيفة المشاركة متوفرة"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"هل تريد الاحتفاظ بـ %1$d من الصور الأخرى في وضع الاندفاع هذا؟"</item>
+        <item quantity="other">"هل تريد الاحتفاظ بعدد ‪‎%1$d‬ من الصور الأخرى في هذه المجموعة؟"</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"حفظ %1$d من الصور المحددة فقط"</item>
+        <item quantity="other">"حفظ ‪‎%1$d‬ من الصور المحددة فقط"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">"تم تحديد ‪‎%1$d‬ من العناصر"</item>
+        <item quantity="one">"تم تحديد %1$d من العناصر"</item>
+        <item quantity="other">"تم تحديد ‪‎%1$d‬ من العناصر"</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"حذف %1$d من الصور المحددة"</item>
+        <item quantity="other">"حذف %1$d من الصور المحددة"</item>
+    </plurals>
+    <string name="no_sd_write_permission">"لا يملك مشغل الفيديو إذنًا كافيًا لحذف مقاطع الفيديو"</string>
+    <string name="next">"التالي"</string>
+</resources>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <style name="Theme.GalleryBase" parent="android:Theme.Holo">
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="switchStyle">@android:style/Widget.CompoundButton</item>
+    </style>
+
+    <style name="Theme.Gallery.Dialog" parent="android:Theme.Holo.Dialog" />
+
+    <style name="Theme.Gallery" parent="Theme.GalleryBase">
+        <item name="android:displayOptions"></item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <!-- <item name="android:colorBackground">@null</item> -->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="Theme.GalleryNewUI" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:actionBarTheme">@*android:style/ThemeOverlay.Material.Light</item>
+        <item name="android:actionBarPopupTheme">@*android:style/ThemeOverlay.Material.Light</item>
+
+        <item name="android:colorPrimaryDark">@color/material_grey_500</item>
+        <item name="android:colorPrimary">@color/material_white</item>
+        <!-- <item name="android:colorAccent">@color/material_white</item> -->
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:actionModeBackground">@color/action_mode_background_color_newui</item>
+        <item name="android:actionModeCloseDrawable">@drawable/action_mode_close_white</item>
+        <item name="android:actionModeShareDrawable">@drawable/ic_newui_actionmode_share</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="Theme.GalleryNewUIGms" parent="Theme.GalleryNewUI">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:statusBarColor">@color/colorBlack</item>
+    </style>
+
+    <style name="Theme.FilterShow" parent="Theme.Gallery">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:actionBarStyle">@style/FilterShow.ActionBar</item>
+    </style>
+
+    <style name="FilterShow.ActionBar" parent="@android:style/ThemeOverlay.Material.Light">
+        <item name="android:displayOptions">@null</item>
+    </style>
+
+    <style name="Theme.Crop" parent="Theme.GalleryBase">
+        <item name="android:displayOptions"></item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/Crop.Holo.ActionBar</item>
+        <item name="android:colorBackground">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@drawable/filtershow_tiled_background</item>
+    </style>
+
+    <style name="Crop.Holo.ActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:displayOptions">@null</item>
+        <item name="android:background">@drawable/actionbar_translucent</item>
+        <item name="android:backgroundStacked">@null</item>
+    </style>
+
+    <style name="Holo.ActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:displayOptions">useLogo|showHome</item>
+        <item name="android:background">@drawable/actionbar_translucent</item>
+        <item name="android:backgroundStacked">@null</item>
+    </style>
+
+    <style name="MediaButton.Play" parent="@android:style/MediaButton.Play">
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/icn_media_play</item>
+    </style>
+
+    <style name="DialogPickerTheme" parent="Theme.Gallery"></style>
+
+    <color name="darker_transparent">#C1000000</color>
+
+    <style name="ActionBarTwoLinePrimary" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"></style>
+
+    <style name="ActionBarTwoLineSecondary" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle"></style>
+
+    <style name="ActionBarTwoLineItem">
+        <item name="android:background">@drawable/action_bar_two_line_background</item>
+    </style>
+
+    <!-- Camera resources below -->
+
+    <style name="Theme.Camera" parent="Theme.CameraBase">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/black</item>
+    </style>
+
+    <style name="Theme.CameraBase" parent="android:Theme.Black.NoTitleBar.Fullscreen" />
+
+    <style name="TextAppearance.DialogWindowTitle" parent="">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/holo_blue_light</item>
+    </style>
+
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Medium" />
+
+    <style name="Widget.Button.Borderless" parent="android:Widget.Button">
+        <item name="android:background">@drawable/bg_pressed</item>
+        <item name="android:textAppearance">@style/TextAppearance.Medium</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+    </style>
+
+    <style name="MovieActivityStyle" parent="android:Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@style/MovieActivityActionBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="MovieActivityActionBarStyle" parent="@android:style/Widget.Holo.ActionMode">
+        <item name="android:titleTextStyle">@style/ActionTitleStyle</item>
+        <item name="android:background">@color/black_overlay</item>
+        <!-- add for changing the color of the overflow button -->
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <!-- SPRD: Add for new feature 568552 @{ -->
+    <style name="NewVideoStyle" parent="android:Theme.Material.Light">
+        <!-- the style of the ActionBar-->
+        <item name="android:actionBarStyle">@style/NewVideoActionBarStyle</item>
+        <!-- the color of the status bar -->
+        <item name="android:statusBarColor">@color/actionbar_background_color_dark</item>
+        <!-- the following three points，about ActionMode -->
+        <item name="android:actionModeStyle">@style/ActionModeStyle</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_back_white</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <!-- It determines if the color of the character turns to be gray when status bar turns to be gray  false -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ModeClose</item>
+    </style>
+
+    <style name="NewVideoActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">#5677fc</item>
+        <item name="android:titleTextStyle">@style/ActionTitleStyle</item>
+        <item name="android:backgroundStacked">@color/actionbar_background_color</item>
+        <!-- Empty icon -->
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="ActionModeStyle" parent="@android:style/Widget.Holo.ActionMode">
+        <item name="android:titleTextStyle">@style/ActionTitleStyle</item>
+        <item name="android:background">@color/actionbar_background_color</item>
+        <!-- add for changing the color of the overflow button -->
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="ActionTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="MenuTextStyle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ModeClose">
+        <item name="android:contentDescription">@string/back</item>
+    </style>
+
+    <style name="OverFlow">
+        <item name="android:src">@drawable/ic_more_vert_white</item>
+        <item name="android:contentDescription">@string/over_flow</item>
+        <item name="android:paddingRight">9dp</item>
+    </style>
+    <!-- @} -->
+
+    <style name="Toolbar_Title" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <!--<item name="android:fontFamily">sans-serif-medium</item>-->
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="DetailsToolbarStyle" parent="Toolbar_Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- @} -->
+    <style name="Theme.Refocus" parent="Theme.GalleryBase">
+        <item name="android:displayOptions"></item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/Holo.RefocusActionBar</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <!-- <item name="android:colorBackground">@null</item> -->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:homeAsUpIndicator">@drawable/btn_quit_selector</item>
+    </style>
+
+    <style name="Holo.RefocusActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:displayOptions"></item>
+        <item name="android:background">@drawable/actionbar_translucent</item>
+        <item name="android:backgroundStacked">@null</item>
+    </style>
+
+    <style name="Theme.Distance" parent="Theme.GalleryBase">
+        <item name="android:displayOptions"></item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/Holo.DistanceActionBar</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <!-- <item name="android:colorBackground">@null</item> -->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="Holo.DistanceActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:displayOptions"></item>
+        <item name="android:background">@drawable/actionbar_translucent</item>
+        <item name="android:backgroundStacked">@null</item>
+    </style>
+
+    <style name="SelfSwitch" parent="*android:style/Widget.Material.Light.CompoundButton.Switch">
+        <!--  <item name="android:track">@drawable/switch_track_material</item>
+         <item name="android:background">@drawable/control_background_40dp_material</item>-->
+    </style>
+
+    <style name="ProxySetTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="DreamSeekbar" parent="@android:style/Widget.Material.SeekBar">
+        <item name="android:progressDrawable">@drawable/bottom_progress_bar</item>
+        <item name="android:thumb">@drawable/dream_seekbar_thumb_material_anim</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">30dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:splitTrack">false</item>
+        <!-- <item name="android:thumb">@drawable/thumb</item> -->
+    </style>
+
+    <style name="DreamSeekbarExceptMaualModule" parent="DreamSeekbar">
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <!-- <item name="android:thumb">@drawable/thumb</item> -->
+    </style>
+
+    <style name="ImageBlendingSeekbar" parent="DreamSeekbar">
+        <item name="android:paddingStart">6dip</item>
+        <item name="android:paddingEnd">6dip</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <!--styles for UI v2-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow2</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionModeStyle">@style/AppActionMode</item>
+        <item name="actionModeCloseDrawable">@drawable/action_mode_close</item>
+    </style>
+
+    <style name="GalleryV2Theme" parent="AppTheme"></style>
+
+    <style name="GalleryV2GMSTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:statusBarColor">@color/colorBlack</item>
+    </style>
+
+    <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="ToolbarTextAppearance" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Toolbar2TextAppearance" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <style name="Toolbar3TextAppearance" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF757575</item>
+    </style>
+
+    <style name="ToolbarPopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+    <style name="OverFlow2">
+        <item name="android:src">@drawable/ic_more_vert_black</item>
+        <item name="android:paddingRight">9dp</item>
+    </style>
+
+    <!--add for feature motion photo Bug #1033745-->
+    <style name="MotionTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow2</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/colorBlack</item>
+        <item name="actionModeStyle">@style/AppActionMode</item>
+        <item name="actionModeCloseDrawable">@drawable/action_mode_close</item>
+    </style>
+
+</resources>

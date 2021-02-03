@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"ग्यालेरी"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"भिडियो प्लेयर"</string>
+    <string name="loading_video" msgid="4013492720121891585">"वीडियो लोड हुँदै ..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"भिडियो पुनःसुरु गर्नुहोस्"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">" बाट खेल पुनःसुरु गर्ने?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"चलाउन जारी राख्नुहोस्"</string>
+    <string name="loading" msgid="7038208555304563571">"लोड हुँदै..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"लोड गर्न सकेन"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"तस्बिर लोड गर्न सकेन"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"कुनै थम्बनेल छैन"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"सुरु गर्नुहोस्"</string>
+    <string name="ok" msgid="5296833083983263293">"ठिक छ"</string>
+    <string name="saving_image" msgid="7270334453636349407">"तस्बिर बचत गरिँदै..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"<xliff:g id="ALBUM_NAME">%1$s</xliff:g> मा तस्बिर बचत गर्दै ..."</string>
+    <string name="crop_label" msgid="521114301871349328">"तस्बिर काट्नुहोस्"</string>
+    <string name="trim_label" msgid="274203231381209979">"भिडियो छाँट्नुहोस्"</string>
+    <string name="select_image" msgid="7841406150484742140">"तस्बिर छान्नुहोस्"</string>
+    <string name="select_video" msgid="4859510992798615076">"भिडियो छान्नुहोस्"</string>
+    <string name="select_item" msgid="2816923896202086390">"वस्तु छान्नुहोस्"</string>
+    <string name="select_album" msgid="1557063764849434077">"एल्बम चयन गर्नुहोस्"</string>
+    <string name="select_group" msgid="6744208543323307114">"समूह छान्नुहोस्"</string>
+    <string name="set_image" msgid="2331476809308010401">"को रूपमा तस्बिरलाई मिलाउनुहोस्"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"वालपेपर"</string>
+    <string name="delete" msgid="2839695998251824487">"मेट्नुहोस्"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"चयन गरिएकालाई हटाउने हो?"</item>
+        <item msgid="5874316486520635333" quantity="other">"छानिएका आइटमहरू हटाउने हो ?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"निश्चित गर्नुहोस्"</string>
+    <string name="cancel" msgid="3637516880917356226">"रद्द गर्नुहोस्"</string>
+    <string name="share" msgid="3619042788254195341">"साझेदारी गर्नुहोस्"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"दृश्य साझेदारी गर्नुहोस्"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"तस्बिरको रूपमा साझेदारी गर्नुहोस्"</string>
+    <string name="deleted" msgid="6795433049119073871">"मेटाइयो"</string>
+    <string name="undo" msgid="2930873956446586313">"रद्द गर्नुहोस्"</string>
+    <string name="select_all" msgid="3403283025220282175">"सबैलाई चयन गर्नुहोस्"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"सबै अचयन गर्नुहोस्"</string>
+    <string name="slideshow" msgid="4355906903247112975">"स्लाइड प्रदर्शन"</string>
+    <string name="details" msgid="8415120088556445230">"विवरणहरू"</string>
+    <string name="details_title">"%2$d मध्ये %1$d वस्तुहरू:"</string>
+    <string name="close" msgid="5585646033158453043">"बन्द गर्नुहोस्"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"क्यामेरामा स्विच गर्नुहोस्"</string>
+    <plurals name="number_of_items_selected">
+        <item quantity="zero">"%1$d चयन भयो"</item>
+        <item quantity="one">"%1$d चयन भयो"</item>
+        <item quantity="other">"%1$d चयन भयो"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"नक्सामा देखाउनुहोस्"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"बायाँ घुमाउनुहोस्"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"दायाँ घुमाउनुहोस्"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"आइटम पाइएन।"</string>
+    <string name="edit" msgid="1502273844748580847">"सम्पादन गर्नुहोस्"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"सरल सम्पादन"</string>
+    <string name="crop_action" msgid="3427470284074377001">"कोतर्नुहोस्"</string>
+    <string name="trim_action" msgid="703098114452883524">"छाँट्नुहोस्"</string>
+    <string name="mute_action" msgid="5296241754753306251">"आवाज बन्द गर्नुहोस्"</string>
+    <string name="set_as" msgid="3636764710790507868">"को रूपमा सेट गर्नुहोस्"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"भिडियोको आवाज बन्द गर्न सकेन"</string>
+    <string name="video_err" msgid="7003051631792271009">"भिडियो चलाउन सकेन।"</string>
+    <string name="group_by_location" msgid="316641628989023253">"स्थानबाट"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"समयद्वारा"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"ट्यागबाट"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"मानिसहरूद्वारा"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"एल्बमद्वारा"</string>
+    <string name="untagged" msgid="7281481064509590402">"ट्याग नगरिएको"</string>
+    <string name="no_location" msgid="4043624857489331676">"कुनै स्थान छैन"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"नेटवर्क समस्याका कारण केही स्थानहरू पहिचान गर्न सकिएन।"</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"यो एल्बममा भएका फोटाहरू डाउनलोड गर्न सकेन। पछि पुनः प्रयास गर्नुहोस।"</string>
+    <string name="show_images_only" msgid="7263218480867672653">"तस्बिरहरू मात्र"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"भिडियो मात्र"</string>
+    <string name="show_all" msgid="6963292714584735149">"तस्बिरहरू र भिडियोहरू"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"फोटो ग्यालरी"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"तस्बिरहरू छैन।"</string>
+    <string name="crop_saved" msgid="1595985909779105158">"काटिएको तस्बिरहरुलाई <xliff:g id="FOLDER_NAME">%s</xliff:g>मा बचत गरिएको छ।"</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"कुनै एल्बमहरू उपलब्ध छैनन्।"</string>
+    <string name="empty_album" msgid="4542880442593595494">"O तस्बिरहरू/भिडियोहरू उपलब्ध छन।"</string>
+    <string name="done" msgid="217672440064436595">"भयो"</string>
+    <string name="title" msgid="7622928349908052569">"शीर्षक"</string>
+    <string name="description" msgid="3016729318096557520">"वर्णन"</string>
+    <string name="time" msgid="1367953006052876956">"समय"</string>
+    <string name="location" msgid="3432705876921618314">"स्थान"</string>
+    <string name="path" msgid="4725740395885105824">"बाटो"</string>
+    <string name="width" msgid="9215847239714321097">"चौडाइ"</string>
+    <string name="height" msgid="3648885449443787772">"उचाइ"</string>
+    <string name="orientation" msgid="4958327983165245513">"अभिविन्यास"</string>
+    <string name="duration" msgid="8160058911218541616">"अवधि"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME प्रकार"</string>
+    <string name="file_size" msgid="8486169301588318915">"फाइल आकार"</string>
+    <string name="maker" msgid="7921835498034236197">"निर्माता"</string>
+    <string name="model" msgid="8240207064064337366">"मोडेल"</string>
+    <string name="flash" msgid="2816779031261147723">"फ्ल्यास"</string>
+    <string name="aperture" msgid="5920657630303915195">"प्वाल:"</string>
+    <string name="focal_length" msgid="1291383769749877010">"फोकल लम्बाइ:"</string>
+    <string name="white_balance" msgid="1582509289994216078">"श्वेत सन्तुलन"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"एक्सपोजर समय"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"मिलिमिटर"</string>
+    <string name="manual" msgid="6608905477477607865">"हातैले"</string>
+    <string name="auto" msgid="4296941368722892821">"स्वतः"</string>
+    <string name="flash_on" msgid="7891556231891837284">"फ्ल्यास चलाइयो"</string>
+    <string name="flash_off" msgid="1445443413822680010">"फ्ल्यास छैन"</string>
+    <string name="unknown" msgid="3506693015896912952">"अज्ञात"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"भिन्टेज"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"तत्काल"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"सफा गर्नुहोस्"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"नीलो"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"B/W"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"मुक्का"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"x प्रक्रिया"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"लाट्टे"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"लिथो"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"सबै एल्बमहरू"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"स्थानीय एल्बमहरू"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> वा कम"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> वा माथि"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> देखि <xliff:g id="MAX_SIZE">%2$s</xliff:g> सम्म"</string>
+    <string name="Import" msgid="3985447518557474672">"आयात गर्नुहोस्"</string>
+    <string name="import_complete" msgid="3875040287486199999">"आयात पुरा भयो"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"एउटा एल्बम छान्नुहोस्"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"सबै तस्बिरहरू मिसाउनुहोस्"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"छवि चयन गर्नुहोस्"</string>
+    <string name="widget_type" msgid="1364653978966343448">"तस्बिरहरू छान्नुहोस्"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"स्लाइड प्रदर्शन"</string>
+    <string name="albums" msgid="7320787705180057947">"एल्बमहरू"</string>
+    <string name="times" msgid="2023033894889499219">"पटक"</string>
+    <string name="locations" msgid="6649297994083130305">"स्थानहरू"</string>
+    <string name="people" msgid="4114003823747292747">"मानिसहरू"</string>
+    <string name="tags" msgid="5539648765482935955">"ट्यागहरू"</string>
+    <string name="group_by" msgid="4308299657902209357">"द्वारा समूह"</string>
+    <string name="settings" msgid="1534847740615665736">"सेटिङहरू"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"क्यामेरा"</string>
+    <string name="folder_download" msgid="7186215137642323932">"डाउनलोड"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"सम्पादित अनलाइन तस्बिरहरू"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"आयातित"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"स्क्रिनसट"</string>
+    <string name="help" msgid="7368960711153618354">"मद्दत"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"फिल्मस्ट्राइप हेर्नुहोस्"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"ग्रिड दृश्य"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"पूरा स्क्रिन दृश्य"</string>
+    <string name="trimming" msgid="9122385768369143997">"छाँटिँदै"</string>
+    <string name="muting" msgid="5094925919589915324">"म्युट गरिँदै"</string>
+    <string name="please_wait" msgid="7296066089146487366">"कृपया प्रतीक्षा गर्नुहोस् ..."</string>
+    <string name="save_into" msgid="9155488424829609229">"<xliff:g id="ALBUM_NAME">%1$s</xliff:g> मा भिडियो बचत गर्दै ..."</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"दृश्य प्रतिपादन"</string>
+    <string name="save" msgid="613976532235060516">"बचत गर्नुहोस्"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"सामग्री स्क्यान हुदै..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d वस्तुहरू स्कयान गरिएका"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d वस्तु स्कयान गरिएको"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d आइटमहरू स्क्यान गरियो"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"क्रमबद्ध गर्दै..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"स्क्यान गरियो"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"आयात गर्दै..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"यो उपकरणमा आयात गर्नका लागि केही सामाग्री उपलब्ध छैन।"</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"कुनै MTP उपकरण जोडिएको छैन"</string>
+    <string name="camera_label" msgid="6346560772074764302">"क्यामेरा"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"भिडियो चलाउनुहोस्"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"भिडियो प्लेयर समय पट्टी"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"क्यामेरा"</string>
+    <string name="menu_search" msgid="7580008232297437190">"खोज्नुहोस्"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"तस्बिरहरू"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"एल्बमहरू"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d तस्बिर"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d तस्बिरहरू"</item>
+    </plurals>
+
+    <string name="special_video_restart_playing">"कुनै किफ्रेम भिडियोले प्ले गर्न सुरु गर्दैन"</string>
+    <string name="gif_decode_failed">"यो gif छवि चलाउनका लागि अत्यन्त ठूलो छ"</string>
+    <string name="spaceLow_content">"सुरक्षित गर्न असफल भयो, प्रणालीमा अपर्याप्त खाली ठाउँ छ।"</string>
+    <string name="wait_for_deleting">"मेट्दै, कृपया पर्खनुहोस्&#8230;"</string>
+    <string name="wait_for_rotating">"घुमाउँदै, कृपया पर्खनुहोस्&#8230;"</string>
+    <string name="video_save_to_bookmark">"बुकमार्कहरू सुरक्षित गर्नुहोस्"</string>
+    <string name="video_view_bookmarks">"बुकमार्कहरू"</string>
+    <string name="video_bookmarks">"बुकमार्कहरू"</string>
+    <string name="video_edit_bookmark">"सम्पादन गर्नुहोस्"</string>
+    <string name="video_delete_bookmark">"मेटाउनुहोस्"</string>
+    <string name="empty_bookmarks">"बुकमार्क खाली छ"</string>
+    <string name="do_not_save">"रद्द गर्नुहोस्"</string>
+    <string name="net_location">"ठेगाना"</string>
+    <string name="name">"नाम"</string>
+    <string name="bookmark_needs_title">"बुकमार्कको एउटा नाम हुन अनिवार्य छ"</string>
+    <string name="bookmark_needs_url">"बुकमार्कमा स्थान हुन अनिवार्य छ"</string>
+    <string name="bookmark_invalid_url">""स्थान "http(s)://" वा "rtsp://"" बाट सुरु हुन अनिवार्य छ"</string>
+    <string name="processing_please_wait">"प्रशोधन गर्दै, कृपया प्रतीक्षा गर्नुहोस्।"</string>
+    <string name="bookmark_exist">"उही स्थान भएको बुकमार्क विद्यमान छ।"</string>
+    <string name="default_bookmark_title">"default_title"</string>
+    <string name="bookmark_added">"बुकमार्कमा सुरक्षित गर्नुहोस्"</string>
+    <string name="albums_video">"भिडियो"</string>
+    <string name="empty_album_video">"० भिडियो उपलब्ध छ।"</string>
+    <string name="border_brush">"ब्रश"</string>
+    <string name="border_grunge">"ग्रन्ज"</string>
+    <string name="border_sumi">"सुमी"</string>
+    <string name="border_tape">"टेप"</string>
+    <string name="border_black">"कालो"</string>
+    <string name="border_black_rounded">"Black_rd"</string>
+    <string name="border_white">"सेतो"</string>
+    <string name="border_white_rounded">"White_rd"</string>
+    <string name="border_cream">"क्रिम"</string>
+    <string name="border_cream_rounded">"Cream_rd"</string>
+    <string name="no_face">"कुनै अनुहार छैन"</string>
+    <string name="can_not_share">"चयन गरिएका फाइलहरू <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g> भन्दा ठूला छन्, साझेदारी गरिने सुविधा उपलब्ध छैन"</string>
+    <string name="movie_view_proxy_set">"प्रोक्सी सेट"</string>
+    <string name="movie_view_network">"नेटवर्क"</string>
+    <string name="movie_view_apn_set">"Apn प्रविष्टि सेट"</string>
+    <string name="movie_view_proxy_ip_set">"प्रोक्सी IP सम्बन्धी सेटिङहरू"</string>
+    <string name="movie_view_proxy_port_set">"प्रोक्सी पोर्ट सम्बन्धी सेटिङहरू"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP सम्बन्धी सेटिङहरू"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP म्याक्स पोर्ट सम्बन्धी सेटिङहरू"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP मिन सम्बन्धी सेटिङहरू"</string>
+    <string name="movie_view_proxy_ok">"ठिक छ"</string>
+    <string name="movie_view_proxy_port_seterror_info">"पोर्ट सम्बन्धी मान निम्न दायराको पूर्णांक हुन अनिवार्य छ："</string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP अमान्य छ!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"पोर्ट आमान्य छ!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"पहिले पोर्टको दायरा सेट गर्नुहोस्！"</string>
+    <string name="movie_view_proxy_enable">"प्रोक्सी सक्षम"</string>
+    <string name="movie_view_parameter_set">"प्यारामिटर सम्बन्धी सेटिङहरू"</string>
+    <string name="dialog_dismiss">"खारेज गर्नुहोस्"</string>
+    <string name="gallery_error_title">"ग्यालरी सम्बन्धी त्रुटि भयो"</string>
+    <string name="videoplayer_error_title">"भिडियो प्लेयर सम्बन्धी त्रुटि भयो"</string>
+    <string name="error_permissions">"सञ्चालन गर्नका लागि अनुप्रयोगसँग अति आवश्यकता अनुमति छैन। कृपया तपाईँको अनुमति सेटिङहरू जाँच गर्नुहोस्।"</string>
+    <string name="gallery_premission_change">"ग्यालेरीको अनुमति परिवर्तन भयो, कृपया चयन गर्नुहोस्"</string>
+    <string name="gallery_premission_error">"ग्यालेरीको अनुमति सम्बन्धी त्रुटि, कृपया ग्यालेरीलाई रिसेट गर्नुहोस्।"</string>
+    <string name="already_exist">"प्राभाव पहिलेदेखि नै विद्यमान छ"</string>
+    <string name="show_details_error">"डेटा लोड हुँदैछ, कृपया पछि फेरि प्रयास गर्नुहोस्।"</string>
+    <string name="none_playback">"कुनै प्लेब्याक होइन"</string>
+    <string name="single_playback">"एउटा मात्र प्लेब्याक"</string>
+    <string name="all_playback">"सबै प्लेब्याक"</string>
+    <string name="playback_setting">"प्लेब्याक मोड"</string>
+    <string name="can_not_open_float_video">"हालको भिडियोको वालपेपर, भिडियोको फ्लोटिङ विन्डोहरूलाई खोन सकिँदैन।"</string>
+    <string name="video_file_does_not_exist">"भिडियो फाइल अस्तित्वमा छैन"</string>
+    <string name="movie_view_goto">"यहाँ जानुहोस्"</string>
+    <string name="no_search_app">"कुनै खोज अनुप्रयोग छैन"</string>
+    <string name="channel_setting_title">"च्यानल सम्बन्धी सेटिङ"</string>
+    <string name="channel_setting_left">"बायाँ"</string>
+    <string name="channel_setting_right">"दायाँ"</string>
+    <string name="channel_setting_dual">"दाहोरो"</string>
+    <string name="channel_setting_ok">"ठिक छ"</string>
+    <string name="channel_setting_cancel">"रद्द गर्नुहोस्"</string>
+    <string name="channel_setting">"च्यानल सम्बन्धी सेटिङ"</string>
+    <string name="movie_view_calling_title">"कल गर्दै"</string>
+    <string name="movie_view_calling_msg">"यो कल समाप्त भएपछिफेरि प्रयास गर्नुहोस्!"</string>
+    <string name="movie_view_calling_try">"प्रयास गर्नुहोस्"</string>
+    <string name="movie_view_calling_cancel">"रद्द गर्नुहोस्"</string>
+    <string name="time_out">"समय सकियो"</string>
+    <string name="time_out_message">"नेटवर्क अस्थिर छ वा जडानको म्याद सकियारे, रिस्टार्ट गर्ने हो कि होइन?"</string>
+    <string name="headset">"हेडसेट"</string>
+    <string name="loud_speaker">"लाउड स्पिकर"</string>
+    <string name="back_exit">"फेरि थिच्दा बाहिर निस्कनुहोस्"</string>
+    <string name="cannot_load_crop_image">"अनुप्रयोगको रनटाइम मेमोरी पर्याप्त छैन, छवि लोड गर्दा त्रुटि भयो।"</string>
+    <string name="slideshow_music">"स्लाइड संगीत"</string>
+    <string name="system_ringtones">"प्रणालीका रिङटोनहरू"</string>
+    <string name="user_defined">"प्रयोगकर्ताद्वारा निर्धारित"</string>
+    <string name="cannot_play_music">"अहिले संगीत बजाउन सकिँदैन"</string>
+    <string name="play_audio_failed">"अहिले अडियो बजाउन सकिँदैन"</string>
+
+    <string-array name="planets_array">
+        <item>"सबै भिडियोहरू"</item>
+        <item>"स्थानीय भिडियोहरू"</item>
+        <item>"खिचिएका भिडियोहरू"</item>
+        <item>"हालसालै थपिएको"</item>
+    </string-array>
+    <string name="last_play">"पछिल्लो पटक प्ले गरिएको समय:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"रेकर्डहरूलाई अहिले मेट्ने हो?"</item>
+        <item quantity="other">"रेकर्डहरूलाई अहिले मेट्ने हो?"</item>
+    </plurals>
+    <string name="today">"आज"</string>
+    <string name="yesterday">"हिजो"</string>
+    <string name="earlier">"यसअघि"</string>
+    <string name="drawer_open">"भिडियोको सूची"</string>
+    <string name="drawer_close">"सबै भिडियोहरू"</string>
+    <string name="share_actionmode">"साझेदारी गर्नुहोस्"</string>
+    <string name="delete_actionmode">"मेटाउनुहोस्"</string>
+    <string name="clear_all">"सबै मेटाउनुहोस्"</string>
+    <string name="video_list">"भिडियोको सूची"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"चयन गरिएकालाई हटाउने हो?"</item>
+        <item quantity="other">"चयन गरिएकालाई हटाउने हो?"</item>
+    </plurals>
+    <string name="current_select">"%d लाई चयन गरियो"</string>
+    <string name="no_video_play_records">"कुनै प्ले गर्ने रेकर्ड छैन"</string>
+    <string name="no_videos">"कुनै भिडियो छैन"</string>
+    <string name="video_not_exist">"यो भिडियो छैन"</string>
+    <string name="save_picture">"क्याप्चरलाई %s मा सुरक्षित गरियो"</string>
+    <string name="mute">"म्युट गरिँदै"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"सुरक्षा सम्बन्धी जानकारी"</string>
+    <string name="drm_info">"सुरक्षा सम्बन्धी जानकारी"</string>
+    <string name="file_name">"फाइलको नाम:"</string>
+    <string name="rights_validity">"अधिकारको मान्यता:"</string>
+    <string name="rights_status">"अधिकारको स्थिति:"</string>
+    <string name="start_time">"सुरु समय:"</string>
+    <string name="end_time">"अन्त्य समय:"</string>
+    <string name="expiration_time">"म्याद सकिने समय:"</string>
+    <string name="remain_times">"बाँकी समय:"</string>
+    <string name="rights_validity_valid">"मान्य"</string>
+    <string name="rights_validity_invalid">"अमान्य"</string>
+    <string name="rights_status_share">"फर्वार्ड गर्न अनुमति छ"</string>
+    <string name="rights_status_not_share">"फर्वार्ड गर्न अनुमति छैन"</string>
+    <string name="drm_rights_no_limit">"असीमित"</string>
+    <string name="drm_rights_unknown">"अज्ञात"</string>
+    <string name="drm_rights_inactive">"अधिकारहरू निष्क्रिय छन्"</string>
+    <string name="drm_file_invalid">"फाइलको म्याद सकिएको छ"</string>
+    <string name="screenshot_failed">"स्क्रिनशट लिन सकिएन"</string>
+    <string name="floatwindow_unsupported_device">"यो यन्त्रमा तैरिने विन्डो चलाउन मिल्दैन"</string>
+    <string name="floatwindow_unsupported_camera">"क्यामेरामा तैरिने विन्डो चलाउन मिल्दैन"</string>
+    <string name="floatwindow_unsupported_streaming">"स्ट्रिमिङका भिडियोहरू प्ले गर्दा तैरिने विन्डो चलाउन मिल्दैन"</string>
+    <string name="stream_screenshot_not_supported">"स्ट्रिमिङका भिडियोहरू प्ले गर्दा क्याप्चर फंक्शनको प्रयोग गर्न मिल्दैन"</string>
+
+    <string name="movie_view_mms_process_title">"MMS प्रशोधन गर्दै"</string>
+    <string name="movie_view_sms_process_title">"SMS प्रशोधन गर्दै"</string>
+    <string name="movie_view_mms_ok">"ठिक छ"</string>
+    <string name="movie_view_mms_processing_ok">"प्राप्त गर्ने कार्य सम्पन्न भयो"</string>
+    <string name="movie_view_sms_received_ok">"SMS प्राप्त गर्ने"</string>
+    <string name="drm_consumed">"तपाईंको कारबाहीले Drm का अधिकारहरूको उपभोग गरेको छ"</string>
+    <string name="choose_drm_alert">"DRM फाइल छनोट गर्न सकिँदैन, कृपया अर्को फाइल छनोट गर्नुहोस्"</string>
+    <string name="drm_consume_title">"Drm उपभोक्ताका अधिकारहरू"</string>
+    <string name="drm_consume_hint">"तपाईंको कारबाहीले Drm का अधिकारहरूको उपभोग गर्नेछ"</string>
+    <string name="invalid_rights">"यस फाइलको मान्य लाइसेन्स छैन"</string>
+    <string name="drm_unit_minutes">"S"</string>
+    <string name="slidemusic">"स्लाइड शो संगीत सेट गर्नुहोस्"</string>
+    <string name="setas">"को रूपमा सेट गर्नुहोस्"</string>
+    <string name="slide_music_system_ringtones">"प्रणालीका रिङटोनहरू"</string>
+    <string name="slide_music_user_defined">"प्रयोगकर्ताद्वारा निर्धारित"</string>
+    <string name="edit_crop_free">"खाली"</string>
+    <string name="edit_crop_square">"वर्ग"</string>
+    <string name="edit_crop_origin">"मूल"</string>
+    <string name="hide_albums">"एल्बमहरू लुकाउनुहोस्"</string>
+    <string name="show_local_albums">"स्थानीय एल्बमहरू देखाउनुहोस्"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"चयन गरिएका %1$d फोटोहरू"</item>
+        <item quantity="other">"चयन गरिएका %1$d फोटोहरू"</item>
+    </plurals>
+    <string name="select">"चयन गर्नुहोस्"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"चयन नगरिएका %1$d फोटोहरूलाई बचत गर्ने ?"</item>
+        <item quantity="other">"चयन नगरिएका %1$d फोटोहरूलाई बचत गर्ने ?"</item>
+    </plurals>
+    <string name="popup_title_save_all_selected">"सबै फोटोहरू बचत गर्ने ?"</string>
+    <string name="keep_all">"सबै सुरक्षित गर्नुहोस्"</string>
+    <plurals name="keep_selected">
+        <item quantity="one">"चयन गरिएका %1$d फोटोहरू मात्र बचत गर्नुहोस्"</item>
+        <item quantity="other">"चयन गरिएका %1$d फोटोहरू मात्र बचत गर्नुहोस्"</item>
+    </plurals>
+    <string name="burst_progress_dialog_title">"प्रसोधन गरिँदै ..."</string>
+    <string name="side_bar_all_photos">"सबै"</string>
+    <string name="side_bar_photo">"तस्बिर"</string>
+    <string name="side_bar_video">"भिडियो"</string>
+    <string name="side_bar_album">"एल्बम"</string>
+    <string name="label_select">"चयन गर्नुहोस्"</string>
+    <string name="no_photo_or_video">"%1$s छैन"</string>
+    <string name="no_photo_or_video_hint">"यस यन्त्रमा बचत गरिएका फोटो वा भिडियोहरूलाई यहाँ देखाइनेछ।"</string>
+    <string name="detail_pop_title">"सन्देश"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"बढी"</string>
+    <string name="database_exception">"डेटा प्रक्रियाको अपवाद, सञ्चालन असफल भयो।"</string>
+    <string name="exit_multiwindow_tips">"मल्टि विन्डो मोडमा फोटोहरू ब्राउज गर्नुहोस् लाई समर्थन गर्दैन"</string>
+    <string name="exit_multiwindow_video_tips">"मल्टि विन्डो मोडमा भिडियो हेर्नुहोस् लाई समर्थन गर्दैन"</string>
+    <string name="decode_image_faild">"छवि क्रप गर्न असफल भयो"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"आज"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="whoes_album">"एल्बम"</string>
+    <string name="no_album_title">"कुनै एल्बमहरू छैनन्"</string>
+    <string name="no_artist_title">"कुनै कलाकारहरू छैनन्"</string>
+    <string name="no_folderlist_title">"कुनै फोल्डरहरू छैनन्"</string>
+    <string name="show_artist">"कलाकारको जानकारी देखाउनुहोस्"</string>
+    <string name="delete_folder">"मेटाउनुहोस्"</string>
+    <string name="search_result">"खोज परिणाम"</string>
+    <string name="delete_songs">"स्थायी रूपमा यन्त्रबाट मेटाउने?"</string>
+    <string name="setting">"सेटिङ"</string>
+    <string name="folder_menu">"फोल्डर"</string>
+    <string name="favorite_added">"मेरो मनपर्ने गीत"</string>
+    <string name="add_playlist_title">"प्लेसूची थप्नुहोस्"</string>
+    <string name="empty_play_list">"खाली प्लेसूची"</string>
+    <string name="shuffle_all_title">"सबै गीतहरूलाई शफल गर्नुहोस्"</string>
+    <string name="sort_by_time">"समय अनुसार क्रमबद्ध गर्नुहोस्"</string>
+    <string name="sort_by_name">"नामबाट क्रमबद्ध गर्नुहोस्"</string>
+    <string name="share_error">"साझा रहित एप्लिकेसन"</string>
+    <string name="fifty_min">"15 मिनेट"</string>
+    <string name="theirty_min">"30 मिनेट"</string>
+    <string name="sixty_min">"60 मिनेट"</string>
+    <string name="ninety_min">"90 मिनेट"</string>
+    <string name="self_define">"अनुकूलन रोक्ने समय"</string>
+    <string name="timer_option">""<xliff:g id="timer">%s</xliff:g> अफ एप्लिकेसनलाई सफलतापूर्वक सेट गर्नुहोस्।"</string>
+    <string name="self_min">"मिनेट"</string>
+    <string name="timer_setting">"स्टप टाइमर सेट गर्नुहोस्"</string>
+    <string name="change_face">"अनुहार परिवर्तन गर्नुहोस्"</string>
+    <string name="timed_setting">"रोक्ने समय चयन गर्नुहोस्"</string>
+    <string name="time_warning">"अनुकूलन समयले 1440 मिनेट (24 घण्टा)को माथिल्लो सीमालाई नाघ्दछ !"</string>
+    <string name="songs_nums_for_suffix">"गीतहरू"</string>
+    <string name="random_play_all">"सबैलाई क्रमरहित प्ले गर्नुहोस्"</string>
+    <string name="unable_to_connect_title">"फाइलमा जडित हुन सकिएन"</string>
+    <string name="unable_to_connect_message">"हालैको फाइल प्राप्त गर्न सकिएन। कृपया जडान जाँच गर्नुहोस्"</string>
+    <string name="statusbarlabel">"संगीत · "</string>
+    <string name="error_choose_drm_for_gallery">"DRM फाइललाई स्लाइडको संगीतमा सेट गर्न सकिँदैन, कृपया अर्को फाइल रोज्नुहोस्"</string>
+    <string name="remove_usbdisk">"प्रयोगकर्ताको यन्त्र हटाइएको छ"</string>
+    <string name="detail_location">"स्थान"</string>
+    <string name="label_yesterday">"हिजो"</string>
+    <string name="album_set_loading_tip">"डेटा लोड गरिँदै छ, कृपया पर्खनुहोस्"</string>
+    <string name="distance_photo_unit_conversion">"एकाइ रूपान्तरण"</string>
+    <string name="unit">"एकाइ"</string>
+    <string name="meter">"मिटर"</string>
+    <string name="centimeter">"सेन्टिमिटर"</string>
+    <string name="foot">"फुट"</string>
+    <string name="inch">"इन्च"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"यो भिडियो यो यन्त्रमा स्ट्रिम गर्नका लागि मान्य छैन।"</string>
+    <string name="VideoView_error_text_unknown">"यो भिडियो प्ले गर्न सकिँदैन।"</string>
+    <string name="no_touch_flip">"कुनै पनि टच फ्लिप छैन"</string>
+    <string name="flip_summury">"छविलाई फ्लिप गर्न उप क्यामेरालाई 1 सेकेन्डसम्म ढाक्नुहोस् "</string>
+    <string name="first_summary">"पूर्वनिर्धारित रूपमा पृष्ठलाई तल लैजाने"</string>
+    <string name="sencond_summury">"भोल्युम बढाइँदा पृष्ठलाई माथि सार्ने "</string>
+    <string name="third_summury">"भोल्युम घटाइँदा पृष्ठलाई तल सार्ने "</string>
+    <string name="fourth_summury">"सारांश: भोल्युम कुञ्जीले लैजानेछ "</string>
+    <string name="dealing">"लोड गर्दै..."</string>
+    <string name="slide_music_stop">"स्लाइडशोको संगीत रोकियो"</string>
+    <string name="select_tips">"चयन गरिएको वस्तु पृष्ठभूमि हो। कृपया बिन्दुलाई अग्रभूमिको दायरामा पुनः सिर्जना गर्नुहोस्"</string>
+    <string name="definition_subject">"वस्तु निर्धारण गर्नुहोस्"</string>
+    <string name="fix_subject">"वस्तुलाई सही गर्नुहोस्"</string>
+    <string name="fix_background">"पृष्ठभूमिलाई सही गर्नुहोस्"</string>
+    <string name="replace_background">"पृष्ठभूमिलाई बदल्नुहोस्"</string>
+    <string name="correct_object_tips">"सबैभन्दा पहिले, कृपया बाह्यरेखा सही नभएको ठाउँमा मोटामोटी रूपमा स्केच गर्नुहोस् वा रङ लगाउनुहोस्।\nअनि त्यसपछि, लतपत पारेको क्षेत्रलाई वस्तुमा अपडेट गर्न \"वस्तुलाई सही गर्नुहोस्\" बटन क्लिक गर्नुहोस्, वा रङ लगाएको क्षेत्रलाई पृष्ठभूमिमा अपडेट गर्न \"पृष्ठभूमिलाई सही गर्नुहोस्\" बटनमा क्लिक गर्नुहोस्।"</string>
+    <string name="def_object_tips">"वस्तु निर्धारण गर्नुहोस्: आफूले निकाल्न चाहेको वस्तुको चारैतिर एउटा आयताकार बनाउनुहोस्।"</string>
+    <string name="valid_point">"सुरुको बिन्दु वा अन्तिम बिन्दु मान्य दायराभित्र छैन,"</string>
+    <string name="small_rect">"कोरिएको आयताकार अत्यन्त सानो छ।"</string>
+    <string name="add">"थप्नुहोस्"</string>
+    <string name="use_phone_photo">"कृपया आफ्नो सेल फोनले खिचिएको तस्बिर प्रयोग गर्नुहोस्"</string>
+    <string name="extract_failed">"निकाल्न सकिएन, कृपया फेरि सुरु गर्नुहोस्"</string>
+    <string name="blending_success">"छवि मिसाउने काम सफल भयो, कार्य जारी राख्नुहोस् वा बाहिर निस्कन पछाडि जाने बटन थिच्नुहोस्"</string>
+    <string name="blending_failed">"छवि मिसाउने काम सफल भएन"</string>
+    <string name="extract_failed_notforground">"निकाल्न सकिएन, अग्रभूमिको वस्तु होइन, कृपया फेरि सुरु गर्नुहोस्"</string>
+    <string name="extract_failed_nomemory">"निकाल्न सकिएन, मेमोरी अत्यन्त कम छ, कृपया फेरि सुरु गर्नुहोस्"</string>
+    <string name="extract_timeout">"निकाल्ने समय सकियो, कृपया फेरि सुरु गर्नुहोस्"</string>
+    <string name="extract_forground">"अग्रभूमिको वस्तु निकाल्दै, कृपया केही बेर पर्खनुहोस्।"</string>
+    <string name="update_forground">"अग्रभूमिको लक्ष्यलाई अपडेट गर्दै, कृपया केही बेर पर्खनुहोस्।"</string>
+    <string name="blending_image">"छवि मिसाउँदै, कृपया केही बेर पर्खनुहोस्।"</string>
+    <string name="select_foreground_subject">"अग्रभूमिको वस्तुलाई चयन गर्न क्लिक गर्नुहोस्"</string>
+    <string name="adjust_foreground_subject">"अग्रभूमिको वस्तुलाई मिलाउनुहोस्"</string>
+    <string name="correct_subject_outline">"वस्तुको बह्यरेखा सही गर्नुहोस्"</string>
+    <string name="edit_background">"पृष्ठभूमि सम्पादन गर्नुहोस्"</string>
+    <string name="verify_prompt">"हालको स्थिति किनाराको धेरै नै नजिक भयो, यसले गर्दा नराम्रो प्रभाव देखिनेछ, तपाईं पक्का मिसाउन चाहनुहुन्छ?"</string>
+    <string name="fg_too_large">"मिसाउने कामका लागि अग्रभूमिको वस्तु अत्यन्त ठूलो भयो।"</string>
+    <string name="draw_tips">"कृपया सेतो आयताकारभित्र रेखाचित्र कोर्नुहोस्"</string>
+    <string name="undo_faild">"अन्डु गर्ने काम असफल भयो"</string>
+    <string name="get_forfround_tips">"अग्रभूमिका सबै वस्तुहरूलाई पृष्ठभूमिमा परिवर्तन गर्न सकिएन। कृपया फेरि रेखाचित्र कोर्नुहोस्।"</string>
+    <string name="next_video">"अर्को भिडियो"</string>
+    <string name="pre_video">"अघिल्लो भिडियो"</string>
+    <string name="lock_control">"लकको नियन्त्रण"</string>
+    <string name="lock_orintation">"लकको ओरिएन्टेशन"</string>
+    <string name="print_screen">"स्क्रिनलाई प्रिन्ट गर्नुहोस्"</string>
+    <string name="float_player">"तैरिने प्लेयर"</string>
+    <string name="scale_screen">"स्क्रिनलाई स्केल गर्नुहोस्"</string>
+    <string name="back">"पछाडि जानुहोस्"</string>
+    <string name="over_flow">"ओभरफ्लो"</string>
+    <string name="slide_music_play_fail">"माफ गर्नुहोला, फाइल प्ले गर्न सकिएन"</string>
+    <string name="refocus_quit">"अन्त्य गर्नुहोस्"</string>
+    <string name="refocus_save_change">"परिवर्तनहरू सुरक्षित गर्नुहोस्"</string>
+    <string name="refocus_confirm_save">"तपाईं यस सम्पर्कलाई सुरक्षित गर्न चाहनुहुन्छ वा सोझै बाहिर निस्कन चाहनुहुन्छ?"</string>
+    <string name="refocus_save_success">"सफलतापूर्वक सुरक्षित गरियो"</string>
+    <string name="refocus_save_fail">"सुरक्षित गर्न सकिएन"</string>
+    <string name="none_input_tips">"नामको क्षेत्र खाली छोड्न सकिँदैन"</string>
+    <string name="floatview_notification_text">"यो भिडियो तैरिने विन्डोमा प्ले हुँदैछ।"</string>
+    <string name="voice_photo">"अडियो तस्बिर"</string>
+    <string name="continuous_shooting">"बर्स्ट"</string>
+    <string name="refocus_image">"तस्बिरलाई धमिलो पार्ने"</string>
+    <string name="blur_image_wait">"तस्बिरलाई धमिलो पार्ने काम अघि बढाइँदै छ, कृपया पर्खनुहोस्"</string>
+    <string name="blur_save_fail">"धमिलो तस्बिरलाई सुरक्षित गर्न सकिएन"</string>
+    <string name="refocus_init_fail">"डेटाको काम सुरु गर्न सकिएन"</string>
+    <string name="conversing">"रूपान्तरण गर्दै"</string>
+    <string name="share_as_image">"छविको रूपमा साझा गर्नुहोस्"</string>
+    <string name="share_as_video">"भिडियोको रूपमा साझा गर्नुहोस्"</string>
+    <string name="converse_video_failed">"भिडियोमा रूपान्तरण गर्ने काम असफल भयो।"</string>
+    <string name="app_photo_edit">"तस्बिर सम्पादन"</string>
+    <string name="ffx_dehaze">"तुवाँलो हटाउनुहोस्"</string>
+    <string name="select_music">"संगीत छनौट गर्नुहोस्"</string>
+    <string name="delete_all">"सबै मेटाउनुहोस्"</string>
+    <string name="refocus_photo_edit_save">"सुरक्षित गर्नुहोस्"</string>
+    <string name="blending_move_limit">"स्क्रिनको किनारामा पुगियो, कुनै थप कार्य हुँदैन, कृपया जारी राख्न स्थिति समायोजन गर्नुहोस् ।"</string>
+    <string name="init_bitmap_faild">"चित्र प्राप्त गर्न विफलता भयो, कृपया पुन: प्रयास गर्नुहोस्"</string>
+    <string name="cant_select_file">"समर्थन नगर्ने फाइल"</string>
+    <string name="input_reached_max_length">"इनपुट अधिकतम सीमामा पुग्यो"</string>
+</resources>

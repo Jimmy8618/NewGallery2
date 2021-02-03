@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Галерия"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Видеоплейър"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Видеоклипът се зарежда..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Възобновяване на видеоклип"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Да продължи ли възпроизвеждането от ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Продължаване"</string>
+    <string name="loading" msgid="7038208555304563571">"Зарежда се…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Не можаха да се заредят"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Изображението не можа да бъде заредено"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Няма миниизображение"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Стартиране отначало"</string>
+    <string name="ok" msgid="5296833083983263293">"OK"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Снимката се запазва..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Снимката се запазва в/ъв „<xliff:g id="ALBUM_NAME">%1$s</xliff:g>“…"</string>
+    <string name="crop_label" msgid="521114301871349328">"Подрязване на снимка"</string>
+    <string name="trim_label" msgid="274203231381209979">"Отрязване на видеоклипа"</string>
+    <string name="select_image" msgid="7841406150484742140">"Избиране на снимка"</string>
+    <string name="select_video" msgid="4859510992798615076">"Избиране на видеоклип"</string>
+    <string name="select_item" msgid="2816923896202086390">"Избиране на елемент"</string>
+    <string name="select_album" msgid="1557063764849434077">"Изберете албум"</string>
+    <string name="select_group" msgid="6744208543323307114">"Изберете група"</string>
+    <string name="set_image" msgid="2331476809308010401">"Задаване на снимката като"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Тапет"</string>
+    <string name="delete" msgid="2839695998251824487">"Изтриване"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Да се изтрие ли избраното?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Да се изтрият ли избраните?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Потвърждаване"</string>
+    <string name="cancel" msgid="3637516880917356226">"Отказ"</string>
+    <string name="share" msgid="3619042788254195341">"Споделяне"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Споделяне на панорамата"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Споделяне като снимка"</string>
+    <string name="deleted" msgid="6795433049119073871">"Изтрито"</string>
+    <string name="undo" msgid="2930873956446586313">"ОТМЯНА"</string>
+    <string name="select_all" msgid="3403283025220282175">"Избиране на всички"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Премахване на избора"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Слайдшоу"</string>
+    <string name="details" msgid="8415120088556445230">"Подробности"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d от %2$d елемента:"</string>
+    <string name="close" msgid="5585646033158453043">"Затваряне"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Превключване към камера"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"Избрани: %1$d"</item>
+        <item msgid="2478365152745637768" quantity="one">"Избрани: %1$d"</item>
+        <item msgid="754722656147810487" quantity="other">"Избрани: %1$d"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Показване на карта"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Завъртане наляво"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Завъртане надясно"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Елементът не можа да бъде намерен."</string>
+    <string name="edit" msgid="1502273844748580847">"Редактиране"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Обикн. редактиране"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Подрязване"</string>
+    <string name="trim_action" msgid="703098114452883524">"Отрязване"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Спиране"</string>
+    <string name="set_as" msgid="3636764710790507868">"Задаване като"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Клипът не може да се спре."</string>
+    <string name="video_err" msgid="7003051631792271009">"Видеоклипът не може да се възпроизведе."</string>
+    <string name="group_by_location" msgid="316641628989023253">"По местоположение"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"По време"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"По маркери"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"По хора"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"По албум"</string>
+    <string name="untagged" msgid="7281481064509590402">"Немаркирани"</string>
+    <string name="no_location" msgid="4043624857489331676">"Няма местоположение"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Някои местоположения не можаха да бъдат идентифицирани поради проблеми с мрежата."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Снимките в този албум не можаха да се изтеглят. Опитайте отново по-късно."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Само изображения"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Само видеоклипове"</string>
+    <string name="show_all" msgid="6963292714584735149">"Изображения и видеоклипове"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Фотогалерия"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Няма снимки."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Подрязаното изображение е запазено в/ъв „<xliff:g id="FOLDER_NAME">%s</xliff:g>“."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Няма налични албуми."</string>
+    <string name="empty_album" msgid="4542880442593595494">"0 изображения/видеоклипове са налице."</string>
+    <string name="done" msgid="217672440064436595">"Готово"</string>
+    <string name="title" msgid="7622928349908052569">"Заглавие"</string>
+    <string name="description" msgid="3016729318096557520">"Описание"</string>
+    <string name="time" msgid="1367953006052876956">"Час"</string>
+    <string name="location" msgid="3432705876921618314">"Местоположение"</string>
+    <string name="path" msgid="4725740395885105824">"Път"</string>
+    <string name="width" msgid="9215847239714321097">"Ширина"</string>
+    <string name="height" msgid="3648885449443787772">"Височина"</string>
+    <string name="orientation" msgid="4958327983165245513">"Ориентация"</string>
+    <string name="duration" msgid="8160058911218541616">"Времетраене"</string>
+    <string name="mimetype" msgid="8024168704337990470">"Тип MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"Файл: Размер"</string>
+    <string name="maker" msgid="7921835498034236197">"Автор"</string>
+    <string name="model" msgid="8240207064064337366">"Модел"</string>
+    <string name="flash" msgid="2816779031261147723">"Светкавица"</string>
+    <string name="aperture" msgid="5920657630303915195">"Бленда"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Дълж. на фокус"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Бяло: Баланс"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Експонация"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"мм"</string>
+    <string name="manual" msgid="6608905477477607865">"Ръчно"</string>
+    <string name="auto" msgid="4296941368722892821">"Авт."</string>
+    <string name="flash_on" msgid="7891556231891837284">"Със светкавица"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Без светкавица"</string>
+    <string name="unknown" msgid="3506693015896912952">"Неизвестно"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Ретро"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Моментно фото"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Избелване"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Синьо"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"Ч/Б"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Пунш"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"Кроспроцес"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Лате"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Литография"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Всички албуми"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Местни албуми"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> или по-малко"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> или повече"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> до <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Импортиране"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Импорт. завърши"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Избор на албум"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Разбъркване на всички"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Избор на изображение"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Избор на изображения"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Слайдшоу"</string>
+    <string name="albums" msgid="7320787705180057947">"Албуми"</string>
+    <string name="times" msgid="2023033894889499219">"Час"</string>
+    <string name="locations" msgid="6649297994083130305">"Mестопол."</string>
+    <string name="people" msgid="4114003823747292747">"Хора"</string>
+    <string name="tags" msgid="5539648765482935955">"Маркери"</string>
+    <string name="group_by" msgid="4308299657902209357">"Групиране по"</string>
+    <string name="settings" msgid="1534847740615665736">"Настройки"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Камера"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Изтегляне"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Редактирани снимки онлайн"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Импортирани"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Екранна снимка"</string>
+    <string name="help" msgid="7368960711153618354">"Помощ"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Изглед „Филмова лента“"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Табличен изглед"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Изглед на цял екран"</string>
+    <string name="trimming" msgid="9122385768369143997">"Отрязва се"</string>
+    <string name="muting" msgid="5094925919589915324">"Спира се"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Моля, изчакайте"</string>
+    <string name="save_into" msgid="9155488424829609229">"Видеоклипът се запазва в/ъв „<xliff:g id="ALBUM_NAME">%1$s</xliff:g>“…"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Панорамата се изобразява"</string>
+    <string name="save" msgid="613976532235060516">"Запазване"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Scanning content..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d items scanned"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d item scanned"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d items scanned"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Sorting..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Scanning done"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Importing..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Няма съдържание, налично за импортиране на това устройство."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Няма свързано устройство, поддържащо MTP"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Камера"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Пускане на видеоклипа"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Времева лента на видеоплейъра"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Камера"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Търсене"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Снимки"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Албуми"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d снимка"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d снимки"</item>
+    </plurals>
+    <string name="special_video_restart_playing">Без рамка видеото ще бъде възпроизведено отново</string>
+    <string name="gif_decode_failed">Изображението е твърде голямо за да бъде отворено</string>
+    <string name="spaceLow_content">Неуспешно запазване, възможно е пространството в хранилището да е недостатъчно.</string>
+    <string name="wait_for_deleting">Изтриване, моля изчакайте&#8230;</string>
+    <string name="wait_for_rotating">Завъртане, моля изчакайте&#8230;</string>
+    <string name="video_bookmarks">"Отметки"</string>
+    <string name="video_edit_bookmark">"Редактиране"</string>
+    <string name="video_delete_bookmark">"Изтриване"</string>
+    <string name="empty_bookmarks">Изпразни отметки</string>
+    <string name="do_not_save">"Отказ"</string>
+    <string name="net_location">"Адрес"</string>
+    <string name="name">"Име"</string>
+    <string name="bookmark_needs_title">Отметката трябва да има име</string>
+    <string name="bookmark_needs_url">Отметката трябва да има адрес</string>
+    <string name="bookmark_invalid_url">Адреса трябва да започва с  "http(s)://" или "rtsp://"</string>
+    <string name="processing_please_wait">Изпълнява се, моля изчакайте.</string>
+    <string name="bookmark_exist">Отметка със същия адрес вече съществува.</string>
+    <string name="default_bookmark_title">Име по подразбиране</string>
+    <string name="bookmark_added">Запазено в отметки</string>
+    <string name="albums_video">"Видео"</string>
+    <string name="empty_album_video">Няма налично видео.</string>
+    <string name="border_brush">Четка</string>
+    <string name="border_grunge">Гръндж</string>
+    <string name="border_sumi">Мастило</string>
+    <string name="border_tape">Лента</string>
+    <string name="border_black">"Черен"</string>
+    <string name="border_black_rounded">Заоблена черна рамка</string>
+    <string name="border_white">"Бял"</string>
+    <string name="border_white_rounded">Заоблена бяла рамка</string>
+    <string name="border_cream">Хибрид</string>
+    <string name="border_cream_rounded">Заоблен хибрид</string>
+    <string name="no_face">Без лице</string>
+    <string name="can_not_share">"Избраният файл надхвърля <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, опцията за споделяне е недостъпна"</string>
+
+    <string name="video_save_to_bookmark">"Запазване в отметките"</string>
+    <string name="video_view_bookmarks">"Отметки"</string>
+    <string name="movie_view_proxy_set">Настройки на прокси</string>
+    <string name="movie_view_network">"Мрежа"</string>
+    <string name="movie_view_apn_set">Настройки на APN</string>
+    <string name="movie_view_proxy_ip_set">Настройки на прокси IP адрес</string>
+    <string name="movie_view_proxy_port_set">Настройки на прокси пор</string>
+    <string name="movie_view_rtp_rtcp_port_set">Настройки на RTP/RTCP порт</string>
+    <string name="movie_view_max_port_set">Настройки на RTP/RTCP максимален порт</string>
+    <string name="movie_view_min_port_set">Настройки на RTP/RTCP минимален порт</string>
+    <string name="movie_view_proxy_ok">"ОK"</string>
+    <string name="movie_view_proxy_port_seterror_info">Номерът на порта трябва да бъде число в следния диапазон:</string>
+    <string name="movie_view_proxy_ip_seterror_info">Невалидно IP!</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">Невалиден порт!</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">Първо зададете диапазон на порта!</string>
+    <string name="movie_view_proxy_enable">Включи прокси</string>
+    <string name="movie_view_parameter_set">Настройки на параметри</string>
+    <string name="dialog_dismiss">"Отхвърляне"</string>
+    <string name="gallery_error_title">"Грешка в Галерия"</string>
+    <string name="videoplayer_error_title">"Грешка във Видеоплеър"</string>
+    <string name="error_permissions">"Приложението няма критично важни разрешения, необходими, за да работи. Моля, проверете настройките си за разрешенията."</string>
+    <string name="gallery_premission_change">"Разрешенията на Галерия бяха променени, моля изберете отново"</string>
+    <string name="gallery_premission_error">"Грешка в разрешенията на Галерия, моля въведете отново разрешения на галерията."</string>
+    <string name="already_exist">Този ефект вече съществува</string>
+    <string name="show_details_error">"Данните се зареждат, моля опитайте пак по-късно."</string>
+    <string name="none_playback">Без възпроизвеждане</string>
+    <string name="single_playback">Единично възпроизвеждане</string>
+    <string name="all_playback">Възпроизвеждане на всички</string>
+    <string name="playback_setting">Режим на възпроизвеждане</string>
+    <string name="can_not_open_float_video">"Настоящ видео тапет, не може да бъде отворен плаващ прозорец на видео"</string>
+    <string name="video_file_does_not_exist">"Видео файла не съществува"</string>
+    <string name="movie_view_goto">Иди на</string>
+    <string name="no_search_app">"Няма приложение за търсене"</string>
+    <string name="channel_setting_title">Настройки на канала</string>
+    <string name="channel_setting_left">Ляв</string>
+    <string name="channel_setting_right">Десен</string>
+    <string name="channel_setting_dual">Двоен</string>
+    <string name="channel_setting_ok">"ОK"</string>
+    <string name="channel_setting_cancel">"Отказ"</string>
+    <string name="channel_setting">Настройки на канала</string>
+    <string name="movie_view_calling_title">Повикване</string>
+    <string name="movie_view_calling_msg">Моля опитайте отново след края на разговора!</string>
+    <string name="movie_view_calling_try">Повторен опит</string>
+    <string name="movie_view_calling_cancel">"Отказ"</string>
+    <string name="time_out">"Време за изчакване"</string>
+    <string name="time_out_message">Проблеми с мрежата или прекъсване на вързката, рестартиране?</string>
+    <string name="headset">Слушалки с микрофон</string>
+    <string name="loud_speaker">Високоговорител</string>
+    <string name="cannot_load_crop_image">"Памет на действащото приложение е недостатъчна, неуспешно зареждане на изображение."</string>
+    <string name="back_exit">Натиснете отново за изход</string>
+    <string name="slideshow_music">"Слайдшоу музика"</string>
+    <string name="system_ringtones">"Системни мелодии"</string>
+    <string name="user_defined">"Идентифициран потребител"</string>
+    <string name="cannot_play_music">"Не може да се възпроизвежда музика в момента"</string>
+    <string name="play_audio_failed">"Не може да се възпроизвежда аудио в момента"</string>
+    <string-array name="planets_array">
+        <item>"Всички видеоклипове"</item>
+        <item>"Локално видео"</item>
+        <item>"Заснето видео"</item>
+        <item>"Възпроизвеждани наскоро"</item>
+    </string-array>
+    <string name="last_play">"Последно възпроизведени:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Изтриване на записите сега?"</item>
+        <item quantity="other">"Изтриване на записите сега?"</item>
+    </plurals>
+    <string name="today">"Днес"</string>
+    <string name="yesterday">"Вчера"</string>
+    <string name="earlier">"По-рано"</string>
+    <string name="drawer_open">"Видео списък"</string>
+    <string name="drawer_close">"Всички видеоклипове"</string>
+    <string name="share_actionmode">"Споделяне"</string>
+    <string name="delete_actionmode">"Изтриване"</string>
+    <string name="clear_all">Изтрий всички</string>
+    <string name="video_list">"Видео списък"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Да се изтрие ли избраното?"</item>
+        <item quantity="other">"Да се изтрие ли избраното?"</item>
+    </plurals>
+    <string name="current_select">"%d избрани"</string>
+    <string name="no_video_play_records">"Няма записи на възпроизвеждане"</string>
+    <string name="no_videos">"Няма видеозаписи"</string>
+    <string name="video_not_exist">"Видеото не съществува"</string>
+    <string name="save_picture">"Скрийншотът беше запазен в  %s"</string>
+    <string name="mute">"Спира се"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">Защита на информацията</string>
+    <string name="drm_info">Защита на информацията</string>
+    <string name="file_name">"Име на файла:"</string>
+    <string name="rights_validity">"Валидност на правата:"</string>
+    <string name="rights_status">"Статус на правата:"</string>
+    <string name="start_time">"Начално време:"</string>
+    <string name="end_time">"Финално време:"</string>
+    <string name="expiration_time">"Време на годност:"</string>
+    <string name="remain_times">"Оставащо време:"</string>
+    <string name="rights_validity_valid">Валиден</string>
+    <string name="rights_validity_invalid">Невалиден</string>
+    <string name="rights_status_share">Разрешено препращане</string>
+    <string name="rights_status_not_share">Неразрешено препращане</string>
+    <string name="drm_rights_no_limit">Без лимит</string>
+    <string name="drm_rights_unknown">"Неизвестен номер"</string>
+    <string name="drm_rights_inactive">Неактивни права</string>
+    <string name="drm_file_invalid">Файлът е с изтекъл срок</string>
+    <string name="screenshot_failed">"Провален скрийншот"</string>
+    <string name="floatwindow_unsupported_device">"Плаващ прозорец не се поддържа на това устройство"</string>
+    <string name="floatwindow_unsupported_camera">"Плаващ прозорец не се поддържа в Камера"</string>
+    <string name="floatwindow_unsupported_streaming">"Плаващ прозорец не се поддържа по време на онлайн видео възпроизвеждане"</string>
+    <string name="stream_screenshot_not_supported">"Функцията скрийншот не се поддържа по време на онлайн видео възпроизвеждане."</string>
+
+    <string name="movie_view_mms_processing_ok">Изтеглянето завършено</string>
+    <string name="movie_view_sms_received_ok">Получено текстово съобщение</string>
+    <string name="movie_view_mms_process_title">Мултимедийно съобщение</string>
+    <string name="movie_view_sms_process_title">Текстово съобщение</string>
+    <string name="movie_view_mms_ok">"ОK"</string>
+    <string name="drm_consumed">"Вашите действия са употребили DRM правата"</string>
+    <string name="drm_consume_title">"DRM потребителски права"</string>
+    <string name="drm_consume_hint">"Вашите действия могат да употребят DRM правата"</string>
+    <string name="drm_unit_minutes">"с"</string>
+    <string name="choose_drm_alert">"DRM файлове не могат да бъдат избирани, моля изберете друг файл"</string>
+    <string name="invalid_rights">"Този файл няма валиден лиценз"</string>
+</resources>

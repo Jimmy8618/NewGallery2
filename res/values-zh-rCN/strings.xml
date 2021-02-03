@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name" msgid="1928079047368929634">"图库"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"视频播放器"</string>
+    <string name="loading_video" msgid="4013492720121891585">"正在加载视频..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"断点续播"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"是否从上次中断位置继续播放视频！"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"继续播放"</string>
+    <string name="loading" msgid="7038208555304563571">"正在加载..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"无法加载"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"无法加载此图片"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"无缩略图"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"从头播放"</string>
+    <string name="ok" msgid="5296833083983263293">"确定"</string>
+    <string name="saving_image" msgid="7270334453636349407">"正在保存照片..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"正在将照片保存到“<xliff:g id="ALBUM_NAME">%1$s</xliff:g>”…"</string>
+    <string name="crop_label" msgid="521114301871349328">"剪裁照片"</string>
+    <string name="trim_label" msgid="274203231381209979">"剪辑视频"</string>
+    <string name="select_image" msgid="7841406150484742140">"选择照片"</string>
+    <string name="select_video" msgid="4859510992798615076">"选择视频"</string>
+    <string name="select_item" msgid="2816923896202086390">"选择条目"</string>
+    <string name="select_album" msgid="1557063764849434077">"选择相册"</string>
+    <string name="select_group" msgid="6744208543323307114">"选择群组"</string>
+    <string name="set_image" msgid="2331476809308010401">"将图片设置为"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"壁纸"</string>
+    <string name="delete" msgid="2839695998251824487">"删除"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"要删除所选内容吗？"</item>
+        <item msgid="5874316486520635333" quantity="other">"要删除所选内容吗？"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"确定"</string>
+    <string name="cancel" msgid="3637516880917356226">"取消"</string>
+    <string name="share" msgid="3619042788254195341">"分享"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"分享全景图"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"以照片形式分享"</string>
+    <string name="deleted" msgid="6795433049119073871">"已删除"</string>
+    <string name="undo" msgid="2930873956446586313">"撤消"</string>
+    <string name="select_all" msgid="3403283025220282175">"全选"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"取消全选"</string>
+    <string name="slideshow" msgid="4355906903247112975">"播放幻灯片"</string>
+    <string name="details" msgid="8415120088556445230">"详细信息"</string>
+    <string name="details_title" msgid="2611396603977441273">"第 %1$d 项（共 %2$d 项）："</string>
+    <string name="close" msgid="5585646033158453043">"关闭"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"切换到相机"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"选中了 %1$d 项"</item>
+        <item msgid="2478365152745637768" quantity="one">"选中了 %1$d 项"</item>
+        <item msgid="754722656147810487" quantity="other">"选中了 %1$d 项"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"显示在地图上"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"向左旋转"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"向右旋转"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"找不到指定的项。"</string>
+    <string name="edit" msgid="1502273844748580847">"编辑"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"简单编辑"</string>
+    <string name="crop_action" msgid="3427470284074377001">"剪裁"</string>
+    <string name="trim_action" msgid="703098114452883524">"修剪"</string>
+    <string name="mute_action" msgid="5296241754753306251">"静音"</string>
+    <string name="set_as" msgid="3636764710790507868">"设置为"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"无法将视频静音。"</string>
+    <string name="video_err" msgid="7003051631792271009">"无法播放视频。"</string>
+    <string name="group_by_location" msgid="316641628989023253">"按位置分组"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"按时间分组"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"按标签分组"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"按人物"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"按相册分组"</string>
+    <string name="untagged" msgid="7281481064509590402">"未加标签"</string>
+    <string name="no_location" msgid="4043624857489331676">"无位置信息"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"出现网络问题，系统无法识别某些位置。"</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"无法下载此相册中的照片，请稍后重试。"</string>
+    <string name="show_images_only" msgid="7263218480867672653">"仅限图片"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"仅限视频"</string>
+    <string name="show_all" msgid="6963292714584735149">"图片和视频"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"照片"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"没有照片。"</string>
+    <string name="crop_saved" msgid="1595985909779105158">"经过裁剪的图片已保存至“<xliff:g id="FOLDER_NAME">%s</xliff:g>”。"</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"没有可用的相册。"</string>
+    <string name="empty_album" msgid="4542880442593595494">"没有图片/视频。"</string>
+    <string name="done" msgid="217672440064436595">"完成"</string>
+    <string name="title" msgid="7622928349908052569">"标题"</string>
+    <string name="description" msgid="3016729318096557520">"描述"</string>
+    <string name="time" msgid="1367953006052876956">"时间"</string>
+    <string name="location" msgid="3432705876921618314">"地点"</string>
+    <string name="path" msgid="4725740395885105824">"路径"</string>
+    <string name="width" msgid="9215847239714321097">"宽度"</string>
+    <string name="height" msgid="3648885449443787772">"高度"</string>
+    <string name="orientation" msgid="4958327983165245513">"浏览模式"</string>
+    <string name="duration" msgid="8160058911218541616">"时长"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME 类型"</string>
+    <string name="file_size" msgid="8486169301588318915">"文件大小"</string>
+    <string name="maker" msgid="7921835498034236197">"制造商"</string>
+    <string name="model" msgid="8240207064064337366">"模型"</string>
+    <string name="flash" msgid="2816779031261147723">"闪光灯"</string>
+    <string name="aperture" msgid="5920657630303915195">"光圈"</string>
+    <string name="focal_length" msgid="1291383769749877010">"焦距"</string>
+    <string name="white_balance" msgid="1582509289994216078">"白平衡"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"曝光时间"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"手动"</string>
+    <string name="auto" msgid="4296941368722892821">"自动"</string>
+    <string name="flash_on" msgid="7891556231891837284">"使用了闪光灯"</string>
+    <string name="flash_off" msgid="1445443413822680010">"未使用闪光灯"</string>
+    <string name="unknown" msgid="3506693015896912952">"未知"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"复古"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"即时出相"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"漂除银影"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"蓝色"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"黑白"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"冲压"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"负冲"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"拿铁咖啡"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"版印"</string>
+    <string name="ffx_dehaze">"去雾"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"所有相册"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"本地相册"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> 或更小"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> 或更大"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> 到 <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"导入"</string>
+    <string name="import_complete" msgid="3875040287486199999">"导入已完成"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"选择相册"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"随机显示所有图片"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"选择图片"</string>
+    <string name="widget_type" msgid="1364653978966343448">"选择图片"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"幻灯片"</string>
+    <string name="albums" msgid="7320787705180057947">"相册"</string>
+    <string name="times" msgid="2023033894889499219">"时间"</string>
+    <string name="locations" msgid="6649297994083130305">"地点"</string>
+    <string name="people" msgid="4114003823747292747">"人物"</string>
+    <string name="tags" msgid="5539648765482935955">"标签"</string>
+    <string name="group_by" msgid="4308299657902209357">"分组依据"</string>
+    <string name="settings" msgid="1534847740615665736">"设置"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"相机"</string>
+    <string name="folder_download" msgid="7186215137642323932">"下载"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"编辑过的在线照片"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"已导入"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"屏幕截图"</string>
+    <string name="help" msgid="7368960711153618354">"帮助"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"幻灯片视图"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"网格视图"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"全屏视图"</string>
+    <string name="trimming" msgid="9122385768369143997">"正在剪辑"</string>
+    <string name="muting" msgid="5094925919589915324">"正在静音"</string>
+    <string name="please_wait" msgid="7296066089146487366">"请稍候"</string>
+    <string name="save_into" msgid="9155488424829609229">"正在将视频保存到“<xliff:g id="ALBUM_NAME">%1$s</xliff:g>”…"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"正在渲染全景图"</string>
+    <string name="save" msgid="613976532235060516">"保存"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"正在扫描内容..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"已扫描%1$d项"</item>
+        <item msgid="4340019444460561648" quantity="one">"已扫描%1$d项"</item>
+        <item msgid="3138021473860555499" quantity="other">"已扫描%1$d项"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">已选择 %1$d 项</item>
+        <item quantity="one">已选择 %1$d 项</item>
+        <item quantity="other">已选择 %1$d 项</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"正在排序..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"扫描已完成"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"正在导入..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"这台设备上没有可导入的内容。"</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"未连接 MTP 设备"</string>
+    <string name="camera_label" msgid="6346560772074764302">"相机"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"播放视频"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"视频播放器时间栏"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"相机"</string>
+    <string name="menu_search" msgid="7580008232297437190">"搜索"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"照片"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"相册"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d 张照片"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d 张照片"</item>
+    </plurals>
+    <!-- SPRD:Bug 474591 add new string values @{ -->
+    <string name="special_video_restart_playing">没有索引表视频将重新播放</string>
+    <!-- @} -->
+    <string name="gif_decode_failed">图片太大，无法播放</string>
+    <string name="spaceLow_content">"保存失败，可能系统存储空间不足。"</string>
+    <!-- SPRD: For batch delete local media file @{ -->
+    <string name="wait_for_deleting">删除中, 请稍候&#8230;</string>
+    <string name="wait_for_rotating">旋转中, 请稍候&#8230;</string>
+    <!-- SPRD: bug 474643 add http set @{ -->
+    <string name="movie_view_parameter_set">"参数设置"</string>
+    <string name="movie_view_proxy_set">"代理设置"</string>
+    <string name="movie_view_network">"网络设置"</string>
+    <string name="movie_view_apn_set">"APN设置"</string>
+    <string name="movie_view_proxy_ip_set">"代理IP地址设置"</string>
+    <string name="movie_view_proxy_port_set">"代理端口设置"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP 端口设置"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP 最大端口设置"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP 最小端口设置"</string>
+    <string name="movie_view_proxy_ok">"确定"</string>
+    <string name="movie_view_proxy_port_seterror_info">"端口号必须是给定范围之间："</string>
+    <string name="movie_view_proxy_ip_seterror_info">"输入IP无效！"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"输入端口无效！"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"先设定端口范围！"</string>
+    <string name="movie_view_proxy_enable">"使用代理"</string>
+    <!-- @} -->
+    <!-- SPRD:Bug474632 bookmark setting @{ -->
+    <string name="video_save_to_bookmark">添加书签</string>
+    <string name="video_view_bookmarks">查看书签</string>
+    <string name="video_bookmarks">书签列表</string>
+    <string name="video_edit_bookmark">编辑</string>
+    <string name="video_delete_bookmark">删除</string>
+    <string name="empty_bookmarks">没有书签</string>
+    <string name="do_not_save">取消</string>
+    <string name="name">名称</string>
+    <string name="bookmark_needs_title">书签必须具有名称</string>
+    <string name="bookmark_needs_url">书签必须具有网址</string>
+    <string name="bookmark_invalid_url">网址必须以"http(s)://"或者"rtsp://"开头</string>
+    <string name="processing_please_wait">处理中,请稍候...</string>
+    <string name="default_bookmark_title">默认标题</string>
+    <string name="bookmark_added">书签已保存</string>
+    <string name="bookmark_exist">书签已存在</string>
+    <!-- @} -->
+    <!-- SPRD: bug 473267 add video entrance @{ -->
+    <string name="albums_video">"视频"</string>
+    <string name="empty_album_video" msgid="4542880442593595494">"没有可用的视频。"</string>
+    <!-- @} -->
+    <!-- SPRD: bug492391 Edit bookmarks,the address show "Address" @{ -->
+    <string name="net_location">地址</string>
+    <!-- @} -->
+    <!-- SPRD: add to fix bug 488267 @{ -->
+    <string name="border_4X5">4X5</string>
+    <string name="border_brush">笔刷</string>
+    <string name="border_grunge">破损</string>
+    <string name="border_sumi">水墨</string>
+    <string name="border_tape">胶带</string>
+    <string name="border_black">黑框</string>
+    <string name="border_black_rounded">圆角黑框</string>
+    <string name="border_white">白框</string>
+    <string name="border_white_rounded">圆角白框</string>
+    <string name="border_cream">混合</string>
+    <string name="border_cream_rounded">圆角混合</string>
+    <!-- @} -->
+    <!-- SPRD:Add 20141222 Spreadst of bug384810,support tip No Face -->
+    <string name="no_face">"无人物信息"</string>
+    <!-- SPRD: Bug 474610 imput url for go-to research @{ -->
+    <string name="movie_view_goto">"跳转至"</string>
+    <string name="no_search_app">没有搜索应用</string>
+    <!-- @} -->
+    <!-- SPRD:bug 378987 can't share if selected pics is over 300 @{ -->
+    <string name="can_not_share">选择的文件超过<xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>个，分享功能不可使用</string>
+    <!-- @} -->
+
+    <!--SPRD: add check gallery permissions @{ -->
+    <string name="dialog_dismiss">关闭</string>
+    <string name="gallery_error_title">图库发生错误</string>
+    <string name="videoplayer_error_title">视频播放器发生错误</string>
+    <string name="error_permissions">"此应用缺少运行所需的必要权限。请检查您的权限设置。"</string>
+    <string name="gallery_premission_change">图库权限已更改，请重新选择。</string>
+    <string name="gallery_premission_error">图库权限错误，请重新设置图库权限。</string>
+    <!-- @} -->
+
+    <!-- SPRD: Modify bug 514964,can not save -->
+    <string name="already_exist">这个效果已经存在</string>
+    <!-- @} -->
+
+    <!-- SPRD: Modify bug 521695,data loading，can't show details  -->
+    <string name="show_details_error">"数据加载中，请稍后再试。"</string>
+    <!-- @} -->
+    <!-- SPRD:Bug474615 Play loop mode  @{ -->
+    <string name="none_playback">"不回放"</string>
+    <string name="single_playback">"单曲回放"</string>
+    <string name="all_playback">"全部回放"</string>
+    <string name="playback_setting">"回放模式"</string>
+    <!-- @} -->
+    <!-- SPRD:bug 474614: porting float play @{ -->
+    <string name="can_not_open_float_video">当前为视频壁纸，不能打开视频浮窗。</string>
+    <!--  old bug info:371983  @{ -->
+    <string name="video_file_does_not_exist">视频文件不存在</string>
+    <!-- @} -->
+    <!-- SPRD:Bug474621 screen size setting  @{ -->
+    <!-- @} -->
+    <!-- SPRD:Bug474618 Channel volume settings  @{ -->
+    <string name="channel_setting_title">"声道设置"</string>
+    <string name="channel_setting_left">"左声道"</string>
+    <string name="channel_setting_right">"右声道"</string>
+    <string name="channel_setting_dual">"双声道"</string>
+    <string name="channel_setting_ok">"确定"</string>
+    <string name="channel_setting_cancel">"取消"</string>
+    <string name="channel_setting">"声道设置"</string>
+    <!-- @} -->
+    <!-- SPRD:Bug 474639 add phone call reaction @{ -->
+    <string name="movie_view_calling_title">"通话中"</string>
+    <string name="movie_view_calling_msg">"请通话结束后重试!"</string>
+    <string name="movie_view_calling_try">"重试"</string>
+    <string name="movie_view_calling_cancel">"退出"</string>
+    <!-- SPRD: old bug info:261460 calling when playing stream  @{ -->
+    <string name="time_out">超时</string>
+    <string name="time_out_message">网络异常或连接超时，是否重新开始播放？</string>
+    <!-- @} -->
+    <!-- @} -->
+    <!-- SPRD:Bug474630 switching voice devices  @{ -->
+    <string name="headset">"耳机"</string>
+    <string name="loud_speaker">"扬声器"</string>
+    <!-- @} -->
+    <!-- SPRD: Bug 474635 exit the video player interface @{ -->
+    <string name="back_exit">再按一次退出</string>
+    <!-- @} -->
+    <!-- SPRD: bug 533817, crop 9000*9000 wbmp image oom  @{ -->
+    <string name="cannot_load_crop_image">"应用运行内存不足，加载图片失败！"</string>
+    <!-- @} -->
+    <!-- SPRD: Fix Bug 535131, add slide music feature @{ -->
+    <string name="slideshow_music">设置幻灯片音乐</string>
+    <string name="system_ringtones">系统铃声</string>
+    <string name="user_defined">用户自定义</string>
+    <string name="select_music">选择铃声</string>
+    <!-- @} -->
+
+    <!-- SPRD: Modify bug 562156, slide music still play when music is playing @{ -->
+    <string name="cannot_play_music">当前无法播放音乐</string>
+    <!-- SPRD: Add for bug535110 new feature, support play audio picture @{ -->
+    <string name="play_audio_failed">当前无法播放录音</string>
+
+    <!-- SPRD:568552 add for new feature :new ui design for video player@{-->
+    <string-array name="planets_array">
+        <item>"全部视频"</item>
+        <item>"本地视频"</item>
+        <item>"录像"</item>
+        <item>"最近播放"</item>
+    </string-array>
+
+    <string name="last_play">"播放至："</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"确定要清除播放记录？"</item>
+        <item quantity="other">"确定要清除播放记录？"</item>
+    </plurals>
+    <string name="today">"今天"</string>
+    <string name="yesterday">"昨天"</string>
+    <string name="earlier">"更早"</string>
+    <string name="drawer_open">"视频列表"</string>
+    <string name="drawer_close">"全部视频"</string>
+    <string name="share_actionmode">"分享"</string>
+    <string name="delete_actionmode">"删除"</string>
+    <string name="clear_all">"清除全部"</string>
+    <string name="video_list">"视频列表"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"要删除所选内容吗？"</item>
+        <item quantity="other">"要删除所选内容吗？"</item>
+    </plurals>
+    <string name="current_select">已选 %d 项</string>
+    <string name="no_video_play_records">无播放记录</string>
+    <string name="no_videos">无相关视频</string>
+    <string name="video_not_exist">当前视频不存在</string>
+    <string name="save_picture">图片已经保存到%s</string>
+    <string name="mute">静音</string>
+    <string name="percent">%</string>
+    <string name="date_format">yyyy年M月dd日</string>
+    <string name="protected_info">保护信息</string>
+    <string name="drm_info">保护信息</string>
+    <string name="file_name">文件名:</string>
+    <string name="rights_validity">数字版权:</string>
+    <string name="rights_status">保护状态:</string>
+    <string name="start_time">开始:</string>
+    <string name="end_time">结束:</string>
+    <string name="expiration_time">到期时间:</string>
+    <string name="remain_times">剩余使用次数:</string>
+    <string name="rights_validity_valid">有效</string>
+    <string name="rights_validity_invalid">无效</string>
+    <string name="rights_status_share">允许被转发</string>
+    <string name="rights_status_not_share">不允许被转发</string>
+    <string name="drm_rights_no_limit">无限制</string>
+    <string name="drm_rights_unknown">未知</string>
+    <string name="drm_rights_inactive">版权未激活</string>
+    <string name="drm_file_invalid">文件已过期</string>
+    <string name="screenshot_failed">截图失败</string>
+    <!-- @} -->
+    <!-- slide music -->
+    <string name="slidemusic">设置背景音乐</string>
+    <string name="setas">设为</string>
+    <string name="slide_music_system_ringtones">"系统铃声"</string>
+    <string name="slide_music_user_defined">"自定义"</string>
+    <!-- slide music -->
+    <!-- usb remove -->
+    <string name="remove_usbdisk">"用户设备已被移除"</string>
+    <string name="edit_crop_free">"自由"</string>
+    <string name="edit_crop_square">"正方形"</string>
+    <string name="edit_crop_origin">"原始比例"</string>
+    <string name="hide_albums">"隐藏相册设置"</string>
+    <string name="show_local_albums">"仅显示本地相册"</string>
+    <plurals name="selected_images">
+        <item quantity="one">已选择 %1$d 张</item>
+        <item quantity="other">已选择 %1$d 张</item>
+    </plurals>
+    <string name="select">选择</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">是否保留 %1$d 张未选照片？</item>
+        <item quantity="other">是否保留 %1$d 张未选照片？</item>
+    </plurals>
+    <string name="popup_title_save_all_selected">是否保留所有照片？</string>
+    <string name="keep_all">全部保留</string>
+    <plurals name="keep_selected">
+        <item quantity="one">仅保留已选择 %1$d 张</item>
+        <item quantity="other">仅保留已选择 %1$d 张</item>
+    </plurals>
+    <string name="delete_all">全部删除</string>
+    <plurals name="delete_selected">
+        <item quantity="one">删除已选择 %1$d 张</item>
+        <item quantity="other">删除已选择 %1$d 张</item>
+    </plurals>
+    <string name="burst_progress_dialog_title">正在处理...</string>
+
+    <string name="side_bar_all_photos">全部</string>
+    <string name="side_bar_photo">照片</string>
+    <string name="side_bar_video">视频</string>
+    <string name="side_bar_album">相册</string>
+
+    <string name="label_select">选择</string>
+
+    <string name="no_photo_or_video">没有%1$s</string>
+    <string name="no_photo_or_video_hint">保存在此设备上的照片或视频会显示在这里。</string>
+    <string name="detail_pop_title">信息</string>
+    <string name="detail_date_info_format">yyyy年MM月dd日</string>
+    <string name="detail_more">更多</string>
+    <string name="detail_location">位置</string>
+
+    <string name="floatwindow_unsupported_device">此设备不支持悬浮窗功能</string>
+    <string name="floatwindow_unsupported_camera">相机中无法开启悬浮窗</string>
+    <string name="floatwindow_unsupported_streaming">播放流媒体时无法开启悬浮窗</string>
+    <string name="stream_screenshot_not_supported">播放流媒体时截图按钮功能无法使用</string>
+    <string name="database_exception">数据处理异常，操作失败</string>
+
+    <string name="exit_multiwindow_tips">在多窗口模式下不支持浏览照片</string>
+    <string name="exit_multiwindow_video_tips">在多窗口模式下不支持观看视频</string>
+    <string name="decode_image_faild">剪裁照片失败</string>
+
+    <string name="label_after_today_format">"yyyy年MM月dd日 EEEE"</string>
+    <string name="label_today">今天</string>
+    <string name="label_yesterday">昨天</string>
+    <string name="label_in_a_week_format">"EEEE"</string>
+    <string name="label_in_a_year_format">"MM月dd日 EEEE"</string>
+    <string name="label_before_this_year_format">"yyyy年MM月dd日 EEEE"</string>
+
+    <string name="movie_view_sms_received_ok">"短信到达"</string>
+    <string name="movie_view_mms_ok">"确定"</string>
+    <string name="movie_view_mms_process_title">"彩信"</string>
+    <string name="movie_view_sms_process_title">"短信"</string>
+    <string name="movie_view_mms_processing_ok">"下载完成"</string>
+    <string name="choose_drm_alert">DRM文件不可用，请选择其他文件</string>
+    <string name="drm_consumed">您的操作已经消费DRM权限</string>
+    <string name="drm_unit_minutes">秒</string>
+    <string name="drm_consume_hint">您的操作将会消费DRM权限</string>
+    <string name="invalid_rights">本文件没有可用的证书</string>
+    <string name="drm_consume_title">消费DRM权限</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"抱歉，该视频不适合在此设备上播放。"</string>
+    <string name="VideoView_error_text_unknown">"无法播放此视频。"</string>
+
+    <string name="album_set_loading_tip">数据正在加载，请稍后</string>
+    <string name="slide_music_stop">"幻灯片音乐已停止"</string>
+
+    <string name="distance_photo_unit_conversion">单位转换</string>
+    <string name="unit">单位</string>
+    <string name="meter">米</string>
+    <string name="centimeter">厘米</string>
+    <string name="foot">英尺</string>
+    <string name="inch">英寸</string>
+
+    <string name="dealing">正在处理...</string>
+    <string name="no_touch_flip">"无接触翻页"</string>
+    <string name="flip_summury">"遮挡副摄像头1s进行翻页"</string>
+    <string name="first_summary">"每次开启默认下翻"</string>
+    <string name="sencond_summury">"使用中点击音量上键切换为上翻"</string>
+    <string name="third_summury">"使用中点击音量下键切换为下翻"</string>
+    <string name="fourth_summury">"注：开启该功能后将占用音量键"</string>
+
+    <!-- Bug 667253, Add for ImageBlending @{ -->
+    <string name="select_tips">所选物体为背景，请重新选择前景主体。</string>
+    <string name="definition_subject">定义主体</string>
+    <string name="fix_subject">修正主体</string>
+    <string name="fix_background">修正背景</string>
+    <string name="replace_background">替换背景</string>
+    <string name="correct_object_tips">首先在轮廓预判不准确的位置粗略勾画或涂抹。\n然后点击“修正主体”按钮则将涂抹区域更新为主体；点击“修正背景”按钮则将涂抹区域更新为背景。</string>
+    <string name="def_object_tips">选择主体：绘制矩形包含想要提取的前景主体轮廓，且矩形刚好覆盖主体区域即可，不宜过大</string>
+    <string name="valid_point">起始点或终止点不在有效范围内</string>
+    <string name="small_rect">绘制的矩形太小了</string>
+    <string name="add">添加</string>
+    <string name="use_phone_photo">请使用手机拍摄的照片</string>
+    <string name="extract_failed">提取失败, 请重新开始</string>
+    <string name="extract_failed_notforground">提取失败，不是前景目标，请重新开始</string>
+    <string name="extract_failed_nomemory">提取失败，内存太低了，请重新开始</string>
+    <string name="extract_timeout">提取超时，请重新开始</string>
+    <string name="blending_success">照片合成成功, 继续操作或者点击返回键退出</string>
+    <string name="blending_failed">照片合成失败</string>
+    <string name="extract_forground">正在提取前景主体请稍等…</string>
+    <string name="update_forground">正在更新前景主体请稍等…</string>
+    <string name="blending_image">正在合成图片请稍等…</string>
+    <string name="select_foreground_subject">选择主体</string>
+    <string name="adjust_foreground_subject">调整范围</string>
+    <string name="correct_subject_outline">修正轮廓</string>
+    <string name="edit_background">编辑背景</string>
+    <string name="verify_prompt">当前位置距离边缘过近会导致合成效果欠佳，确认要进行合成吗？</string>
+    <string name="fg_too_large">前景主体太大无法合成。</string>
+    <string name="draw_tips">请在白色矩形框内绘制！</string>
+    <string name="undo_faild">回退操作失败</string>
+    <string name="get_forfround_tips">无法将所有前景主体修正为背景, 请重新绘制。</string>
+    <string name="blending_move_limit">已到达屏幕边缘无法继续操作，请调整位置，以继续。</string>
+    <string name="init_bitmap_faild">获取的图片失败，请重新尝试</string>
+    <!-- @} -->
+
+    <string name="next_video">"下一曲"</string>
+    <string name="pre_video">"上一曲"</string>
+    <string name="lock_control">"控制锁"</string>
+    <string name="lock_orintation">"方向锁"</string>
+    <string name="print_screen">"截图"</string>
+    <string name="float_player">"悬浮窗"</string>
+    <string name="scale_screen">"缩放"</string>
+    <string name="back">"返回"</string>
+    <string name="over_flow">"溢出菜单"</string>
+
+    <string name="slide_music_play_fail">"抱歉，播放文件失败"</string>
+    <string name="refocus_quit">"退出"</string>
+    <string name="refocus_save_change">"保存更改"</string>
+    <string name="refocus_confirm_save">"请确定保存还是直接退出？"</string>
+    <string name="refocus_save_success">"保存成功"</string>
+    <string name="refocus_save_fail">"保存失败"</string>
+    <string name="none_input_tips">名称不能为空</string>
+    <string name="voice_photo">有声照片</string>
+    <string name="continuous_shooting">连拍</string>
+    <string name="refocus_image">景深照片</string>
+
+    <string name="floatview_notification_text">悬浮窗中正在播放视频。</string>
+    <string name="blur_image_wait">景深照片处理中，请稍候</string>
+    <string name="blur_save_fail">景深图片保存失败</string>
+    <string name="refocus_init_fail">数据初始化失败</string>
+
+    <string name="conversing">转换为视频</string>
+    <string name="share_as_image">以图片格式分享</string>
+    <string name="share_as_video">以视频格式分享</string>
+    <string name="converse_video_failed">转换为视频失败。</string>
+    <string name="app_photo_edit" msgid="1928079047368929634">"图片编辑"</string>
+    <string name="cant_select_file">"不支持的文件"</string>
+    <string name="input_reached_max_length">输入已达最大长度</string>
+    <string name="refocus_photo_edit_save">保存</string>
+
+    <string name="v2_photo">照片</string>
+    <string name="v2_album">相册</string>
+    <string name="v2_discover">发现</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">%1$d 张照片</item>
+        <item quantity="one">%1$d 张照片</item>
+        <item quantity="other">%1$d 张照片</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">%1$d 个视频</item>
+        <item quantity="one">%1$d 个视频</item>
+        <item quantity="other">%1$d 个视频</item>
+    </plurals>
+    <string name="new_album">新建相册</string>
+    <string name="already_select_count">已选择 %1$d</string>
+    <string name="no_photos_or_videos">没有照片或视频。</string>
+    <string name="no_albums">没有相册。</string>
+    <string name="badname_as_point">为避免与文件系统混淆，请不要将文件(夹)命名为/,\\,.或..</string>
+    <string name="msg_folder_input_empty">文件夹名为空</string>
+    <string name="badname_endwith_point">文件夹名不能以字符.结尾</string>
+    <string name="illegal_chars_of_foldername">文件夹名不能包含非法字符 \\:*?\"\u003C\u003E|/</string>
+    <string name="msg_file_input_repeat">文件名%1$s已经存在，请选择其他的文件名</string>
+    <string name="menu_mkdir_failed">抱歉！文件夹%1$s创建失败</string>
+    <string name="add_to_album">添加到相册</string>
+    <string name="internal_storage">内部存储</string>
+    <string name="external_storage">SD卡</string>
+    <string name="my_album">我的相册</string>
+    <string name="failed_add_to_album">添加到相册失败</string>
+    <string name="select_images_or_videos">选择图片或视频</string>
+    <string name="fragment_state_lost_msg">状态丢失,请重新操作</string>
+    <string name="recently_deleted">最近删除</string>
+    <string name="trash_restore">还原</string>
+    <string name="wait_for_restoring">还原中, 请稍候&#8230;</string>
+    <plurals name="restore_selection">
+        <item quantity="one">要还原所选内容吗？</item>
+        <item quantity="other">要还原所选内容吗？</item>
+    </plurals>
+    <string name="trash_date_tip">照片将在30天后永久删除。</string>
+    <plurals name="left_day">
+        <item quantity="one">%1$d天</item>
+        <item quantity="other">%1$d天</item>
+    </plurals>
+    <string name="tf_discover_things">事物</string>
+    <string name="tf_discover_people">人物</string>
+    <string name="tf_discover_location">地点</string>
+
+    <string name="tf_unknown">未知</string>
+    <string name="tf_aircraft">飞机</string>
+    <string name="tf_animal">动物</string>
+    <string name="tf_baby">宝宝</string>
+    <string name="tf_basketball">篮球</string>
+    <string name="tf_bedroom">卧室</string>
+    <string name="tf_bicycle">自行车</string>
+    <string name="tf_bird">鸟</string>
+    <string name="tf_bridge">桥</string>
+    <string name="tf_building">建筑</string>
+    <string name="tf_bus">公交车</string>
+    <string name="tf_car">汽车</string>
+    <string name="tf_cat">猫</string>
+    <string name="tf_classroom">教室</string>
+    <string name="tf_conference_room">会议室</string>
+    <string name="tf_crawling_animal">爬行动物</string>
+    <string name="tf_desktop_computer">电脑</string>
+    <string name="tf_document">文档</string>
+    <string name="tf_dog">狗</string>
+    <string name="tf_electric_bicycle">电动车</string>
+    <string name="tf_evergreen">常绿植物</string>
+    <string name="tf_farmland">农田</string>
+    <string name="tf_fish">鱼</string>
+    <string name="tf_flower">花</string>
+    <string name="tf_food">美食</string>
+    <string name="tf_football">足球</string>
+    <string name="tf_graduation_photo">毕业照</string>
+    <string name="tf_grassland">草地</string>
+    <string name="tf_group_photo">合照</string>
+    <string name="tf_helicopter">直升机</string>
+    <string name="tf_kitchen">厨房</string>
+    <string name="tf_laptop">笔记本电脑</string>
+    <string name="tf_metro">地铁</string>
+    <string name="tf_mobile_phone">手机</string>
+    <string name="tf_motorcycle">摩托车</string>
+    <string name="tf_mountain">山</string>
+    <string name="tf_office">办公室</string>
+    <string name="tf_parlour">客厅</string>
+    <string name="tf_party">聚会</string>
+    <string name="tf_people">人物</string>
+    <string name="tf_playground">游乐场</string>
+    <string name="tf_river">河流</string>
+    <string name="tf_road">道路</string>
+    <string name="tf_sea">大海</string>
+    <string name="tf_selfie">自拍</string>
+    <string name="tf_ship">船</string>
+    <string name="tf_shopping_mall">购物</string>
+    <string name="tf_sky">天空</string>
+    <string name="tf_telephone">电话</string>
+    <string name="tf_train">火车</string>
+    <string name="tf_tree">树</string>
+    <string name="tf_waiting_room">候车室</string>
+    <string name="tf_night_scene">夜景</string>
+    <string name="tf_cake">蛋糕</string>
+    <string name="tf_lake">湖泊</string>
+    <string name="tf_indoor">室内</string>
+    <string name="tf_computer">电脑</string>
+    <string name="tf_sport">运动</string>
+    <string name="tf_sea_river">大海,河流,湖泊</string>
+    <string name="tf_phone">电话</string>
+
+    <string name="move_out_of_this_classification">移出此分类</string>
+    <string name="move_out_classification_dialog_title">要将所选内容移出此分类吗?</string>
+    <string name="moving_out">正在移出&#8230;</string>
+    <string name="image">图片</string>
+    <string name="video">视频</string>
+    <string name="all_medias">所有图片</string>
+    <string name="un_named">未命名</string>
+    <string name="move_out_of_this_people">移出此人物</string>
+    <string name="move_out_people_dialog_title">要将所选内容移出此人物吗?</string>
+    <string name="add_name">添加姓名</string>
+    <string name="illegal_chars_of_name">名字不能包含非法字符 \\:*?\"\u003C\u003E|/</string>
+    <string name="repeated_name">名字不能重复</string>
+    <string name="replay">请退出,并重新播放</string>
+    <string name="bokeh_editor">景深照片编辑</string>
+    <string name="merge_to">合并到</string>
+    <string name="hide_albums_v2">隐藏相册</string>
+    <string name="request_delete_permission_title">要允许图库使用您的SD卡吗?</string>
+    <string name="request_delete_permission_msg">图库需要具备权限才能修改、删除或移动您SD卡中的照片</string>
+    <string name="no_delete_permission_title">无法完成</string>
+    <string name="no_delete_permission_msg">图库无权使用您的SD卡, 请授权或清除应用存储空间后再次操作</string>
+    <string name="trash_restore_fail">恢复失败</string>
+    <string name="delete_drm_file">是否删除DRM文件？</string>
+    <string name="delete_large_size_file">是否删除文件？</string>
+    <string name="tf_discover_story">回忆</string>
+    <string name="prefered_motion_photo">动态照片</string>
+    <string name="play_motion_photo">播放</string>
+    <string name="stop_motion_photo">停止</string>
+    <string name="superuser_request_confirm">视频播放器无权使用您的SD卡, 请选择外置卡根目录SANDISK SD卡授权视频播放器进行文件操作</string>
+    <string name="smarterase">智能消除</string>
+    <string name="share_max_warning">"选择的文件超过100个，分享功能不可使用"</string>
+    <string name="next">下一步</string>
+    <string name="no_sd_write_permission">视频播放器权限不足，无法删除视频</string>
+</resources>

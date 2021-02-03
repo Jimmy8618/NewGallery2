@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#EBEEF0">
+
+    <FrameLayout
+        android:id="@+id/album_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/album_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/video_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_newui_video_cover"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#33000000"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/video_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/thumbnail_video_duration_text_size"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/image_type_1"
+                android:layout_width="@dimen/thumbnail_image_type_size"
+                android:layout_height="@dimen/thumbnail_image_type_size"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/image_type_2"
+                android:layout_width="@dimen/thumbnail_image_type_size"
+                android:layout_height="@dimen/thumbnail_image_type_size"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/image_type_3"
+                android:layout_width="@dimen/thumbnail_image_type_size"
+                android:layout_height="@dimen/thumbnail_image_type_size"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/drm_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:src="@drawable/check_item_image"
+        android:visibility="gone" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_edit_name"
+        android:icon="@drawable/ic_ab_edit"
+        android:title="@string/done"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_merge_to"
+        android:title="@string/merge_to"
+        android:visible="false"
+        app:showAsAction="never" />
+
+</menu>

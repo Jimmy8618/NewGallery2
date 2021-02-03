@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:minHeight="?android:attr/actionBarSize"
+        android:theme="?android:attr/actionBarTheme"
+        app:elevation="0dp"
+        app:navigationIcon="@drawable/ic_ab_quit"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:titleTextAppearance="@style/Toolbar2TextAppearance" />
+
+    <com.android.gallery3d.v2.cust.MotionThumbView
+        android:id="@+id/thumb"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/motion_thumb_view_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_motion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.android.gallery3d.v2.cust.MotionThumbView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/thumb"
+        android:layout_below="@id/toolbar">
+
+        <com.android.gallery3d.v2.cust.MotionImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/loading_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/colorPrimary">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1px"
+                android:minHeight="?android:attr/actionBarSize"
+                android:theme="?android:attr/actionBarTheme"
+                app:elevation="0dp"
+                app:popupTheme="@style/ToolbarPopupOverlay"
+                app:titleTextAppearance="@style/ToolbarTextAppearance" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="bottom"
+                android:background="#d1d1d1" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/tab_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_height"
+                android:layout_alignParentBottom="true"
+                android:visibility="invisible">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#d1d1d1" />
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tabs"
+                    style="@style/CustomTabTextAppearance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1px"
+                    android:background="@color/colorPrimary"
+                    android:overScrollMode="never"
+                    app:tabBackground="@null"
+                    app:tabGravity="center"
+                    app:tabMode="fixed"
+                    app:tabRippleColor="@null" />
+
+                <com.android.gallery3d.v2.cust.InterceptView
+                    android:id="@+id/intercept_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+            <com.android.gallery3d.v2.cust.SprdViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/tab_container" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.android.gallery3d.v2.cust.InterceptView
+        android:id="@+id/cover_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/fragment_full_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</FrameLayout>
+

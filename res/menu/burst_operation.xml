@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_complete"
+        android:icon="@drawable/burst_complete"
+        android:showAsAction="always"
+        android:title="@string/done"
+        android:visible="false" />
+
+</menu>

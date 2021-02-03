@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"गली"</string>
+    <string name="movie_view_label">"चलचित्र प्लेयर"</string>
+    <string name="loading_video">"चलचित्र जमा भय रहल अछि..."</string>
+    <string name="resume_playing_title">"चलचित्र क पाऊ"</string>
+    <string name="resume_playing_message">"अंतिम स्थानसँ चलायब शुरु करू!"</string>
+    <string name="resume_playing_resume">"देखनैय पर वापस लौटू"</string>
+    <string name="loading">"जमा भय रहल अछि..."</string>
+    <string name="fail_to_load">"जमा नहिं कयल जा सकल"</string>
+    <string name="fail_to_load_image">"फोटो कय जमा नहिं कयल जा सकल"</string>
+    <string name="no_thumbnail">"छोट मं कोनो नैय"</string>
+    <string name="resume_playing_restart">"शुरू करू"</string>
+    <string name="ok">"ठीक छई"</string>
+    <string name="saving_image">"फोटो जोगाय रहल अछि..."</string>
+    <string name="filtershow_saving_image">"फोटो कय जोगैयल जा रहल <xliff:g id="album_name">%1$s</xliff:g> ..."</string>
+    <string name="crop_label">"फोटो क काटू"</string>
+    <string name="trim_label">"चलचित्र क छोट करू"</string>
+    <string name="select_image">"फोटो चुनू"</string>
+    <string name="select_video">"चलचित्र क चुनू"</string>
+    <string name="select_item">"चीज क चुनू"</string>
+    <string name="select_album">"एलबम चुनू"</string>
+    <string name="select_group">"ग्रुपक चुनू"</string>
+    <string name="set_image">"फोटो क एहि तरह सं सजाऊ"</string>
+    <string name="camera_setas_wallpaper">"दीवार क चमकाबे बला"</string>
+    <string name="delete">"मेंटाऊ"</string>
+    <plurals name="delete_selection">
+        <item quantity="one">"चुनल गेल चीज क मेंटा दिअ?"</item>
+        <item quantity="other">"बहुते चुनल गेल चीज क मेंटा दिअ?"</item>
+    </plurals>
+    <string name="confirm">"सरपहुं"</string>
+    <string name="cancel">"हंटाऊ।"</string>
+    <string name="share">"बांटू"</string>
+    <string name="share_panorama">"चित्रमाला क साझा करू"</string>
+    <string name="share_as_photo">"फोटो क एहि तरह सं साझा करू"</string>
+    <string name="deleted">"मेंटायल"</string>
+    <string name="undo">"वापस लिअ"</string>
+    <string name="select_all">"सबटा क चुनू"</string>
+    <string name="deselect_all">"सबटा क छोड़ू"</string>
+    <string name="slideshow">"खिसकैय बला दिखावट"</string>
+    <string name="details">"फैला कय"</string>
+    <string name="details_title">"%1$d क %2$d चीज"</string>
+    <string name="close">"बंद"</string>
+    <string name="switch_to_camera">"कैमरा क तरफ बढ़ू"</string>
+    <plurals name="number_of_items_selected">
+        <item quantity="zero">"%1$d चुनैल गेल"</item>
+        <item quantity="one">"%1$d चुनैल गेल"</item>
+        <item quantity="other">"%1$d चुनैल गेल"</item>
+    </plurals>
+    <string name="show_on_map">"मानचित्र मं देखाऊ"</string>
+    <string name="rotate_left">"बायां तरफ घूमू"</string>
+    <string name="rotate_right">"दायां तरफ घूमू"</string>
+    <string name="no_such_item">"चीज क ताकल नहिं जा सकल"</string>
+    <string name="edit">"ठीक करू"</string>
+    <string name="simple_edit">"आम सुधार"</string>
+    <string name="crop_action">"छोट करू"</string>
+    <string name="trim_action">"बहुते छोट करू"</string>
+    <string name="mute_action">"चुपेचाप"</string>
+    <string name="set_as">"ऐना सजाऊ"</string>
+    <string name="video_mute_err">"चलचित्रक आवाज क बंद नहिं कयल जा सकैय"</string>
+    <string name="video_err">"चलचित्र क नहिं चलैल जा सकय"</string>
+    <string name="group_by_location">"जगहक हिसाब सं"</string>
+    <string name="group_by_time">"समय कय हिसाब सं"</string>
+    <string name="group_by_tags">"जोड़ल चीजक हिसाब सं"</string>
+    <string name="group_by_faces">"लोकक हिसाब सं"</string>
+    <string name="group_by_album">"एलबमक हिसाब सं"</string>
+    <string name="untagged">"जोड़ल चीज क हंटाऊ"</string>
+    <string name="no_location">"कोनो जगह नहिं"</string>
+    <string name="no_connectivity">"नेटवर्कक दिक्कतक कारणे किछु जगह क पता नहिं चलि पाबि रहल अछि"</string>
+    <string name="sync_album_error">"एहि एलबम सं फोटो क जमा नहिं कयल जा सकल, बाद मं कोशिश करू"</string>
+    <string name="show_images_only">"फोटोए टा"</string>
+    <string name="show_videos_only">"चलचित्रे टा"</string>
+    <string name="show_all">"फोटो &amp; बहुते चलचित्र"</string>
+    <string name="appwidget_title">"फोटो बला गलियारा"</string>
+    <string name="appwidget_empty_text">"कोनो फोटो नहिं"</string>
+    <string name="crop_saved">"छोट कैल फोटो जोगैल अछि <xliff:g id="folder_name">%s</xliff:g>."</string>
+    <string name="no_albums_alert">"कोनो एलबम्स उपलब्ध नहिं"</string>
+    <string name="empty_album">"0 फोटो/चलचित्र उपलब्ध"</string>
+    <string name="done">"ठीक अछि।"</string>
+    <string name="title">"पाठ"</string>
+    <string name="description">"बढ़ै कय"</string>
+    <string name="time">"समय"</string>
+    <string name="location">"जगह"</string>
+    <string name="path">"रस्ता"</string>
+    <string name="width">"पसरल"</string>
+    <string name="height">"ऊंच"</string>
+    <string name="orientation">"ओरिएंटेशन"</string>
+    <string name="duration">"कतेक समय"</string>
+    <string name="mimetype">"एमआईएमई तरीका"</string>
+    <string name="file_size">"पोथी क आकार"</string>
+    <string name="maker">"बनबय बला"</string>
+    <string name="model">"देखबय बला"</string>
+    <string name="flash">"चमक"</string>
+    <string name="aperture">"घेराव"</string>
+    <string name="focal_length">"दूर तक नजर राखय बला"</string>
+    <string name="white_balance">"उजरका तौलक बला"</string>
+    <string name="exposure_time">"बेसी कय क खोलय बला समय"</string>
+    <string name="manual">"हाथ सं करय बला"</string>
+    <string name="auto">"अपने आप"</string>
+    <string name="flash_on">"चमकय बला"</string>
+    <string name="flash_off">"चमकय बला नहिं"</string>
+    <string name="unknown">"पता नहिं"</string>
+    <string name="ffx_vintage">"बढ़ियमका"</string>
+    <string name="ffx_instant">"तुरते"</string>
+    <string name="ffx_bleach">"चून"</string>
+    <string name="ffx_blue_crush">"नीला"</string>
+    <string name="ffx_bw_contrast">"करिया/उजरा"</string>
+    <string name="ffx_punch">"मुक्का मारनैय"</string>
+    <string name="ffx_x_process">"एक्स प्रक्रिया"</string>
+    <string name="ffx_washout">"लत"</string>
+    <string name="ffx_washout_color">"पाथरक छाप"</string>
+    <string name="set_label_all_albums">"सबटा एलबम"</string>
+    <string name="set_label_local_albums">"एतय बला एलबम्स"</string>
+    <string name="size_below">"<xliff:g id="size">%1$s</xliff:g> या त नींचा"</string>
+    <string name="size_above">"<xliff:g id="size">%1$s</xliff:g> या तय उपर"</string>
+    <string name="size_between">"<xliff:g id="min_size">%1$s</xliff:g> क तरफ <xliff:g id="max_size">%2$s</xliff:g>"</string>
+    <string name="Import">"मंगाऊ"</string>
+    <string name="import_complete">"मंगैनेय पूरा भय गेल"</string>
+    <string name="widget_type_album">"एलबम क चुनू"</string>
+    <string name="widget_type_shuffle">"सबटा फोटो क मिलाऊ"</string>
+    <string name="widget_type_photo">"फोटो क चुनू"</string>
+    <string name="widget_type">"फोटो क चुनू"</string>
+    <string name="slideshow_dream_name">"फिसलू"</string>
+    <string name="albums">"एलबम्स"</string>
+    <string name="times">"समय"</string>
+    <string name="locations">"जगह"</string>
+    <string name="people">"लोक "</string>
+    <string name="tags">"नाम देनैय"</string>
+    <string name="group_by">"ग्रुपक द्वारा"</string>
+    <string name="settings">"सजाबय बला"</string>
+    <string name="folder_camera">"फोटो खींचय बला यंत्र"</string>
+    <string name="folder_download">"जमा करू"</string>
+    <string name="folder_edited_online_photos">"आॅनलाइन फोटो क सुधारनैय"</string>
+    <string name="folder_imported">"मंगैल गेल"</string>
+    <string name="folder_screenshot">"अगिला हिस्सा सं लेल गेल फोटो"</string>
+    <string name="help">"मदद"</string>
+    <string name="switch_photo_filmstrip">"फिल्मक तरीका मं देखाय बला"</string>
+    <string name="switch_photo_grid">"जाली क देखू"</string>
+    <string name="switch_photo_fullscreen">"पूरा हिस्सा कय दिखावट"</string>
+    <string name="trimming">"छोट कैनेय"</string>
+    <string name="muting">"मुंह बंद कैनेय"</string>
+    <string name="please_wait">"कृपा कय क रूकू"</string>
+    <string name="save_into">"चलचित्र क एहि मं जोगैल जा रहल <xliff:g id="album_name">%1$s</xliff:g> ..."</string>
+    <string name="pano_progress_text">"चित्रमालाक ढूंढल जा रहल अछि"</string>
+    <string name="save">"जोगैल"</string>
+    <string name="ingest_scanning">"चीज कय जांचल जा रहल अछि..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="zero">"%1$d चीज सभ जांचल जा चुकल"</item>
+        <item quantity="one">"%1$d चीज जांचल जा चुकल"</item>
+        <item quantity="other">"%1$d चीज सभ जांचल जा चुकल"</item>
+    </plurals>
+    <string name="ingest_sorting">"छांटल जा रहल अछि..."</string>
+    <string name="ingest_scanning_done">"जांचय क काज पूरा भेल"</string>
+    <string name="ingest_importing">"मंगायल जा रहल..."</string>
+    <string name="ingest_empty_device">"एहि उपकरण लेल कोनो मंगबय बला चीज उपलब्ध नहिं अछि"</string>
+    <string name="ingest_no_device">"कोनो एटीपी उपकरण जुड़ल नहिं अछि"</string>
+    <string name="camera_label">"फोटो खींचय बला यंत्र"</string>
+    <string name="accessibility_play_video">"चलचित्र चलाऊ"</string>
+    <string name="accessibility_time_bar">"चलचित्र चलबय बला समयक खांचा"</string>
+    <string name="menu_camera">"फोटो खींचय बला यंत्र"</string>
+    <string name="menu_search">"खोजू"</string>
+    <string name="tab_photos">"फोटो"</string>
+    <string name="tab_albums">"एलबम्स"</string>
+    <plurals name="number_of_photos">
+        <item quantity="one">"%1$d फोटो"</item>
+        <item quantity="other">"%1$d बेसी फोटो"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"चलचित्रक कोनो टुकड़ा नहिं चलबय कय लेल फेर सं खोलय पड़त"</string>
+    <string name="gif_decode_failed">"बिट मानचित्र बहुते पैघ अछि एकरा चलायल नहिं जा सकय"</string>
+    <string name="spaceLow_content">"जोगैल नहिं जा सकल, भय सकैय उपकरणक गोदाम मं जगह नहिं हुअ।"</string>
+    <string name="wait_for_deleting">"मंेटायल जा रहल अछि, कृपा कय क रूकू..."</string>
+    <string name="wait_for_rotating">"घूमि रहल अछि, कृपा कय क रूकू..."</string>
+    <string name="video_save_to_bookmark">"संकेतक क जोगौअ"</string>
+    <string name="video_view_bookmarks">"संकेत देलहा"</string>
+    <string name="video_bookmarks">"संकेत देलहा"</string>
+    <string name="video_edit_bookmark">"ठीक करू"</string>
+    <string name="video_delete_bookmark">"मेंटाऊ"</string>
+    <string name="empty_bookmarks">"संकेतक खाली"</string>
+    <string name="do_not_save">"हंटाऊ।"</string>
+    <string name="net_location">"पता"</string>
+    <string name="name">"नाम"</string>
+    <string name="bookmark_needs_title">"संकेतक क नाम हेबाके चाही"</string>
+    <string name="bookmark_needs_url">"संकेतक क जगह हेबाके चाही"</string>
+    <string name="bookmark_invalid_url">"जगह एहि ठाम सं षुरू हेबाक चाही "http(s)://" आ "rtsp://""</string>
+    <string name="processing_please_wait">"काज आगां भय रहल अछि। कृपा कय क रूकू।"</string>
+    <string name="bookmark_exist">"संकेतक क लेल एके तरहक जगह अछि"</string>
+    <string name="default_bookmark_title">"डिफ़ॉल्ट शीर्षक"</string>
+    <string name="bookmark_added">"संकेतक मं जोगैल गेल"</string>
+    <string name="albums_video">"चलचित्र"</string>
+    <string name="empty_album_video">"0 चलचित्र उपलब्ध अछि"</string>
+    <string name="border_brush">"झाड़य बला"</string>
+    <string name="border_grunge">"मइल"</string>
+    <string name="border_sumi">"सुमि"</string>
+    <string name="border_tape">"टेप"</string>
+    <string name="border_black">"कारी"</string>
+    <string name="border_black_rounded">"कारीऋआरडी"</string>
+    <string name="border_white">"उजर"</string>
+    <string name="border_white_rounded">"उजरऋआरडी"</string>
+    <string name="border_cream">"मलाई"</string>
+    <string name="border_cream_rounded">"मलाईऋआरडी"</string>
+    <string name="no_face">"कोनो चेहरा नहिं"</string>
+    <string name="can_not_share">"चयनित फाइल सब <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, पर अछि, साझी करबाक बिशेषता उपलब्ध नहि अछि"</string>
+    <string name="movie_view_proxy_set">"प्राक्सी सजि गेल"</string>
+    <string name="movie_view_network">नेटवर्क"</string>
+    <string name="movie_view_apn_set">"एपीएन मं घुसय बला बनावट"</string>
+    <string name="movie_view_proxy_ip_set">"प्राक्सी आईपी कय सजावट"</string>
+    <string name="movie_view_proxy_port_set">"प्राक्सी किला कय सजावट"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"आरटीपी/आरटीसीपी किला कय सजावट"</string>
+    <string name="movie_view_max_port_set">"आरटीपी/आरटीसीपी बेसी किला कय सजावट"</string>
+    <string name="movie_view_min_port_set">"आरटीपी/आरटीसीपी कम किला कय सजावट"</string>
+    <string name="movie_view_proxy_ok">"ठीक छई"</string>
+    <string name="movie_view_proxy_port_seterror_info">"दाम बला किला क सजावट जे बतायल गेल छै ओहिये क बीच बला हेबाक चाही"</string>
+    <string name="movie_view_proxy_ip_seterror_info">"आईपी अवैध!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"किला अवैध!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"पहिने किलाक दायरा बनाऊ!"</string>
+    <string name="movie_view_proxy_enable">"प्राक्सी खुजल अछि"</string>
+    <string name="movie_view_parameter_set">"नापय बला कय सजावट"</string>
+    <string name="dialog_dismiss">"हंटाऊ"</string>
+    <string name="gallery_error_title">"गलियाराक दोष"</string>
+    <string name="videoplayer_error_title">"विडियो संचालकक दोष"</string>
+    <string name="error_permissions">"एप केर चलबाक लेल आलोचनात्मक अनुमति नहि चाही। कृपाकय अहाँ अनुमतिक स्थापना सभक जाँच करू."</string>
+    <string name="gallery_premission_change">"गलियाराक अनुमति बदलल गेल, कृपाकय पुन: चयन करू"</string>
+    <string name="gallery_premission_error">"गलियाराक अनुमतिक दोष, कृपाकय गलियाराक अनुमति पुन: लगाऊ."</string>
+    <string name="already_exist">"प्रभाव देय पहिनैयंे सं उपलब्ध अछि"</string>
+    <string name="show_details_error">"डाटा चढाबैत, कृपाकय बादमे पुन: प्रयास करू."</string>
+    <string name="none_playback">"कोनो प्लेबैक नहिं"</string>
+    <string name="single_playback">"एकेटा प्लेबैक"</string>
+    <string name="all_playback">"सबटा प्लेबैक"</string>
+    <string name="playback_setting">"प्लेबैक तरीका"</string>
+    <string name="can_not_open_float_video">"एखुनका चलचित्र बला वालपेपर, चलय बला चलचित्रक खिड़की क नहिं खोलल जा सकैय"</string>
+    <string name="video_file_does_not_exist">"चलचित्र बला पोथी भेटि नहिं रहल अछि"</string>
+    <string name="movie_view_goto">"ऐना जाऊ"</string>
+    <string name="no_search_app">"कोनो एप नहिं भेटल"</string>
+    <string name="channel_setting_title">"चैनलक सजावट"</string>
+    <string name="channel_setting_left">"बायां"</string>
+    <string name="channel_setting_right">"दायां"</string>
+    <string name="channel_setting_dual">"दू टा"</string>
+    <string name="channel_setting_ok">"ठीक छई"</string>
+    <string name="channel_setting_cancel">"हंटाऊ।"</string>
+    <string name="channel_setting">"चैनलक सजावट"</string>
+    <string name="movie_view_calling_title">"कल कयल जा रहल"</string>
+    <string name="movie_view_calling_msg">"जखन काल पूरा भय जाय तखन कृपा कय क फेर कोशिश करू"</string>
+    <string name="movie_view_calling_try">"कोशिश"</string>
+    <string name="movie_view_calling_cancel">"हंटाऊ।"</string>
+    <string name="time_out">"समय खतम"</string>
+    <string name="time_out_message">"मिलैत जुलैत नेटवर्क या जुड़ावक समय खतम, की अहां एकरा फेर से खोलय चाहैत छी या नहिं?"</string>
+    <string name="headset">"मांथा बला मशीन"</string>
+    <string name="loud_speaker">"जोर सं बाजय बला स्पीकर"</string>
+    <string name="back_exit">"बाहिर निकलय लेल फेर सं दबाऊ"</string>
+    <string name="cannot_load_crop_image">"आवेदन चलेवाक समयावधिक स्मरण पर्याप्त नहि अछि, आकृति चढायब असफल भेल अछि."</string>
+    <string name="slideshow_music">"संगीत खिसकाऊ"</string>
+    <string name="system_ringtones">"मशिनक रींगटोन"</string>
+    <string name="user_defined">"उपयोगकर्ता वर्णित कयल गेल"</string>
+    <string name="cannot_play_music">"एखन नहिं चलायल जा सकय"</string>
+    <string name="play_audio_failed">"एखन श्रव्य नहि चला सकब"</string>
+    <string-array name="planets_array">
+        <item>"सबटा चलचित्र"</item>
+        <item>"स्थानिय विडियो"</item>
+        <item>"सिनेमा बनाओल विडियो"</item>
+        <item>"वर्तमानमे चलाओल गेल"</item>
+    </string-array>
+    <string name="last_play">"अंतिम चलाओल गेल:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"एखन रेकार्ड मिटाऊ?"</item>
+        <item quantity="other">"एखन रेकार्ड मिटाऊ?"</item>
+    </plurals>
+    <string name="today">"आई"</string>
+    <string name="yesterday">"बीतुलका काल्हि"</string>
+    <string name="earlier">"पहिने"</string>
+    <string name="drawer_open">"विडियोक सूचि"</string>
+    <string name="drawer_close">"सबटा चलचित्र"</string>
+    <string name="share_actionmode">"बांटू"</string>
+    <string name="delete_actionmode">"मेंटाऊ"</string>
+    <string name="clear_all">"सबटा क मेंटाऊ"</string>
+    <string name="video_list">"विडियोक सूचि"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"चुनल गेल चीज क मेंटा दिअ?"</item>
+        <item quantity="other">"चुनल गेल चीज क मेंटा दिअ?"</item>
+    </plurals>
+    <string name="current_select">"%d चयन कयल गेल"</string>
+    <string name="no_video_play_records">"कोनो चलेवाक रेकार्ड नहि"</string>
+    <string name="no_videos">"कोनो चलचित्र नहिं"</string>
+    <string name="video_not_exist">"विडियो विधमान नहि अछि"</string>
+    <string name="save_picture">"पकड़ब  %s मे बचाओल गेल"</string>
+    <string name="mute">"मुंह बंद कैनेय"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"सुरक्षा संबंधी जानकारी"</string>
+    <string name="drm_info">"सुरक्षा संबंधी जानकारी"</string>
+    <string name="file_name">"फाइलक नाम:"</string>
+    <string name="rights_validity">"अधिकारक वैधता:"</string>
+    <string name="rights_status">"अधिकारक स्थिति:"</string>
+    <string name="start_time">"शुरु करबाक समय:"</string>
+    <string name="end_time">"समाप्त करबाक समय:"</string>
+    <string name="expiration_time">"समाप्तिक समय:"</string>
+    <string name="remain_times">"बाँकी समय:"</string>
+    <string name="rights_validity_valid">"वैध"</string>
+    <string name="rights_validity_invalid">"अवैध"</string>
+    <string name="rights_status_share">"आगां करय क आज्ञा अछि"</string>
+    <string name="rights_status_not_share">"आगां करय क आज्ञा नहिं अछि"</string>
+    <string name="drm_rights_no_limit">"कोनो सीमा नहिं"</string>
+    <string name="drm_rights_unknown">"पता नहिं"</string>
+    <string name="drm_rights_inactive">"अधिकार काज नहिं कय रहल"</string>
+    <string name="drm_file_invalid">"पोथी क दिन बीत गेल"</string>
+    <string name="screenshot_failed">"स्क्रीन शाट असफल भय गेल"</string>
+    <string name="slidemusic">"स्लाइड प्रदर्षनक संगीत लगाऊ"</string>
+    <string name="setas">"ऐना सजाऊ"</string>
+    <string name="slide_music_system_ringtones">"मशिनक रींगटोन"</string>
+    <string name="slide_music_user_defined">"उपयोगकर्ता वर्णित कयल गेल"</string>
+    <string name="remove_usbdisk">"उपयोगकर्ताक उपकरण हटाओल गेल"</string>
+    <string name="edit_crop_free">"कोनो दाम नहीं"</string>
+    <string name="edit_crop_square">"वर्गाकार"</string>
+    <string name="edit_crop_origin">"बनबय काल बला"</string>
+    <string name="hide_albums">"एलबम नुकाऊ"</string>
+    <string name="show_local_albums">"स्थानिय एलबम देखाऊ"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"%1$d फोटो चयन कयल गेल"</item>
+        <item quantity="other">"%1$d फोटो चयन कयल गेल"</item>
+    </plurals>
+    <string name="select">"चुनू"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"%1$d बिना चयन कयल गेल फोटो केर बचाऊ?"</item>
+        <item quantity="other">"%1$d बिना चयन कयल गेल फोटो केर बचाऊ?"</item>
+    </plurals>
+    <string name="popup_title_save_all_selected">"सबटा फोटो बचाऊ?"</string>
+    <string name="keep_all">"सबटा क जोगाऊ"</string>
+    <plurals name="keep_selected">
+        <item quantity="one">"मात्र %1$d चयनित फोटो सब बचाऊ"</item>
+        <item quantity="other">"मात्र %1$d चयनित फोटो सब बचाऊ"</item>
+    </plurals>
+    <string name="burst_progress_dialog_title">"काज भय रहल अछि..."</string>
+    <string name="side_bar_all_photos">"सबटा"</string>
+    <string name="side_bar_photo">"फोटो"</string>
+    <string name="side_bar_video">"चलचित्र"</string>
+    <string name="side_bar_album">"एलबम"</string>
+    <string name="label_select">"चुनू"</string>
+    <string name="no_photo_or_video">"सँख्या  %1$s""</string>
+    <string name="no_photo_or_video_hint">"एहि उपकरणमे बचाओल गेल फोटो आ विडियो एतय देखाओल जायत"</string>
+    <string name="detail_pop_title">"संदेश"</string>
+    <string name="detail_date_info_format">"महिना, दिन, वर्ष"</string>
+    <string name="detail_more">"बेसी"</string>
+    <string name="floatwindow_unsupported_device">"तैरैत विंड़ो एहि उपकरण पर समर्थित नहि अछि"</string>
+    <string name="floatwindow_unsupported_camera">"तैरैत विंड़ो कैमरामे समर्थित नहि अछि"</string>
+    <string name="floatwindow_unsupported_streaming">"तरल विडियो चलवैत कालमे तैरैत विंड़ो समर्थित नहि अछि"</string>
+    <string name="stream_screenshot_not_supported">"तरल विडियो चलवैत कालमे पकड़बाक कार्यक्रम समर्थित नहि अछि।"</string>
+    <string name="database_exception">"डाटा प्रक्रिया करबाक अपवाद, कार्यक्रम असफल भेल।"</string>
+    <string name="exit_multiwindow_tips">"बहु विंडो अवस्थामे फोटोमे भ्रमन करबाक समर्थन नहि करैत अछि"</string>
+    <string name="exit_multiwindow_video_tips">"बहु विंडो अवस्थामे फोटो देखब समर्थन नहि करैत अछि"</string>
+    <string name="decode_image_faild">"आकृति लगायब असफल भेल"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"आई"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="movie_view_mms_processing_ok">"पेनैय पूरा भय गेल"</string>
+    <string name="movie_view_sms_received_ok">"एसएमएस भेंटि गेल"</string>
+    <string name="movie_view_mms_process_title">"एमएमएस काज पूरा भय रहल अछि"</string>
+    <string name="movie_view_sms_process_title">"एसएमएस काज पूरा भय रहल अछि"</string>
+    <string name="movie_view_mms_ok">"ठीक छई"</string>
+    <string name="invalid_rights">"अई पोथी क वैध लाइसेंस नहिं अछि"</string>
+    <string name="drm_consume_hint">"अहां कय काज डीआरएम अधिकारक इस्तेमाल कय लैत"</string>
+    <string name="drm_consumed">"अहां का काज डीआरएम अधिकार क इस्तेमाल कय लेलक अछि।"</string>
+    <string name="drm_consume_title">"डीआरएम अधिकार क इस्तेमाल"</string>
+    <string name="choose_drm_alert">"डीआरएम पोथी क चुनल नहिं जा सकैय, कृपा कय क कोनो दोसर क चुनू"</string>
+    <string name="drm_unit_minutes">"एस"</string>
+    <string name="album_set_loading_tip">"डाटा चढा रहल अछि, कृपाकय प्रतिक्षा करू।"</string>
+    <string name="slide_music_stop">"संगीतक गिराव रुकि गेल"</string>
+    <string name="distance_photo_unit_conversion">"एकाईक बदलाव"</string>
+    <string name="unit">"एकाई "</string>
+    <string name="meter">"मिटर"</string>
+    <string name="centimeter">"सेन्टीमीटर"</string>
+    <string name="foot">"पायर"</string>
+    <string name="inch">"इन्च"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"ई चलचित्र अहांक उपकरणक लेल काजक नहिं अछि।"</string>
+    <string name="VideoView_error_text_unknown">"ई चलचित्र नहिं चलत"</string>
+    <string name="onesong">"1 टा गीत"</string>
+    <plurals name="Nsongs">
+        <item quantity="one">"<xliff:g id="count">%d</xliff:g> गीत"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> गीत"</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="one">"<xliff:g id="count_for_artist">%2$d</xliff:g> केर <xliff:g id="total_count">%1$d</xliff:g> गीत"</item>
+        <item quantity="other">"<xliff:g id="count_for_artist">%2$d</xliff:g> क <xliff:g id="total_count">%1$d</xliff:g> गीत"</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one">"1 टा एलबम"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> एलबम"</item>
+    </plurals>
+    <string name="whoes_album">"एस एलबम"</string>
+    <string name="goto_start">"लाइब्रेरी"</string>
+    <string name="party_shuffle">"मिलनैय जुलनैय"</string>
+    <string name="party_shuffle_off">"मिलनैय जुलनैय बंद"</string>
+    <string name="delete_item">"मेंटाऊ"</string>
+    <string name="shuffle_all">"मिलेलहा सबटा"</string>
+    <string name="play_all">"सबटा चलाऊ"</string>
+    <string name="delete_artist_desc">"सबटा गीत क एकरा द्वारा हरदम क लेल मेंटा देल गेल <xliff:g id="artist">%s</xliff:g> एसडी कार्ड सं ?"</string>
+    <string name="delete_artist_desc_nosdcard">"सबटा गीत क एकरा द्वारा हरदम क लेल मेंटा देल गेल <xliff:g id="artist">%s</xliff:g> USB गोदाम सं?"</string>
+    <string name="delete_album_desc">"सबटा एलबम हरदम कय लेल मेंटा देल गेल  \"<xliff:g id="album">%s</xliff:g>\"एसडी कार्ड सं?"</string>
+    <string name="delete_album_desc_nosdcard">"सबटा एलबम हरदम कय लेल मेंटा देल गेल  \"<xliff:g id="album">%s</xliff:g>\"USB गोदाम सं?"</string>
+    <string name="delete_song_desc">"हरदम क लेल मेंटा देल गेल \"<xliff:g id="song">%s</xliff:g>\"एसडी कार्ड गोदाम सं?"</string>
+    <string name="delete_song_desc_nosdcard">"हरदम क लेल मेंटा देल गेल \"<xliff:g id="song">%s</xliff:g>\"USB गोदाम सं?"</string>
+    <string name="delete_confirm_button_text">"ठीक छई"</string>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one">"1 टा गीत मिटाओल गेल"</item>
+        <item quantity="other">"<xliff:g id="songs_to_delete">%d</xliff:g> गीत मेंटायल."</item>
+    </plurals>
+    <string name="scanning">"एसी कॉर्ड क परिखल जा रहल अछि..."</string>
+    <string name="scanning_nosdcard">"USB गोदाम क परिखल जा रहल अछि..".</string>
+    <string name="nowplaying_title">"आब चलि रहल अछि"</string>
+    <string name="partyshuffle_title">"मिलनैय जुलनैय"</string>
+    <string name="artists_title">"कलाकार"</string>
+    <string name="albums_menu">"एलबम्स"</string>
+    <string name="albums_title">"एलबम्स"</string>
+    <string name="tracks_menu">"गीत"</string>
+    <string name="tracks_title">"गीत"</string>
+    <string name="playlists_menu">"गायबय बला"</string>
+    <string name="playlists_title">"गायबय बला"</string>
+    <string name="videos_title">"चलचित्र"</string>
+    <string name="all_title">"सबटा माध्यम"</string>
+    <string name="browse_menu">"कलाकार"</string>
+    <string name="search_title">"खोजू"</string>
+    <string name="no_tracks_title">"कोनो गीत नहिं"</string>
+    <string name="no_album_title">"कोनो एलबम नहि"</string>
+    <string name="no_artist_title">"कोनो कलाकार नहि"</string>
+    <string name="no_folderlist_title">"कोनो फोल्डर नहि"</string>
+    <string name="no_videos_title">"कोनो चलचित्र नहिं"</string>
+    <string name="no_playlists_title">"कोनो गायबय बला नहिं"</string>
+    <string name="delete_playlist_menu">"मेंटाऊ"</string>
+    <string name="edit_playlist_menu">"ठीक करू"</string>
+    <string name="rename_playlist_menu">"दोसर नाम"</string>
+    <string name="playlist_deleted_message">"गायबय बला मेंटा देल गेल"</string>
+    <string name="playlist_renamed_message">"गायबय बला क दोसर बेर नाम देल गेल"</string>
+    <string name="recentlyadded">"एखने जोड़ल गेल"</string>
+    <string name="recentlyadded_title">"एखने जोड़ल गेल"</string>
+    <string name="podcasts_listitem">"पॉडकॉस्ट्स"</string>
+    <string name="podcasts_title">"पॉडकॉस्ट्स"</string>
+    <string name="sdcard_missing_title">"एसडी कॉर्ड नहिं अछि"</string>
+    <string name="sdcard_missing_title_nosdcard">"USB गोदाम नहिं अछि"</string>
+    <string name="sdcard_missing_message">"अहांक फोन मं एसडी कॉर्ड नहिं डालल गेल अछि"</string>
+    <string name="sdcard_missing_message_nosdcard">"अहांक फोन मं USB गोदाम नहिं अछि"</string>
+    <string name="sdcard_busy_title">"एसडी कॉर्ड नहिं अछि"</string>
+    <string name="sdcard_busy_title_nosdcard">"USB गोदाम नहिं भेटि रहल अछि"</string>
+    <string name="sdcard_busy_message">"अहांक एसडी हफना रहल अछि"</string>
+    <string name="sdcard_busy_message_nosdcard">"अहांक USB गोदाम हफना रहल अछि"</string>
+    <string name="sdcard_error_title">"एसडी कॉर्ड गलत"</string>
+    <string name="sdcard_error_title_nosdcard">"USB गोदाम गलत"</string>
+    <string name="sdcard_error_message">"अहां क एसडी कॉर्डक गिनती गलत अछि"</string>
+    <string name="sdcard_error_message_nosdcard">"अहां क USB गोदामक गिनती गलत भय गेल"</string>
+    <string name="unknown_artist_name">"अचिन्हार कलाकार"</string>
+    <string name="unknown_album_name">"अचिन्हार एलबम"</string>
+    <string name="shuffle_on_notif">"फेंटय बला खुजल अछि"</string>
+    <string name="shuffle_off_notif">"फेंटय बला बंद अछि"</string>
+    <string name="repeat_off_notif">"बेर बेर करय बला बंद अछि"</string>
+    <string name="repeat_current_notif">"एखुनका गीत क बेर बेर चलायल जा रहल"</string>
+    <string name="repeat_all_notif">"सबटा गीत क बेर बेर चलायल जा रहल"</string>
+    <string name="ringtone_menu">"फोनक घंटी क इस्तेमाल करू"</string>
+    <string name="ringtone_menu_short">"फोनक घंटी क तरह इस्तेमाल"</string>
+    <string name="ringtone_set">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\"फोन क घंटी जेकां सजाऊ."</string>
+    <string name="play_selection">"शुरू करू"</string>
+    <string name="add_to_playlist">"चलबय बला सूची मं जोड़ू"</string>
+    <string name="show_artist">"कलाकारक जानकारी देखाऊ"</string>
+    <string name="delete_folder">"मेंटाऊ"</string>
+    <string name="queue">"एखन चलय बला सूची"</string>
+    <string name="new_playlist">"नबका"</string>
+    <string name="new_playlist_name_template">"नबका प्ले सूची <xliff:g id="number">%d</xliff:g>"</string>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one">"1 टा गीत चलय बला सूची सं जुड़ि गेल"</item>
+        <item quantity="other">"<xliff:g id="number" example="27">%d</xliff:g>  प्ले सूची में गीत जोड़ल गेल."</item>
+    </plurals>
+    <string name="emptyplaylist">"चुनल गेल चलय बला सूची खाली अछि"</string>
+    <string name="create_playlist_create_text">"जोगैल"</string>
+    <string name="create_playlist_overwrite_text">"ओहिये पर लिखू"</string>
+    <string name="service_start_error_title">"प्लेबैकक दिक्कत"</string>
+    <string name="service_start_error_msg">"गीत नहिं चलायल जा सकत"</string>
+    <string name="service_start_error_button">"ठीक छई"</string>
+    <string-array name="weeklist">
+        <item>"1 सप्ताह"</item>
+        <item>"2 हफ्ता"</item>
+        <item>"3 हफ्ता"</item>
+        <item>"4 हफ्ता"</item>
+        <item>"5 हफ्ता"</item>
+        <item>"6 हफ्ता"</item>
+        <item>"7 हफ्ता"</item>
+        <item>"8 हफ्ता"</item>
+        <item>"9 हफ्ता"</item>
+        <item>"10 हफ्ता"</item>
+        <item>"11 हफ्ता"</item>
+        <item>"12 हफ्ता"</item>
+    </string-array>
+    <string name="weekpicker_set">"ठीक अछि।"</string>
+    <string name="weekpicker_title">"समय क ठीक करू"</string>
+    <string name="save_as_playlist">"चलय बला सूची क जेकां जोगाऊ"</string>
+    <string name="clear_playlist">"चलय बला सूची क साफ करू"</string>
+    <string name="musicbrowserlabel">"गीत"</string>
+    <string name="musicshortcutlabel">"चलय बला सूची क गीत"</string>
+    <string name="mediaplaybacklabel">"गीत"</string>
+    <string name="videobrowserlabel">"चलचित्र"</string>
+    <string name="mediapickerlabel">"गीत"</string>
+    <string name="playback_failed">"माफ करू, पोथी क चलैनय मुश्किल अछि"</string>
+    <string name="remove_from_playlist">"चलय बला सूची सं हंटाऊ"</string>
+    <string name="streamloadingtext">"जोड़ल जा रहल अछि <xliff:g id="host">%s</xliff:g>..."</string>
+    <string name="mediasearch">"एकरा लेल खोज <xliff:g id="term" example="Beethoven">%s</xliff:g> इस्तेमाल भय रहल:"</string>
+    <string name="working_artists">"कलाकार..".</string>
+    <string name="working_albums">"एलबम..".</string>
+    <string name="working_songs">"गीत..."</string>
+    <string name="working_playlists">"चलय बला सूची"</string>
+    <string name="sort_by_track">"रस्ता"</string>
+    <string name="sort_by_album">"एलबम्स"</string>
+    <string name="sort_by_artist">"कलाकार"</string>
+    <string name="music_picker_title">"गीतक रस्ता क चुनू"</string>
+    <string name="search_settings_description">"कलाकार, एलबम आ रस्ता"</string>
+    <string name="search_hint">"गीत क खोजू"</string>
+    <string name="search_result">"खोजक परिणाम"</string>
+    <string name="fast_scroll_alphabet">"\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="widget_initial_text">"गीत क खोजय लेल छुऊ"</string>
+    <string name="effectspanel">"गीतक प्रभाव"</string>
+    <string name="no_play">"एखन नहिं चलायल जा सकय"</string>
+    <string name="add_favourite_song">"हमर मन पसंद गीतक सूचिमे जोड़ल गेल"</string>
+    <string name="remove_favourite_song">"हमर मन पसंद गीतक सूचिसँ हटाओल गेल"</string>
+    <string name="activity_title_delete">"गीत क हंटाऊ"</string>
+    <string name="activity_title">"गीत जोड़ू"</string>
+    <string name="add_music">"गीत जोड़ू"</string>
+    <string name="music_selected_all">"सबटा क चुनू"</string>
+    <string name="confirm_add">"जोड़नाय"</string>
+    <string name="cancel_add">"हंटाऊ।"</string>
+    <string name="delete_all_music">"हंटाऊ"</string>
+    <string name="confirm_delete">"हंटाऊ"</string>
+    <string name="music_selected_all_delete">"चाभी क खाली करय लेल चुनू"</string>
+    <string name="music_cancle_selected_all">"सबटा क मेंटाऊ"</string>
+    <string name="being_add">"जुड़ि रहल अछि, कृपा कय क रूकू..."</string>
+    <string name="remove_track">"हंटि रहल अछि, कृपा कय क रूकू..."</string>
+    <string name="invalid">"ई निर्देश देय बला नहिं खुजत"</string>
+    <string name="from_library">"लाइब्रेरी सं गीत क जोड़ू"</string>
+    <string name="from_folder">"पोथी सं गीत क जोड़ू"</string>
+    <string name="lyrics_edit_title">"गीत क सुधारू"</string>
+    <string name="nolrc">"कोनो गीत नहिं या पोथी गलत अछि"</string>
+    <string name="del_track">"चीज मेंटाय रहल अछि, कृपा कय क रूकू..."</string>
+    <string name="ringtone_title_sim1">"सिम 1 फोनक घंटी"</string>
+    <string name="ringtone_title_sim2">"सिम 2 फोनक घंटी"</string>
+    <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\"फोन सिम फोन 1 क घंटी जेकां सजाऊ."</string>
+    <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\"फोन सिम फोन 2 क घंटी जेकां सजाऊ"</string>
+    <string name="ring_set_fail">"माफ करू, गीत क नहिं चलैल जा सकय। कृपा कय क घंटी कय लेल दोसर गीत चुनू"</string>
+    <string name="ring_set_silent_vibrate">"कस्टम घंटी बलाक एखुनका तरीका मदद नहिं कय पाबि रहल छै"</string>
+    <string name="please_insert_sim_card">"कृपा कय क कम सं कम सिम कॉर्ड क डालू"</string>
+    <string name="create_playlist_warning">"एखन जोड़ल गेल चीज क एके नाम कय इस्तेमाल नहिं भय सकय"</string>
+    <string name="overwrite_playlist_alert">"प्ले सूची क आंकड़ा मं"<xliff:g id="NAME">%s</xliff:g>"मेंटा देल जायत."</string>
+    <string name="playlist_created_message">"चलेवाक सूचि सृजन कयल गेल"</string>
+    <string name="overwrite_playlist_alert_rename">"चलय बला सूची बनि गेल"प्ले सूची क आंकड़ा मं अछि"<xliff:g id="NAME">%s</xliff:g>"एहि मं शामिल रहत."</string>
+    <string name="delete_artist">"सबटा गीत क हरदम क लेल मंेटा देल गेल \"<xliff:g id="artist">%s</xliff:g>\"उपकरण सं?"</string>
+    <string name="delete_album">"सबटा एलबम क हरदम क लेल मंेटा देल गेल \"<xliff:g id="album">%s</xliff:g>\"उपकरण सं?"</string>
+    <string name="delete_song">"हरदम क लेल मंेटा देल गेल \"<xliff:g id="song">%s</xliff:g>\"उपकरण सं?"</string>
+    <string name="delete_playlist">" "<xliff:g id="song">%s</xliff:g>" चलेवाक सूचिसँ "हटाऊ?"</string>
+    <string name="delete_songs">"उपकरणसँ सदा केर लेल मिटाऊ?"</string>
+    <string name="display_music">"गीत"</string>
+    <string name="quit">"छोड़ू"</string>
+    <string name="setting">"सजाबय बला"</string>
+    <string name="folder_menu">"पोथी बला फोल्डर"</string>
+    <string name="delete_playlist_message">"की अहां प्ले सूची क मेंटबय चाहैत छी"%1$s"？"</string>
+    <string name="delete_all_playlist">"सबटा चलय बला सूची क हंटाऊ"</string>
+    <plurals name="NNNallSongsExist">
+        <item quantity="one">"गीत अहां क चलय बला सूची मं अछि"</item>
+        <item quantity="other">"गीत अहां क चलय बला सूची मं अछि"</item>
+    </plurals>
+    <plurals name="NNNaddsongtoplaylist">
+        <item quantity="one">"1 टा गीत जुड़ि गेल"</item>
+        <item quantity="other">"<xliff:g id="number" example="27">%d</xliff:g> गीत जोड़ल गेल,"</item>
+    </plurals>
+    <plurals name="NNNsongAlreadyExist">
+        <item quantity="one">"1 टा गीत अहां क चलय बला सूची मं पहिनैयें सं अछि"</item>
+        <item quantity="other">"<xliff:g id="number" example="27">%d</xliff:g> गीत पहिनैये सं प्ले सूची मं उपलब्ध अछि"</item>
+    </plurals>
+    <string name="length_limited">"नाम आखिरी लंबाई तक अछि"</string>
+    <string name="favorite_added">"हमर मनपसंद गीत"</string>
+    <string name="add_playlist_title">"चलेवाक सूचि जोड़ू"</string>
+    <string name="empty_play_list">"खाली चलेवाक सूचि"</string>
+    <string name="sort_by_time">"समय क मुताबिक"</string>
+    <string name="sort_by_name">"नाम क मुताबिक"</string>
+    <string name="share_error">"साझीक लेल आवेदन नहि!"</string>
+    <string name="no_search_result">"कोनो गीत नहिं भेटल"</string>
+    <string name="search_title_hint">"कलाकार, गीत आ एलबम"</string>
+    <string name="toast_fileexplorer_internal_error">"संगीतमे अनुमतिसँ मना कायल गेल!"</string>
+    <string name="fifty_min">"15 मिनट्स"</string>
+    <string name="theirty_min">"30 मिनट्स"</string>
+    <string name="sixty_min">"60 मिनट"</string>
+    <string name="ninety_min">"90 मिनट"</string>
+    <string name="self_define">"रिवाज"</string>
+    <string name="timer_option">"सफलतापुर्वक लगाऊ, संगीत उल्टी गीनतीक बाद बंद होयत"</string>
+    <string name="self_min">"मिनट"</string>
+    <string name="timer_setting">"रोकबाक समयपाल लगाऊ"</string>
+    <string name="change_face">"चेहरा बदलू"</string>
+    <string name="timed_setting">"रोकय वला समयक चयन करू"</string>
+    <string name="time_warning">"प्रचलित समयपाल उपरक सीमा 1440 मिनट (24 घंटा) सँ बढि गेल अछि!"</string>
+    <string name="time_min_warning">"प्रचलित समयपाल एक मिनटसँ कम केर नहि होवाक चाही!"</string>
+    <string name="no_allow_play_calling">"काँलक दौराण संगीत चलेबाक अनुमति नहि अछि(रेडियो/विडियो)."</string>
+    <string name="songs_nums_for_suffix">"गीत सब"</string>
+    <string name="random_play_all">"अचानक सब केर चलाऊ"</string>
+    <string name="unable_to_connect_title">"फाइलसँ नहि जोड़ि सकलौ"</string>
+    <string name="unable_to_connect_message">"वर्तामान फाइल नहि ताकि सकलौ। कृपाकय जोड़क जाँच करू"</string>
+    <string name="protect_information">"जानकारी क सुरक्षित करू"</string>
+    <string name="drm_file_name">"फाइलक नाम:%1$s"</string>
+    <string name="drm_rights_validity">"अधिकारक वैधता: वैध"</string>
+    <string name="drm_rights_invalidity">"अधिकारक वैधता: अवैध"</string>
+    <string name="drm_rights_status_transfer">"अधिकारक स्थिति: आगां बढ़बय क आज्ञा अछि"</string>
+    <string name="drm_rights_status_untransfer">"अधिकारक स्थिति: आगां बढ़बय क आज्ञा नहिं अछि"</string>
+    <string name="drm_start_time">"समय शुरू: %1$s"</string>
+    <string name="drm_end_time">"आखिर समय: %1$s"</string>
+    <string name="drm_expiration_time">"खतम होय बला समय: %1$s"</string>
+    <string name="drm_remain_times">"बचल समय: %1$s"</string>
+    <string name="drm_no_info">"कोनो जानकारी नहिं"</string>
+    <string name="drm_unlimited_rights">"कोनो सीमा नहिं"</string>
+    <string name="drm_inactive_rights">"अधिकार काज नहिं कय रहल"</string>
+    <string name="statusbarlabel">"सँगीत"</string>
+    <string name="dock_forced_resizable">"एप बिभाजित स्क्रीनक सँग काज नहियो कय सकैत अछि।"</string>
+    <string name="error_choose_drm_for_gallery">"डीआरएम पोथी क चुनल नहिं जा सकल"</string>
+    <string name="delete_from_device">"उपकरणसँ हटाऊ"</string>
+    <string name="delete_from_playlist">"चलेवाक सूचिसँ मिटाऊ?"</string>
+    <string name="ffx_dehaze">"देहाजे"</string>
+    <string name="select_music">"संगीत चयन करू"</string>
+    <string name="delete_all">"सबटा क मेंटाऊ"</string>
+    <string name="detail_location">"जगह"</string>
+    <string name="label_yesterday">"बीतुलका काल्हि"</string>
+    <string name="refocus_photo_edit_save">"जोगैल"</string>
+    <string name="no_touch_flip">"कोनो छुबाक उछाल नहि"</string>
+    <string name="flip_summury">"उप-कैमरा केर झापू 1s आकृति उछालू"</string>
+    <string name="first_summary">"दोषसँ पेज निचा गेल"</string>
+    <string name="sencond_summury">"पेज उपर गेल जहन तीब्रता बढल"</string>
+    <string name="third_summury">"पेज नीचा गेल जहन तीब्रता घटल"</string>
+    <string name="fourth_summury">"सारांश: तीव्रताक चाबी लिअ"</string>
+    <string name="dealing">"जमा भय रहल अछि..."</string>
+    <string name="select_tips">"चयनित वस्तु पार्श्व अछि। कृपाकय आगुक भागक रेंजमे बिंदु सृजन करू"</string>
+    <string name="definition_subject">"वस्तुक विश्लेषन करू"</string>
+    <string name="fix_subject">"लक्ष्य जका बदलू"</string>
+    <string name="fix_background">"पार्श्व जका बदलू"</string>
+    <string name="replace_background">"पार्श्व केर बदलू"</string>
+    <string name="correct_object_tips">"क्षेत्र केर रेखांकित करू जतय एकटा आँगुरसँ रेखा ठीक-ठाक नहि देल गेल अछि, तहन पेंटिंग क्षेत्र केर लक्ष्य वस्तु जका अपडेट करबाक लेल"लक्ष्य जका अपडेट करू"बटम केर दबाऊ, वा  पार्श्व केर अपडेट करबाक लेल"पार्श्व जका अपडेट करू"बटम केर दबाऊ। अहाँ रोकि सेहो सकैत छी आ एकरा अपडेट करबाक लेल आर अधिक उपयुक्त बनेवाक लेल दुटा आँगुरसँ फोटो केर घुमाऊ"</string>
+    <string name="def_object_tips">"वस्तुक विश्लेषन करू: जाहि बस्तुक अहाँ आकार बनवय चाहैत छी ओकरा झपबाक लेल आयत बनाऊ"</string>
+    <string name="valid_point">"शुरुआतक बिंदु वा अंतक बिंदु वैध रेंजक भितरमे नहि अछि"</string>
+    <string name="small_rect">"खिचल आयत बहुत छोट अछि"</string>
+    <string name="add">"जोड़नाय"</string>
+    <string name="use_phone_photo">"कृपाकय अहाँक शेल फोन द्वारा लेल गेल फोटोक उपयोग करू"</string>
+    <string name="extract_failed">"खिचब असफल भय गेल, कृपाकय पुन: शुरु करू"</string>
+    <string name="blending_success">"आकृति मिलायब सफल भेल, कार्य करैत रहूँ वा बाहर जेवाक लेल वापस जेवाक बटम दबाऊ"</string>
+    <string name="blending_failed">"आकृति मिलायब असफल भय गेल"</string>
+    <string name="extract_failed_notforground">"खीचब असफल भय गेल, अगिलाभागक वस्तु नहि, कृपाकय पुन: शुरु करू"</string>
+    <string name="extract_failed_nomemory">"खीचब असफल भेल, यादास्त बहुत कम अछि, कृपाकय पुन: शुरु करू"</string>
+    <string name="extract_timeout">"खीचवाक समय समाप्त, कृपाकय पुन: शुरु करू"</string>
+    <string name="extract_forground">"अगिलाभागक लक्ष्य केर खींचैत, कृपाकय एक क्षणक लेल प्रतिक्षा करू"</string>
+    <string name="update_forground">"अगिलाभागक लक्ष्य केर अपडेट करैत, कृपाकय एक क्षण प्रतिक्षा करू"</string>
+    <string name="blending_image">"आकृति मिलावैत, कृपाकय एक क्षणक लेल प्रतिक्षा करू"</string>
+    <string name="select_foreground_subject">"अगिला भागक लक्ष्य केर चयन करबाक लेल दबाऊ"</string>
+    <string name="adjust_foreground_subject">"अगिलाभागक लक्ष्य केर ठीक करू"</string>
+    <string name="correct_subject_outline">"लक्ष्यक आलेख ठीक करू"</string>
+    <string name="edit_background">"पार्श्व लिखू"</string>
+    <string name="verify_prompt">"वर्तमान जगह किनारसँ बहुत नजदिक अछि, जे खराब प्रभाव डालत, अहाँ ठीके एक सँग मिलाबय चाहैत छी?"</string>
+    <string name="fg_too_large">"अगिला भागक लक्ष्य एक सँग करबाक लेल बहुत पैघ अछि"</string>
+    <string name="draw_tips">"कृपाकय उज्जर आयतक भितर खिंचू"</string>
+    <string name="undo_faild">"वापस जाऊ कार्य असफलभय गेल"</string>
+    <string name="get_forfround_tips">"सबटा अगिलाभागक विषय केर पार्श्वमे बदलवामे असफल भय गेल। कृपाकय पुन: बनाऊ"</string>
+    <string name="blending_move_limit">"स्क्रीनक किनार पर पहुँची गेल आर कोनो क्रियाकलाप नहि, लगातार करैत रहबाक लेल कृपाकय जगह टीक करू"</string>
+    <string name="init_bitmap_faild">"फोटोक असफलता प्राप्त करू, कृपाकय पुन:प्रयास करू"</string>
+    <string name="next_video">"अगिला विडियो"</string>
+    <string name="pre_video">"पूर्वक विडियो"</string>
+    <string name="lock_control">"लाँकक नियंत्रण"</string>
+    <string name="lock_orintation">"लाँकक व्याख्यान"</string>
+    <string name="print_screen">"प्रींटक स्क्रीन"</string>
+    <string name="float_player">"तैरबाक खेलाड़ी"</string>
+    <string name="scale_screen">"बेचवाक स्क्रीन"</string>
+    <string name="back">"पांछा घूमू।"</string>
+    <string name="over_flow">"मरैत"</string>
+    <string name="slide_music_play_fail">"माफकरब, खेलेवाक फाइल असफल भय गेल"</string>
+    <string name="refocus_quit">"छोड़ू"</string>
+    <string name="refocus_save_change">"बदलाव बचाउ"</string>
+    <string name="refocus_confirm_save">"अहाँ बचवय चाहैत छी वा सीधा बाहर जाय"</string>
+    <string name="refocus_save_success">"नीक सं जोगै गेल"</string>
+    <string name="refocus_save_fail">"बचायब असफल भय गेल"</string>
+    <string name="none_input_tips">"नाम खाली नहि रहि सकैत अछि"</string>
+    <string name="floatview_notification_text">"विडियो घुमैत विन्डोमे चलि रहल अछि"</string>
+    <string name="voice_photo">"श्रब्य नोट"</string>
+    <string name="continuous_shooting">"फटनाय"</string>
+    <string name="refocus_image">"भोथ फोटो"</string>
+    <string name="blur_image_wait">"भोथ फोटोक प्रक्रिया करैत, कृपाकय प्रतिक्षा करू"</string>
+    <string name="blur_save_fail">"भोथ फोटो बदलब असफल भय गेल"</string>
+    <string name="refocus_init_fail">"डाटाक सीमा असफल भय गेल"</string>
+    <string name="conversing">"बदलैत"</string>
+    <string name="share_as_image">"एकटा आकृति जका साझी करू"</string>
+    <string name="share_as_video">"विडियोमे जका साझी करू"</string>
+    <string name="converse_video_failed">"विडियोमे बदलब असफल भय गेल"</string>
+    <string name="app_photo_edit">"फोटो लिखू"</string>
+    <string name="cant_select_file">"असमर्थित फाइल"</string>
+    <string name="input_reached_max_length">"भीतुरका चीज सीमा सं बेसी भय गेल अछि"</string>
+
+</resources>

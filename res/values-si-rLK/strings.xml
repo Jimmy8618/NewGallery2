@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"ගැලරිය"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"වීඩියෝ ධාවකය"</string>
+    <string name="loading_video" msgid="4013492720121891585">"විඩියෝව පූරණය වේ…"</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"වීඩියෝව යළි පටන්ගන්න"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"වෙතින් ධාවනය යළි අරඹන්නද ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"ධාවනය නැවත පටන් ගැනීම"</string>
+    <string name="loading" msgid="7038208555304563571">"පූරණය වේ…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"පූරණය කළ නොහැකි විය"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"පින්තුරය පූරණය කළ නොහැකි විය"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"සිඟිති රූ නැත"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"යළි මුල සිට අරඹන්න"</string>
+    <string name="ok" msgid="5296833083983263293">"හරි"</string>
+    <string name="saving_image" msgid="7270334453636349407">"පින්තූරය සුරැකේ…"</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"<xliff:g id="ALBUM_NAME">%1$s</xliff:g> වෙත පින්තූරය සුරැකේ …"</string>
+    <string name="crop_label" msgid="521114301871349328">"පින්තූරය කප්පාදු කරන්න"</string>
+    <string name="trim_label" msgid="274203231381209979">"වීඩියෝවේ අහුකොන් කපන්න"</string>
+    <string name="select_image" msgid="7841406150484742140">"ඡායාරූපය තෝරන්න"</string>
+    <string name="select_video" msgid="4859510992798615076">"වීඩියෝව තෝරන්න"</string>
+    <string name="select_item" msgid="2816923896202086390">"අයිතමය තෝරන්න"</string>
+    <string name="select_album" msgid="1557063764849434077">"ඇල්බමය තෝරන්න"</string>
+    <string name="select_group" msgid="6744208543323307114">"කණ්ඩායම තෝරන්න"</string>
+    <string name="set_image" msgid="2331476809308010401">"ලෙස පින්තූරය සකසන්න"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"වෝල්පේපරය"</string>
+    <string name="delete" msgid="2839695998251824487">"මකන්න"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"තෝරගත් අයිතමය මකන්නද?"</item>
+        <item msgid="5874316486520635333" quantity="other">"තෝරාගත් අයිතම මකන්නද?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"තහවුරු කරන්න"</string>
+    <string name="cancel" msgid="3637516880917356226">"අවලංගු කරන්න"</string>
+    <string name="share" msgid="3619042788254195341">"බෙදාගන්න"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"පරිදර්ශනය බෙදා ගන්න"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"ඡායාරූපය ලෙස බෙදා ගන්න"</string>
+    <string name="deleted" msgid="6795433049119073871">"මකාදමන ලද"</string>
+    <string name="undo" msgid="2930873956446586313">"අස් කරන්න"</string>
+    <string name="select_all" msgid="3403283025220282175">"සියල්ල තෝරන්න"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"සියල්ල තෝරා නොගන්න"</string>
+    <string name="slideshow" msgid="4355906903247112975">"කදා දර්ශනය"</string>
+    <string name="details" msgid="8415120088556445230">"විස්තර"</string>
+    <string name="details_title" msgid="2611396603977441273">"අයිතම %2$d කින් %1$d:"</string>
+    <string name="close" msgid="5585646033158453043">"වසන්න"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"කැමරාව වෙත මාරු වන්න"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d තෝරා ගැනිණි"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d තෝරා ගැනිණි"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d තෝරා ගන්නා ලදි"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"සිතියම මත පෙන්වන්න"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"වමට කරකවන්න"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"දකුණට කරකවන්න"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"අයිතමය සොයාගැනීමට නොහැකි විය."</string>
+    <string name="edit" msgid="1502273844748580847">"සංස්කරණය කරන්න"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"සරල සංස්කරණය"</string>
+    <string name="crop_action" msgid="3427470284074377001">"කප්පාදු කිරීම"</string>
+    <string name="trim_action" msgid="703098114452883524">"අහුකොන් කපන්න"</string>
+    <string name="mute_action" msgid="5296241754753306251">"නිශ්ශබ්ද කරන්න"</string>
+    <string name="set_as" msgid="3636764710790507868">"ලෙස සකසන්න"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"වීඩියෝව නිශ්ශබ්ද කළ නොහැක."</string>
+    <string name="video_err" msgid="7003051631792271009">"වීඩියෝව ධාවනය කළ නොහැක."</string>
+    <string name="group_by_location" msgid="316641628989023253">"ස්ථානය මගින්"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"කාලය මගින්"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"ටැග මගින්"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"ජනතාව මගින්"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"ඇල්බමය මගින්"</string>
+    <string name="untagged" msgid="7281481064509590402">"ටැග් නොකළ"</string>
+    <string name="no_location" msgid="4043624857489331676">"ස්ථානයක් නැත"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"ජාල ගැටලු හේතුවෙන් සමහර ස්ථාන හඳුනාගැනීමට නොහැකි විය."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"මෙම ඇල්බමයෙහි ඡායාරූප බාගැනීමට නොහැකි විය. පසුව යළි උත්සාහ කරන්න."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"පින්තුරය පමණී"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"වීඩියෝ පමණී"</string>
+    <string name="show_all" msgid="6963292714584735149">"පින්තුර සහ වීඩියෝ"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"ඡායාරූප ගැලරිය"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"ඡායාරූප නැත."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"<xliff:g id="FOLDER_NAME">%s</xliff:g> වෙත කප්පාදු කළ පින්තුරය සුරැකිණි."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"ඇල්බම ලබා ගත නොහැක."</string>
+    <string name="empty_album" msgid="4542880442593595494">"O පින්තුර/වීඩියෝ ලබාගත හැක."</string>
+    <string name="done" msgid="217672440064436595">"හරි"</string>
+    <string name="title" msgid="7622928349908052569">"මාතෘකාව"</string>
+    <string name="description" msgid="3016729318096557520">"විස්තරය"</string>
+    <string name="time" msgid="1367953006052876956">"කාලය"</string>
+    <string name="location" msgid="3432705876921618314">"පිහිටීම"</string>
+    <string name="path" msgid="4725740395885105824">"මග"</string>
+    <string name="width" msgid="9215847239714321097">"පළල"</string>
+    <string name="height" msgid="3648885449443787772">"උස"</string>
+    <string name="orientation" msgid="4958327983165245513">"දිශානතිය"</string>
+    <string name="duration" msgid="8160058911218541616">"කාල සීමාව"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME වර්ගය"</string>
+    <string name="file_size" msgid="8486169301588318915">"ගොනු ප්‍රමාණය"</string>
+    <string name="maker" msgid="7921835498034236197">"නිමැවුම්කරු"</string>
+    <string name="model" msgid="8240207064064337366">"මාදිලිය"</string>
+    <string name="flash" msgid="2816779031261147723">"Flash"</string>
+    <string name="aperture" msgid="5920657630303915195">"විවරය"</string>
+    <string name="focal_length" msgid="1291383769749877010">"නාභි දුර"</string>
+    <string name="white_balance" msgid="1582509289994216078">"සුදු සමබරතාව"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"නිරාවරණ කාලය"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"අතින් කරන"</string>
+    <string name="auto" msgid="4296941368722892821">"ස්වයංක්‍රීය"</string>
+    <string name="flash_on" msgid="7891556231891837284">"සැණෙලි පත්තු කරන ලදී"</string>
+    <string name="flash_off" msgid="1445443413822680010">"සැණෙලි නැත"</string>
+    <string name="unknown" msgid="3506693015896912952">"නොදනී"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"වින්ටාජ්"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"ක්ෂණික"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"විරංජනය කරන්න"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"නිල්"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"ක/සු"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"පන්ච්"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X ක්‍රියාවලිය"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"කෝපි වර්ණ"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"ලිතෝ"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"සියලු ඇල්බම"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"ස්ථානික ඇල්බම"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> හෝ පහළ"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> හෝ ඉහළ"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> සිට <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"ආයාත කරන්න"</string>
+    <string name="import_complete" msgid="3875040287486199999">"ආයාත කිරීම සම්පුර්ණයි"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"ඇල්බමයක් තෝරන්න"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"සියලු පින්තුර කළවම් කරන්න"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"පින්තුරයක් තෝරන්න"</string>
+    <string name="widget_type" msgid="1364653978966343448">"පින්තුර තෝරන්න"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"කදා දර්ශනය"</string>
+    <string name="albums" msgid="7320787705180057947">"ඇල්බම"</string>
+    <string name="times" msgid="2023033894889499219">"වාර ගණන"</string>
+    <string name="locations" msgid="6649297994083130305">"ස්ථාන"</string>
+    <string name="people" msgid="4114003823747292747">"ජනතාව"</string>
+    <string name="tags" msgid="5539648765482935955">"ටැගයන්"</string>
+    <string name="group_by" msgid="4308299657902209357">"කාණ්ඩයම මගින්"</string>
+    <string name="settings" msgid="1534847740615665736">"සැකසීම්"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"කැමරාව"</string>
+    <string name="folder_download" msgid="7186215137642323932">"බාගන්න"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"සංස්කරණය කළ සබැඳි ඡායාරූප"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"ආයාත කළ"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"තිර රුව"</string>
+    <string name="help" msgid="7368960711153618354">"උදවු"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Filmstrip දසුන"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"ජාල දසුන"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"සම්පුර්ණ තිරයේ පෙනුම"</string>
+    <string name="trimming" msgid="9122385768369143997">"අහුකොන් කැපීම"</string>
+    <string name="muting" msgid="5094925919589915324">"නිහඬ කිරීම"</string>
+    <string name="please_wait" msgid="7296066089146487366">"කරුණාකර රැඳී සිටින්න"</string>
+    <string name="save_into" msgid="9155488424829609229">"<xliff:g id="ALBUM_NAME">%1$s</xliff:g> වෙත වීඩියෝව සුරැකේ …"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"පරිදර්ශනය ප්‍රවාචනය"</string>
+    <string name="save" msgid="613976532235060516">"සුරකින්න"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"අන්තර්ගතය පරිලෝකනය වේ..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d අයිතම ස්කෑන් කරන ලදී"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d අයිතමය ස්කෑන් කරන ලදී"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d අයිතම ස්කෑන් කරන ලදී"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"අනුපිළිවෙලට සැකසේ..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"පරිලෝකනය කිරීම නිමයි"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"ආයාත කරමින්..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"මෙම උපාංගය මත ආයාත කිරීම සඳහා අන්තර්ගතය ලබාගත නොහැක."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"MTP උපාංගයක් සබැඳී නොමැත"</string>
+    <string name="camera_label" msgid="6346560772074764302">"කැමරාව"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"වීඩියෝව ධාවනය කරන්න"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"වීඩියෝ ධාවක කාල තීරය"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"කැමරාව"</string>
+    <string name="menu_search" msgid="7580008232297437190">"සෙවීම"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"ඡායාරූප"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"ඇල්බම"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d ඡායාරූපය"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d ඡායාරූප"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"යතුරු රාමු වීඩියෝවක් ධාවනය යළි ආරම්භ නොවනු ඇත"</string>
+    <string name="gif_decode_failed">"gif රූපය ධාවනය කිරීමට විශාල වැඩිය"</string>
+    <string name="spaceLow_content">"සුරැකීම අසාර්ථකයි, පද්ධතියෙහි ප්‍රමාණවත් නොවන ඉඩක් විය හැකිය."</string>
+    <string name="wait_for_deleting">"මකමින්, කරුණාකර රැඳී සිටින්න&#8230;"</string>
+    <string name="wait_for_rotating">"කරකවමින්, කරුණාකර රැඳී සිටින්න&#8230;"</string>
+    <string name="video_save_to_bookmark">"පිටු සලකුණු වෙත සුරකින්න"</string>
+    <string name="video_view_bookmarks">"පිටු සලකුණු"</string>
+    <string name="video_bookmarks">"පිටු සලකුණු"</string>
+    <string name="video_edit_bookmark">"සංස්කරණය කරන්න"</string>
+    <string name="video_delete_bookmark">"මකන්න"</string>
+    <string name="empty_bookmarks">"පිටු සලකුණ හිස් කරන්න"</string>
+    <string name="do_not_save">"අවලංගු කරන්න"</string>
+    <string name="net_location">"ලිපිනය"</string>
+    <string name="name">"නම‍"</string>
+    <string name="bookmark_needs_title">"පිටු සලකුණට නමක් තිබිය යුතුය"</string>
+    <string name="bookmark_needs_url">"පිටු සලකුණට ස්ථානයක් තිබිය යුතුය"</string>
+    <string name="bookmark_invalid_url">"ස්ථානය "http(s)://" හෝ "rtsp://""</string>
+    <string name="processing_please_wait">"සකසමින්, කරුණාකර රැඳී සිටින්න."</string>
+    <string name="bookmark_exist">"එකම ස්ථානය සහිත පිටු සලකුණු පවතී."</string>
+    <string name="default_bookmark_title">"පෙරනිමි_මාතෘකාව"</string>
+    <string name="bookmark_added">"සුරැකි පිටු සලකුණු"</string>
+    <string name="albums_video">"වීඩියෝව"</string>
+    <string name="empty_album_video">"O වීඩියෝ තිබේ."</string>
+    <string name="border_brush">"බ්‍රෂ්"</string>
+    <string name="border_grunge">"ග්‍රන්ජ්"</string>
+    <string name="border_sumi">"සුමි"</string>
+    <string name="border_tape">"ටේප්"</string>
+    <string name="border_black">"කළු"</string>
+    <string name="border_black_rounded">"කළු_rd"</string>
+    <string name="border_white">"සුදු"</string>
+    <string name="border_white_rounded">"සුදු_rd"</string>
+    <string name="border_cream">"ක්‍රීම්"</string>
+    <string name="border_cream_rounded">"ක්‍රීම්_rd"</string>
+    <string name="no_face">"මුහුණ නැත"</string>
+    <string name="can_not_share">"තෝරා ගත් ගොනු <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>ට වඩා වැඩිය, බෙදා ගැනීමේ විශේෂාංගය ලබා ගත නොහැකිය"</string>
+    <string name="movie_view_proxy_set">"ප්‍රොක්සි සකසන ලදී"</string>
+    <string name="movie_view_network">"ජාලය"</string>
+    <string name="movie_view_apn_set">"Apn පිවිසුම සකසන ලදී"</string>
+    <string name="movie_view_proxy_ip_set">"Proxy IP සැකසීම්"</string>
+    <string name="movie_view_proxy_port_set">"Proxy තොට සැකසීම්"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP තොට සැකසීම්"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP උපරිම තොට සැකසීම්"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP අවම තොට සැකසීම්"</string>
+    <string name="movie_view_proxy_ok">"හරි"</string>
+    <string name="movie_view_proxy_port_seterror_info">"අගය එකතු කළ තොට සැකසීම් දෙන ලද පරාසයක නිඛිලයක් විය යුතුය："</string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP වලංගු නැත!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"තොට වලංගු නැත!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"පළමුව තොට පරාසය සකසන්න ！"</string>
+    <string name="movie_view_proxy_enable">"ප්‍රොක්සි සබලයි"</string>
+    <string name="movie_view_parameter_set">"පරාමිති සැකසීම්"</string>
+    <string name="dialog_dismiss">"ඉවතලන්න"</string>
+    <string name="gallery_error_title">"ගැලරි දෝෂය"</string>
+    <string name="videoplayer_error_title">"වීඩියෝ ධාවකයේ දෝෂය"</string>
+    <string name="error_permissions">"මෙම යෙදුම ධාවනය කිරීමට අවශ්‍ය අවශ්‍යම අවසර නැත. කරුණාකර ඔබගේ අවසර සැකසීම් පරික්ෂා කරන්න."</string>
+    <string name="gallery_premission_change">"ගැලරි අවසරය වෙනස් විය, කරුණාකර නැවත තෝරන්න"</string>
+    <string name="gallery_premission_error">"ගැලරි අවසර දෝෂයකි, කරුණාකර ගැලරි අවසර නැවත තෝරන්න."</string>
+    <string name="already_exist">"ප්‍රයෝගය දැනටමත් පවතී"</string>
+    <string name="show_details_error">"දත්ත ප්‍රවේශනය කරමින්, කරුණාකර පසුව නැවත උත්සාහ කරන්න."</string>
+    <string name="none_playback">"පසුධාවනය නැත"</string>
+    <string name="single_playback">"තනි පසුධාවනය"</string>
+    <string name="all_playback">"සියල්ල පසුධාවනය"</string>
+    <string name="playback_setting">"පසුධාවන ප්‍රකාරය"</string>
+    <string name="can_not_open_float_video">"වත්මන් වීඩියෝ බිතුපත, වීඩියෝ පාවෙන කවුළු විවෘත කළ නොහැකිය."</string>
+    <string name="video_file_does_not_exist">"වීඩියෝ ගොනුව නොපවතී"</string>
+    <string name="movie_view_goto">"වෙත යන්න"</string>
+    <string name="no_search_app">"සෙවීම් යෙදුම නැත"</string>
+    <string name="channel_setting_title">"නාලිකා සැකසීම"</string>
+    <string name="channel_setting_left">"වම"</string>
+    <string name="channel_setting_right">"දකුණ"</string>
+    <string name="channel_setting_dual">"ඩයල් කරන්න"</string>
+    <string name="channel_setting_ok">"හරි"</string>
+    <string name="channel_setting_cancel">"අවලංගු කරන්න"</string>
+    <string name="channel_setting">"නාලිකා සැකසීම"</string>
+    <string name="movie_view_calling_title">"අමතමින්"</string>
+    <string name="movie_view_calling_msg">"කරුණාකර ඇමතුම අවසන් වීමෙන් පසුව නැවත උත්සාහ කරන්න!"</string>
+    <string name="movie_view_calling_try">"උත්සාහ කරන්න"</string>
+    <string name="movie_view_calling_cancel">"අවලංගු කරන්න"</string>
+    <string name="time_out">"කල් ඉකුත්වීම"</string>
+    <string name="time_out_message">"ජාල දෝෂ හෝ සබැඳුම් කාල නිමාව, නැවත ආරම්භ කරන්නද එපාද?"</string>
+    <string name="headset">"හෙඩ්සෙටි"</string>
+    <string name="loud_speaker">"ශබ්ද වාහිනිය"</string>
+    <string name="back_exit">"නැවත එබූ විට ඉවත් වන්න"</string>
+    <string name="cannot_load_crop_image">"යෙදුම් ධාවන කාල මතකය ප්‍රමාණවත් නැත, රූපය ප්‍රවේශනය කිරීම අසාර්ථක විය."</string>
+    <string name="slideshow_music">"ස්ලයිඩ සංගීතය"</string>
+    <string name="system_ringtones">"පද්ධති නාද රිද්ම"</string>
+    <string name="user_defined">"පරිශීලක නිර්නිත"</string>
+    <string name="cannot_play_music">"දැන් සංගීතය ධාවනය කළ නොහැකිය"</string>
+    <string name="play_audio_failed">"දැන්ශ්‍රව්‍යය ධාවනය කළ නොහැකිය"</string>
+    <string-array name="planets_array">
+        <item>"සියලු වීඩියෝ"</item>
+        <item>"ස්ථානීය වීඩියෝ"</item>
+        <item>"රූගත කළ වීඩියෝ"</item>
+        <item>"මෑතකදී එක් කළ"</item>
+    </string-array>
+    <string name="last_play">"අවසන් ධාවනය:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"දැන් වාර්තා මකන්නද?"</item>
+        <item quantity="other">"දැන් වාර්තා මකන්නද?"</item>
+    </plurals>
+    <string name="today">"අද"</string>
+    <string name="yesterday">"ඊයේ"</string>
+    <string name="earlier">"පෙර"</string>
+    <string name="drawer_open">"වීඩියෝ ලැයිස්තුව"</string>
+    <string name="drawer_close">"සියලු වීඩියෝ"</string>
+    <string name="share_actionmode">"බෙදාගන්න"</string>
+    <string name="delete_actionmode">"මකන්න"</string>
+    <string name="clear_all">"සියල්ල මකන්න"</string>
+    <string name="video_list">"වීඩියෝ ලැයිස්තුව"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"තෝරගත් අයිතමය මකන්නද?"</item>
+        <item quantity="other">"තෝරගත් අයිතමය මකන්නද?"</item>
+    </plurals>
+    <string name="current_select">"%d තෝරන ලදී"</string>
+    <string name="no_video_play_records">"ධාවන වාර්තා නැත"</string>
+    <string name="no_videos">"වීඩියෝ නැත"</string>
+    <string name="video_not_exist">"වීඩියෝව නොපවතී"</string>
+    <string name="save_picture">"ග්‍රහණය කිරීම %s වෙත සුරැක ඇත"</string>
+    <string name="mute">"නිහඬ කිරීම"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"ආරක්ෂක තොරතුරු"</string>
+    <string name="drm_info">"ආරක්ෂක තොරතුරු"</string>
+    <string name="file_name">"ගොනු නාමය:"</string>
+    <string name="rights_validity">"හිමිකම් වලංගුතාව:"</string>
+    <string name="rights_status">"හිමිකම් තත්ත්වය:"</string>
+    <string name="start_time">"ආරම්භක වේලාව:"</string>
+    <string name="end_time">"අවසන් වන වේලාව:"</string>
+    <string name="expiration_time">"කල් ඉකුත්වීමේ කාලය:"</string>
+    <string name="remain_times">"ඉතිරි කාලය:"</string>
+    <string name="rights_validity_valid">"වලංගුයි"</string>
+    <string name="rights_validity_invalid">"අවලංගුයි"</string>
+    <string name="rights_status_share">"යොමු කිරීමට ඉඩ දේ"</string>
+    <string name="rights_status_not_share">"යොමු කිරීමට ඉඩ නොදේ"</string>
+    <string name="drm_rights_no_limit">"සීමා රහිත"</string>
+    <string name="drm_rights_unknown">"නොදනී"</string>
+    <string name="drm_rights_inactive">"හිමිකම් අක්‍රියයි"</string>
+    <string name="drm_file_invalid">"ගොනුව කල් ඉකුත් වී ඇත"</string>
+    <string name="screenshot_failed">"තිර රුව අසාර්ථක විය"</string>
+    <string name="floatwindow_unsupported_device">"මෙම උපාංගය මත පාවෙන කවුළුව සහාය නොදක්වයි"</string>
+    <string name="floatwindow_unsupported_camera">"කැමරාව තුළ පාවෙන කවුළුව සහාය නොදක්වයි"</string>
+    <string name="floatwindow_unsupported_streaming">"ප්‍රවාහ වන වීඩියෝ ධාවනය කරන විට පාවෙන කවුළුව සහාය නොදක්වයි"</string>
+    <string name="stream_screenshot_not_supported">"ප්‍රවාහ වන වීඩියෝ ධාවනය කරන අතරතුර ග්‍රහණය කිරීමේ ශ්‍රිතය සහාය නොදක්වයි."</string>
+
+    <string name="movie_view_mms_ok">"හරි"</string>
+    <string name="movie_view_mms_processing_ok">"ලැබීම සම්පූර්ණයි"</string>
+    <string name="movie_view_sms_received_ok">"sms ලැබීම"</string>
+    <string name="movie_view_mms_process_title">"Mms සැකසීම"</string>
+    <string name="movie_view_sms_process_title">"Sms සැකසීම"</string>
+    <string name="drm_consume_hint">"ඔබේ මෙහෙයුම Drm හිමිකම් පරිභෝජනය කරනු ඇත"</string>
+    <string name="choose_drm_alert">"DRM ගොනුව තේරිය නොහැකිය, කරුණාකර වෙනත් එකක් ගන්න"</string>
+    <string name="drm_consume_title">"Drm හිමිකම් පරිභෝජනය කරන්න"</string>
+    <string name="invalid_rights">"මෙම ගොනුවේ වලංගු බලපත්‍රය නැත"</string>
+    <string name="drm_unit_minutes">"S"</string>
+    <string name="drm_consumed">"ඔබේ මෙහෙයුම Drm හිමිකම් පරිභෝජනය කර ඇත"</string>
+    <string name="slidemusic">"ස්ලයිඩයේ සංගීතය පෙන්වීමට පිහිටුවන්න"</string>
+    <string name="setas">"ලෙස සකසන්න"</string>
+    <string name="slide_music_system_ringtones">"පද්ධති නාද රිද්ම"</string>
+    <string name="slide_music_user_defined">"පරිශීලක නිර්නිත"</string>
+    <string name="remove_usbdisk">"මෙම උපාංගය ඉවත් කර ඇත"</string>
+    <string name="edit_crop_free">"නොමිලේ"</string>
+    <string name="edit_crop_square">"හතරැස්"</string>
+    <string name="edit_crop_origin">"මුල්"</string>
+    <string name="hide_albums">"ඇල්බම සඟවන්න"</string>
+    <string name="show_local_albums">"ප්‍රාදේශීය ඇල්බම පෙන්වන්න"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"තෝරාගත් %1$d පින්තූරය"</item>
+        <item quantity="other">"තෝරාගත් %1$d පින්තූර"</item>
+    </plurals>
+    <string name="select">"තෝරන්න"</string>
+    <string name="popup_title_save_all_selected">"සියලුම පින්තූර සුරකින්න?"</string>
+    <string name="keep_all">"සියල්ල සුරකින්න"</string>
+    <string name="burst_progress_dialog_title">"සකසමින්..."</string>
+    <string name="side_bar_all_photos">"සියලු"</string>
+    <string name="side_bar_photo">"ඡායාරූප"</string>
+    <string name="side_bar_video">"වීඩියෝ"</string>
+    <string name="side_bar_album">"ඇල්බම"</string>
+    <string name="label_select">"තෝරන්න"</string>
+    <string name="no_photo_or_video">"%1$s නැත"</string>
+    <string name="no_photo_or_video_hint">"මෙම උපාංගයේ සුරැක ඇති පින්තූර සහ වීඩියෝ මෙහි දර්ශනය වේ."</string>
+    <string name="detail_pop_title">"තොරතුරු"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"තවත්"</string>
+    <string name="detail_location">"ස්ථානය"</string>
+    <string name="database_exception">"දත්ත සැකසෙන ව්‍යතිරේකය, මෙහෙයුම අසාර්ථකයි."</string>
+    <string name="exit_multiwindow_tips">"බෙදුම් තිර ප්‍රකාරයේදී පින්තූර සෙවීමට සහාය නොදක්වයි"</string>
+    <string name="exit_multiwindow_video_tips">"බෙදුම් තිර ප්‍රකාරයේදී වීඩියෝ නැරඹීමට සහාය නොදක්වයි"</string>
+    <string name="decode_image_faild">"පින්තූරය කැපීම අසාර්ථකයි"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"අද"</string>
+    <string name="label_yesterday">"ඊයේ"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"දත්ත ප්‍රවේශනය වේ, කරුණාකර රැඳී සිටින්න"</string>
+    <string name="distance_photo_unit_conversion">"ඒකක පරිවර්තනය"</string>
+    <string name="unit">"ඒකකය"</string>
+    <string name="meter">"මීටරය"</string>
+    <string name="centimeter">"සෙන්ටිමීටර"</string>
+    <string name="foot">"අඩි"</string>
+    <string name="inch">"අඟල්"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"මෙම වීඩියෝව මෙම උපාංගයේ ප්‍රවාහය සඳහා වලංගු නැත."</string>
+    <string name="VideoView_error_text_unknown">"මෙම වීඩියෝව ධාවනය කිරීමට නොහැකිය."</string>
+    <string name="no_touch_flip">"නොඅල්ලා හැරවීම"</string>
+    <string name="flip_summury">"පින්තූරය හැරවීමට වයිස් කැමෙරාව වසන්න"</string>
+    <string name="first_summary">"පෙරනිමි ලෙස පිටුවක් පහලට"</string>
+    <string name="sencond_summury">"ශබ්දය ඉහල විට පිටුවක් ඉහලට"</string>
+    <string name="third_summury">"ශබ්දය පහල විට පිටුවක් පහලට"</string>
+    <string name="fourth_summury">"සාරාංශය: ශබ්ද යතුර අරගන්න"</string>
+    <string name="dealing">"ප්‍රවේශනය කරමින්..."</string>
+    <string name="slide_music_stop">"ස්ලයිඩ් සංගීතය නතරවිය"</string>
+    <string name="select_tips">"තෝරාගත් වස්තුව පසුබිමේ ඇත. කරුණාකර එම ලක්ෂ්‍යය ඉදිරිබිමේ පරාසයේ යලි සකසන්න"</string>
+    <string name="definition_subject">"වස්තුව හඳුන්වන්න"</string>
+    <string name="fix_subject">"නිවැරදි වස්තුව"</string>
+    <string name="fix_background">"නිවැරදි පසුබිම"</string>
+    <string name="replace_background">"පසුබිම ප්‍රතිස්ථාපනය කරන්න"</string>
+    <string name="correct_object_tips">"පළමුව, කරුණාකර රළු ලෙස අඳින්න හෝ පිටත රේඛාව වැරදි ස්ථානයේ අතුල්ලන්න.\nඊට පසු, ක්ලික් කරන්න \"නිවැරදි වස්තුව\" බොත්තම අතුල්ලන ප්‍රදේශය වස්තුවට උත්ශ්‍රේනිගත කිරීමට,හෝ ක්ලික් කරන්න \"නිවැරදි පසුබිම\" බොත්තම ඇතිල්ලූ ප්‍රදේශය පසුබිමට උත්ශ්‍රේනිගත කිරීමට."</string>
+    <string name="def_object_tips">"වස්තුව හඳුන්වන්න: සෘජුකෝනාශ්‍රයක් ඇඳ ඔබට උපුටාගැනීමට අවශ්‍ය වස්තුවේ පිටත රේඛාව ආවරණය කරන්න."</string>
+    <string name="valid_point">"පටන්ගන්නා ලක්ෂ්‍යය හෝ අවසන් වන ලක්ෂ්‍යය වලංගු පරාසය තුල නොමැත,"</string>
+    <string name="small_rect">"අඳින ලද සෘජුකෝණාශ්‍රය පොඩි වැඩියි."</string>
+    <string name="add">"එක් කරන්න"</string>
+    <string name="use_phone_photo">"කරුණාකර ඔබේ ජංගම දුරකතනයෙන් ගත ඡායාරූප භාවිතා කරන්න"</string>
+    <string name="extract_failed">"උපුටාගැනීම අසාර්ථකයි, කරුණාකර නැවත අරඹන්න"</string>
+    <string name="blending_success">"ඡායාරූප සංයෝජනය සාර්ථකයි, මෙහෙයුම ඉදිරියට කරගෙන යන්න හෝ පිටවීමට ආපසු බොත්තම තද කරන්න"</string>
+    <string name="blending_failed">"ඡායාරූප සංයෝජනය අසාර්ථකයි"</string>
+    <string name="extract_failed_notforground">""උපුටාගැනීම අසාර්ථකයි, ඉදිරිබිම් වස්තුවක් නොවේ, කරුණාකර යලි අරඹන්න" "</string>
+    <string name="extract_failed_nomemory">""උපුටාගැනීම අසාර්ථකයි, මතකය ප්‍රමාණවත් නොවේ, කරුණාකර යලි අරඹන්න" "</string>
+    <string name="extract_timeout">""උපුටාගනීමේ කාලය අවසන් විය, කරුණාකර යලි අරඹන්න" "</string>
+    <string name="extract_forground">"ඉදිරිබිම් ඉලක්කය උපුටා ගැනේ, කරුණාකර මොහොතක් රැඳී සිටින්න."</string>
+    <string name="update_forground">"ඉදිරිබිම් ඉලක්කය උත්ශ්‍රේනිගත කෙරේ, කරුණාකර මොහොතක් රැඳී සිටින්න."</string>
+    <string name="blending_image">"ඡායාරූපය සංයෝජනය වේ, කරුණාකර මොහොතක් රැඳී සිටින්න."</string>
+    <string name="select_foreground_subject">"ඉදිරිබිම් විෂය තේරීම සඳහා ක්ලික් කරන්න"</string>
+    <string name="adjust_foreground_subject">"ඉදිරිබිම් විෂය වෙනස් කරන්න"</string>
+    <string name="correct_subject_outline">"විෂයේ පිටත රේඛාව නිවැරදි කරන්න"</string>
+    <string name="edit_background">"පසුබිම වෙනස් කරන්න"</string>
+    <string name="verify_prompt">"වර්තමාන පිහිටුම කොනට ආසන්න වැඩියි, එමගින් දුර්වල ප්‍රයෝගයක් පැමිණිය හැකිය, සංයෝජනය කිරීමට ඔබට විශ්වාසද?"</string>
+    <string name="fg_too_large">"ඉදිරිබිම් විෂය සංයෝජනය කිරීමට විශාල වැඩියි."</string>
+    <string name="draw_tips">"කරුණාකර සුදු සෘජුකෝණාශ්‍රය තුල අඳින්න"</string>
+    <string name="undo_faild">"ආපසු හැරවීමේ මෙහෙයුම අසාර්ථකයි"</string>
+    <string name="get_forfround_tips">"සියලුම ඉදිරිබිම් විෂයන් පසුබිම් ලෙස හැරවීමට නොහැකි විය. කරුණාකර යලි අඳින්න."</string>
+    <string name="next_video">"මීළඟ වීඩියෝව"</string>
+    <string name="pre_video">"පෙර වීඩියෝව"</string>
+    <string name="lock_control">"අගුල් පාලනය"</string>
+    <string name="lock_orintation">"අගුල් දිශානතිය"</string>
+    <string name="print_screen">"මුද්‍රණ තිරය"</string>
+    <string name="float_player">"පාවෙන ධාවකය"</string>
+    <string name="scale_screen">"පරිමාන තිරය"</string>
+    <string name="back">"ආපසු"</string>
+    <string name="over_flow">"උතුරා යාම"</string>
+    <string name="slide_music_play_fail">"සමාවෙන්න, ගොනුව ධාවනය අසාර්ථකයි"</string>
+    <string name="refocus_quit">"හැර යන්න"</string>
+    <string name="refocus_save_change">"වෙනස්කම් සුරකින්න"</string>
+    <string name="refocus_confirm_save">"ඔබට සුරැකීමට හෝ කෙලින්ම පිටවීමට අවශ්‍යද?"</string>
+    <string name="refocus_save_success">"සුරැකීම සාර්ථක විය"</string>
+    <string name="refocus_save_fail">"සුරැකීම අසාර්ථකයි"</string>
+    <string name="none_input_tips">"නාමය හිස් වීමට නොහැකිය"</string>
+    <string name="floatview_notification_text">"මෙම වීඩියෝව පාවෙන කවුළුවක ධාවනය වේ."</string>
+    <string name="voice_photo">"ශ්‍රව්‍ය පින්තූරය"</string>
+    <string name="continuous_shooting">"බර්ස්ට්"</string>
+    <string name="refocus_image">"බොඳ වූ පින්තූරය"</string>
+    <string name="blur_image_wait">"බොඳවූ පින්තූරය සැකසේ, කරුණාකර රැඳී සිටින්න"</string>
+    <string name="blur_save_fail">"බොඳවූ පින්තූරය සුරැකීම අසාර්ථකයි"</string>
+    <string name="refocus_init_fail">"එහි දත්ත අසාර්ථකයි"</string>
+    <string name="conversing">"පරිවර්තනය"</string>
+    <string name="share_as_image">"ඡායාරූපයක් ලෙස හුවමාරු කරන්න"</string>
+    <string name="share_as_video">"වීඩියෝවක් ලෙස හුවමාරු කරන්න"</string>
+    <string name="converse_video_failed">"වීඩියෝවක් බවට පරිවර්තනය අසාර්ථකයි"</string>
+    <string name="app_photo_edit">"පින්තූර වෙනස් කිරීම"</string>
+</resources>

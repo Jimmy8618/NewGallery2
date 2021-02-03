@@ -1,0 +1,91 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.2'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+//从version.properties中获取版本信息
+static def getVersion(String key) {
+    File versionFile = new File("version.properties")
+    if (versionFile.exists()) {
+        Properties props = new Properties()
+        props.load(new FileInputStream(versionFile))
+        return props.getProperty(key, "1")
+    }
+    return "1"
+}
+
+static def getIntVersion(String key) {
+    String v = getVersion(key)
+    String[] s = v.split(".")
+    StringBuilder sb = new StringBuilder()
+    for (int i = 0; i < s.length; i++) {
+        sb.append(s[i])
+    }
+    if (sb.length() > 0) {
+        return Integer.parseInt(sb.toString())
+    } else {
+        return 1
+    }
+}
+
+ext {
+    //编译配置
+    app_package_name = "com.android.gallery3d"
+    compileSdkVersion = 29
+    targetSdkVersion = 29
+    minSdkVersion = 24
+
+    //依赖库版本
+    junit_junit_version = "4.12"
+    test_runner_version = "1.2.0-beta01"
+    test_uiautomator_version = "2.2.0"
+    test_ext_junit_version = "1.1.1-beta01"
+    test_core_version = "1.2.0-beta01"
+    test_espresso_version = "3.2.0-beta01"
+    tensorflow_lite_version = "1.10.0"
+    material_version = "1.2.0-alpha01"
+    appcompat_version = "1.1.0"
+    recyclerview_version = "1.1.0-rc01"
+    support_v4_version = "1.0.0"
+    support_v13_version = "1.0.0"
+    glide_version = "4.10.0"
+    eventbus_version = "3.1.1"
+    jacoco_core_version = "0.8.1"
+    robolectric_version = "4.3"
+    exifinterface = "1.1.0-rc01"
+
+    //apk 及 so 版本
+    apk_version_int = getIntVersion("app.version")
+    apk_version = getVersion("app.version")
+    so_blur_version = getVersion("so.blur.version")
+    so_bokeh_version = getVersion("so.bokeh.version")
+    so_dehaze_version = getVersion("so.dehaze.version")
+    so_eglfence_version = getVersion("so.eglfence.version")
+    so_facedetector_version = getVersion("so.facedetector.version")
+    so_filtershow_version = getVersion("so.filtershow.version")
+    so_imageblendings_version = getVersion("so.imageblendings.version")
+    so_jpegstream_version = getVersion("so.jpegstream.version")
+}

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galeria"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Reproductor de vídeo"</string>
+    <string name="loading_video" msgid="4013492720121891585">"S\'està carregant el vídeo..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Reprèn el vídeo"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Voleu reprendre la reproducció a partir de ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Reprèn la reproducció"</string>
+    <string name="loading" msgid="7038208555304563571">"S\'està carregant…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"No s\'ha pogut carregar"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"No s\'ha pogut carregar la imatge"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"No hi ha cap miniatura"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Torna a començar"</string>
+    <string name="ok" msgid="5296833083983263293">"Accepta"</string>
+    <string name="saving_image" msgid="7270334453636349407">"S\'està desant la imatge..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"S\'està desant la imatge a <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="crop_label" msgid="521114301871349328">"Retalla"</string>
+    <string name="trim_label" msgid="274203231381209979">"Retalla el vídeo"</string>
+    <string name="select_image" msgid="7841406150484742140">"Selecciona una foto"</string>
+    <string name="select_video" msgid="4859510992798615076">"Selecciona un vídeo"</string>
+    <string name="select_item" msgid="2816923896202086390">"Tria un element"</string>
+    <string name="select_album" msgid="1557063764849434077">"Selecciona un àlbum"</string>
+    <string name="select_group" msgid="6744208543323307114">"Selecciona un grup"</string>
+    <string name="set_image" msgid="2331476809308010401">"Estableix com a"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Fons de pantalla"</string>
+    <string name="delete" msgid="2839695998251824487">"Suprimeix"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Suprimir l\'element seleccionat?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Suprimir elements seleccionats?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Confirma"</string>
+    <string name="cancel" msgid="3637516880917356226">"Cancel·la"</string>
+    <string name="share" msgid="3619042788254195341">"Comparteix"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Comparteix el panorama"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Comparteix com a foto"</string>
+    <string name="deleted" msgid="6795433049119073871">"Suprimida"</string>
+    <string name="undo" msgid="2930873956446586313">"DESFÉS"</string>
+    <string name="select_all" msgid="3403283025220282175">"Selecciona-ho tot"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Anul·la la selecció de tot"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Presentació de diapositives"</string>
+    <string name="details" msgid="8415120088556445230">"Detalls"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d de %2$d elements:"</string>
+    <string name="close" msgid="5585646033158453043">"Tanca"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Canvia a la càmera"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d seleccionats"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d seleccionat"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d seleccionats"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Mostra al mapa"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Gira a l\'esquerra"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Gira a la dreta"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"No s\'ha trobat l\'element."</string>
+    <string name="edit" msgid="1502273844748580847">"Edita"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Edició simple"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Retalla"</string>
+    <string name="trim_action" msgid="703098114452883524">"Retalla"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Silencia"</string>
+    <string name="set_as" msgid="3636764710790507868">"Estableix com a"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"No es pot silenciar el vídeo."</string>
+    <string name="video_err" msgid="7003051631792271009">"No es pot reproduir el vídeo."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Per ubicació"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Per temps"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Per etiquetes"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Per persones"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Per àlbum"</string>
+    <string name="untagged" msgid="7281481064509590402">"Sense etiquetar"</string>
+    <string name="no_location" msgid="4043624857489331676">"Sense ubicació"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Hi ha ubicacions que no s\'han pogut identificar a causa de problemes amb la xarxa."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"No s\'han pogut baixar les fotos en aquest àlbum. Torna-ho a provar més tard."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Només imatges"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Només vídeos"</string>
+    <string name="show_all" msgid="6963292714584735149">"Imatges i vídeos"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Galeria de fotos"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Sense fotos."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"S\'ha desat la imatge retallada a <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"No hi ha àlbums disponibles."</string>
+    <string name="empty_album" msgid="4542880442593595494">"O imatges/vídeos disponibles."</string>
+    <string name="done" msgid="217672440064436595">"Fet"</string>
+    <string name="title" msgid="7622928349908052569">"Títol"</string>
+    <string name="description" msgid="3016729318096557520">"Descripció"</string>
+    <string name="time" msgid="1367953006052876956">"Hora"</string>
+    <string name="location" msgid="3432705876921618314">"Ubicació"</string>
+    <string name="path" msgid="4725740395885105824">"Camí"</string>
+    <string name="width" msgid="9215847239714321097">"Amplada"</string>
+    <string name="height" msgid="3648885449443787772">"Alçada"</string>
+    <string name="orientation" msgid="4958327983165245513">"Orientació"</string>
+    <string name="duration" msgid="8160058911218541616">"Durada"</string>
+    <string name="mimetype" msgid="8024168704337990470">"Tipus MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"Mida del fitxer"</string>
+    <string name="maker" msgid="7921835498034236197">"Creador"</string>
+    <string name="model" msgid="8240207064064337366">"Model"</string>
+    <string name="flash" msgid="2816779031261147723">"Flaix"</string>
+    <string name="aperture" msgid="5920657630303915195">"Obertura"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Longitud focal"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Balanç de blancs"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Temps d\'exposició"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Manual"</string>
+    <string name="auto" msgid="4296941368722892821">"Automàtic"</string>
+    <string name="flash_on" msgid="7891556231891837284">"Flaix activat"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Sense flaix"</string>
+    <string name="unknown" msgid="3506693015896912952">"Desconegut"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Instantània"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Destenyeix"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Blau"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"B/N"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Cop"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"Procés X"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litografia"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Tots els àlbums"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Àlbums locals"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> o menys"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> o més"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> a <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Importa"</string>
+    <string name="import_complete" msgid="3875040287486199999">"S\'ha completat la importació"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Tria un àlbum"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Barreja totes les imatges"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Selecciona una imatge"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Selecció d\'imatges"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Pres. diapositives"</string>
+    <string name="albums" msgid="7320787705180057947">"Àlbums"</string>
+    <string name="times" msgid="2023033894889499219">"Dates"</string>
+    <string name="locations" msgid="6649297994083130305">"Ubicacions"</string>
+    <string name="people" msgid="4114003823747292747">"Persones"</string>
+    <string name="tags" msgid="5539648765482935955">"Etiquetes"</string>
+    <string name="group_by" msgid="4308299657902209357">"Agrupa per"</string>
+    <string name="settings" msgid="1534847740615665736">"Configuració"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Càmera"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Baixades"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Fotos editades en línia"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Importades"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Captura de pantalla"</string>
+    <string name="help" msgid="7368960711153618354">"Ajuda"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Vista de tira de pel·lícula"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Vista de quadrícula"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Visual. pant. compl."</string>
+    <string name="trimming" msgid="9122385768369143997">"S\'està retallant"</string>
+    <string name="muting" msgid="5094925919589915324">"S\'està silenciant"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Espera"</string>
+    <string name="save_into" msgid="9155488424829609229">"S\'està desant el vídeo a <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Panorama de representació"</string>
+    <string name="save" msgid="613976532235060516">"Desa"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Anàlisi de contingut ..."</string>
+    <!-- String.format failed for translation -->
+    <!-- no translation found for ingest_number_of_items_scanned:zero (2623289390474007396) -->
+    <!-- String.format failed for translation -->
+    <!-- no translation found for ingest_number_of_items_scanned:one (4340019444460561648) -->
+    <!-- String.format failed for translation -->
+    <!-- no translation found for ingest_number_of_items_scanned:other (3138021473860555499) -->
+    <string name="ingest_sorting" msgid="1028652103472581918">"Ordenant ..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Escaneig fet"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Importació ..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"No hi ha contingut disponible per importar en aquest dispositiu."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"No hi ha cap dispositiu MTP connectat"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Càmera"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <!-- String.format failed for translation -->
+    <!-- no translation found for accessibility_check_box (7317447218256584181) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Reprodueix el vídeo"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Barra temporal del reproductor de vídeo"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Càmera"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Cerca"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Fotos"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Àlbums"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d foto"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d fotos"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="zero">"S\'han escanejat %1$d elements"</item>
+        <item quantity="one">"S\'ha escanejat %1$d element"</item>
+        <item quantity="other">"S\'han escanejat %1$d elements"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Si no es prem cap tecla el vídeo es tornarà a reproduir"</string>
+    <string name="gif_decode_failed">"El mapa de bits és massa gran per a poder-lo reproduir"</string>
+    <string name="spaceLow_content">No s\'ha pogut desar, potser el sistema no té prou memòria.</string>
+    <string name="wait_for_deleting">"S\'està esborrant, espereu&#8230;"</string>
+    <string name="wait_for_rotating">"S\'està girant, espereu&#8230;"</string>
+    <string name="video_bookmarks">"Marcadors"</string>
+    <string name="video_edit_bookmark">"Edita"</string>
+    <string name="video_delete_bookmark">"Suprimeix"</string>
+    <string name="empty_bookmarks">"No hi ha adreces d\'interès"</string>
+    <string name="do_not_save">"Cancel·la"</string>
+    <string name="net_location">"Adreça"</string>
+    <string name="name">"Nom"</string>
+    <string name="bookmark_needs_title">"L\'adreça d\'interès ha de tenir un nom"</string>
+    <string name="bookmark_needs_url">"L\'adreça d\'interès ha de tenir una localització"</string>
+    <string name="bookmark_invalid_url">La localització ha de començar per "http(s)://" o "rtsp://"</string>
+    <string name="processing_please_wait">"S\'està processant, si us plau espereu."</string>
+    <string name="bookmark_exist">"Ja existeix una adreça d\'interès amb la mateixa localització"</string>
+    <string name="default_bookmark_title">"Títol predeterminat"</string>
+    <string name="bookmark_added">"S\'ha guardat a adreces d\'interès"</string>
+    <string name="albums_video">"Vídeo"</string>
+    <string name="empty_album_video">"0 vídeos disponibles."</string>
+    <string name="border_brush">"Brush"</string>
+    <string name="border_grunge">"Grunge"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Cinta"</string>
+    <string name="border_black">"Negre"</string>
+    <string name="border_black_rounded">"Requadre negre"</string>
+    <string name="border_white">"Blanc"</string>
+    <string name="border_white_rounded">"Requadre blanc"</string>
+    <string name="border_cream">"Barreja"</string>
+    <string name="border_cream_rounded">"Requadre de barreja"</string>
+    <string name="no_face">"No hi ha caràtula"</string>
+    <string name="can_not_share">"Els fitxers seleccionats excedeixen <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, la opció de Compartir no està disponible"</string>
+
+    <string name="video_save_to_bookmark">"S\'ha desat als marcadors"</string>
+    <string name="video_view_bookmarks">"Marcadors"</string>
+    <string name="movie_view_proxy_set">"Configuració Proxy"</string>
+    <string name="movie_view_network">"Xarxa"</string>
+    <string name="movie_view_apn_set">"Estableix entrada d\'aplicació"</string>
+    <string name="movie_view_proxy_ip_set">"Configuració IP Proxy"</string>
+    <string name="movie_view_proxy_port_set">"Configuració Port Proxy"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"Configuració Port RTP/RTCP"</string>
+    <string name="movie_view_max_port_set">"Configuració Port Max RTP/RTCP"</string>
+    <string name="movie_view_min_port_set">"Configuració Port Min RTP/RTCP"</string>
+    <string name="movie_view_proxy_ok">"D\'acord"</string>
+    <string name="movie_view_proxy_port_seterror_info">"El número de port s\'ha de trobar en un rang determinat:"</string>
+    <string name="movie_view_proxy_ip_seterror_info">"L\'IP no és vàlida!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"El Port no és vàlid!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Primer cal establir el rang del Port!"</string>
+    <string name="movie_view_proxy_enable">"Activar Proxy"</string>
+    <string name="movie_view_parameter_set">"Configuració de paràmetres"</string>
+    <string name="dialog_dismiss">"Omet"</string>
+    <string name="gallery_error_title">"Error a la galeria"</string>
+    <string name="videoplayer_error_title">"Error al reproductor de vídeos"</string>
+    <string name="error_permissions">"L\'aplicació no té els permisos importants necessaris per executar-se. Comprova la configuració dels permisos."</string>
+    <string name="gallery_premission_change">"El permís de la galeria ha canviat, torneu a seleccionar"</string>
+    <string name="gallery_premission_error">"Error de permís de la galeria, torneu a establir els permisos de la galeria."</string>
+    <string name="already_exist">"Aquest efecte ja existeix"</string>
+    <string name="show_details_error">"S\'estan carregant dades, torneu a intentar-ho més tard."</string>
+    <string name="none_playback">"Cap playback"</string>
+    <string name="single_playback">"Un únic playback"</string>
+    <string name="all_playback">"Playback complet"</string>
+    <string name="playback_setting">"Mode playback"</string>
+    <string name="can_not_open_float_video">"Fons del vídeo actual, no es pot obrir un vídeo a una finestra flotant."</string>
+    <string name="video_file_does_not_exist">"el fitxer de vídeo no existeix"</string>
+    <string name="movie_view_goto">"Anar a"</string>
+    <string name="no_search_app">"no hi ha cap aplicació de recerca"</string>
+    <string name="channel_setting_title">"Configuració del canal"</string>
+    <string name="channel_setting_left">"Esquerra"</string>
+    <string name="channel_setting_right">"Dreta"</string>
+    <string name="channel_setting_dual">"Dual"</string>
+    <string name="channel_setting_ok">"D\'acord"</string>
+    <string name="channel_setting_cancel">"Cancel·la"</string>
+    <string name="channel_setting">"Configuració del canal"</string>
+    <string name="movie_view_calling_title">"Trucant"</string>
+    <string name="movie_view_calling_msg">"Torneu a provar quan finalitzeu la trucada"</string>
+    <string name="movie_view_calling_try">"Intenta"</string>
+    <string name="movie_view_calling_cancel">"Cancel·la"</string>
+    <string name="time_out">"Temps d\'espera esgotat"</string>
+    <string name="time_out_message">"S\'han produït anomalies a la xarxa o s\'ha excedit el temps de connexió, voleu reiniciar?"</string>
+    <string name="headset">Auricular</string>
+    <string name="loud_speaker">"Altaveu"</string>
+    <string name="cannot_load_crop_image">"No s\'ha pogut carregar la imatge perquè no hi ha prou memòria per a executar l\'aplicació ."</string>
+
+    <string name="back_exit">"per sortir premeu de nou"</string>
+    <string name="slideshow_music">"Desplaçar la música"</string>
+    <string name="system_ringtones">"Tons de trucada del sistema"</string>
+    <string name="user_defined">"Usuari definit"</string>
+    <string name="cannot_play_music">"No es pot reproduir música"</string>
+    <string name="play_audio_failed">"No es pot reproduir àudio"</string>
+    <string-array name="planets_array">
+        <item>"Tots els vídeos"</item>
+        <item>"Vídeos locals"</item>
+        <item>"Vídeos gravats"</item>
+        <item>"Reproduïts recentment"</item>
+    </string-array>
+    <string name="last_play">"Última reproducció:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Voleu esborrar les gravacions?"</item>
+        <item quantity="other">"Voleu esborrar les gravacions?"</item>
+    </plurals>
+    <string name="today">"Avui"</string>
+    <string name="yesterday">"Ahir"</string>
+    <string name="earlier">"Previ"</string>
+    <string name="drawer_open">"Llista de vídeos"</string>
+    <string name="drawer_close">"Tots els vídeos"</string>
+    <string name="share_actionmode">"Comparteix"</string>
+    <string name="delete_actionmode">"Suprimeix"</string>
+    <string name="clear_all">"Elimina tots"</string>
+    <string name="video_list">"Llista de vídeos"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Suprimir l\'element seleccionat?"</item>
+        <item quantity="other">"Suprimir l\'element seleccionat?"</item>
+    </plurals>
+    <string name="current_select">"%d seleccionats"</string>
+    <string name="no_video_play_records">"No es reprodueix"</string>
+    <string name="no_videos">"Cap vídeo"</string>
+    <string name="video_not_exist">"El vídeo no existeix"</string>
+    <string name="save_picture">"La captura s\'ha desat a %s"</string>
+    <string name="mute">"S\'està silenciant"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Informació de protecció"</string>
+    <string name="drm_info">"Informació de protecció"</string>
+    <string name="file_name">"Nom del fitxer:"</string>
+    <string name="rights_validity">"Validesa dels drets:"</string>
+    <string name="rights_status">"Estat dels drets:"</string>
+    <string name="start_time">"Hora d\'inici:"</string>
+    <string name="end_time">"Hora de finalització:"</string>
+    <string name="expiration_time">"Hora d\'expiració:"</string>
+    <string name="remain_times">"Temps restant:"</string>
+    <string name="rights_validity_valid">"Vàlid"</string>
+    <string name="rights_validity_invalid">"No vàlid"</string>
+    <string name="rights_status_share">"Es pot reenviar"</string>
+    <string name="rights_status_not_share">"No es pot reenviar"</string>
+    <string name="drm_rights_no_limit">"Il·limitat"</string>
+    <string name="drm_rights_unknown">"Desconegut"</string>
+    <string name="drm_rights_inactive">"Drets inactius"</string>
+    <string name="drm_file_invalid">"El fitxer ha expirat"</string>
+    <string name="screenshot_failed">"No s\'ha pogut realitzar la captura de pantalla"</string>
+    <string name="floatwindow_unsupported_device">"Les finestres flotants no són compatibles amb aquest dispositiu"</string>
+    <string name="floatwindow_unsupported_camera">"Les finestres flotants no són compatibles amb la càmera"</string>
+    <string name="floatwindow_unsupported_streaming">"Les finestres flotants no són compatibles amb la reproducció de vídeos en temps real."</string>
+    <string name="stream_screenshot_not_supported">"La funció de captura no és compatibles amb la reproducció de vídeos en temps real."</string>
+
+    <string name="movie_view_mms_processing_ok">"recepció completa"</string>
+    <string name="movie_view_sms_received_ok">"SMS rebut"</string>
+    <string name="movie_view_mms_process_title">"S\'està processant el MMS"</string>
+    <string name="movie_view_sms_process_title">"S\'està processant el SMS"</string>
+    <string name="movie_view_mms_ok">"D\'acord"</string>
+    <string name="drm_consumed">"Aquesta operació ha consumit drets DRM"</string>
+    <string name="drm_consume_title">"Consumeix drets DRM"</string>
+    <string name="invalid_rights">"Aquest fitxer no té una llicència vàlida"</string>
+    <string name="choose_drm_alert">"No es pot seleccionar un fitxer DRM, escolliu-ne un altre"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="drm_consume_hint">"Aquesta operació consumirà drets DRM"</string>
+    <string name="slidemusic">"Establiu la música per a la presentació de diapositives"</string>
+    <string name="setas">"Estableix com a"</string>
+    <string name="slide_music_system_ringtones">"Tons de trucada del sistema"</string>
+    <string name="slide_music_user_defined">"Usuari definit"</string>
+    <string name="remove_usbdisk">"S\'ha eliminat el dispositiu d\'usuari"</string>
+    <string name="edit_crop_free">"Disponible"</string>
+    <string name="edit_crop_square">"Quadrat"</string>
+    <string name="edit_crop_origin">"Original"</string>
+    <string name="hide_albums">"Amaga àlbums"</string>
+    <string name="show_local_albums">"Mostra àlbums locals"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"S\'ha seleccionat %1$d foto"</item>
+        <item quantity="other">"S\'han seleccionat %1$d fotos"</item>
+    </plurals>
+    <string name="select">"Selecciona"</string>
+    <string name="popup_title_save_all_selected">"Voleu desar totes les fotos?"</string>
+    <string name="keep_all">"Desa tot"</string>
+    <string name="burst_progress_dialog_title">"S\'està processant..."</string>
+    <string name="side_bar_all_photos">"Totes"</string>
+    <string name="side_bar_photo">"Fotos"</string>
+    <string name="side_bar_video">"Vídeos"</string>
+    <string name="side_bar_album">"Àlbums"</string>
+    <string name="label_select">"Selecciona"</string>
+    <string name="no_photo_or_video">"No %1$s"</string>
+    <string name="no_photo_or_video_hint">"Les fotos i els vídeos desats en aquest dispositiu es mostraran aquí."</string>
+    <string name="detail_pop_title">"Informació"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"Més"</string>
+    <string name="detail_location">"Ubicació"</string>
+    <string name="database_exception">"Excepció de processament de dades, l\'operació ha fallat."</string>
+    <string name="exit_multiwindow_tips">"No és compatible amb explorar fotos en mode de pantalla dividida"</string>
+    <string name="exit_multiwindow_video_tips">"No és compatible amb veure vídeos en mode de pantalla dividida"</string>
+    <string name="decode_image_faild">"No s\'ha pogut escapçar la imatge"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"Avui"</string>
+    <string name="label_yesterday">"Ahir"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"S\'estan carregant dades, espereu-vos"</string>
+    <string name="distance_photo_unit_conversion">"Conversió d\'unitats"</string>
+    <string name="unit">"Unitat"</string>
+    <string name="meter">"metre"</string>
+    <string name="centimeter">"Centímetres"</string>
+    <string name="foot">"peus"</string>
+    <string name="inch">" Polzada"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"Aquest vídeo no és vàlid per a la reproducció en aquest dispositiu."</string>
+    <string name="VideoView_error_text_unknown">"No es pot reproduir aquest vídeo."</string>
+    <string name="no_touch_flip">"sense gir tàctil"</string>
+    <string name="flip_summury">"cobriu la càmera del dispositiu 1s per girar la imatge"</string>
+    <string name="first_summary">"pàgina avall per defecte"</string>
+    <string name="sencond_summury">"pàgina amunt quan es puja el volum"</string>
+    <string name="third_summury">"pàgina avall quan es baixa el volum"</string>
+    <string name="fourth_summury">"resum: utilitzeu la tecla de volum"</string>
+    <string name="dealing">"Carregant…"</string>
+    <string name="slide_music_stop">"La música de la presentació de diapositives s\'ha aturat"</string>
+    <string name="select_tips">"L\'objecte seleccionat és el fons. Torneu a crear el punt en el rang de primer pla"</string>
+    <string name="definition_subject">"Definiu l\'objecte"</string>
+    <string name="fix_subject">"Corregiu l\'objecte"</string>
+    <string name="fix_background">"Fons correcte"</string>
+    <string name="replace_background">"Substituïu el fons"</string>
+    <string name="correct_object_tips">"En primer lloc, dibuixeu de manera aproximada o difumineu el lloc en què el contorn no és precís.\nA continuació, feu clic al botó \"Corregeix objecte\" per actualitzar l\'àrea de l\'objecte o feu clic al botó \"Corregeix fons\" per actualitzar l\'àrea del fons."</string>
+    <string name="def_object_tips">"Definiu l\'objecte: Dibuixeu un rectangle per cobrir el contorn de l\'objecte que voleu extreure."</string>
+    <string name="valid_point">"El punt de partida o de terminació no es troba dins de l\'interval vàlid"</string>
+    <string name="small_rect">"El rectangle dibuixat és massa petit."</string>
+    <string name="add">"Afegeix"</string>
+    <string name="use_phone_photo">"Utilitzeu les fotos que heu fet amb el telèfon"</string>
+    <string name="extract_failed">"L\'extracció ha fallat, torneu-ho a provar"</string>
+    <string name="blending_success">"La combinació d\'imatges s\'ha realitzat correctament, continueu l\'operació o premeu el botó enrere per sortir"</string>
+    <string name="blending_failed">"La combinació d\'imatges ha fallat"</string>
+    <string name="extract_failed_notforground">"L\'extracció ha fallat, no hi ha cap objecte en primer pla, torneu a començar"</string>
+    <string name="extract_failed_nomemory">"L\'extracció ha fallat, hi ha massa poca memòria, torneu a començar"</string>
+    <string name="extract_timeout">"S\'ha superat el temps d\'espera de l\'extracció, torneu-ho a provar"</string>
+    <string name="extract_forground">"S\'està extraient l\'objecte en primer pla, espereu un moment."</string>
+    <string name="update_forground">"S\'està actualitzant l\'objecte en primer pla, espereu un moment."</string>
+    <string name="blending_image">"S\'està combinant la imatge, espereu un moment."</string>
+    <string name="select_foreground_subject">"Feu clic per seleccionar l\'objecte en primer pla"</string>
+    <string name="adjust_foreground_subject">"Ajusteu l\'objecte en primer pla"</string>
+    <string name="correct_subject_outline">"Corregiu el contorn de l\'objecte"</string>
+    <string name="edit_background">"Editeu el fons"</string>
+    <string name="verify_prompt">"La posició actual està massa a prop de la vora i això provocarà un efecte deficient, voleu fer la barreja?"</string>
+    <string name="fg_too_large">"L\'objecte en primer pla és massa gran per barrejar-lo."</string>
+    <string name="draw_tips">"Dibuixeu dins el rectangle blanc"</string>
+    <string name="undo_faild">"no s\'ha pogut desfer l\'operació"</string>
+    <string name="get_forfround_tips">"No es possible canviar tots els objectes de primer pla a segon pla. Torneu-ho a dibuixar."</string>
+    <string name="back">"Enrere"</string>
+    <string name="over_flow">"Desbordament"</string>
+    <string name="slide_music_play_fail">"Ho sentim, la reproducció del fitxer ha fallat"</string>
+    <string name="refocus_quit">"Sortir"</string>
+    <string name="refocus_save_change">"Desar canvis"</string>
+    <string name="refocus_confirm_save">"Voleu desar o sortir directament?"</string>
+    <string name="refocus_save_success">"S\'ha desat correctament"</string>
+    <string name="refocus_save_fail">"Error en desar"</string>
+    <string name="none_input_tips">"El nom no pot estar buit"</string>
+    <string name="floatview_notification_text">"El vídeo s\'està reproduint en una finestra flotant."</string>
+    <string name="voice_photo">"Imatge del so"</string>
+    <string name="continuous_shooting">"Ràfega"</string>
+    <string name="refocus_image">"Difumina la imatge"</string>
+    <string name="blur_image_wait">"Processament d\'imatge difuminada, espereu"</string>
+    <string name="blur_save_fail">"No s\'ha pogut desar la imatge difuminada"</string>
+    <string name="refocus_init_fail">"Error d\'inici de dades"</string>
+    <string name="conversing">"Conversió"</string>
+    <string name="share_as_image">"Compartir com a imatge"</string>
+    <string name="share_as_video">"Compartir com a vídeo"</string>
+    <string name="converse_video_failed">"La conversió a vídeo ha fallat."</string>
+    <string name="app_photo_edit">"Edició de foto"</string>
+    <string name="ffx_dehaze">"Eliminar boirina"</string>
+    <string name="select_music">"Seleccionar música"</string>
+    <string name="delete_all">"Elimina tots"</string>
+    <string name="refocus_photo_edit_save">"Desa"</string>
+    <string name="blending_move_limit">"S’ha arribat a la vora de la pantalla. No es pot fer cap altra acció. Ajusta la posició per continuar."</string>
+    <string name="init_bitmap_faild">"No s’ha pogut obtenir la foto. Torna-ho a provar"</string>
+    <string name="cant_select_file">"Arxiu no compatible"</string>
+    <string name="input_reached_max_length">"L\'element d\'entrada ha arribat a la longitud màxima"</string>
+    <string name="v2_photo">"Foto"</string>
+    <string name="v2_album">"Àlbum"</string>
+    <string name="v2_discover">"Descobrir"</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">"%1$d imatge"</item>
+        <item quantity="one">"%1$d imatge"</item>
+        <item quantity="other">"%1$d imatges"</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">"%1$d vídeo"</item>
+        <item quantity="one">"%1$d vídeo"</item>
+        <item quantity="other">"%1$d vídeos"</item>
+    </plurals>
+    <string name="new_album">"Nou àlbum"</string>
+    <string name="already_select_count">"%1$d seleccionats"</string>
+    <string name="no_photos_or_videos">"No hi ha fotos ni vídeos."</string>
+    <string name="no_albums">"Sense àlbums"</string>
+    <string name="badname_as_point">"El nom no ha de ser  /,\\,. o .., aquest nom pot induir a confusions amb el vostre sistema de fitxers"</string>
+    <string name="msg_folder_input_empty">"No hi ha nom de carpeta"</string>
+    <string name="badname_endwith_point">"El final del nom de la carpeta no pot contenir."</string>
+    <string name="illegal_chars_of_foldername">El nom de carpeta no pot contenir caràcters no permesos \\:*?\"\u003C\u003E|/</string>
+    <string name="msg_file_input_repeat">"El nom %1$s ja existeix, introduïu-ne un altre."</string>
+    <string name="menu_mkdir_failed">"No s\'ha pogut crear una carpeta %1$s"</string>
+    <string name="add_to_album">"Afegir a l’àlbum"</string>
+    <string name="internal_storage">"Emmagatzematge intern"</string>
+    <string name="external_storage">"Targeta SD"</string>
+    <string name="my_album">"El meu àlbum"</string>
+    <string name="failed_add_to_album">"No s’ha pogut afegir a l’àlbum"</string>
+    <string name="select_images_or_videos">"Seleccionar imatges o vídeos"</string>
+    <string name="fragment_state_lost_msg">"S’ha perdut l’estat. Repeteix l’operació"</string>
+    <string name="recently_deleted">"Eliminat recentment"</string>
+    <string name="trash_restore">Restaura</string>
+    <string name="wait_for_restoring">"Restauració en curs. Si us plau, espera&#8230;"</string>
+    <plurals name="restore_selection">
+        <item quantity="one">"Restaurar l’ítem seleccionat?"</item>
+        <item quantity="other">"Restaurar els ítems seleccionats?"</item>
+    </plurals>
+    <string name="trash_date_tip">"Les fotos s’eliminaran de manera permanent d’aquí a 30 dies."</string>
+    <plurals name="left_day">
+        <item quantity="one">"%1$d dia"</item>
+        <item quantity="other">"%1$d dies"</item>
+    </plurals>
+    <string name="tf_discover_things">"Coses"</string>
+    <string name="tf_discover_people">"Persones"</string>
+    <string name="tf_discover_location">"Ubicació"</string>
+    <string name="tf_unknown">"Desconegut"</string>
+    <string name="tf_aircraft">"Avió"</string>
+    <string name="tf_animal">"Animal"</string>
+    <string name="tf_baby">"Nadó"</string>
+    <string name="tf_basketball">"Bàsquet"</string>
+    <string name="tf_bedroom">"Dormitori"</string>
+    <string name="tf_bicycle">"Bicicleta"</string>
+    <string name="tf_bird">"Ocell"</string>
+    <string name="tf_bridge">"Pont"</string>
+    <string name="tf_building">"Edifici"</string>
+    <string name="tf_bus">"Autobús"</string>
+    <string name="tf_car">"Cotxe"</string>
+    <string name="tf_cat">"Gat"</string>
+    <string name="tf_classroom">"Classe"</string>
+    <string name="tf_conference_room">"Sala de conferències"</string>
+    <string name="tf_crawling_animal">"Animal reptador"</string>
+    <string name="tf_desktop_computer">"Ordinador"</string>
+    <string name="tf_document">"Document"</string>
+    <string name="tf_dog">"Gos"</string>
+    <string name="tf_electric_bicycle">"Bicicleta elèctrica"</string>
+    <string name="tf_evergreen">"Vegetació"</string>
+    <string name="tf_farmland">"Terres de cultiu"</string>
+    <string name="tf_fish">"Peix"</string>
+    <string name="tf_flower">"Flor"</string>
+    <string name="tf_food">"Menjar"</string>
+    <string name="tf_football">"Futbol"</string>
+    <string name="tf_graduation_photo">"Foto de graduació"</string>
+    <string name="tf_grassland">"Prat"</string>
+    <string name="tf_group_photo">"Foto de grup"</string>
+    <string name="tf_helicopter">"Helicòpter"</string>
+    <string name="tf_kitchen">"Cuina"</string>
+    <string name="tf_laptop">"Portàtil"</string>
+    <string name="tf_metro">"Metro"</string>
+    <string name="tf_mobile_phone">"Telèfon mòbil"</string>
+    <string name="tf_motorcycle">"Moto"</string>
+    <string name="tf_mountain">"Muntanya"</string>
+    <string name="tf_office">"Oficina"</string>
+    <string name="tf_parlour">"Saló"</string>
+    <string name="tf_party">"Festa"</string>
+    <string name="tf_people">"Persones"</string>
+    <string name="tf_playground">"Pati"</string>
+    <string name="tf_river">"Riu"</string>
+    <string name="tf_road">"Carretera"</string>
+    <string name="tf_sea">"Mar"</string>
+    <string name="tf_selfie">"Selfie"</string>
+    <string name="tf_ship">"Vaixell"</string>
+    <string name="tf_shopping_mall">"Centre comercial"</string>
+    <string name="tf_sky">"Cel"</string>
+    <string name="tf_telephone">"Telèfon"</string>
+    <string name="tf_train">"Tren"</string>
+    <string name="tf_tree">"Arbre"</string>
+    <string name="tf_waiting_room">"Sala d’espera"</string>
+    <string name="tf_night_scene">"Escena nocturna"</string>
+    <string name="tf_cake">"Pastís"</string>
+    <string name="tf_lake">"Llac"</string>
+    <string name="tf_indoor">"Interior"</string>
+    <string name="tf_computer">"Ordinador"</string>
+    <string name="tf_sport">"Esport"</string>
+    <string name="tf_sea_river">"Mar,riu,llac"</string>
+    <string name="tf_phone">"Telèfon"</string>
+    <string name="move_out_of_this_classification">"Treure"</string>
+    <string name="move_out_classification_dialog_title">"Vols eliminar els ítems seleccionats de la classificació?"</string>
+    <string name="moving_out">"Traient&#8230;"</string>
+    <string name="image">"Imatges"</string>
+    <string name="video">"Vídeos"</string>
+    <string name="all_medias">"Totes"</string>
+    <string name="un_named">"Sense nom"</string>
+    <string name="move_out_of_this_people">"Treure"</string>
+    <string name="move_out_people_dialog_title">"Vols desvincular els ítems seleccionats de la persona?"</string>
+    <string name="add_name">"Afegir un nom"</string>
+    <string name="illegal_chars_of_name">"El nom no pot incloure caràcters no permesos \\:*?\"\u003C\u003E|/"</string>
+    <string name="repeated_name">"Aquest nom ja existeix"</string>
+    <string name="replay">"Surt i torna-ho a reproduir"</string>
+    <string name="bokeh_editor">"Editor de bokeh"</string>
+    <string name="merge_to">"Fusionar amb"</string>
+    <string name="hide_albums_v2">Amaga àlbums</string>
+    <string name="request_delete_permission_title">"Autoritzes l’accés de Galeria a la targeta SD?"</string>
+    <string name="request_delete_permission_msg">"Per editar, eliminar o moure fotos de la targeta SD, cal que Galeria hi tingui accés"</string>
+    <string name="no_delete_permission_title">"No es pot completar"</string>
+    <string name="no_delete_permission_msg">"Galeria no té accés a la teva targeta SD. Autoritza’n l’accés o esborra l’emmagatzematge de l’aplicació i torna-ho a provar."</string>
+    <string name="trash_restore_fail">"Error en restaurar"</string>
+    <string name="delete_drm_file">"L’arxiu DRM s’eliminarà de manera permanent i no es desarà a la carpeta d’arxius eliminats recentment. Segur que vols continuar?"</string>
+    <string name="tf_discover_story">"Records"</string>
+    <string name="prefered_motion_photo">"Foto preferida"</string>
+    <string name="play_motion_photo">"Reprodueix"</string>
+    <string name="stop_motion_photo">"Atura"</string>
+    <string name="superuser_request_confirm">"VideoPlayer no té accés a la teva targeta SD. Selecciona el directori arrel extern de la targeta SANDISK SD i autoritza VideoPlayer a fer-hi canvis."</string>
+    <string name="smarterase">"Eliminació intel·ligent"</string>
+    <string name="share_max_warning">"S\'han seleccionat més de 100 arxius i la funció de compartir no està disponible"</string>
+    <string name="scale_screen">"Pantalla a escala"</string>
+    <string name="print_screen">"Pantalla d\'impressió"</string>
+    <string name="pre_video">"Vídeo anterior"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"Vols guardar les altres %1$d fotos d\'aquesta ràfega?"</item>
+        <item quantity="other">Us agradaria conservar les altres %1$d fotos d\'aquesta ràfega?</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"Guarda només %1$d fotos seleccionades"</item>
+        <item quantity="other">"Desa només les %1$d fotos seleccionades"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">%d elements seleccionats</item>
+        <item quantity="one">"%1$d ítems seleccionats"</item>
+        <item quantity="other">%d elements seleccionats</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"Elimina %1$d fotos seleccionades"</item>
+        <item quantity="other">"Eliminar %1$d fotos seleccionades"</item>
+    </plurals>
+    <string name="no_sd_write_permission">"El reproductor de vídeo no té permisos suficients per eliminar vídeos"</string>
+    <string name="next_video">"Vídeo següent"</string>
+    <string name="next">"Següent"</string>
+    <string name="lock_orintation">"Bloqueig d\'orientació"</string>
+    <string name="lock_control">"Bloqueig de control"</string>
+    <string name="float_player">"Reproductor flotant"</string>
+</resources>

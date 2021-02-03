@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#33000000">
+
+    <FrameLayout
+        android:id="@+id/albumset_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/albumset_item_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:id="@+id/video_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_newui_video_cover"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/video_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="#FFFFFFFF"
+                android:textSize="@dimen/thumbnail_video_duration_text_size"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/image_type_hdr"
+                android:layout_width="@dimen/thumbnail_image_type_size"
+                android:layout_height="@dimen/thumbnail_image_type_size"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/image_type"
+                android:layout_width="@dimen/thumbnail_image_type_size"
+                android:layout_height="@dimen/thumbnail_image_type_size"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/image_type2"
+                android:layout_width="@dimen/thumbnail_image_type_size"
+                android:layout_height="@dimen/thumbnail_image_type_size"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/more_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#88000000" />
+
+        <!-- <TextView
+            android:id="@+id/more_image_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="-8dp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/ic_newui_album_more"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#FFFFFFFF" /> -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/ic_newui_album_more" />
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:src="@drawable/check_item_image"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/drm_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:visibility="gone" />
+</FrameLayout>

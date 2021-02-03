@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galerie"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Lecteur Google Vidéos"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Chargement de la vidéo..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Reprendre la vidéo"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Reprendre la lecture à partir de %s?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Reprendre la lecture"</string>
+    <string name="loading" msgid="7038208555304563571">"Chargement en cours..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Impossible de charger"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Impossible de charger l\'image."</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Aucune vignette"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Recommencer"</string>
+    <string name="ok" msgid="5296833083983263293">"OK"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Enregistrement de l\'image..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Enregistrement de l\'image dans l\'album <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="crop_label" msgid="521114301871349328">"Rogner l\'image"</string>
+    <string name="trim_label" msgid="274203231381209979">"Découper la vidéo"</string>
+    <string name="select_image" msgid="7841406150484742140">"Sélectionner photo"</string>
+    <string name="select_video" msgid="4859510992798615076">"Sélectionner vidéo"</string>
+    <string name="select_item" msgid="2816923896202086390">"Sélectionner élément"</string>
+    <string name="select_album" msgid="1557063764849434077">"Sélectionner l\'album"</string>
+    <string name="select_group" msgid="6744208543323307114">"Sélectionner groupe"</string>
+    <string name="set_image" msgid="2331476809308010401">"Utiliser l\'image comme"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Fond d\'écran"</string>
+    <string name="delete" msgid="2839695998251824487">"Supprimer"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Supprimer élément sélectionné?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Suppr. éléments sélectionnés?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Confirmer"</string>
+    <string name="cancel" msgid="3637516880917356226">"Annuler"</string>
+    <string name="share" msgid="3619042788254195341">"Partager"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Partager la vue panoramique"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Partager comme photo"</string>
+    <string name="deleted" msgid="6795433049119073871">"Supprimé"</string>
+    <string name="undo" msgid="2930873956446586313">"ANNULER"</string>
+    <string name="select_all" msgid="3403283025220282175">"Tout sélectionner"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Tout désélectionner"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Diaporama"</string>
+    <string name="details" msgid="8415120088556445230">"Détails"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d élément(s) sur %2$d :"</string>
+    <string name="close" msgid="5585646033158453043">"Fermer"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Passer en mode Appareil photo"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d sélectionnés"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d sélectionnés"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d sélectionnés"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Afficher sur la carte"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Rotation vers la gauche"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Faire pivoter vers la droite"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Impossible de trouver l\'élément."</string>
+    <string name="edit" msgid="1502273844748580847">"Modifier"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Modification simple"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Rogner"</string>
+    <string name="trim_action" msgid="703098114452883524">"Rogner"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Couper le son"</string>
+    <string name="set_as" msgid="3636764710790507868">"Définir comme"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Impossible de couper le son."</string>
+    <string name="video_err" msgid="7003051631792271009">"Impossible de lire la vidéo."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Par emplacement"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Par heure"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Par libellé"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Par personne"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Par album"</string>
+    <string name="untagged" msgid="7281481064509590402">"Aucun libellé"</string>
+    <string name="no_location" msgid="4043624857489331676">"Aucun lieu"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Certains lieux n\'ont pas pu être identifiés en raison de problèmes réseau."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Impossible de télécharger les photos de cet album. Veuillez réessayer plus tard."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Images uniquement"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Vidéos uniquement"</string>
+    <string name="show_all" msgid="6963292714584735149">"Images et vidéos"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Galerie photos"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Aucune photo."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Image rognée enregistrée dans <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Aucun album disponible."</string>
+    <string name="empty_album" msgid="4542880442593595494">"Aucune image/vidéo disponible."</string>
+    <string name="done" msgid="217672440064436595">"Terminé"</string>
+    <string name="title" msgid="7622928349908052569">"Titre"</string>
+    <string name="description" msgid="3016729318096557520">"Description"</string>
+    <string name="time" msgid="1367953006052876956">"À intervalles réguliers"</string>
+    <string name="location" msgid="3432705876921618314">"Lieu"</string>
+    <string name="path" msgid="4725740395885105824">"Chemin"</string>
+    <string name="width" msgid="9215847239714321097">"Largeur"</string>
+    <string name="height" msgid="3648885449443787772">"Hauteur"</string>
+    <string name="orientation" msgid="4958327983165245513">"Orientation"</string>
+    <string name="duration" msgid="8160058911218541616">"Durée"</string>
+    <string name="mimetype" msgid="8024168704337990470">"Type MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"Taille fichier"</string>
+    <string name="maker" msgid="7921835498034236197">"Fabricant"</string>
+    <string name="model" msgid="8240207064064337366">"Modèle"</string>
+    <string name="flash" msgid="2816779031261147723">"Flash"</string>
+    <string name="aperture" msgid="5920657630303915195">"Ouverture"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Longueur focale"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Balance des blancs"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Durée d\'expo"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Manuel"</string>
+    <string name="auto" msgid="4296941368722892821">"Auto"</string>
+    <string name="flash_on" msgid="7891556231891837284">"Flash déclenché"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Flash désactivé"</string>
+    <string name="unknown" msgid="3506693015896912952">"Inconnue"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Instantané"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Décoloration"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Bleu"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"Noir et blanc"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Intense"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X Process"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Lithographie"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Tous les albums"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Albums locaux"</string>
+    <string name="size_below" msgid="2074956730721942260">"jusqu\'à <xliff:g id="SIZE">%1$s</xliff:g>"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> ou plus"</string>
+    <string name="size_between" msgid="8779660840898917208">"de <xliff:g id="MIN_SIZE">%1$s</xliff:g> à <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Importer"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Téléversement terminé"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Sélectionner un album"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Affichage aléatoire des images"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Sélectionner une image"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Sélectionner images"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Diaporama"</string>
+    <string name="albums" msgid="7320787705180057947">"Albums"</string>
+    <string name="times" msgid="2023033894889499219">"Fois"</string>
+    <string name="locations" msgid="6649297994083130305">"Positions"</string>
+    <string name="people" msgid="4114003823747292747">"Personnes"</string>
+    <string name="tags" msgid="5539648765482935955">"Balises"</string>
+    <string name="group_by" msgid="4308299657902209357">"Grouper par"</string>
+    <string name="settings" msgid="1534847740615665736">"Paramètres"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Appareil photo"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Télécharger"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Photos en ligne retouchées"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Importation terminée"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Capture d\'écran"</string>
+    <string name="help" msgid="7368960711153618354">"AIDE"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Pellicule"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Grille"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Affichage plein écran"</string>
+    <string name="trimming" msgid="9122385768369143997">"Découpe en cours"</string>
+    <string name="muting" msgid="5094925919589915324">"Coupure du son"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Veuillez patienter."</string>
+    <string name="save_into" msgid="9155488424829609229">"Enregistrement de la vidéo dans l\'album \"<xliff:g id="ALBUM_NAME">%1$s</xliff:g>\" en cours…"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Rendu de vue panoramique…"</string>
+    <string name="save" msgid="613976532235060516">"Enregistrer"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Analyse du contenu en cours..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d éléments analysés"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d élément analysé"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d éléments analysés"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Tri en cours..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Analyse terminée."</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Importation en cours..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Aucun contenu n\'est disponible pour une importation sur cet appareil."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Aucun appareil MTP n\'est connecté."</string>
+    <string name="camera_label" msgid="6346560772074764302">"Appareil photo"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Lire la vidéo"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Barre chronologique du lecteur vidéo"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Appareil photo"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Recherche"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Photos"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Albums"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d photo"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d photos"</item>
+    </plurals>
+</resources>

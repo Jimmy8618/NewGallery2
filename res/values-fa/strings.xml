@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"گالری"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"پخش کننده ویدئو"</string>
+    <string name="loading_video" msgid="4013492720121891585">"در حال بارگیری ویدئو..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"از سرگیری ویدئو"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"‏ادامه پخش از  ؟"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"از سرگیری پخش"</string>
+    <string name="loading" msgid="7038208555304563571">"در حال بارگیری…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"بارگیری نشد"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"تصویر بارگیری نمی‌شود"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"تصویر کوچکی وجود ندارد"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"شروع مجدد"</string>
+    <string name="ok" msgid="5296833083983263293">"تأیید"</string>
+    <string name="saving_image" msgid="7270334453636349407">"در حال ذخیره عکس..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"ذخیره تصویر در <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="crop_label" msgid="521114301871349328">"برش تصویر"</string>
+    <string name="trim_label" msgid="274203231381209979">"برش ویدیو"</string>
+    <string name="select_image" msgid="7841406150484742140">"انتخاب عکس"</string>
+    <string name="select_video" msgid="4859510992798615076">"انتخاب ویدئو"</string>
+    <string name="select_item" msgid="2816923896202086390">"انتخاب مورد"</string>
+    <string name="select_album" msgid="1557063764849434077">"آلبوم را انتخاب کنید"</string>
+    <string name="select_group" msgid="6744208543323307114">"انتخاب گروه"</string>
+    <string name="set_image" msgid="2331476809308010401">"تنظیم تصویر به‌عنوان"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"تصویر زمینه"</string>
+    <string name="delete" msgid="2839695998251824487">"حذف"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"مورد انتخابی حذف شود؟"</item>
+        <item msgid="5874316486520635333" quantity="other">"موارد انتخابی حذف شوند؟"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"تأیید"</string>
+    <string name="cancel" msgid="3637516880917356226">"لغو"</string>
+    <string name="share" msgid="3619042788254195341">"اشتراک‌گذاری"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"اشتراک‌گذاری پانوراما"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"اشتراک‌گذاری به عنوان عکس"</string>
+    <string name="deleted" msgid="6795433049119073871">"پاک شد"</string>
+    <string name="undo" msgid="2930873956446586313">"واگرد"</string>
+    <string name="select_all" msgid="3403283025220282175">"انتخاب همه"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"لغو انتخاب همه"</string>
+    <string name="slideshow" msgid="4355906903247112975">"نمایش اسلاید"</string>
+    <string name="details" msgid="8415120088556445230">"جزئیات"</string>
+    <string name="details_title" msgid="2611396603977441273">"‏%1$d از %2$d مورد:"</string>
+    <string name="close" msgid="5585646033158453043">"بستن"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"جابجایی به دوربین"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"‏%1$d انتخاب شد"</item>
+        <item msgid="2478365152745637768" quantity="one">"‏%1$d انتخاب شد"</item>
+        <item msgid="754722656147810487" quantity="other">"‏%1$d انتخاب شد"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"نمایش در نقشه"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"چرخش به چپ"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"چرخش به راست"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"مورد یافت نشد."</string>
+    <string name="edit" msgid="1502273844748580847">"ویرایش"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"ویرایش ساده"</string>
+    <string name="crop_action" msgid="3427470284074377001">"برش"</string>
+    <string name="trim_action" msgid="703098114452883524">"برش"</string>
+    <string name="mute_action" msgid="5296241754753306251">"بی‌صدا"</string>
+    <string name="set_as" msgid="3636764710790507868">"تنظیم به‌عنوان"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"بیصدا کردن ویدیو انجام نشد."</string>
+    <string name="video_err" msgid="7003051631792271009">"ویدئو پخش نمی‌شود."</string>
+    <string name="group_by_location" msgid="316641628989023253">"بر اساس محل"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"بر اساس زمان"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"بر اساس برچسب‌ها"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"براساس افراد"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"بر اساس آلبوم"</string>
+    <string name="untagged" msgid="7281481064509590402">"بدون برچسب‌گذاری"</string>
+    <string name="no_location" msgid="4043624857489331676">"مکانی موجود نیست"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"شناسایی برخی از مکان‌ها به دلیل مشکلات شبکه امکان‌پذیر نیست."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"عکس‌های این آلبوم را نمی‌توان دانلود کرد. بعداً دوباره امتحان کنید."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"فقط تصاویر"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"فقط ویدئوها"</string>
+    <string name="show_all" msgid="6963292714584735149">"تصاویر و ویدئوها"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"گالری عکس"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"عکسی موجود نیست."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"تصویر بریده شده در <xliff:g id="FOLDER_NAME">%s</xliff:g> ذخیره شد."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"آلبومی موجود نیست."</string>
+    <string name="empty_album" msgid="4542880442593595494">"‏O تصویر/ویدئو موجود است."</string>
+    <string name="done" msgid="217672440064436595">"انجام شد"</string>
+    <string name="title" msgid="7622928349908052569">"عنوان"</string>
+    <string name="description" msgid="3016729318096557520">"توصیف"</string>
+    <string name="time" msgid="1367953006052876956">"زمان"</string>
+    <string name="location" msgid="3432705876921618314">"موقعیت مکانی"</string>
+    <string name="path" msgid="4725740395885105824">"مسیر"</string>
+    <string name="width" msgid="9215847239714321097">"عرض"</string>
+    <string name="height" msgid="3648885449443787772">"ارتفاع"</string>
+    <string name="orientation" msgid="4958327983165245513">"جهت"</string>
+    <string name="duration" msgid="8160058911218541616">"مدت"</string>
+    <string name="mimetype" msgid="8024168704337990470">"‏نوع MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"اندازه فایل"</string>
+    <string name="maker" msgid="7921835498034236197">"سازنده"</string>
+    <string name="model" msgid="8240207064064337366">"مدل"</string>
+    <string name="flash" msgid="2816779031261147723">"فلاش"</string>
+    <string name="aperture" msgid="5920657630303915195">"دریچه دیافراگم"</string>
+    <string name="focal_length" msgid="1291383769749877010">"فاصله کانونی"</string>
+    <string name="white_balance" msgid="1582509289994216078">"توازن سفیدی"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"زمان نوردهی"</string>
+    <string name="iso" msgid="5028296664327335940">"ایزو"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"میلیمتر"</string>
+    <string name="manual" msgid="6608905477477607865">"دستی"</string>
+    <string name="auto" msgid="4296941368722892821">"خودکار"</string>
+    <string name="flash_on" msgid="7891556231891837284">"فلاش زده شد"</string>
+    <string name="flash_off" msgid="1445443413822680010">"بدون فلاش"</string>
+    <string name="unknown" msgid="3506693015896912952">"ناشناس"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"آنتیک"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"فوری"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"سفیدکننده"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"آبی"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"سیاه‌/سفید"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"پانچ"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"‏فرآیند X"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litho"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"همه آلبوم‌ها"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"آلبوم‌های محلی"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> یا کمتر"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> یا بیشتر"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> تا <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"وارد کردن"</string>
+    <string name="import_complete" msgid="3875040287486199999">"وارد کردن انجام شد"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"انتخاب یک آلبوم"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"نمایش تصادفی همه تصاویر"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"انتخاب یک تصویر"</string>
+    <string name="widget_type" msgid="1364653978966343448">"انتخاب تصاویر"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"نمایش اسلاید"</string>
+    <string name="albums" msgid="7320787705180057947">"آلبوم‌ها"</string>
+    <string name="times" msgid="2023033894889499219">"دوره"</string>
+    <string name="locations" msgid="6649297994083130305">"مکان‌ها"</string>
+    <string name="people" msgid="4114003823747292747">"افراد"</string>
+    <string name="tags" msgid="5539648765482935955">"نشان‌ها"</string>
+    <string name="group_by" msgid="4308299657902209357">"گروه بندی براساس"</string>
+    <string name="settings" msgid="1534847740615665736">"تنظیمات"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"دوربین"</string>
+    <string name="folder_download" msgid="7186215137642323932">"دانلود"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"ویرایش آنلاین عکس"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"وارد شده"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"عکس صفحه"</string>
+    <string name="help" msgid="7368960711153618354">"راهنما"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"نمایش نوار فیلم"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"نمای شبکه‌ای"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"نمایش تمام صفحه"</string>
+    <string name="trimming" msgid="9122385768369143997">"کوتاه کردن"</string>
+    <string name="muting" msgid="5094925919589915324">"بیصدا کردن"</string>
+    <string name="please_wait" msgid="7296066089146487366">"لطفاً منتظر بمانید"</string>
+    <string name="save_into" msgid="9155488424829609229">"درحال ذخیره ویدیو در <xliff:g id="ALBUM_NAME">%1$s</xliff:g> ..."</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"در حال تولید تصویر پانوراما"</string>
+    <string name="save" msgid="613976532235060516">"ذخیره"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"در حال اسکن کردن محتوا..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"‏%1$d مورد اسکن شد"</item>
+        <item msgid="4340019444460561648" quantity="one">"‏%1$d مورد اسکن شد"</item>
+        <item msgid="3138021473860555499" quantity="other">"‏%1$d مورد اسکن شد"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"در حال مرتب‌سازی..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"اسکن انجام شد"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"درحال وارد کردن..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"هیچ محتوایی برای وارد کردن در این دستگاه، موجود نیست."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"‏هیچ دستگاه MTP متصل نیست"</string>
+    <string name="camera_label" msgid="6346560772074764302">"دوربین"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"پخش ویدیو"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"نوار زمان پخش‌کننده ویدیو"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"دوربین"</string>
+    <string name="menu_search" msgid="7580008232297437190">"جستجو"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"عکس‌ها"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"آلبوم‌ها"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"‏%1$d عکس"</item>
+        <item msgid="3813306834113858135" quantity="other">"‏%1$d عکس "</item>
+    </plurals>
+    <string name="special_video_restart_playing">"هیچ ویدئوی دارای فریم کلیدی نمایش داده نمی شود"</string>
+    <string name="gif_decode_failed">"بیت مپ جهت نمایش بسیار بزرگ است"</string>
+    <string name="spaceLow_content">"ذخیره ناموفق بود، شاید فضای خالی وجود ندارد."</string>
+    <string name="wait_for_deleting">"در حال حذف، لطفاً صبر کنید&#8230;"</string>
+    <string name="wait_for_rotating">"در حال چرخش، لطفاً منتظر بمانید &#8230;"</string>
+    <string name="video_bookmarks">"نشانک ها"</string>
+    <string name="video_edit_bookmark">ویرایش</string>
+    <string name="video_delete_bookmark">حذف</string>
+    <string name="empty_bookmarks">"بوکمارک خالی است"</string>
+    <string name="do_not_save">انصراف</string>
+    <string name="net_location">"آدرس"</string>
+    <string name="name">"نام"</string>
+    <string name="bookmark_needs_title">نشانه باید دارای یک اسم باشد</string>
+    <string name="bookmark_needs_url">نشانه باید دارای یک مکان باشد.</string>
+    <string name="bookmark_invalid_url">"آدرس باید با «http(s)://» یا «rtsp//:» شروع شود"</string>
+    <string name="processing_please_wait">در حال پردازش، لطفاً منتظر بمانید.</string>
+    <string name="bookmark_exist">نشنانه با یک مکان موجود است.</string>
+    <string name="default_bookmark_title">عنوان پیش فرض</string>
+    <string name="bookmark_added">"در بوکمارک ذخیره شد"</string>
+    <string name="albums_video">"ویدئو"</string>
+    <string name="empty_album_video">"O ویدئو در دسترس می باشند."</string>
+    <string name="border_brush">"Brush"</string>
+    <string name="border_grunge">"Grunge"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Tape"</string>
+    <string name="border_black">"سياه"</string>
+    <string name="border_black_rounded">"Black_rd"</string>
+    <string name="border_white">"سفید"</string>
+    <string name="border_white_rounded">"White_rd"</string>
+    <string name="border_cream">"کرم"</string>
+    <string name="border_cream_rounded">"Cream_rd"</string>
+    <string name="no_face">"بدون چهره"</string>
+    <string name="can_not_share">"فایل های انتخابی بیش از <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>حجم دارند، ویژگی اشتراک گذاری در دسترس نمی باشد"</string>
+
+    <string name="video_save_to_bookmark">"ذخیره در نشانک‌ها"</string>
+    <string name="video_view_bookmarks">"نشانک ها"</string>
+    <string name="movie_view_proxy_set">"پروکسی تنظیم شد"</string>
+    <string name="movie_view_network">"شبکه"</string>
+    <string name="movie_view_apn_set">"تنظیم به محض ورود"</string>
+    <string name="movie_view_proxy_ip_set">"تنظیمات IP پروکسی"</string>
+    <string name="movie_view_proxy_port_set">"تنظیمات پورت پروکسی"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"تنظیمات پورت RTP/RTCP"</string>
+    <string name="movie_view_max_port_set">"تنظیمات پورت حداکثر RTP/RTCP"</string>
+    <string name="movie_view_min_port_set">"تنظیمات پورت حداقل RTP/RTCP"</string>
+    <string name="movie_view_proxy_ok">تایید</string>
+    <string name="movie_view_proxy_port_seterror_info">"تنظیمات پورت دارای مقدار باید مقداری بین محدوده مشخص شده باشد:"</string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP نامعتبر است!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"پورت نامعتبر است!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"ابتدا دامنه پورت را تنظیم کنید!"</string>
+    <string name="movie_view_proxy_enable">"فعال‌کردن پروکسی"</string>
+    <string name="movie_view_parameter_set">"تنظیمات پارامترها"</string>
+    <string name="dialog_dismiss">"رد کردن"</string>
+    <string name="gallery_error_title">"خطای گالری"</string>
+    <string name="videoplayer_error_title">"خطای پخش‌کننده ویدئو"</string>
+    <string name="error_permissions">"برنامه مجوزهای مهم مورد نیاز برای اجرا شدن را ندارد. لطفاً تنظیمات مجوزهایتان را بررسی کنید."</string>
+    <string name="gallery_premission_change">"مجوز دسترسی به گالری تغییر یافت، لطفاً دوباره انتخاب کنید"</string>
+    <string name="gallery_premission_error">"خطای مجوز دسترسی گالری، لطفاً مجوز دسترسی گالری را مجدداً تنظیم کنید."</string>
+    <string name="already_exist">"افکت از قبل وجود دارد"</string>
+    <string name="show_details_error">"در حال بارگذاری داده‌ها، لطفاً بعداً امتحان کنید..."</string>
+    <string name="none_playback">"بدون بازنواخت"</string>
+    <string name="single_playback">"بازنواخت یک مورد"</string>
+    <string name="all_playback">"بازنواخت همه"</string>
+    <string name="playback_setting">"حالت بازنواخت"</string>
+    <string name="can_not_open_float_video">"تصویر زمینه ویدئوی فعلی، ویندوز شناور ویدئو باز نمی‌شود."</string>
+    <string name="video_file_does_not_exist">"فایل ویدئویی وجود ندارد"</string>
+    <string name="movie_view_goto">"برو به"</string>
+    <string name="no_search_app">"برنامه‌ای برای جستجو وجود ندارد"</string>
+    <string name="channel_setting_title">"تنظیمات شبکه"</string>
+    <string name="channel_setting_left">"چپ"</string>
+    <string name="channel_setting_right">"راست"</string>
+    <string name="channel_setting_dual">"دوگانه"</string>
+    <string name="channel_setting_ok">تایید</string>
+    <string name="channel_setting_cancel">انصراف</string>
+    <string name="channel_setting">"تنظیمات شبکه"</string>
+    <string name="movie_view_calling_title">"تماس"</string>
+    <string name="movie_view_calling_msg">"لطفاً پس از پایان تماس دوباره تلاش کنید!"</string>
+    <string name="movie_view_calling_try">"سعی"</string>
+    <string name="movie_view_calling_cancel">انصراف</string>
+    <string name="time_out">"پایان مهلت زمانی"</string>
+    <string name="time_out_message">ناهنجاری های شبکه یا اتمام زمان ارتباط، آیا مجدداً شروع می کنید یا خیر؟ </string>
+    <string name="headset">هدست</string>
+    <string name="loud_speaker">"بلندگو"</string>
+    <string name="cannot_load_crop_image">"حافظه اجرای برنامه کافی نیست، بارگذاری عکس ناموفق بود."</string>
+    <string name="back_exit">خروج پس از فشار مجدد</string>
+    <string name="slideshow_music">"اسلاید موسیقی"</string>
+    <string name="system_ringtones">"صدای زنگ سیستم"</string>
+    <string name="user_defined">"تعریف‌شده توسط کاربر"</string>
+    <string name="cannot_play_music">"اکنون موسیقی پخش نمی‌شود"</string>
+    <string name="play_audio_failed">"اکنون صدا پخش نمی‌شود"</string>
+    <string-array name="planets_array">
+        <item>"تمام فیلم‌ها"</item>
+        <item>"ویدئوهای محلی"</item>
+        <item>"ویدئو ضبط شده"</item>
+        <item>"اخیراً پخش شده"</item>
+    </string-array>
+    <string name="last_play">"آخرین پخش:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"موارد ضبط شده اکنون حذف شوند؟"</item>
+        <item quantity="other">"موارد ضبط شده اکنون حذف شوند؟"</item>
+    </plurals>
+    <string name="today">"امروز"</string>
+    <string name="yesterday">"دیروز"</string>
+    <string name="earlier">"قدیمی‌تر"</string>
+    <string name="drawer_open">"لیست ویدئو"</string>
+    <string name="drawer_close">"تمام فیلم‌ها"</string>
+    <string name="share_actionmode">اشتراک گذاری</string>
+    <string name="delete_actionmode">حذف</string>
+    <string name="clear_all">"حذف همه"</string>
+    <string name="video_list">"لیست ویدئو"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"مورد انتخابی حذف شود؟"</item>
+        <item quantity="other">"مورد انتخابی حذف شود؟"</item>
+    </plurals>
+    <string name="current_select">"%d انتخاب‌شده"</string>
+    <string name="no_video_play_records">"هیچ مورد پخشی وجود ندارد"</string>
+    <string name="no_videos">"ویدئویی موجود نیست"</string>
+    <string name="video_not_exist">"ویدئو وجود ندارد"</string>
+    <string name="save_picture">"مورد ثبت شده در %s ذخیره شد"</string>
+    <string name="mute">"بیصدا کردن"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"اطلاعات حفاظت"</string>
+    <string name="drm_info">"اطلاعات حفاظت"</string>
+    <string name="file_name">"نام فایل:"</string>
+    <string name="rights_validity">"اعتبار حقوق:"</string>
+    <string name="rights_status">"وضعیت حقوق:"</string>
+    <string name="start_time">"زمان شروع:"</string>
+    <string name="end_time">"زمان اتمام:"</string>
+    <string name="expiration_time">"زمان انقضاء:"</string>
+    <string name="remain_times">"زمان‌های باقی‌مانده:"</string>
+    <string name="rights_validity_valid">"معتبر"</string>
+    <string name="rights_validity_invalid">"نامعتبر"</string>
+    <string name="rights_status_share">"می توانید بفرستید"</string>
+    <string name="rights_status_not_share">"نمی توانید بفرستید"</string>
+    <string name="drm_rights_no_limit">"نامحدود"</string>
+    <string name="drm_rights_unknown">ناشناس</string>
+    <string name="drm_rights_inactive">"حقوق غیرفعال شد"</string>
+    <string name="drm_file_invalid">"فایل منقضی شده است"</string>
+    <string name="screenshot_failed">"عکس از صفحه ناموفق بود"</string>
+    <string name="floatwindow_unsupported_device">"این دستگاه از پنجره شناور پشتیبانی نمی‌کند."</string>
+    <string name="floatwindow_unsupported_camera">"این دوربین از پنجره شناور پشتیبانی نمی‌کند."</string>
+    <string name="floatwindow_unsupported_streaming">"پنجره شناور هنگام پخش ویدئوها پشتیبانی نمی‌شود."</string>
+    <string name="stream_screenshot_not_supported">"عملکرد ثبت هنگام پخش ویدئوها پشتیبانی نمی‌شود."</string>
+    <string name="movie_view_mms_ok">تایید</string>
+    <string name="movie_view_mms_processing_ok">"دریافت کامل شد"</string>
+    <string name="movie_view_sms_received_ok">"دریافت پیام کوتاه"</string>
+    <string name="movie_view_mms_process_title">"پردازش MMS"</string>
+    <string name="movie_view_sms_process_title">"پردازش SMS"</string>
+    <string name="choose_drm_alert">"نمی توانید فایل Drm را انتخاب کنید، لطفاً فایل دیگری انتخاب کنید"</string>
+    <string name="invalid_rights">"این فایل دارای مجوز معتبر نیست"</string>
+    <string name="drm_unit_minutes">"ثانیه"</string>
+    <string name="drm_consume_hint">"عملیات شما از حقوق Drm استفاده خواهد کرد"</string>
+    <string name="drm_consumed">"عملیات شما از حقوق Drm استفاده کرد"</string>
+    <string name="drm_consume_title">"از حقوق Drm استفاده کنید"</string>
+    <string name="slidemusic">"تنظیم موسیقی نمایش اسلاید"</string>
+    <string name="setas">"تنظیم به‌عنوان"</string>
+    <string name="slide_music_system_ringtones">"صدای زنگ سیستم"</string>
+    <string name="slide_music_user_defined">"تعریف‌شده توسط کاربر"</string>
+    <string name="remove_usbdisk">"دستگاه کاربر حذف شده است"</string>
+    <string name="edit_crop_free">"آزاد"</string>
+    <string name="edit_crop_square">"مربع"</string>
+    <string name="edit_crop_origin">"اولیه"</string>
+    <string name="hide_albums">"مخفی کردن آلبوم‌ها"</string>
+    <string name="show_local_albums">"نمایش آلبوم‌های محلی"</string>
+    <string name="select">"انتخاب"</string>
+    <string name="popup_title_save_all_selected">"همه عکس‌ها ذخیره شوند؟"</string>
+    <string name="keep_all">"ذخیره همه"</string>
+    <string name="burst_progress_dialog_title">"پردازش..."</string>
+    <string name="side_bar_all_photos">"همه"</string>
+    <string name="side_bar_photo">"عکس‌ها"</string>
+    <string name="side_bar_video">"ویدئو ها"</string>
+    <string name="side_bar_album">"آلبوم‌ها"</string>
+    <string name="label_select">"انتخاب"</string>
+    <string name="no_photo_or_video">"بدون ‪‎%1$s‬"</string>
+    <string name="no_photo_or_video_hint">"عکس یا ویدئوی ذخیره شده در این دستگاه در اینجا نشان داده می‌شود."</string>
+    <string name="detail_pop_title">اطلاعات</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"بیشتر"</string>
+    <string name="detail_location">"مکان"</string>
+    <string name="database_exception">"استثنای پردازش داده‌ها، اقدام ناموفق بود."</string>
+    <string name="exit_multiwindow_tips">"از مرور عکس‌ها در حالت صفحه نمایش تقسیم شده پشتیبانی نمی‌شود"</string>
+    <string name="exit_multiwindow_video_tips">"از تماشای ویدئو در حالت صفحه نمایش تقسیم شده پشتیبانی نمی‌شود"</string>
+    <string name="decode_image_faild">"برش زدن تصویر ناموفق بود"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"امروز"</string>
+    <string name="label_yesterday">"دیروز"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"داده‌ها در حال بارگذاری است، لطفاً منتظر بمانید"</string>
+    <string name="distance_photo_unit_conversion">"تبدیل واحد"</string>
+    <string name="unit">"واحد"</string>
+    <string name="meter">"متر"</string>
+    <string name="centimeter">"سانتی‌متر"</string>
+    <string name="foot">"فوت"</string>
+    <string name="inch">"اینچ"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"متأسفیم، این ویدئو برای پخش جریانی با این دستگاه معتبر نیست."</string>
+    <string name="VideoView_error_text_unknown">"پخش این ویدئو ممکن نیست."</string>
+    <string name="no_touch_flip">"عدم چرخش با لمس"</string>
+    <string name="flip_summury">"دوربین کمکی ۱ را با چرخاندن تصویر بپوشانید"</string>
+    <string name="first_summary">"صفحه پایین به‌طور پیش‌فرض"</string>
+    <string name="sencond_summury">"صفحه بالا در هنگام افزایش صدا"</string>
+    <string name="third_summury">"صفحه پایین در هنگام کاهش صدا"</string>
+    <string name="fourth_summury">" خلاصه: نگهداشتن کلید صدا"</string>
+    <string name="dealing">"بارگذاری..."</string>
+    <string name="slide_music_stop">"موسیقی اسلاید متوقف شد"</string>
+    <string name="select_tips">"شیء انتخاب شده پس‌زمینه است. لطفاً نقطه را در محدوده پیش‌زمینه مجدداً ایجاد کنید"</string>
+    <string name="definition_subject">"تعریف شیء"</string>
+    <string name="fix_subject">"شیء صحیح"</string>
+    <string name="fix_background">"پس‌زمینه صحیح"</string>
+    <string name="replace_background">"جایگزینی پس‌زمینه"</string>
+    <string name="correct_object_tips">"لطفاً ابتدا به صورت سردستی نقاشی کنید یا قسمتی که خطوط دقیق نیستند را بپوشانید.‪‎\n‬و سپس بر روی دکمه \"تصحیح شیء\" کلیک کنید تا ناحیه پوشانده شده شیء اصلاح شود یا روی دکمه \"تصحیح پیش‌زمینه\" کلیک کنید تا ناحیه پوشانده شده به پس‌زمینه اصلاح گردد."</string>
+    <string name="def_object_tips">"تعریف شیء: مستطیلی رسم کنید تا خطوط دور شیئی که می‌خواهید استخراج کنید را بپوشاند."</string>
+    <string name="valid_point">"نقطه شروع یا نقطه پایان در محدوده معتبر نیست،"</string>
+    <string name="small_rect">"مستطیل ترسیم شده خیلی کوچک است."</string>
+    <string name="add">افزایش</string>
+    <string name="use_phone_photo">"لطفاً از عکس‌های گرفته شده توسط تلفن همراه خود استفاده کنید"</string>
+    <string name="extract_failed">"استخراج ناموفق بود، لطفاً دوباره شروع کنید"</string>
+    <string name="blending_success">"ترکیب تصویر موفقیت‌آمیز بود، کار را ادامه بدهید یا برای خروج دکمه بازگشت را فشار دهید"</string>
+    <string name="blending_failed">"ترکیب تصویر ناموفق بود"</string>
+    <string name="extract_failed_notforground">"استخراج ناموفق بود، فاقد شیء پیش‌زمینه، لطفاً دوباره شروع کنید"</string>
+    <string name="extract_failed_nomemory">"استخراج ناموفق بود، حافظه خیلی کم است، لطفاً دوباره شروع کنید"</string>
+    <string name="extract_timeout">"مهلت زمانی استخراج به پایان رسید، لطفاً دوباره شروع کنید"</string>
+    <string name="extract_forground">"در حال استخراج هدف پیش‌زمینه، لطفاً یک لحظه منتظر بمانید."</string>
+    <string name="update_forground">"در حال به‌روزرسانی هدف پیش‌زمینه، لطفاً یک لحظه منتظر بمانید."</string>
+    <string name="blending_image">"در حال ترکیب تصویر، لطفاً یک لحظه منتظر بمانید."</string>
+    <string name="select_foreground_subject">"برای انتخاب سوژه پیش‌زمینه کلیک کنید"</string>
+    <string name="adjust_foreground_subject">"تنظیم سوژه پیش‌زمینه"</string>
+    <string name="correct_subject_outline">"تصحیح خطوط سوژه"</string>
+    <string name="edit_background">"ویرایش پس‌زمینه"</string>
+    <string name="verify_prompt">"موقعیت فعلی خیلی به لبه نزدیک است که باعث می‌شود جلوه نامناسبی به‌وجود آید، آیا مطمئن هستید که می‌خواهید ترکیب را انجام دهید؟"</string>
+    <string name="fg_too_large">"سوژه پیش‌زمینه برای ترکیب خیلی بزرگ است."</string>
+    <string name="draw_tips">"لطفاً ترسیم را در مستطیل سفید انجام دهید"</string>
+    <string name="undo_faild">"لغو کار ناموفق بود"</string>
+    <string name="get_forfround_tips">"امکان تغییر همه سوژه‌های پیش‌زمینه به پس‌زمینه وجود ندارد. لطفاً دوباره رسم کنید."</string>
+    <string name="next_video">"ویدئوی بعدی"</string>
+    <string name="pre_video">"ویدئوی قبلی"</string>
+    <string name="lock_control">"قفل کردن کنترل"</string>
+    <string name="lock_orintation">"قفل کردن جهت"</string>
+    <string name="print_screen">"عکس از صفحه"</string>
+    <string name="float_player">"شناورسازی پخش‌کننده"</string>
+    <string name="scale_screen">"تعیین مقیاس صفحه"</string>
+    <string name="back">"برگشت"</string>
+    <string name="over_flow">"پخش روی دیگری"</string>
+    <string name="slide_music_play_fail">"متأسفانه پخش فایل ناموفق بود"</string>
+    <string name="refocus_quit">"خروج"</string>
+    <string name="refocus_save_change">"ذخیره کردن تغییرات"</string>
+    <string name="refocus_confirm_save">"آیا می‌خواهید ذخیره کنید یا مستقیماً خارج شوید؟"</string>
+    <string name="refocus_save_success">"ذخیره‌سازی موفقیت‌آمیز بود"</string>
+    <string name="refocus_save_fail">"ذخیره‌سازی ناموفق بود"</string>
+    <string name="none_input_tips">"نام نمی‌تواند خالی باشد"</string>
+    <string name="floatview_notification_text">"ویدئو در پنجره شناور پخش می‌شود."</string>
+    <string name="voice_photo">"تصویر صوتی"</string>
+    <string name="continuous_shooting">"پشت سر هم"</string>
+    <string name="refocus_image">"تصویر تار"</string>
+    <string name="blur_image_wait">"در حال پردازش تصویر تار، لطفاً منتظر بمانید"</string>
+    <string name="blur_save_fail">"ذخیره‌سازی تصویر تار ناموفق بود"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"‪‎%1$d‬ عکس انتخاب شد"</item>
+        <item quantity="other">"‪‎%1$d‬ عکس انتخاب شد"</item>
+    </plurals>
+    <string name="ffx_dehaze">"مه‌زدایی"</string>
+    <string name="select_music">"انتخاب موسیقی"</string>
+    <string name="delete_all">"حذف همه"</string>
+    <string name="refocus_photo_edit_save">ذخیره</string>
+    <string name="blending_move_limit">"به لبه صفحه رسیدید. هیچ اقدام دیگری انجام ندهید، لطفاً برای ادامه موقعیت را تنظیم کنید."</string>
+    <string name="init_bitmap_faild">"دریافت تصویر ناموفق بود، لطفاً دوباره امتحان کنید"</string>
+    <string name="refocus_init_fail">"مقداردهی اولیه داده‌ها ناموفق بود"</string>
+    <string name="conversing">"درحال تبدیل"</string>
+    <string name="share_as_image">"اشتراک‌گذاری به عنوان تصویر"</string>
+    <string name="share_as_video">"اشتراک‌گذاری به عنوان ویدئو"</string>
+    <string name="converse_video_failed">"تبدیل به ویدئو ناموفق بود."</string>
+    <string name="app_photo_edit">"ویرایش تصویر"</string>
+    <string name="cant_select_file">"فایل پشتیبانی‌نشده"</string>
+    <string name="input_reached_max_length">"ورودی به نهایت طول رسید"</string>
+    <string name="v2_photo">"عکس"</string>
+    <string name="v2_album">"آلبوم"</string>
+    <string name="v2_discover">"کشف"</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">"%1$d تصویر"</item>
+        <item quantity="one">"%1$d تصویر"</item>
+        <item quantity="other">"%1$d تصویر"</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">"%1$d ویدئو"</item>
+        <item quantity="one">"%1$d ویدئو"</item>
+        <item quantity="other">"%1$d ویدئو"</item>
+    </plurals>
+    <string name="new_album">"آلبوم جدید"</string>
+    <string name="already_select_count">"%1$d انتخاب شد"</string>
+    <string name="no_photos_or_videos">"بدون تصویر یا ویدئو."</string>
+    <string name="no_albums">"بدون آلبوم."</string>
+    <string name="badname_as_point">"نباید به عنوان /,\\,. یا... نام گذاری شود که ممکن است با سیستم فایل اشتباه شود"</string>
+    <string name="msg_folder_input_empty">"نام پوشه خالی است"</string>
+    <string name="badname_endwith_point">"انتهای نام پوشه نمی تواند تمام شود با ."</string>
+    <string name="illegal_chars_of_foldername">"نام پوشه نمی‌تواند حاوی کاراکتر‌های غیرمجاز باشد \\:*?\"\u003C\u003E|/"</string>
+    <string name="msg_file_input_repeat">اسم   %1$s وجود دارد، لطفا اسم دیگری وارد کنید.</string>
+    <string name="menu_mkdir_failed">نا موفق در ایجاد پوشه  %1$s</string>
+    <string name="add_to_album">"افزودن به آلبوم"</string>
+    <string name="internal_storage">"حافظه داخلی"</string>
+    <string name="external_storage">"کارت SD"</string>
+    <string name="my_album">"آلبوم من"</string>
+    <string name="failed_add_to_album">"افزودن به آلبوم ناموفق بود"</string>
+    <string name="select_images_or_videos">"انتخاب تصویر یا ویدئو"</string>
+    <string name="fragment_state_lost_msg">"وضعیت از بین رفت، لطفاً دوباره راه‌اندازی کنید"</string>
+    <string name="recently_deleted">"اخیراً حذف‌شده"</string>
+    <string name="trash_restore">"بازیابی"</string>
+    <string name="wait_for_restoring">"درحال بازیابی، لطفاً منتظر بمانید&#8230;"</string>
+    <plurals name="restore_selection">
+        <item quantity="one">"مورد انتخاب‌شده بازیابی شود؟"</item>
+        <item quantity="other">"موارد انتخاب‌شده بازیابی شوند؟"</item>
+    </plurals>
+    <string name="trash_date_tip">"عکس‌ها به صورت دائم ظرف 30 روز حذف خواهند شد."</string>
+    <plurals name="left_day">
+        <item quantity="one">"%1$d روز"</item>
+        <item quantity="other">"%1$d روز"</item>
+    </plurals>
+    <string name="tf_discover_things">"چیزها"</string>
+    <string name="tf_discover_people">"افراد"</string>
+    <string name="tf_discover_location">"مکان"</string>
+    <string name="tf_unknown">"ناشناس"</string>
+    <string name="tf_aircraft">"هواپیما"</string>
+    <string name="tf_animal">"حیوانات"</string>
+    <string name="tf_baby">"کودک"</string>
+    <string name="tf_basketball">"بسکتبال"</string>
+    <string name="tf_bedroom">"اتاق خواب"</string>
+    <string name="tf_bicycle">"دوچرخه"</string>
+    <string name="tf_bird">"پرنده"</string>
+    <string name="tf_bridge">"پل"</string>
+    <string name="tf_building">"ساختمان"</string>
+    <string name="tf_bus">"اتوبوس"</string>
+    <string name="tf_car">"اتوموبیل"</string>
+    <string name="tf_cat">"گربه"</string>
+    <string name="tf_classroom">"کلاس درس"</string>
+    <string name="tf_conference_room">"اتاق کنفرانس"</string>
+    <string name="tf_crawling_animal">"حیوان خزنده"</string>
+    <string name="tf_desktop_computer">"رایانه رومیزی"</string>
+    <string name="tf_document">"سند"</string>
+    <string name="tf_dog">"سگ"</string>
+    <string name="tf_electric_bicycle">"دوچرخه الکتریکی"</string>
+    <string name="tf_evergreen">"همیشه سبز"</string>
+    <string name="tf_farmland">"مزرعه"</string>
+    <string name="tf_fish">"ماهی"</string>
+    <string name="tf_flower">"گل"</string>
+    <string name="tf_food">"غذا"</string>
+    <string name="tf_football">"فوتبال"</string>
+    <string name="tf_graduation_photo">"عکس فارغ‌التحصیلی"</string>
+    <string name="tf_grassland">"چمنزار"</string>
+    <string name="tf_group_photo">"عکس گروهی"</string>
+    <string name="tf_helicopter">"بالگرد"</string>
+    <string name="tf_kitchen">"آشپزخانه"</string>
+    <string name="tf_laptop">"لپ‌تاپ"</string>
+    <string name="tf_metro">"مترو"</string>
+    <string name="tf_mobile_phone">"تلفن همراه"</string>
+    <string name="tf_motorcycle">"موتورسیکلت"</string>
+    <string name="tf_mountain">"کوه"</string>
+    <string name="tf_office">"دفتر کار"</string>
+    <string name="tf_parlour">"سالن"</string>
+    <string name="tf_party">"میهمانی"</string>
+    <string name="tf_people">"افراد"</string>
+    <string name="tf_playground">"زمین بازی"</string>
+    <string name="tf_river">"رودخانه"</string>
+    <string name="tf_road">"جاده"</string>
+    <string name="tf_sea">"دریا"</string>
+    <string name="tf_selfie">"سلفی"</string>
+    <string name="tf_ship">"کشتی"</string>
+    <string name="tf_shopping_mall">"پاساژ"</string>
+    <string name="tf_sky">"آسمان"</string>
+    <string name="tf_telephone">"تلفن"</string>
+    <string name="tf_train">"قطار"</string>
+    <string name="tf_tree">"درخت"</string>
+    <string name="tf_waiting_room">"اتاق انتظار"</string>
+    <string name="tf_night_scene">"صحنه شب"</string>
+    <string name="tf_cake">"کیک"</string>
+    <string name="tf_lake">"دریاچه"</string>
+    <string name="tf_indoor">"داخل ساختمان"</string>
+    <string name="tf_computer">"رایانه"</string>
+    <string name="tf_sport">"ورزش"</string>
+    <string name="tf_sea_river">"دریا، رودخانه، دریاچه"</string>
+    <string name="tf_phone">"تلفن"</string>
+    <string name="move_out_of_this_classification">"حذف‌کردن"</string>
+    <string name="move_out_classification_dialog_title">"آیا می‌خواهید موارد انتخاب‌شده را از دسته‌بندی حذف کنید؟"</string>
+    <string name="moving_out">"درحال حذف کردن&#8230;"</string>
+    <string name="image">"تصاویر"</string>
+    <string name="video">"ویدئو ها"</string>
+    <string name="all_medias">"همه"</string>
+    <string name="un_named">"نام‌گذاری‌نشده"</string>
+    <string name="move_out_of_this_people">"حذف‌کردن"</string>
+    <string name="move_out_people_dialog_title">"آیا می‌خواهید موارد انتخاب‌شده را از مردم حذف کنید؟"</string>
+    <string name="add_name">"افزودن نام"</string>
+    <string name="illegal_chars_of_name">"نام نمی‌تواند حاوی نویسه‌های غیرقانونی \\:*?\"\u003C\u003E|/باشد"</string>
+    <string name="repeated_name">"نام تکراری است"</string>
+    <string name="replay">"لطفاً خارج شده و دوباره سعی کنید"</string>
+    <string name="bokeh_editor">"ویرایش‌گر بوکه"</string>
+    <string name="merge_to">"ادغام در"</string>
+    <string name="hide_albums_v2">"مخفی کردن آلبوم‌ها"</string>
+    <string name="request_delete_permission_title">"دسترسی به کارت SD به گالری داده شود؟"</string>
+    <string name="request_delete_permission_msg">"برای ویرایش، حذف، یا جابجایی عکس‌ها از کارت SD شما، گالری نیاز به دسترسی دارد"</string>
+    <string name="no_delete_permission_title">"نمی‌تواند کامل کند"</string>
+    <string name="no_delete_permission_msg">"گالری به کارت SDتان دسترسی ندارد، لطفاً اجازه آنرا بدهید یا حافظه برنامه را پاک کرده و دوباره تلاش کنید"</string>
+    <string name="trash_restore_fail">"بازیابی ناموفق بود"</string>
+    <string name="delete_drm_file">"فایل DRM به صورت دائم حذف خواهد شد و در فایلهای اخیراًحذفشده قرار داده نخواهد شد. آیا مطمئن هستید ادامه میدهید؟"</string>
+    <string name="tf_discover_story">"خاطرهها"</string>
+    <string name="prefered_motion_photo">"عس ترجیحی"</string>
+    <string name="play_motion_photo">"خش"</string>
+    <string name="stop_motion_photo">"توقف"</string>
+    <string name="superuser_request_confirm">"خشننده ویدئو فاقد اجازه دسترسی به ارت SD شماست، لطفاً ارت SD SANDISK دایرتوری ریشه خارجی را انتخاب رده و برای اینه خشننده ویدئو بتواند ار ند، به آن اجازه دهید"</string>
+    <string name="smarterase">"اردن هوشمند"</string>
+    <string name="share_max_warning">"بیش از ۱۰۰ فایل انتخاب شد و عملکرد اشتراک‌گذاری در دسترس نبود"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"آیا می‌خواهید %1$d عکس دیگر را در این عکسبرداری متوالی نگهدارید؟"</item>
+        <item quantity="other">"آیا می‌خواهید ‪‎%1$d‬ عکس دیگر در این عکسبرداری متوالی را نگهدارید؟"</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"تنها %1$d عکس انتخاب‌شده ذخیره شود"</item>
+        <item quantity="other">"تنها ‪‎%1$d‬ عکس انتخاب شده ذخیره گردد"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">"‪‎%1$d‬ مورد انتخاب شد"</item>
+        <item quantity="one">"%1$d مورد انتخاب شد"</item>
+        <item quantity="other">"‪‎%1$d‬ مورد انتخاب شد"</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"%1$d عکس انتخاب‌شده حذف شود"</item>
+        <item quantity="other">"حذف %1$d عکس انتخاب‌شده"</item>
+    </plurals>
+    <string name="no_sd_write_permission">"VideoPlayer اجازه کافی برای حذف ویدئوها وجود ندارد"</string>
+    <string name="next">"بعدی"</string>
+</resources>

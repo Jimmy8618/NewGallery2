@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galleri"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Videospelare"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Läser in video…"</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Fortsätt spela videon"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Fortsätt spela upp från ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Fortsätt spela upp"</string>
+    <string name="loading" msgid="7038208555304563571">"Läser in..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Kunde inte läsas in"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Det gick inte att läsa in bilden"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Ingen miniatyrbild"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Börja om"</string>
+    <string name="ok" msgid="5296833083983263293">"OK"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Sparar bild…"</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Bilden sparas i <xliff:g id="ALBUM_NAME">%1$s</xliff:g> ..."</string>
+    <string name="crop_label" msgid="521114301871349328">"Beskär bild"</string>
+    <string name="trim_label" msgid="274203231381209979">"Beskär videon"</string>
+    <string name="select_image" msgid="7841406150484742140">"Välj en bild"</string>
+    <string name="select_video" msgid="4859510992798615076">"Välj ett videoklipp"</string>
+    <string name="select_item" msgid="2816923896202086390">"Välj ett objekt"</string>
+    <string name="select_album" msgid="1557063764849434077">"Välj ett album"</string>
+    <string name="select_group" msgid="6744208543323307114">"Välj en grupp"</string>
+    <string name="set_image" msgid="2331476809308010401">"Använd bild som"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Bakgrund"</string>
+    <string name="delete" msgid="2839695998251824487">"Ta bort"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Ta bort markerat objekt?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Radera markerade objekt?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Bekräfta"</string>
+    <string name="cancel" msgid="3637516880917356226">"Avbryt"</string>
+    <string name="share" msgid="3619042788254195341">"Dela"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Dela panoramabild"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Dela som foto"</string>
+    <string name="deleted" msgid="6795433049119073871">"Borttagen"</string>
+    <string name="undo" msgid="2930873956446586313">"ÅNGRA"</string>
+    <string name="select_all" msgid="3403283025220282175">"Markera alla"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Avmarkera alla"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Bildspel"</string>
+    <string name="details" msgid="8415120088556445230">"Information"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d av %2$d objekt:"</string>
+    <string name="close" msgid="5585646033158453043">"Stäng"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Byt till kamera"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d har markerats"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d har markerats"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d har markerats"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Visa på karta"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Rotera åt vänster"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Rotera åt höger"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Det gick inte att hitta objektet."</string>
+    <string name="edit" msgid="1502273844748580847">"Redigera"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Enkel redigering"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Beskär"</string>
+    <string name="trim_action" msgid="703098114452883524">"Beskär"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Ljud av"</string>
+    <string name="set_as" msgid="3636764710790507868">"Använd som"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Ljud av misslyckades."</string>
+    <string name="video_err" msgid="7003051631792271009">"Det går inte att spela upp videon."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Efter plats"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Efter tid"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Efter taggar"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Efter personer"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Efter album"</string>
+    <string name="untagged" msgid="7281481064509590402">"Saknar etikett"</string>
+    <string name="no_location" msgid="4043624857489331676">"Ingen plats"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Det gick inte att identifiera vissa platser på grund av nätverksproblem."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Det gick inte att hämta bilderna i albumet. Försök igen senare."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Endast bilder"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Endast video"</string>
+    <string name="show_all" msgid="6963292714584735149">"Bilder och videor"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Fotogalleri"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Inga foton."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Den beskurna bilden har sparats i <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Det finns inga album."</string>
+    <string name="empty_album" msgid="4542880442593595494">"Det finns inga bilder/videor."</string>
+    <string name="done" msgid="217672440064436595">"Klar"</string>
+    <string name="title" msgid="7622928349908052569">"Titel"</string>
+    <string name="description" msgid="3016729318096557520">"Beskrivning"</string>
+    <string name="time" msgid="1367953006052876956">"Tid"</string>
+    <string name="location" msgid="3432705876921618314">"Plats"</string>
+    <string name="path" msgid="4725740395885105824">"Sökväg"</string>
+    <string name="width" msgid="9215847239714321097">"Bredd"</string>
+    <string name="height" msgid="3648885449443787772">"Höjd"</string>
+    <string name="orientation" msgid="4958327983165245513">"Riktning"</string>
+    <string name="duration" msgid="8160058911218541616">"Varaktighet"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME-typ"</string>
+    <string name="file_size" msgid="8486169301588318915">"Filstorlek"</string>
+    <string name="maker" msgid="7921835498034236197">"Upphovsman"</string>
+    <string name="model" msgid="8240207064064337366">"Modell"</string>
+    <string name="flash" msgid="2816779031261147723">"Flash"</string>
+    <string name="aperture" msgid="5920657630303915195">"Bländare"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Fokuslängd"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Vitbalans"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Exponeringstid"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Manuell"</string>
+    <string name="auto" msgid="4296941368722892821">"Auto"</string>
+    <string name="flash_on" msgid="7891556231891837284">"Blixt utlöst"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Ingen blixt"</string>
+    <string name="unknown" msgid="3506693015896912952">"Okänt"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Instant"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Bleach"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Blue"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"B/W"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Punch"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X Process"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litho"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Alla album"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Lokala album"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> eller mindre"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> eller mer"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> till <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Importera"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Importen slutförd"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Välj ett album"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Blanda alla bilder"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Välj en bild"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Välj bilder"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Bildspel"</string>
+    <string name="albums" msgid="7320787705180057947">"Album"</string>
+    <string name="times" msgid="2023033894889499219">"Tider"</string>
+    <string name="locations" msgid="6649297994083130305">"Platser"</string>
+    <string name="people" msgid="4114003823747292747">"Personer"</string>
+    <string name="tags" msgid="5539648765482935955">"Taggar"</string>
+    <string name="group_by" msgid="4308299657902209357">"Ordna efter"</string>
+    <string name="settings" msgid="1534847740615665736">"Inställningar"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Kamera"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Hämtat"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Redigerade onlinefoton"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Importerat"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Skärmbild"</string>
+    <string name="help" msgid="7368960711153618354">"Hjälp"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Filmremsevy"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Rutnätsvy"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Helskärmsvy"</string>
+    <string name="trimming" msgid="9122385768369143997">"Beskärning"</string>
+    <string name="muting" msgid="5094925919589915324">"Stänger av ljud"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Vänta"</string>
+    <string name="save_into" msgid="9155488424829609229">"Sparar videon i <xliff:g id="ALBUM_NAME">%1$s</xliff:g> ..."</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Panoramabild hämtas"</string>
+    <string name="save" msgid="613976532235060516">"Spara"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Skannar innehåll ..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d objekt har skannats"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d objekt har skannats"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d objekt har skannats"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Sorterar ..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Skannat"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Importerar ..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Det finns inget tillgängligt innehåll att importera på den här enheten."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Det finns ingen ansluten MTP-enhet"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Kamera"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Spela upp videoklipp"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Videospelarens tidsindikator"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Kamera"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Sök"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Foton"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Album"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d foto"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d foton"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Inga nyckelbilder, video kommer att återuppta spelning"</string>
+    <string name="gif_decode_failed">"Bitmapp är för stor för att spelas"</string>
+    <string name="spaceLow_content">"Det gick inte att spara, systemet kan ha för lite lagringsutrymme."</string>
+    <string name="wait_for_deleting">"Tar bort,vänta&#8230;"</string>
+    <string name="wait_for_rotating">"Roterar, vänta&#8230;"</string>
+    <string name="video_bookmarks">"Bokmärken"</string>
+    <string name="video_edit_bookmark">"Redigera"</string>
+    <string name="video_delete_bookmark">"Ta bort"</string>
+    <string name="empty_bookmarks">"Töm bokmärken"</string>
+    <string name="do_not_save">"Avbryt"</string>
+    <string name="net_location">"Adress"</string>
+    <string name="name">"Namn"</string>
+    <string name="bookmark_needs_title">"Bokmärket måste ha ett namn"</string>
+    <string name="bookmark_needs_url">"Bokmärket måste ha en plats"</string>
+    <string name="bookmark_invalid_url">"Plats måste inledas med "http(s)://" eller "rtsp://""</string>
+    <string name="processing_please_wait">"Bearbetar, vänta."</string>
+    <string name="bookmark_exist">"Det finns redan ett bokmärke på samma plats."</string>
+    <string name="default_bookmark_title">"standard_titel"</string>
+    <string name="bookmark_added">"Sparades till bokmärken"</string>
+    <string name="albums_video">"Video"</string>
+    <string name="empty_album_video">"O videos tillgängliga."</string>
+    <string name="border_brush">"Pensel"</string>
+    <string name="border_grunge">"Grunge"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Tape"</string>
+    <string name="border_black">"Svart"</string>
+    <string name="border_black_rounded">"Svart_rd"</string>
+    <string name="border_white">"Vit"</string>
+    <string name="border_white_rounded">"Vit_rd"</string>
+    <string name="border_cream">"Cream"</string>
+    <string name="border_cream_rounded">"Cream_rd"</string>
+    <string name="no_face">"Inget ansikte"</string>
+    <string name="can_not_share">"De markerade filerna överstiger<xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>,delningsfunktionen är inte tillgänglig"</string>
+
+    <string name="video_save_to_bookmark">"Spara i bokmärken"</string>
+    <string name="video_view_bookmarks">"Bokmärken"</string>
+    <string name="movie_view_proxy_set">"Proxy-inställning"</string>
+    <string name="movie_view_network">"Nätverk"</string>
+    <string name="movie_view_apn_set">"Inställning av apn-inmatning"</string>
+    <string name="movie_view_proxy_ip_set">"Proxy IP-inställningar"</string>
+    <string name="movie_view_proxy_port_set">"Proxy Portinställningar"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP Portinställningar"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP Max Portinställningar"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP Min Portinställningar</string>
+    <string name="movie_view_proxy_ok">"OK"</string>
+    <string name="movie_view_proxy_port_seterror_info">"Portinställningen värde måste vara heltal mellan angivet intervall："</string>
+    <string name="movie_view_proxy_ip_seterror_info">"Ogiltig IP"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"Ogiltig port!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Ställ först in portens räckvidd ！"</string>
+    <string name="movie_view_proxy_enable">"Aktivera proxy"</string>
+    <string name="movie_view_parameter_set">"Parameter-inställningar"</string>
+    <string name="dialog_dismiss">"Ta bort permanent"</string>
+    <string name="gallery_error_title">"Gallerifel"</string>
+    <string name="videoplayer_error_title">"Videospelarfel"</string>
+    <string name="error_permissions">"Det saknas behörigheter som är avgörande för att appen ska fungera. Kontrollera behörighetsinställningarna."</string>
+    <string name="gallery_premission_change">"Behörighet till galleri ändrades, välj igen"</string>
+    <string name="gallery_premission_error">"Behörighetsfel för galleri, återställ behörigheter för galleri."</string>
+    <string name="already_exist">"Effekten finns redan"</string>
+    <string name="show_details_error">"Läser in data, försök igen senare."</string>
+    <string name="none_playback">"Ingen playback"</string>
+    <string name="single_playback">"Enskild playback"</string>
+    <string name="all_playback">"All playback"</string>
+    <string name="playback_setting">"Playback-läge"</string>
+    <string name="can_not_open_float_video">"Aktuell bakgrund för video. Flytande fönster för video kan inte öppnas."</string>
+    <string name="video_file_does_not_exist">"Videofilen existerar inte"</string>
+    <string name="movie_view_goto">"Gå till"</string>
+    <string name="no_search_app">"Söker inte app"</string>
+    <string name="channel_setting_title">"Kanalinställningar"</string>
+    <string name="channel_setting_left">"Vänster"</string>
+    <string name="channel_setting_right">"Höger"</string>
+    <string name="channel_setting_dual">"Dubbel"</string>
+    <string name="channel_setting_ok">"OK"</string>
+    <string name="channel_setting_cancel">"Avbryt"</string>
+    <string name="channel_setting">"Kanalinställningar"</string>
+    <string name="movie_view_calling_title">"Ringer"</string>
+    <string name="movie_view_calling_msg">"Försök igen när samtalet är avslutat!"</string>
+    <string name="movie_view_calling_try">"Försök"</string>
+    <string name="movie_view_calling_cancel">"Avbryt"</string>
+    <string name="time_out">"Tidsgräns"</string>
+    <string name="time_out_message">"Nätverksavvikelse eller anslutningstimeout, vill du starta om?"</string>
+    <string name="headset">Headset</string>
+    <string name="loud_speaker">"Högtalare"</string>
+    <string name="cannot_load_crop_image">""Minnet för applikationens körtid är inte tillräckligt. Det gick inte att läsa in bilden." "</string>
+    <string name="back_exit">"Lämna genom att trycka igen"</string>
+    <string name="slideshow_music">"Dra musik"</string>
+    <string name="system_ringtones">"Systemets ringsignaler"</string>
+    <string name="user_defined">"Användardefinierad"</string>
+    <string name="cannot_play_music">"Det går inte att spela musik nu"</string>
+    <string name="play_audio_failed">"Det går inte att spela ljud nu"</string>
+    <string-array name="planets_array">
+        <item>"Alla videoklipp"</item>
+        <item>"Lokala videoklipp"</item>
+        <item>"Filmade videoklipp"</item>
+        <item>"Nyligen spelade"</item>
+    </string-array>
+    <string name="last_play">"Senast spelad:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Ta bort skivorna nu?"</item>
+        <item quantity="other">"Ta bort skivorna nu?"</item>
+    </plurals>
+    <string name="today">"I dag"</string>
+    <string name="yesterday">"I går"</string>
+    <string name="earlier">"Tidigare"</string>
+    <string name="drawer_open">"Videolista"</string>
+    <string name="drawer_close">"Alla videoklipp"</string>
+    <string name="share_actionmode">"Dela"</string>
+    <string name="delete_actionmode">"Ta bort"</string>
+    <string name="clear_all">"Ta bort alla"</string>
+    <string name="video_list">"Videolista"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Ta bort markerat objekt?"</item>
+        <item quantity="other">"Ta bort markerat objekt?"</item>
+    </plurals>
+    <string name="current_select">"%d valda"</string>
+    <string name="no_video_play_records">"Inga spelade skivor"</string>
+    <string name="no_videos">"Inga videor"</string>
+    <string name="video_not_exist">"Videoklippet existerar inte"</string>
+    <string name="save_picture">"Bilden sparades till %s"</string>
+    <string name="mute">"Stänger av ljud"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Skyddsinformation"</string>
+    <string name="drm_info">"Skyddsinformation"</string>
+    <string name="file_name">"Filnamn:"</string>
+    <string name="rights_validity">"Rättighetsvalidering"</string>
+    <string name="rights_status">"Rättighetsstatus:"</string>
+    <string name="start_time">"Starttid:"</string>
+    <string name="end_time">"Sluttid:"</string>
+    <string name="expiration_time">"Förfallotid:"</string>
+    <string name="remain_times">"Återstående tid:"</string>
+    <string name="rights_validity_valid">"Giltig"</string>
+    <string name="rights_validity_invalid">"Ogiltig"</string>
+    <string name="rights_status_share">"Tillåts att vidarebefordras"</string>
+    <string name="rights_status_not_share">"Tillåt inte att vidarebefordra"</string>
+    <string name="drm_rights_no_limit">"Obegränsad"</string>
+    <string name="drm_rights_unknown">"Okänd"</string>
+    <string name="drm_rights_inactive">"Inaktiva rättigheter"</string>
+    <string name="drm_file_invalid">"Filen har upphört att gälla"</string>
+    <string name="screenshot_failed">"Det gick inte att ta skärmbild"</string>
+    <string name="floatwindow_unsupported_device">"Flytande fönster stöds inte på den här enheten"</string>
+    <string name="floatwindow_unsupported_camera">"Flytande fönster stöds inte i kameran"</string>
+    <string name="floatwindow_unsupported_streaming">"Flytande fönster stöds inte under strömning av videoklipp"</string>
+    <string name="stream_screenshot_not_supported">"Det går inte att ta bild under strömning av videoklipp."</string>
+
+    <string name="movie_view_mms_processing_ok">"Mottagning slutförd"</string>
+    <string name="movie_view_sms_received_ok">"SMS-mottagning"</string>
+    <string name="movie_view_mms_process_title">"MMS bearbetas"</string>
+    <string name="movie_view_sms_process_title">"SMS bearbetas"</string>
+    <string name="movie_view_mms_ok">"OK"</string>
+    <string name="choose_drm_alert">"Kan inte välja Drm-fil, välj en annan"</string>
+    <string name="invalid_rights">"Den här filen saknar giltig licens"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="drm_consumed">"Di åtgärd använder Drm-rättigheter"</string>
+    <string name="drm_consume_title">"Använd Drm-rättigheter"</string>
+    <string name="drm_consume_hint">"Din åtgärd kommer att använda Drm-rättigheter"</string>
+</resources>

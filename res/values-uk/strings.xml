@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Галерея"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Відеопрогравач"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Завантаж. відео…"</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Відновити відео"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Продовж. відтворення з ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Віднов. відтвор."</string>
+    <string name="loading" msgid="7038208555304563571">"Завантаж…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Не вдалося завантажити"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Не вдалося завантажити зображення"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Немає ескізу"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Почати знову"</string>
+    <string name="ok" msgid="5296833083983263293">"ОК"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Зберіг-ня фото…"</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Зображення зберігається в альбом <xliff:g id="ALBUM_NAME">%1$s</xliff:g>..."</string>
+    <string name="crop_label" msgid="521114301871349328">"Обрізати фото"</string>
+    <string name="trim_label" msgid="274203231381209979">"Обрізати відео"</string>
+    <string name="select_image" msgid="7841406150484742140">"Виберіть фото"</string>
+    <string name="select_video" msgid="4859510992798615076">"Виберіть відео"</string>
+    <string name="select_item" msgid="2816923896202086390">"Виберіть елемент"</string>
+    <string name="select_album" msgid="1557063764849434077">"Виберіть альбом"</string>
+    <string name="select_group" msgid="6744208543323307114">"Виберіть групу"</string>
+    <string name="set_image" msgid="2331476809308010401">"Устан. фото як"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Фоновий мал."</string>
+    <string name="delete" msgid="2839695998251824487">"Видалити"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Видалити вибраний елемент?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Видалити вибрані елементи?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Підтвердити"</string>
+    <string name="cancel" msgid="3637516880917356226">"Скасувати"</string>
+    <string name="share" msgid="3619042788254195341">"Надісл."</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Поділитися панорамою"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Поділитися як фотографією"</string>
+    <string name="deleted" msgid="6795433049119073871">"Видалено"</string>
+    <string name="undo" msgid="2930873956446586313">"ВІДМІНИТИ"</string>
+    <string name="select_all" msgid="3403283025220282175">"Вибрати всі"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Відмінити всі"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Слайд-шоу"</string>
+    <string name="details" msgid="8415120088556445230">"Деталі"</string>
+    <string name="details_title" msgid="2611396603977441273">"Елементи: %1$d з %2$d"</string>
+    <string name="close" msgid="5585646033158453043">"Закрити"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Перейти до програми Камера"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"Вибрано %1$d"</item>
+        <item msgid="2478365152745637768" quantity="one">"Вибрано %1$d"</item>
+        <item msgid="754722656147810487" quantity="other">"Вибрано %1$d"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Показ. на карті"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Поверн. вліво"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Поверн. вправо"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Не вдалося знайти елемент."</string>
+    <string name="edit" msgid="1502273844748580847">"Редагувати"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Просте редагування"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Обрізати"</string>
+    <string name="trim_action" msgid="703098114452883524">"Обрізати"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Вимкнути звук"</string>
+    <string name="set_as" msgid="3636764710790507868">"Устан. як"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Неможливо вимкнути звук."</string>
+    <string name="video_err" msgid="7003051631792271009">"Неможливо відтворити відео."</string>
+    <string name="group_by_location" msgid="316641628989023253">"За місцезнаходженням"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"За часом"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"За тегами"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"За обличчями"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"За альбомами"</string>
+    <string name="untagged" msgid="7281481064509590402">"Без тегів"</string>
+    <string name="no_location" msgid="4043624857489331676">"Без місцезнаходження"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Не вдалося визначити деякі місцезнаходження через проблеми з мережею."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Не вдалося завантажити фото цього альбому. Повторіть спробу пізніше."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Лише зображення"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Лише відео"</string>
+    <string name="show_all" msgid="6963292714584735149">"Зображення й відео"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Фотогалерея"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Фотографій немає."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Обрізане зображення збережено в папці <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Немає доступних альбомів."</string>
+    <string name="empty_album" msgid="4542880442593595494">"Немає доступних зображень або відео."</string>
+    <string name="done" msgid="217672440064436595">"Готово"</string>
+    <string name="title" msgid="7622928349908052569">"Назва"</string>
+    <string name="description" msgid="3016729318096557520">"Опис"</string>
+    <string name="time" msgid="1367953006052876956">"Час"</string>
+    <string name="location" msgid="3432705876921618314">"Місце"</string>
+    <string name="path" msgid="4725740395885105824">"Шлях"</string>
+    <string name="width" msgid="9215847239714321097">"Ширина"</string>
+    <string name="height" msgid="3648885449443787772">"Висота"</string>
+    <string name="orientation" msgid="4958327983165245513">"Орієнтація"</string>
+    <string name="duration" msgid="8160058911218541616">"Тривалість"</string>
+    <string name="mimetype" msgid="8024168704337990470">"Тип MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"Розмір файлу"</string>
+    <string name="maker" msgid="7921835498034236197">"Автор"</string>
+    <string name="model" msgid="8240207064064337366">"Модель"</string>
+    <string name="flash" msgid="2816779031261147723">"Flash"</string>
+    <string name="aperture" msgid="5920657630303915195">"Апертура"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Фокусна відст."</string>
+    <string name="white_balance" msgid="1582509289994216078">"Баланс білого"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Час експозиції"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"мм"</string>
+    <string name="manual" msgid="6608905477477607865">"Вручну"</string>
+    <string name="auto" msgid="4296941368722892821">"Автомат."</string>
+    <string name="flash_on" msgid="7891556231891837284">"Викор. спалах"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Без спалаху"</string>
+    <string name="unknown" msgid="3506693015896912952">"Невідомо"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Ретро"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Миттєво"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Вибілення"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Синява"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"Чорно-біле"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Стиснути"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X-процес"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Латте"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Літографія"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Усі альбоми"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Локальні альбоми"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> або менше"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> або більше"</string>
+    <string name="size_between" msgid="8779660840898917208">"від <xliff:g id="MIN_SIZE">%1$s</xliff:g> до <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Імпортувати"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Імпорт завершено"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Вибрати альбом"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Перемішати всі зображення"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Вибрати зображення"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Вибрати зображення"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Слайд-шоу"</string>
+    <string name="albums" msgid="7320787705180057947">"Альбоми"</string>
+    <string name="times" msgid="2023033894889499219">"Час"</string>
+    <string name="locations" msgid="6649297994083130305">"Місцезнах."</string>
+    <string name="people" msgid="4114003823747292747">"Люди"</string>
+    <string name="tags" msgid="5539648765482935955">"Теги"</string>
+    <string name="group_by" msgid="4308299657902209357">"Групувати за"</string>
+    <string name="settings" msgid="1534847740615665736">"Налаштування"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"З камери"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Звантаження"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Фото, відредаговані онлайн"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Імпортовані"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Знімки екрана"</string>
+    <string name="help" msgid="7368960711153618354">"Довідка"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Діафільм"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Ескізи"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"На весь екран"</string>
+    <string name="trimming" msgid="9122385768369143997">"Обрізання"</string>
+    <string name="muting" msgid="5094925919589915324">"Вимкнення звуку"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Зачекайте"</string>
+    <string name="save_into" msgid="9155488424829609229">"Зберігання відео в альбом <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Обробка панорами"</string>
+    <string name="save" msgid="613976532235060516">"Зберегти"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Сканування вмісту..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"Проскановано елементів: %1$d"</item>
+        <item msgid="4340019444460561648" quantity="one">"Проскановано елементів: %1$d"</item>
+        <item msgid="3138021473860555499" quantity="other">"Проскановано елементів: %1$d"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Сортування..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Сканування завершено"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Імпортування..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Немає вмісту для імпортування на цей пристрій."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Немає жодного під’єднаного носія MTP"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Камера"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Відтворити відео"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Панель часу відеопрогравача"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Камера"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Пошук"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Фотографії"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Альбоми"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d фото"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d фото"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Ключові кадри відсутні, відео не буде повторно відтворене"</string>
+    <string name="gif_decode_failed">"розмір графічного зображення досить великий для відтворення"</string>
+    <string name="spaceLow_content">"Не вдалося зберегти. Можливо, недостатньо пам\'яті в системі."</string>
+    <string name="wait_for_deleting">"Виконується видалення, будь ласка, зачекайте &#8230;"</string>
+    <string name="wait_for_rotating">"Обертання.Будь ласка, зачекайте &#8230;"</string>
+    <string name="video_bookmarks">"Закладки"</string>
+    <string name="video_edit_bookmark">"Змінити"</string>
+    <string name="video_delete_bookmark">"видалити "</string>
+    <string name="empty_bookmarks">"порожня закладка"</string>
+    <string name="do_not_save">"    скасувати"</string>
+    <string name="net_location">"Адреса"</string>
+    <string name="name">"  Назва"</string>
+    <string name="bookmark_needs_title">"Закладки повинні мати назву"</string>
+    <string name="bookmark_needs_url">"Закладки мають бути розміщені"</string>
+    <string name="bookmark_invalid_url">Розміщення повинно починатися з "http(s)://" або "rtsp://"</string>
+    <string name="processing_please_wait">"Переробка даних, будь-ласка, почекайте."</string>
+    <string name="bookmark_exist">"Закладки існують з однаковим розміщенням."</string>
+    <string name="default_bookmark_title">"Заголовок за замовчуванням"</string>
+    <string name="bookmark_added">"Зберегти в закладки"</string>
+    <string name="albums_video">"Відео"</string>
+    <string name="empty_album_video">"Немає доступних зображень або відео."</string>
+    <string name="border_brush">"щітка"</string>
+    <string name="border_grunge">"Бруд"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"стрічка"</string>
+    <string name="border_black">"Чорний"</string>
+    <string name="border_black_rounded">"чорний округл."</string>
+    <string name="border_white">"Білий"</string>
+    <string name="border_white_rounded">"білий округл."</string>
+    <string name="border_cream">"кремовий"</string>
+    <string name="border_cream_rounded">"кремовий округл."</string>
+    <string name="no_face">"Немає обличчя"</string>
+    <string name="can_not_share">"Відібрані файли закінчилися <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, Функція спільного доступу недоступна"</string>
+
+    <string name="video_save_to_bookmark">"Зберегти в закладки"</string>
+    <string name="video_view_bookmarks">"Закладки"</string>
+    <string name="movie_view_proxy_set">"налаштування проксі"</string>
+    <string name="movie_view_network">"Мережа"</string>
+    <string name="movie_view_apn_set">"Налаштування точки доступу"</string>
+    <string name="movie_view_proxy_ip_set">"Налаштування IP проксі"</string>
+    <string name="movie_view_proxy_port_set">"Налаштування порту IP"</string>
+    <string name="movie_view_rtp_rtcp_port_set">Настройка портів RTP/RTCP</string>
+    <string name="movie_view_max_port_set">"Настройка макс. портів RTP / RTCP"</string>
+    <string name="movie_view_min_port_set">"Настройка мін. портів RTP / RTCP"</string>
+    <string name="movie_view_proxy_ok">OK</string>
+    <string name="movie_view_proxy_port_seterror_info">"налаштування порту мають бути у вказанному діапазоні:"</string>
+    <string name="movie_view_proxy_ip_seterror_info">невірна IP!</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"помилка порту!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"В першу чергу треба налаштувати діапазон портів!"</string>
+    <string name="movie_view_proxy_enable">"Ввімкнути проксі"</string>
+    <string name="movie_view_parameter_set">"Настройка параметрів"</string>
+    <string name="dialog_dismiss">"Відхилити"</string>
+    <string name="gallery_error_title">"Помилка галереї"</string>
+    <string name="videoplayer_error_title">"Помилка відеоплеєра"</string>
+    <string name="error_permissions">"Додаток не має обов’язкових дозволів, потрібних для роботи. Перегляньте налаштування дозволів."</string>
+    <string name="gallery_premission_change">"Доступ до галереї змінено, будь ласка, виберіть повторно"</string>
+    <string name="gallery_premission_error">"Помилка доступу до галереї. Будь ласка, перевстановіть доступ до галереї."</string>
+    <string name="already_exist">"Ефект вже існує"</string>
+    <string name="show_details_error">"Завантаження даних, будь ласка, спробуйте ще раз."</string>
+    <string name="none_playback">"відсутня відтворення"</string>
+    <string name="single_playback">"Єдине відтворення"</string>
+    <string name="all_playback">"Все відтворення"</string>
+    <string name="playback_setting">"Режим відтворення"</string>
+    <string name="can_not_open_float_video">"Використовуються відео-шпалери. Плаваючі відео вікна не можуть бути відкриті."</string>
+    <string name="video_file_does_not_exist">"Відео файл не існує"</string>
+    <string name="movie_view_goto">"К"</string>
+    <string name="no_search_app">"Немає пошуку додатків"</string>
+    <string name="channel_setting_title">"Встановлення каналів"</string>
+    <string name="channel_setting_left">Ліво</string>
+    <string name="channel_setting_right">"Право"</string>
+    <string name="channel_setting_dual">"Подвійний"</string>
+    <string name="channel_setting_ok">OK</string>
+    <string name="channel_setting_cancel">"    скасувати"</string>
+    <string name="channel_setting">"Встановлення каналів"</string>
+    <string name="movie_view_calling_title">"виклик"</string>
+    <string name="movie_view_calling_msg">"будь ласка, спробуйте після завершення виклику!"</string>
+    <string name="movie_view_calling_try">"Спробуйте"</string>
+    <string name="movie_view_calling_cancel">"    скасувати"</string>
+    <string name="time_out">"Час очікування"</string>
+    <string name="time_out_message">"Збій сітки або зєднання, виконати перезапуск чи ні?"</string>
+    <string name="headset">"Гарнітура"</string>
+    <string name="loud_speaker">"Гучний зв\'язок"</string>
+    <string name="cannot_load_crop_image">"Пам\'яті для роботи програми недостатньо. Чи не вдалося завантажити зображення."</string>
+    <string name="back_exit">"вийти, коли знову натисніть"</string>
+    <string name="slideshow_music">"Музика для режиму слайд-шоу"</string>
+    <string name="system_ringtones">"Системні рінгтони"</string>
+    <string name="user_defined">"Визначені користувачем"</string>
+    <string name="cannot_play_music">"В даний час відтворити музичні файли неможливо" </string>
+    <string name="play_audio_failed">"В даний час відтворення звуку неможливо" </string>
+    <string-array name="planets_array">
+        <item>"Усі відео"</item>
+        <item>"Локальне відео"</item>
+        <item>"Зняте відео"</item>
+        <item>"Нещодавно відтворене"</item>
+    </string-array>
+    <string name="last_play">"Останнє відтворення:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Видалити записи зараз?"</item>
+        <item quantity="other">"Видалити записи зараз?"</item>
+    </plurals>
+    <string name="today">"Сьогодні"</string>
+    <string name="yesterday">"учора"</string>
+    <string name="earlier">"Раніше"</string>
+    <string name="drawer_open">"Список Відео"</string>
+    <string name="drawer_close">"Усі відео"</string>
+    <string name="share_actionmode">"Надісл."</string>
+    <string name="delete_actionmode">"видалити "</string>
+    <string name="clear_all">"Видалити все"</string>
+    <string name="video_list">"Список Відео"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Видалити вибраний елемент?"</item>
+        <item quantity="other">"Видалити вибраний елемент?"</item>
+    </plurals>
+    <string name="current_select">"%d вибрано"</string>
+    <string name="no_video_play_records">"Немає записів для відтворення"</string>
+    <string name="no_videos">"Немає відео"</string>
+    <string name="video_not_exist">"Відео не існувало"</string>
+    <string name="save_picture">"Запис був збережений в %s"</string>
+    <string name="mute">"Вимкнення звуку"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Захист інформації"</string>
+    <string name="drm_info">"Захист інформації"</string>
+    <string name="file_name">"Файл:"</string>
+    <string name="rights_validity">"Термін дії прав:"</string>
+    <string name="rights_status">"Статус прав:"</string>
+    <string name="start_time">"Час початку:"</string>
+    <string name="end_time">"Час закінчення:"</string>
+    <string name="expiration_time">"Термін дії:"</string>
+    <string name="remain_times">"Залишилося спроб:"</string>
+    <string name="rights_validity_valid">"Дійсний"</string>
+    <string name="rights_validity_invalid">"Недійсний"</string>
+    <string name="rights_status_share">"Передачу дозволено"</string>
+    <string name="rights_status_not_share">"Передачу не дозволено"</string>
+    <string name="drm_rights_no_limit">"Не обмежений"</string>
+    <string name="drm_rights_unknown">"Невідомий"</string>
+    <string name="drm_rights_inactive">"Права не активовані"</string>
+    <string name="drm_file_invalid">"Термін дійсності файлу минув"</string>
+    <string name="screenshot_failed">"Знімок екрану не виконано"</string>
+    <string name="floatwindow_unsupported_device">"Опція плаваючих вікон не підтримується на данному пристрої"</string>
+    <string name="floatwindow_unsupported_camera">"Опція плаваючих вікон не підтримується в режимі роботи камери"</string>
+    <string name="floatwindow_unsupported_streaming">"Опція плаваючих вікон не підтримується при відтворенні потокового відео"</string>
+    <string name="stream_screenshot_not_supported">"Функція захоплення не підтримується під час відтворення потокового відео."</string>
+
+    <string name="movie_view_mms_ok">OK</string>
+    <string name="movie_view_mms_processing_ok">"отримання завершено"</string>
+    <string name="movie_view_sms_received_ok">Отримання SMS</string>
+    <string name="movie_view_mms_process_title">"Обробка MMS"</string>
+    <string name="movie_view_sms_process_title">"відправка Sms"</string>
+    <string name="drm_consumed">"При роботі використовувалися права Drm"</string>
+    <string name="drm_consume_title">"Використовувати права Drm" </string>
+    <string name="drm_consume_hint">"При роботі будуть використовуватися права Drm"</string>
+    <string name="invalid_rights">"Цей файл не має дійсної ліцензії"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="choose_drm_alert">"Не вдається вибрати файл Drm, будь ласка, виберіть інший"</string>
+    <string name="slidemusic">"Установити музику в режим слайдшоу"</string>
+    <string name="setas">"Устан. як"</string>
+    <string name="slide_music_system_ringtones">"Системні рінгтони"</string>
+    <string name="slide_music_user_defined">"Визначені користувачем"</string>
+    <string name="remove_usbdisk">"Пристрій користувача знято"</string>
+    <string name="edit_crop_free">Безкоштовно</string>
+    <string name="edit_crop_square">"Квадрат"</string>
+    <string name="edit_crop_origin">"Оригінал"</string>
+    <string name="hide_albums">"Приховати альбоми"</string>
+    <string name="show_local_albums">"Показати локальні альбоми"</string>
+    <string name="select">"вибирати"</string>
+    <string name="popup_title_save_all_selected">"Зберегти всі фотографії?"</string>
+    <string name="keep_all">"Зберег.всі"</string>
+    <string name="burst_progress_dialog_title">"Обробка…"</string>
+    <string name="side_bar_all_photos">"всі"</string>
+    <string name="side_bar_photo">"Фотографії"</string>
+    <string name="side_bar_video">"Відео"</string>
+    <string name="side_bar_album">"Альбоми"</string>
+    <string name="label_select">"вибирати"</string>
+    <string name="no_photo_or_video">"Немає %1$s"</string>
+    <string name="no_photo_or_video_hint">"Збережені на цьому пристрої фотографії та відео будуть показані тут"</string>
+    <string name="detail_pop_title">"Інформація"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"Більше"</string>
+    <string name="detail_location">"Місце зберігання"</string>
+    <string name="database_exception">"Виняток обробки даних, помилка операції."</string>
+    <string name="exit_multiwindow_tips">"Не підтримує перегляд фотографій у режимі розділеного екрана"</string>
+    <string name="exit_multiwindow_video_tips">"Не підтримує перегляд відео у режимі розділеного екрана"</string>
+    <string name="decode_image_faild">"Помилка обрізання зображення"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"Сьогодні"</string>
+    <string name="label_yesterday">"учора"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"Інформація завантажується, зачекайте"</string>
+    <string name="distance_photo_unit_conversion">"Конвертація одиниць вимірювання"</string>
+    <string name="unit">"Одиниця"</string>
+    <string name="meter">"метр"</string>
+    <string name="centimeter">"сантиметр"</string>
+    <string name="foot">"Фут"</string>
+    <string name="inch">"Дюйм"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"На жаль, відео непридатне для потокового перед. даному пристр."</string>
+    <string name="VideoView_error_text_unknown">"На жаль, неможл. відтворити це відео."</string>
+    <string name="no_touch_flip">"безконтактне перегортання"</string>
+    <string name="flip_summury">"щоб перегорнути зображення, спочатку закрийте задню камеру"</string>
+    <string name="first_summary">"сторінка вниз за замовчуванням"</string>
+    <string name="sencond_summury">"сторінка вгору при збільшенні гучності"</string>
+    <string name="third_summury">"сторінка вниз при зменшенні гучності"</string>
+    <string name="fourth_summury">"резюме: керування за допомогою кнопки гучності"</string>
+    <string name="dealing">"Завантажую…"</string>
+    <string name="slide_music_stop">"Музику для слайда зупинено"</string>
+    <string name="select_tips">"Вибраний об\'єкт на задньому плані. Заново створіть точку у діапазоні переднього плану"</string>
+    <string name="definition_subject">"Визначити об\'єкт"</string>
+    <string name="fix_subject">"Скорегувати об\'єкт"</string>
+    <string name="fix_background">"Скоригувати задній план"</string>
+    <string name="replace_background">"Замінити задній план"</string>
+    <string name="correct_object_tips">"Спочатку створіть попередній ескіз або розмийте зображення по нечіткому контуру.\nПотім натисніть кнопку \"Скорегувати об\'єкт\", щоб оновити розмиту зону на об\'єкті, або кнопку \"Скоригувати задній план\", щоб оновити розмиту зону на задньому плані."</string>
+    <string name="def_object_tips">"Визначити об\'єкт: намалюйте прямокутник, щоб виділити контур об\'єкта, який ви бажаєте вилучити."</string>
+    <string name="valid_point">"Початкова або кінцева точка поза межами дійсного діапазону,"</string>
+    <string name="small_rect">"Намальований прямокутник замалий."</string>
+    <string name="add">"додавати"</string>
+    <string name="use_phone_photo">"Використовуйте фотографії, зняті на ваш мобільний телефон"</string>
+    <string name="extract_failed">"Помилка вилучення, повторіть спробу"</string>
+    <string name="blending_success">"Успішне розтушовування зображення. Продовжте операцію або натисніть кнопку "Назад", щоб вийти"</string>
+    <string name="blending_failed">"Помилки розтушовування зображення"</string>
+    <string name="extract_failed_notforground">"Помилка вилучення; немає об\'єкта на передньому плані, повторіть спробу"</string>
+    <string name="extract_failed_nomemory">"Помилка вилучення, замало пам\'яті, повторіть спробу"</string>
+    <string name="extract_timeout">"Перевищення часу вилучення, повторіть спробу"</string>
+    <string name="extract_forground">"Вилучення цільового об\'єкта на передньому плані, зачекайте."</string>
+    <string name="update_forground">"Оновлення цільового об\'єкта на передньому плані, зачекайте."</string>
+    <string name="blending_image">"Розтушовування зображення, зачекайте."</string>
+    <string name="select_foreground_subject">"Натисніть, щоб вибрати предмет на передньому плані"</string>
+    <string name="adjust_foreground_subject">"Налаштувати предмет на передньому плані"</string>
+    <string name="correct_subject_outline">"Скоригувати контури предмета"</string>
+    <string name="edit_background">"Змінити задній план"</string>
+    <string name="verify_prompt">"Поточне положення: заблизько від краю. Ефект буде слабким. Продовжити розтушовування?"</string>
+    <string name="fg_too_large">"Предмет на передньому плані завеликий для розтушовування."</string>
+    <string name="draw_tips">"Малюйте в межах білого прямокутника"</string>
+    <string name="undo_faild">"помилка операції відміни"</string>
+    <string name="get_forfround_tips">"Неможливо перевести всі предмети з переднього плану на задній план. Намалюйте заново."</string>
+    <string name="next_video">"Наступне відео"</string>
+    <string name="pre_video">"Попереднє відео"</string>
+    <string name="lock_control">"Блокування керування"</string>
+    <string name="lock_orintation">"Блокування зміни орієнтації!"</string>
+    <string name="print_screen">"Знімок екрана"</string>
+    <string name="float_player">"Потоковий плеєр"</string>
+    <string name="scale_screen">"Масштабування екрана"</string>
+    <string name="back">Задня_камера</string>
+    <string name="over_flow">"Перенос"</string>
+    <string name="slide_music_play_fail">"Вибачте, сталася помилка під час програвання файлу"</string>
+    <string name="refocus_quit">Вийти</string>
+    <string name="refocus_save_change">"Зберегти зміни"</string>
+    <string name="refocus_confirm_save">"Зберегти зміни або вийте без збереження?"</string>
+    <string name="refocus_save_success">"Успішне збереження"</string>
+    <string name="refocus_save_fail">Збереження не виконано</string>
+    <string name="none_input_tips">"Назва не може бути порожньою"</string>
+    <string name="floatview_notification_text">"Відео програється у спливному вікні."</string>
+    <string name="voice_photo">"Аудіо Фото"</string>
+    <string name="continuous_shooting">"Серія"</string>
+    <string name="refocus_image">"Розмите зображення"</string>
+    <string name="blur_image_wait">"Обробка розмитого зображення, зачекайте"</string>
+    <string name="blur_save_fail">"Помилка збереження розмитого зображення"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"Вибрано фотографій: %1$d"</item>
+        <item quantity="other">"Вибрано фотографій: %1$d"</item>
+    </plurals>
+    <string name="ffx_dehaze">"Прибрати поволоку"</string>
+    <string name="select_music">"Вибрати музику"</string>
+    <string name="delete_all">"Видалити все"</string>
+    <string name="refocus_photo_edit_save">"Зберегти"</string>
+    <string name="blending_move_limit">"Край екрана. Щоб продовжити, відкоригуйте положення."</string>
+    <string name="init_bitmap_faild">"Не вдалось отримати зображення. Спробуйте ще раз"</string>
+    <string name="refocus_init_fail">"Не вдалось ініціалізувати дані"</string>
+    <string name="conversing">"Перетворення"</string>
+    <string name="share_as_image">"Поділитися зображенням"</string>
+    <string name="share_as_video">"Поділитися відео"</string>
+    <string name="converse_video_failed">"Не вдалося перетворити на відео."</string>
+    <string name="app_photo_edit">"Редагування фотографії"</string>
+    <string name="cant_select_file">"Файл не підтримується"</string>
+    <string name="input_reached_max_length">"введення перевищує макс. К-сть"</string>
+    <string name="v2_photo">"Фото"</string>
+    <string name="v2_album">"Альбом"</string>
+    <string name="v2_discover">"Знайти"</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">"%1$d зображення"</item>
+        <item quantity="one">"%1$d зображення"</item>
+        <item quantity="other">"Зображень: %1$d"</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">"%1$d відео"</item>
+        <item quantity="one">"%1$d відео"</item>
+        <item quantity="other">"%1$d відео"</item>
+    </plurals>
+    <string name="new_album">"Новий альбом"</string>
+    <string name="already_select_count">"Обрано %1$d"</string>
+    <string name="no_photos_or_videos">"Немає фотографій і відео."</string>
+    <string name="no_albums">"Немає альбомів."</string>
+    <string name="badname_as_point">"Не потрібно називати . або .., що може спричинити плутанину у Вашій файловій системі"</string>
+    <string name="msg_folder_input_empty">Порожнє ім\'я папки</string>
+    <string name="badname_endwith_point">"Ім\'я файлу не може закінчуватися з."</string>
+    <string name="illegal_chars_of_foldername">"Назва папки не повинна містити недозволених символів \\:*?\"\u003C\u003E|/"</string>
+    <string name="msg_file_input_repeat">Ім\'я файлу %1$s вже існує, будь ласка, введіть інше.</string>
+    <string name="menu_mkdir_failed">Не вдалося створити папку %1$s</string>
+    <string name="add_to_album">"Додати в альбом"</string>
+    <string name="internal_storage">"Внутр. пам\'ять"</string>
+    <string name="external_storage">"SD card"</string>
+    <string name="my_album">"Мій альбом"</string>
+    <string name="failed_add_to_album">"Не вдалося додати в альбом"</string>
+    <string name="select_images_or_videos">"Виберіть зображення або відео"</string>
+    <string name="fragment_state_lost_msg">"Стан втрачено, повторіть дію"</string>
+    <string name="recently_deleted">"Недавно видалено"</string>
+    <string name="trash_restore">"Відновлення"</string>
+    <string name="wait_for_restoring">"Відновлення, будь ласка, зачекайте&#8230;"</string>
+    <plurals name="restore_selection">
+        <item quantity="one">"Відновити вибраний елемент?"</item>
+        <item quantity="other">"Відновити вибрані елементи?"</item>
+    </plurals>
+    <string name="trash_date_tip">"Через 30 днів фотографії буде видалено назавжди."</string>
+    <plurals name="left_day">
+        <item quantity="one">"%1$d день"</item>
+        <item quantity="other">"%1$d дн."</item>
+    </plurals>
+    <string name="tf_discover_things">"Речі"</string>
+    <string name="tf_discover_people">"Люди"</string>
+    <string name="tf_discover_location">"Місцезнаходж-ня"</string>
+    <string name="tf_unknown">"невідомий"</string>
+    <string name="tf_aircraft">"Літак"</string>
+    <string name="tf_animal">"Тварина"</string>
+    <string name="tf_baby">"Немовля"</string>
+    <string name="tf_basketball">"Баскетбол"</string>
+    <string name="tf_bedroom">"Спальня"</string>
+    <string name="tf_bicycle">"Велосипед"</string>
+    <string name="tf_bird">"Птах"</string>
+    <string name="tf_bridge">"Міст"</string>
+    <string name="tf_building">"Будівля"</string>
+    <string name="tf_bus">"Автобус"</string>
+    <string name="tf_car">"Авто"</string>
+    <string name="tf_cat">"Кіт"</string>
+    <string name="tf_classroom">"Аудиторія"</string>
+    <string name="tf_conference_room">"Конференц-зал"</string>
+    <string name="tf_crawling_animal">"Плазун"</string>
+    <string name="tf_desktop_computer">"Настільний комп\'ютер"</string>
+    <string name="tf_document">"Документ"</string>
+    <string name="tf_dog">"Собака"</string>
+    <string name="tf_electric_bicycle">"Електричний велосипед"</string>
+    <string name="tf_evergreen">"Вічнозелена рослина"</string>
+    <string name="tf_farmland">"Сільськогосподарські угіддя"</string>
+    <string name="tf_fish">"Риба"</string>
+    <string name="tf_flower">"Квітка"</string>
+    <string name="tf_food">"Їжа"</string>
+    <string name="tf_football">"Футбол"</string>
+    <string name="tf_graduation_photo">"Випускна фотографія"</string>
+    <string name="tf_grassland">"Пасовище"</string>
+    <string name="tf_group_photo">"Групова фотографія"</string>
+    <string name="tf_helicopter">"Вертоліт"</string>
+    <string name="tf_kitchen">"Кухня"</string>
+    <string name="tf_laptop">"Ноутбук"</string>
+    <string name="tf_metro">"Метро"</string>
+    <string name="tf_mobile_phone">"Мобільний телефон"</string>
+    <string name="tf_motorcycle">"Мотоцикл"</string>
+    <string name="tf_mountain">"Гора"</string>
+    <string name="tf_office">"Офіс"</string>
+    <string name="tf_parlour">"Вітальня"</string>
+    <string name="tf_party">"У приміщенні"</string>
+    <string name="tf_people">"Люди"</string>
+    <string name="tf_playground">"Ігровий майданчик"</string>
+    <string name="tf_river">"Річка"</string>
+    <string name="tf_road">"Дорога"</string>
+    <string name="tf_sea">"Море"</string>
+    <string name="tf_selfie">"Селфі"</string>
+    <string name="tf_ship">"Корабель"</string>
+    <string name="tf_shopping_mall">"Торговий центр"</string>
+    <string name="tf_sky">"Небо"</string>
+    <string name="tf_telephone">"Телефон"</string>
+    <string name="tf_train">"Потяг"</string>
+    <string name="tf_tree">"Дерево"</string>
+    <string name="tf_waiting_room">"Приймальня"</string>
+    <string name="tf_night_scene">"Нічна сцена"</string>
+    <string name="tf_cake">"Торт"</string>
+    <string name="tf_lake">"Озеро"</string>
+    <string name="tf_indoor">Кімнатний</string>
+    <string name="tf_computer">Комп\'ютер</string>
+    <string name="tf_sport">"Спорт"</string>
+    <string name="tf_sea_river">"Море, річка, озеро"</string>
+    <string name="tf_phone">"Телефон"</string>
+    <string name="move_out_of_this_classification">"Видалити"</string>
+    <string name="move_out_classification_dialog_title">"Вилучити вибрані елементи з класифікації?"</string>
+    <string name="moving_out">"Видалення&#8230;"</string>
+    <string name="image">"Зображення"</string>
+    <string name="video">"Відео"</string>
+    <string name="all_medias">"Усі"</string>
+    <string name="un_named">"Без назви"</string>
+    <string name="move_out_of_this_people">"Видалити"</string>
+    <string name="move_out_people_dialog_title">"Скасувати виділення цієї людини?"</string>
+    <string name="add_name">"Додати ім\'я"</string>
+    <string name="illegal_chars_of_name">"Ім\'я не може містити неприпустимі символи \\:*?\"\u003C\u003E|/"</string>
+    <string name="repeated_name">"Ім\'я вже існує"</string>
+    <string name="replay">"Вийдіть і повторіть"</string>
+    <string name="bokeh_editor">"Редактор боке"</string>
+    <string name="merge_to">"Об’єднати з"</string>
+    <string name="hide_albums_v2">"Приховати альбоми"</string>
+    <string name="request_delete_permission_title">"Надати Галереї доступ до SD-картки?"</string>
+    <string name="request_delete_permission_msg">"Для редагування, видалення й переміщення фотографій Галереї потрібен доступ до SD-картки"</string>
+    <string name="no_delete_permission_title">"Неможливо виконати"</string>
+    <string name="no_delete_permission_msg">"Галерея не має доступу до SD-картки. Дозвольте доступ або очистьте пам\'ять додатка і повторіть операцію"</string>
+    <string name="trash_restore_fail">"відновлення невдачу"</string>
+    <string name="delete_drm_file">"DRM-файл буде остаточно видалено й не переміщено в папку \"Нещодавно видалені\". Продовжити?"</string>
+    <string name="tf_discover_story">"Спогади"</string>
+    <string name="prefered_motion_photo">"Пріоритетне фото"</string>
+    <string name="play_motion_photo">"ВІДТВОР."</string>
+    <string name="stop_motion_photo">"Зупин."</string>
+    <string name="superuser_request_confirm">"Відеоплеєру не надано доступ до SD-картки. Виберіть зовнішній кореневий каталог SD-картки SANDISK і надайте відеоплеєру відповідні дозволи."</string>
+    <string name="smarterase">"Інтелектуальне стирання"</string>
+    <string name="share_max_warning">"Відібрано понад 100 файлів, тому функція поширення була недоступна"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"Зберегти інші фотознімки з цієї серії (%1$d)?"</item>
+        <item quantity="other">"Бажаєте залишити ще %1$d фотографію(-ії,-ій) у цій черзі?"</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"Зберегти лише вибрані фото (%1$d)"</item>
+        <item quantity="other">"Зберегти лише вибрані фотографії у кількості %1$d"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">"Вибрано елементів: %1$d"</item>
+        <item quantity="one">"Вибрано %1$d елемент"</item>
+        <item quantity="other">"Вибрано елементів: %1$d"</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"Видалити вибрані фото (%1$d)"</item>
+        <item quantity="other">"Видалити таку кількість вибраних фотографій: %1$d"</item>
+    </plurals>
+    <string name="no_sd_write_permission">"Відеоплеєру не надано належного дозволу, щоб видаляти відеофайли"</string>
+    <string name="next">"Наступний"</string>
+</resources>

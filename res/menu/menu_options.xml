@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_trash_restore"
+        android:icon="@drawable/ic_trash_restore"
+        android:title="@string/trash_restore"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_trash_delete"
+        android:icon="@drawable/ic_delete_black"
+        android:title="@string/delete"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_add_to_album"
+        android:icon="@drawable/ic_add_to_album"
+        android:title="@string/add_to_album"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_black"
+        android:title="@string/share"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_delete_black"
+        android:title="@string/delete"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_edit"
+        android:title="@string/edit"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rotate_ccw"
+        android:title="@string/rotate_left"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rotate_cw"
+        android:title="@string/rotate_right"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_crop"
+        android:title="@string/crop_action"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_setas"
+        android:title="@string/set_image"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/print"
+        android:title="@string/print_image"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_show_on_map"
+        android:title="@string/show_on_map"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_details"
+        android:title="@string/details"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_move_out_things"
+        android:title="@string/move_out_of_this_classification"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_move_out_people"
+        android:title="@string/move_out_of_this_people"
+        android:visible="false"
+        app:showAsAction="never" />
+
+</menu>

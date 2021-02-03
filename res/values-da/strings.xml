@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galleri"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Videoafspiller"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Indlæser video ..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Genoptag video"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Genoptag afspilning fra ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Genoptag afspilning"</string>
+    <string name="loading" msgid="7038208555304563571">"Indlæser..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Kunne ikke indlæses"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Billedet kunne ikke indlæses"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Ingen miniature"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Start igen"</string>
+    <string name="ok" msgid="5296833083983263293">"OK"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Gemmer billede..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Billedet gemmes i <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="crop_label" msgid="521114301871349328">"Beskær billede"</string>
+    <string name="trim_label" msgid="274203231381209979">"Beskær video"</string>
+    <string name="select_image" msgid="7841406150484742140">"Vælg foto"</string>
+    <string name="select_video" msgid="4859510992798615076">"Vælg video"</string>
+    <string name="select_item" msgid="2816923896202086390">"Vælg element"</string>
+    <string name="select_album" msgid="1557063764849434077">"Vælg album"</string>
+    <string name="select_group" msgid="6744208543323307114">"Vælg gruppe"</string>
+    <string name="set_image" msgid="2331476809308010401">"Angiv billedet som"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Baggrund"</string>
+    <string name="delete" msgid="2839695998251824487">"Slet"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Vil du slette det valgte element?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Vil du slette valgte elementer?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Bekræft"</string>
+    <string name="cancel" msgid="3637516880917356226">"Annuller"</string>
+    <string name="share" msgid="3619042788254195341">"Del"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Del panoramabillede"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Del som foto"</string>
+    <string name="deleted" msgid="6795433049119073871">"Slettet"</string>
+    <string name="undo" msgid="2930873956446586313">"FORTRYD"</string>
+    <string name="select_all" msgid="3403283025220282175">"Markér alle"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Fjern markering af alle"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Diasshow"</string>
+    <string name="details" msgid="8415120088556445230">"Detaljer"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d ud af %2$d emner:"</string>
+    <string name="close" msgid="5585646033158453043">"Luk"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Skift til kamera"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d valgt"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d valgt"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d valgt"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Vis på kort"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Roter til venstre"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Roter til højre"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Elementet blev ikke fundet."</string>
+    <string name="edit" msgid="1502273844748580847">"Rediger"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Simpel redigering"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Beskær"</string>
+    <string name="trim_action" msgid="703098114452883524">"Beskær"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Slå lyd fra"</string>
+    <string name="set_as" msgid="3636764710790507868">"Indstil som"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Videolyden kan ikke slås fra."</string>
+    <string name="video_err" msgid="7003051631792271009">"Videoen kan ikke afspilles."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Efter placering"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Efter tid"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Efter tags"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Efter mennesker"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Efter album"</string>
+    <string name="untagged" msgid="7281481064509590402">"Utagget"</string>
+    <string name="no_location" msgid="4043624857489331676">"Ingen placering"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Nogle placeringer kunne ikke identificeres på grund af netværksproblemer."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Billederne i dette album kunne ikke hentes. Prøv igen senere."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Kun billeder"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Kun videoer"</string>
+    <string name="show_all" msgid="6963292714584735149">"Billeder og videoer"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Billedgalleri"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Ingen billeder."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Det beskårne billede er gemt i <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Ingen tilgængelige albummer."</string>
+    <string name="empty_album" msgid="4542880442593595494">"O tilgængelige billeder/videoer."</string>
+    <string name="done" msgid="217672440064436595">"Udført"</string>
+    <string name="title" msgid="7622928349908052569">"Titel"</string>
+    <string name="description" msgid="3016729318096557520">"Beskrivelse"</string>
+    <string name="time" msgid="1367953006052876956">"Tid"</string>
+    <string name="location" msgid="3432705876921618314">"Placering"</string>
+    <string name="path" msgid="4725740395885105824">"Sti"</string>
+    <string name="width" msgid="9215847239714321097">"Bredde"</string>
+    <string name="height" msgid="3648885449443787772">"Højde"</string>
+    <string name="orientation" msgid="4958327983165245513">"Retning"</string>
+    <string name="duration" msgid="8160058911218541616">"Varighed"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME-type"</string>
+    <string name="file_size" msgid="8486169301588318915">"Filstørrelse"</string>
+    <string name="maker" msgid="7921835498034236197">"Fremstiller"</string>
+    <string name="model" msgid="8240207064064337366">"Model"</string>
+    <string name="flash" msgid="2816779031261147723">"Blitz"</string>
+    <string name="aperture" msgid="5920657630303915195">"Blænderåbning"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Fokallængde"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Hvidbalance"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Eksponeringstid"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Manuel"</string>
+    <string name="auto" msgid="4296941368722892821">"Auto"</string>
+    <string name="flash_on" msgid="7891556231891837284">"Blitz affyret"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Ingen blitz"</string>
+    <string name="unknown" msgid="3506693015896912952">"Ukendt"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Instant"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Bleach"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Blå"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"Sort/hvid"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Punch"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X Process"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litho"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Alle albummer"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Lokale albummer"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> eller mindre"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> eller over"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> til <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Importer"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Importen er fuldført"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Vælg et album"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Bland alle billeder"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Vælg et billede"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Vælg billeder"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Diasshow"</string>
+    <string name="albums" msgid="7320787705180057947">"Albummer"</string>
+    <string name="times" msgid="2023033894889499219">"Tidspunkter"</string>
+    <string name="locations" msgid="6649297994083130305">"Placering"</string>
+    <string name="people" msgid="4114003823747292747">"Personer"</string>
+    <string name="tags" msgid="5539648765482935955">"Tags"</string>
+    <string name="group_by" msgid="4308299657902209357">"Grupper efter"</string>
+    <string name="settings" msgid="1534847740615665736">"Indstillinger"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Kamera"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Download"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Redigerede onlinefotos"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Importeret"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Skærmbillede"</string>
+    <string name="help" msgid="7368960711153618354">"Hjælp"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Filmstrip-visning"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Gittervisning"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Se i fuld skærm"</string>
+    <string name="trimming" msgid="9122385768369143997">"Beskæring"</string>
+    <string name="muting" msgid="5094925919589915324">"Slår lyden fra"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Vent"</string>
+    <string name="save_into" msgid="9155488424829609229">"Videoen gemmes i <xliff:g id="ALBUM_NAME">%1$s</xliff:g>..."</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Panoramabilledet gengives"</string>
+    <string name="save" msgid="613976532235060516">"Gem"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Indhold scannes..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d elementer er scannet"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d element er scannet"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d elementer er scannet"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Sorterer..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Scanning er fuldført"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Importerer..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Denne enhed indeholder intet indhold, der kan importeres."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Der er ingen MTP-enhed tilsluttet"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Kamera"</string>
+    <!-- String.format failed for translation -->
+    <!-- no translation found for pref_camera_timer_entry:other (6455381617076792481) -->
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Afspil video"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Tidsbjælke til videoafspiller"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Kamera"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Søg"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Fotos"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Albummer"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d billede"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d billeder"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Ingen keyframes - video vil genstarte afspilning"</string>
+    <string name="gif_decode_failed">"Bitmap er for stort og kan ikke spilles"</string>
+    <string name="spaceLow_content">"Lagring mislykkedes, systemet har måske utilstrækkelig lagerplads."</string>
+    <string name="wait_for_deleting">"Sletter ... vent venligst &#8230;"</string>
+    <string name="wait_for_rotating">"Drejer. Vent venligst &#8230;"</string>
+    <string name="video_bookmarks">"Bogmærker"</string>
+    <string name="video_edit_bookmark">Rediger</string>
+    <string name="video_delete_bookmark">Slet </string>
+    <string name="empty_bookmarks">"tøm bogmærke"</string>
+    <string name="do_not_save">Annuller</string>
+    <string name="net_location">"Adresse"</string>
+    <string name="name">Navn</string>
+    <string name="bookmark_needs_title">"Bogmærke skal have et navn"</string>
+    <string name="bookmark_needs_url">"Bogmærke skal have en placering"</string>
+    <string name="bookmark_invalid_url">"Lokation skal starte med "http(s)://" eller "rpsp://""</string>
+    <string name="processing_please_wait">"I gang, vent venligst."</string>
+    <string name="bookmark_exist">"Bogmærke med samme placering eksisterer"</string>
+    <string name="default_bookmark_title">"standard_titel"</string>
+    <string name="bookmark_added">"Gemt i bogmærker"</string>
+    <string name="albums_video">Video</string>
+    <string name="empty_album_video">"0 videoer tilgængelige"</string>
+    <string name="border_brush">"Børste"</string>
+    <string name="border_grunge">"Grunge"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Tape"</string>
+    <string name="border_black">"Sort"</string>
+    <string name="border_black_rounded">"Sort_rd"</string>
+    <string name="border_white">"Hvid"</string>
+    <string name="border_white_rounded">"Hvid_rd"</string>
+    <string name="border_cream">"Cream"</string>
+    <string name="border_cream_rounded">"Cream_rd"</string>
+    <string name="no_face">"Intet ansigt"</string>
+    <string name="can_not_share">"De valgte filer overstiger <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>. Delingsfunktionen er ikke tilgængelig"</string>
+
+    <string name="video_save_to_bookmark">"Gem i bogmærker"</string>
+    <string name="video_view_bookmarks">"Bogmærker"</string>
+    <string name="movie_view_proxy_set">"Indstilling af proxy"</string>
+    <string name="movie_view_network">"Netværk"</string>
+    <string name="movie_view_apn_set">"APN Indtast Valg"</string>
+    <string name="movie_view_proxy_ip_set">"Proxy IP Indstillinger"</string>
+    <string name="movie_view_proxy_port_set">"Proxy Port Indstillinger"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP Port Indstillinger"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP Max Port Indstillinger"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP Min Port Indstillinger"</string>
+    <string name="movie_view_proxy_ok">OK</string>
+    <string name="movie_view_proxy_port_seterror_info">"En værdi til indstilling af port skal være et heltal i intervallet："</string>
+    <string name="movie_view_proxy_ip_seterror_info">"Ugyldig IP!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"Ugyldig port!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Angiv Port afstand Først !"</string>
+    <string name="movie_view_proxy_enable">"Proxy aktiver"</string>
+    <string name="movie_view_parameter_set">"Parameter Indstillinger"</string>
+    <string name="dialog_dismiss">"Annuller"</string>
+    <string name="gallery_error_title">"Fejl i galleri"</string>
+    <string name="videoplayer_error_title">"Fejl i videoafspiller"</string>
+    <string name="error_permissions">"Appen mangler kritiske tilladelser for at kunne køre. Kontrollér dine indstillinger for tilladelser."</string>
+    <string name="gallery_premission_change">"Gallerirettighed ændret. Vælg igen"</string>
+    <string name="gallery_premission_error">"Fejl i galleritilladelse. Du skal nulstille galleritilladelserne."</string>
+    <string name="already_exist">"Ændringen eksisterer allerede"</string>
+    <string name="show_details_error">"Indlæser data. Prøv igen senere."</string>
+    <string name="none_playback">"Ingen playback"</string>
+    <string name="single_playback">"Enkelt playback"</string>
+    <string name="all_playback">"Alle playback"</string>
+    <string name="playback_setting">"Playback tilstand"</string>
+    <string name="can_not_open_float_video">""Flydende videovinduer kan ikke åbnes med aktuelt videotapet"."</string>
+    <string name="video_file_does_not_exist">"Videofil findes ikke"</string>
+    <string name="movie_view_goto">"Gå til"</string>
+    <string name="no_search_app">"Ingen app til søgning"</string>
+    <string name="channel_setting_title">"Kanalindstillinger"</string>
+    <string name="channel_setting_left">"Venstre"</string>
+    <string name="channel_setting_right">"Højre"</string>
+    <string name="channel_setting_dual">"Dual"</string>
+    <string name="channel_setting_ok">OK</string>
+    <string name="channel_setting_cancel">Annuller</string>
+    <string name="channel_setting">"Kanalindstillinger"</string>
+    <string name="movie_view_calling_title">"Ringer"</string>
+    <string name="movie_view_calling_msg">"Venligst prøv igen senere efter endt opkald!" </string>
+    <string name="movie_view_calling_try">"Prøv"</string>
+    <string name="movie_view_calling_cancel">Annuller</string>
+    <string name="time_out">"Timeout"</string>
+    <string name="time_out_message">"Netværksanomalier eller forbindelse udgået, genstart eller ej?"</string>
+    <string name="headset">Headset</string>
+    <string name="loud_speaker">"Høj taler"</string>
+    <string name="cannot_load_crop_image">"Hukommelse på kørselstidspunkt for applikation er utilstrækkelig. Kunne ikke indlæse billede."</string>
+    <string name="back_exit">"afslut og prøv igen"</string>
+    <string name="slideshow_music">"Slide musik"</string>
+    <string name="system_ringtones">"System-ringetoner"</string>
+    <string name="user_defined">"Bruger-defineret"</string>
+    <string name="cannot_play_music">"Kan ikke spille musik nu"</string>
+    <string name="play_audio_failed">"Kan ikke spille audio nu"</string>
+    <string-array name="planets_array">
+        <item>"Alle videoer"</item>
+        <item>"Lokale videoer"</item>
+        <item>"Optagne videoer"</item>
+        <item>"Senest afspillede"</item>
+    </string-array>
+    <string name="last_play">"Sidst afspillet:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Slet optagelserne nu?"</item>
+        <item quantity="other">"Slet optagelserne nu?"</item>
+    </plurals>
+    <string name="today">"I dag"</string>
+    <string name="yesterday">"I går"</string>
+    <string name="earlier">"Tidligere"</string>
+    <string name="drawer_open">"Videoliste"</string>
+    <string name="drawer_close">"Alle videoer"</string>
+    <string name="share_actionmode">Del</string>
+    <string name="delete_actionmode">Slet </string>
+    <string name="clear_all">"Slet alt"</string>
+    <string name="video_list">"Videoliste"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Vil du slette det valgte element?"</item>
+        <item quantity="other">"Vil du slette det valgte element?"</item>
+    </plurals>
+    <string name="current_select">"%d valgt"</string>
+    <string name="no_video_play_records">"Ingen optagelser til afspilning"</string>
+    <string name="no_videos">"Der er ingen videoer"</string>
+    <string name="video_not_exist">"Videoen fandtes ikke"</string>
+    <string name="save_picture">"Optagelse blev gemt på %s"</string>
+    <string name="mute">"Slår lyden fra"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Beskyttelsesinformation"</string>
+    <string name="drm_info">"Beskyttelsesinformation"</string>
+    <string name="file_name">"Filnavn:"</string>
+    <string name="rights_validity">"Gyldighed for rettigheder:"</string>
+    <string name="rights_status">"Status for rettigheder:"</string>
+    <string name="start_time">"Starttidspunkt:"</string>
+    <string name="end_time">"Sluttidspunkt:"</string>
+    <string name="expiration_time">"Udløbstidspunkt:"</string>
+    <string name="remain_times">"Resterende gange:"</string>
+    <string name="rights_validity_valid">"Gyldig"</string>
+    <string name="rights_validity_invalid">"Ugyldig"</string>
+    <string name="rights_status_share">"Tillad videresendelse"</string>
+    <string name="rights_status_not_share">"Tillad ikke videresendelse"</string>
+    <string name="drm_rights_no_limit">"Ubegrænset"</string>
+    <string name="drm_rights_unknown">ukendt</string>
+    <string name="drm_rights_inactive">"Rettigheder inaktive"</string>
+    <string name="drm_file_invalid">"Filen er udløbet"</string>
+    <string name="screenshot_failed">"Skærmbillede mislykkedes"</string>
+    <string name="floatwindow_unsupported_device">"Flydende vindue ikke understøttet på denne enhed"</string>
+    <string name="floatwindow_unsupported_camera">"Flydende vindue er ikke understøttet i kamera"</string>
+    <string name="floatwindow_unsupported_streaming">"Flydende vindue understøttes ikke, når der streames videoer"</string>
+    <string name="stream_screenshot_not_supported">"Optagelsesfunktionen understøttes ikke, når der streames videoer."</string>
+
+    <string name="movie_view_mms_processing_ok">"modtagelse fuldført"</string>
+    <string name="movie_view_sms_received_ok">"sms modtag"</string>
+    <string name="movie_view_mms_process_title">"Mms I gang"</string>
+    <string name="movie_view_sms_process_title">"Behandler SMS"</string>
+    <string name="movie_view_mms_ok">OK</string>
+    <string name="drm_consumed">"Din handling bruger Drm retigheder"</string>
+    <string name="choose_drm_alert">"Kan ikke vælge Drm fil, vælg venligst en anden"</string>
+    <string name="invalid_rights">"Denne fil havde ingen gyldig licens"</string>
+    <string name="drm_consume_hint">"Din handling vil gøre brug af Drm retigheder"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="drm_consume_title">"Brug DRM rettigheder"</string>
+</resources>

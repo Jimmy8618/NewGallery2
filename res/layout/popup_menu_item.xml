@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dip"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dip">
+
+    <TextView
+        android:id="@+id/popup_menu_details"
+        android:layout_width="200dip"
+        android:layout_height="44dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="18dip"
+        android:text="@string/details" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/pupo_background_line" />
+
+    <TextView
+        android:id="@+id/popup_menu_slideshow"
+        android:layout_width="140dip"
+        android:layout_height="44dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="18dip"
+        android:text="@string/slideshow_dream_name" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/pupo_background_line" />
+
+    <TextView
+        android:id="@+id/popup_menu_backgroudmusic"
+        android:layout_width="140dip"
+        android:layout_height="44dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="18dip"
+        android:text="@string/slidemusic" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/pupo_background_line" />
+
+    <TextView
+        android:id="@+id/popup_menu_setAs"
+        android:layout_width="140dip"
+        android:layout_height="44dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="18dip"
+        android:text="@string/setas" />
+
+</LinearLayout>

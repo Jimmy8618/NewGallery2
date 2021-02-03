@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:padding="10dp"
+    android:visibility="gone">
+
+    <ImageButton
+        android:id="@+id/photopage_bottom_control_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/photopage_bottom_button_background"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/ic_menu_edit_holo_dark"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/photopage_bottom_control_panorama"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/transparent_button_background"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/ic_view_photosphere"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/icon_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/photopage_button_margin_bottom"
+        android:background="@drawable/ic_voice"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/voice_photo"
+        android:textAllCaps="false"
+        android:textColor="@color/bottom_cotrol_button_textcolor"
+        android:visibility="gone" />
+    <!--SPRD : fix bug 604671 show voice photo is different from camera.@{-->
+    <com.android.gallery3d.app.PhotoVoiceProgress
+        android:id="@+id/photo_voice_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/photo_voice_margin_bottom"
+        android:background="@drawable/voice_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+    <!--@}-->
+
+    <ImageButton
+        android:id="@+id/photopage_bottom_control_tiny_planet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/photopage_bottom_button_background"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/ic_menu_tiny_planet"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/photopage_bottom_control_image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/transparent_button_background"
+        android:clickable="false"
+        android:focusable="false"
+        android:paddingLeft="20dp"
+        android:paddingTop="100dp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/photopage_bottom_control_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/photopage_bottom_control_image1"
+        android:background="@drawable/transparent_button_background"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginStart="4dp"
+        android:paddingTop="100dp"
+        android:visibility="gone" />
+</RelativeLayout>

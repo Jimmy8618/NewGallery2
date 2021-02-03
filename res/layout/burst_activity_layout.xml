@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/burst_activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000"
+    android:clipChildren="false">
+
+    <com.sprd.gallery3d.burstphoto.ThumbNailBurstRecycleView
+        android:id="@+id/thumb_nail_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <com.sprd.gallery3d.burstphoto.FilmStripRecyclerView
+        android:id="@+id/burst_filmstrip_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/thumb_nail_list_view" />
+</RelativeLayout>

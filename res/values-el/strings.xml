@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Συλλογή"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Πρόγραμμα αναπαραγωγής βίντεο"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Φόρτωση βίντεο..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Συνέχιση βίντεο"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Συνέχιση αναπαραγωγής από το ;"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Συνέχιση αναπαραγωγής"</string>
+    <string name="loading" msgid="7038208555304563571">"Φόρτωση..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Δεν ήταν δυνατή η φόρτωση"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Δεν ήταν δυνατή η φόρτωση της εικόνας"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Δεν υπάρχει μικρογραφία"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Έναρξη από την αρχή"</string>
+    <string name="ok" msgid="5296833083983263293">"ΟΚ"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Αποθήκευση εικόνας..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Αποθήκευση εικόνας στο λεύκωμα <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="crop_label" msgid="521114301871349328">"Περικοπή εικόνας"</string>
+    <string name="trim_label" msgid="274203231381209979">"Περικοπή βίντεο"</string>
+    <string name="select_image" msgid="7841406150484742140">"Επιλογή φωτογραφίας"</string>
+    <string name="select_video" msgid="4859510992798615076">"Επιλογή βίντεο"</string>
+    <string name="select_item" msgid="2816923896202086390">"Επιλεγμένο αντικείμ."</string>
+    <string name="select_album" msgid="1557063764849434077">"Επιλογή λευκώματος"</string>
+    <string name="select_group" msgid="6744208543323307114">"Επιλογή ομάδας"</string>
+    <string name="set_image" msgid="2331476809308010401">"Ορισμός εικόνας ως"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Ταπετσαρία"</string>
+    <string name="delete" msgid="2839695998251824487">"Διαγραφή"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Διαγραφή επιλεγμέν. στοιχείου;"</item>
+        <item msgid="5874316486520635333" quantity="other">"Διαγραφή επιλεγμέν. στοιχείων;"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Επιβεβαίωση"</string>
+    <string name="cancel" msgid="3637516880917356226">"Ακύρωση"</string>
+    <string name="share" msgid="3619042788254195341">"Κοινοποίηση"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Κοινοποίηση πανοράματος"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Κοινοποίηση ως φωτογραφίας"</string>
+    <string name="deleted" msgid="6795433049119073871">"Διαγράφηκε"</string>
+    <string name="undo" msgid="2930873956446586313">"ΑΝΑΙΡΕΣΗ"</string>
+    <string name="select_all" msgid="3403283025220282175">"Επιλογή όλων"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Αποεπιλογή όλων"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Προβολή διαφανειών"</string>
+    <string name="details" msgid="8415120088556445230">"Λεπτομέρειες"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d από %2$d στοιχεία:"</string>
+    <string name="close" msgid="5585646033158453043">"Κλείσιμο"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Φωτογραφική μηχανή"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"Επιλέχθηκαν %1$d"</item>
+        <item msgid="2478365152745637768" quantity="one">"Επιλέχθηκαν %1$d"</item>
+        <item msgid="754722656147810487" quantity="other">"Επιλέχθηκαν %1$d"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Εμφάνιση στον χάρτη"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Αριστερή περιστροφή"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Δεξιά περιστροφή"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Δεν ήταν δυνατή η εύρεση."</string>
+    <string name="edit" msgid="1502273844748580847">"Επεξεργασία"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Απλή επεξεργασία"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Περικοπή"</string>
+    <string name="trim_action" msgid="703098114452883524">"Περικοπή"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Σίγαση"</string>
+    <string name="set_as" msgid="3636764710790507868">"Ορισμός ως"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Αδύνατη η σίγαση του βίντεο."</string>
+    <string name="video_err" msgid="7003051631792271009">"Δεν είναι δυνατή η αναπαραγωγή βίντεο."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Κατά τοποθεσία"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Κατά ώρα"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Κατά ετικέτα"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Κατά άτομα"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Κατά λεύκωμα"</string>
+    <string name="untagged" msgid="7281481064509590402">"Χωρίς ετικέτα"</string>
+    <string name="no_location" msgid="4043624857489331676">"Καμία τοποθεσία"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Δεν ήταν δυνατός ο προσδιορισμός ορισμένων τοποθεσιών λόγω προβλημάτων δικτύου."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Δεν ήταν δυνατή η λήψη των φωτογραφιών σε αυτό το λεύκωμα. Δοκιμάστε ξανά αργότερα."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Μόνο εικόνες"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Μόνο βίντεο"</string>
+    <string name="show_all" msgid="6963292714584735149">"Εικόνες και βίντεο"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Συλλογή φωτογραφιών"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Δεν υπάρχουν φωτογραφίες."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Η αποκομμένη εικόνα αποθηκεύτηκε στον φάκελο <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Δεν υπάρχουν διαθέσιμα λευκώματα."</string>
+    <string name="empty_album" msgid="4542880442593595494">"Δεν υπάρχουν διαθέσιμες εικόνες/βίντεο."</string>
+    <string name="done" msgid="217672440064436595">"Τέλος"</string>
+    <string name="title" msgid="7622928349908052569">"Τίτλος"</string>
+    <string name="description" msgid="3016729318096557520">"Περιγραφή"</string>
+    <string name="time" msgid="1367953006052876956">"Ώρα"</string>
+    <string name="location" msgid="3432705876921618314">"Τοποθεσία"</string>
+    <string name="path" msgid="4725740395885105824">"Διαδρομή"</string>
+    <string name="width" msgid="9215847239714321097">"Πλάτος"</string>
+    <string name="height" msgid="3648885449443787772">"Ύψος"</string>
+    <string name="orientation" msgid="4958327983165245513">"Προσανατολισμός"</string>
+    <string name="duration" msgid="8160058911218541616">"Διάρκεια"</string>
+    <string name="mimetype" msgid="8024168704337990470">"Τύπος MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"Μέγεθος αρχείου"</string>
+    <string name="maker" msgid="7921835498034236197">"Δημιουργός"</string>
+    <string name="model" msgid="8240207064064337366">"Μοντέλο"</string>
+    <string name="flash" msgid="2816779031261147723">"Φλας"</string>
+    <string name="aperture" msgid="5920657630303915195">"Διάφραγμα"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Μήκος εστίασης"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Ισορρ. λευκού"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Χρόνος έκθεσης"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"χιλιοστά"</string>
+    <string name="manual" msgid="6608905477477607865">"Μη αυτόματο"</string>
+    <string name="auto" msgid="4296941368722892821">"Αυτόματο"</string>
+    <string name="flash_on" msgid="7891556231891837284">"Το φλας άναψε"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Όχι φλας"</string>
+    <string name="unknown" msgid="3506693015896912952">"Άγνωστο"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Εποχής"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Άμεσα"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Λεύκανση"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Μπλε"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"Α/Μ"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Γροθιά"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"Επεξεργασία X"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litho"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Όλα τα λευκώματα"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Τοπικά λευκώματα"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> ή μικρότερο"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> ή μεγαλύτερο"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> έως <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Εισαγωγή"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Η εισαγωγή ολοκληρ."</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Επιλογή λευκώματος"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Τυχαία αναπ. όλων των εικόνων"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Επιλέξτε μια εικόνα"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Επιλογή εικόνων"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Προβολή διαφανειών"</string>
+    <string name="albums" msgid="7320787705180057947">"Λευκώματα"</string>
+    <string name="times" msgid="2023033894889499219">"Φορές"</string>
+    <string name="locations" msgid="6649297994083130305">"Τοποθεσίες"</string>
+    <string name="people" msgid="4114003823747292747">"Άτομα"</string>
+    <string name="tags" msgid="5539648765482935955">"Ετικέτες"</string>
+    <string name="group_by" msgid="4308299657902209357">"Ομαδοποίηση κατά"</string>
+    <string name="settings" msgid="1534847740615665736">"Ρυθμίσεις"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Φωτογραφική μηχανή"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Λήψη"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Φωτογραφίες επεξεργασμένες στο διαδίκτυο"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Έγινε εισαγωγή"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Στιγμιότυπο οθόνης"</string>
+    <string name="help" msgid="7368960711153618354">"Βοήθεια"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Προβολή σε φιλμ"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Προβολή πλέγματος"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Πλήρης οθόνη"</string>
+    <string name="trimming" msgid="9122385768369143997">"Περικοπή"</string>
+    <string name="muting" msgid="5094925919589915324">"Σίγαση"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Περιμένετε"</string>
+    <string name="save_into" msgid="9155488424829609229">"Αποθήκευση βίντεο στο άλμπουμ <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Απόδοση πανοράματος"</string>
+    <string name="save" msgid="613976532235060516">"Αποθήκευση"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Σάρωση περιεχομένου…"</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d στοιχεία έχουν σαρωθεί"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d στοιχείο έχει σαρωθεί"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d στοιχεία έχουν σαρωθεί"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Ταξινόμηση…"</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Η σάρωση έχει ολοκληρωθεί"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Εισαγωγή…"</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Δεν υπάρχει διαθέσιμο περιεχόμενο για εισαγωγή σε αυτή τη συσκευή."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Δεν υπάρχει συνδεδεμένη συσκευή MTP"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Φωτογ.μηχανή"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Αναπαραγωγή βίντεο"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Γραμμή χρόνου προγράμματος αναπαραγωγής βίντεο"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Κάμερα"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Αναζήτηση"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Φωτογραφίες"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Λεύκωμα"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d φωτογραφία"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d φωτογραφ."</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Θα γίνει επανεκκίνηση αναπαραγωγής του βίντεο χωρίς βασικά καρέ"</string>
+    <string name="gif_decode_failed">"Η δυφιοαπεικόνιση είναι πολύ μεγάλη για αναπαραγωγή"</string>
+    <string name="spaceLow_content">"Αποτυχία αποθήκευσης, το σύστημα ίσως  έχει ανεπαρκή χώρο αποθήκευσης"</string>
+    <string name="wait_for_deleting">"Διαγραφή, παρακαλούμε περιμένετε&#8230;"</string>
+    <string name="wait_for_rotating">"Περιστροφή, παρακαλούμε περιμένετε&#8230;"</string>
+    <string name="video_bookmarks">"Σελιδοδείκτες"</string>
+    <string name="video_edit_bookmark">Επεξεργασία</string>
+    <string name="video_delete_bookmark">Διαγραφή</string>
+    <string name="empty_bookmarks">"Άδειασμα Σελιδοδεικτών"</string>
+    <string name="do_not_save">Ακύρωση</string>
+    <string name="net_location">"Διεύθυνση"</string>
+    <string name="name">"Όνομα"</string>
+    <string name="bookmark_needs_title">Ο σελιδοδείκτης πρέπει να έχει ένα όνομα</string>
+    <string name="bookmark_needs_url">Ο σελιδοδείκτης πρέπει να έχει τοποθεσία</string>
+    <string name="bookmark_invalid_url">Η τοποθεσία πρέπει να ξεκινά με "http(s)://" ή "rtsp://"</string>
+    <string name="processing_please_wait">Επεξεργασία, παρακαλώ περιμένετε...</string>
+    <string name="bookmark_exist">Ο σελιδοδείκτης με την ίδια τοποθεσία υπάρχει.</string>
+    <string name="default_bookmark_title">τυπικός_τίτλος</string>
+    <string name="bookmark_added">"Αποθηκεύτηκε στους σελιδοδείκτες"</string>
+    <string name="albums_video">"Βίντεο"</string>
+    <string name="empty_album_video">"0 βίντεο διαθέσιμα."</string>
+    <string name="border_brush">"Πινέλο"</string>
+    <string name="border_grunge">"Γκράντζ"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Κασέτα"</string>
+    <string name="border_black">"Μαύρο"</string>
+    <string name="border_black_rounded">"Μαύρο_rd"</string>
+    <string name="border_white">"Λευκό"</string>
+    <string name="border_white_rounded">"Λευκό_rd"</string>
+    <string name="border_cream">"Κρέμα"</string>
+    <string name="border_cream_rounded">"Κρέμα_rd"</string>
+    <string name="no_face">"Κανένα πρόσωπο"</string>
+    <string name="can_not_share">"Τα επιλεγμένα αρχεία είναι πάνω από <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, η λειτουργία κοινής χρήσης δεν είναι διαθέσιμη"</string>
+
+    <string name="video_save_to_bookmark">"Αποθήκευση στους σελιδοδείκτες"</string>
+    <string name="video_view_bookmarks">"Σελιδοδείκτες"</string>
+    <string name="movie_view_proxy_set">"Ρύθμιση Δεικτών"</string>
+    <string name="movie_view_network">"Δίκτυο"</string>
+    <string name="movie_view_apn_set">"Έναρξη ρύθμισης APN"</string>
+    <string name="movie_view_proxy_ip_set">"Ρυθμίσεις διακομιστή μεσολάβησης αναγνωριστικού"</string>
+    <string name="movie_view_proxy_port_set">"Ρυθμίσεις διακομιστή μεσολάβησης θύρας"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP Ρυθμίσεις θύρας"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP Ρυθμίσεις μέγιστης θύρας"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP Ρυθμίσεις ελάχιστης θύρας"</string>
+    <string name="movie_view_proxy_ok">ΟΚ</string>
+    <string name="movie_view_proxy_port_seterror_info">"Η τιμή ρυθμίσεων θύρας πρέπει να είναι ακέραιος αριθμός μεταξύ του δεδομένου εύρους" </string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP Άκυρο!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"Θύρα Άκυρη!" </string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Πρώτα ρυθμίστε την έκταση θύρας!"</string>
+    <string name="movie_view_proxy_enable">"Ενεργοποίηση διακομιστή μεσολάβησης"</string>
+    <string name="movie_view_parameter_set">"Ρύθμιση παραμέτρων"</string>
+    <string name="dialog_dismiss">"Απόρριψη"</string>
+    <string name="gallery_error_title">"Σφάλμα γκαλερί"</string>
+    <string name="videoplayer_error_title">"Σφάλμα αναπαραγωγής βίντεο"</string>
+    <string name="error_permissions">"Η εφαρμογή δεν διαθέτει κρίσιμα δικαιώματα που απαιτούνται για την εκτέλεσή της. Ελέγξτε τις ρυθμίσεις δικαιωμάτων."</string>
+    <string name="gallery_premission_change">"Η άδεια γκαλερί άλλαξε, παρακαλούμε επιλέξτε ξανά"</string>
+    <string name="gallery_premission_error">"Σφάλμα άδειας γκαλερί, παρακαλούμε επιλέξτε ξανά τις άδειες γκαλερί."</string>
+    <string name="already_exist">"Το εφέ υπάρχει ήδη"</string>
+    <string name="show_details_error">"Φόρτωση δεδομένων, παρακαλούμε δοκιμάστε ξανά αργότερα."</string>
+    <string name="none_playback">"Χωρίς αναπαραγωγή"</string>
+    <string name="single_playback">"Αναπαραγωγή σε ένα"</string>
+    <string name="all_playback">"Αναπαραγωγή σε όλα"</string>
+    <string name="playback_setting">"Λειτουργία αναπαραγωγής"</string>
+    <string name="can_not_open_float_video">"Η τρέχουσα τα πετσαρία βίντεο, τα αιωρούμενα παράθυρα βίντεο δεν μπορούν να ανοίξουν." </string>
+    <string name="video_file_does_not_exist">"το αρχείο βίντεο δεν υπάρχει"</string>
+    <string name="movie_view_goto">"Πήγαινε σε"</string>
+    <string name="no_search_app">"καμία αναζήτηση εφαρμογής"</string>
+    <string name="channel_setting_title">"Ρύθμιση καναλιού"</string>
+    <string name="channel_setting_left">"Αριστερά"</string>
+    <string name="channel_setting_right">"Δεξιά"</string>
+    <string name="channel_setting_dual">"Διπλή"</string>
+    <string name="channel_setting_ok">ΟΚ</string>
+    <string name="channel_setting_cancel">Ακύρωση</string>
+    <string name="channel_setting">"Ρύθμιση καναλιού"</string>
+    <string name="movie_view_calling_title">"Κλήση"</string>
+    <string name="movie_view_calling_msg">"Παρακαλούμε προσπαθήστε ξανά εφόσον τερματίσετε την κλήση!"</string>
+    <string name="movie_view_calling_try">"Δοκιμή"</string>
+    <string name="movie_view_calling_cancel">Ακύρωση</string>
+    <string name="time_out">"Λήξη ορίου χρόνου"</string>
+    <string name="time_out_message">Ανωμαλίες δικτύου ή χρονικό όριο σύνδεσης, επανεκκίνηση ή όχι;</string>
+    <string name="headset">"Ακουστικά"</string>
+    <string name="loud_speaker">"Μεγάφωνο"</string>
+    <string name="cannot_load_crop_image">"Η μνήμη χρόνου εκτέλεσης εφαρμογών δεν επαρκεί, η φόρτωση της εικόνας απέτυχε."</string>
+    <string name="back_exit">έξοδος εάν πατήστε ξανά</string>
+    <string name="slideshow_music">"Ρυθμίσεις διαφανειών μουσικής"</string>
+    <string name="system_ringtones">"Σύστημα ήχων κλήσης"</string>
+    <string name="user_defined">"Ορισμένο από το χρήστη"</string>
+    <string name="cannot_play_music">"Αδύνατη η αναπαραγωγή μουσικής αυτή τη στιγμή"</string>
+    <string name="play_audio_failed">"Αδύνατη η αναπαραγωγή ήχου αυτή τη στιγμή"</string>
+    <string-array name="planets_array">
+        <item>"Όλα τα βίντεο"</item>
+        <item>"Τοπικά βίντεο"</item>
+        <item>"Γυρισμένα βίντεο"</item>
+        <item>"Πρόσφατα αναπαραγμένα"</item>
+    </string-array>
+    <string name="last_play">"Τελευταία αναπαραγωγή:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Διαγραφή των εγγραφών τώρα;"</item>
+        <item quantity="other">"Διαγραφή των εγγραφών τώρα;"</item>
+    </plurals>
+    <string name="today">"Σήμερα"</string>
+    <string name="yesterday">"Χθες"</string>
+    <string name="earlier">"Παλιότερα"</string>
+    <string name="drawer_open">"Λίστα βίντεο"</string>
+    <string name="drawer_close">"Όλα τα βίντεο"</string>
+    <string name="share_actionmode">"Κοινή χρήση"</string>
+    <string name="delete_actionmode">Διαγραφή</string>
+    <string name="clear_all">"Διαγραφή όλων"</string>
+    <string name="video_list">"Λίστα βίντεο"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Διαγραφή επιλεγμέν. στοιχείου;"</item>
+        <item quantity="other">"Διαγραφή επιλεγμέν. στοιχείου;"</item>
+    </plurals>
+    <string name="current_select">"%d επιλεγμένα"</string>
+    <string name="no_video_play_records">"Δεν υπάρχουν εγγραφές αναπαραγωγής"</string>
+    <string name="no_videos">"Δεν υπάρχουν βίντεο"</string>
+    <string name="video_not_exist">"Το βίντεο δεν υπήρχε"</string>
+    <string name="save_picture">"Η λήψη αποθηκεύτηκε σε %s"</string>
+    <string name="mute">"Σίγαση"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Πληροφορίες Προστασίας"</string>
+    <string name="drm_info">"Πληροφορίες Προστασίας"</string>
+    <string name="file_name">"Όνομα αρχείου:"</string>
+    <string name="rights_validity">"Ισχύς δικαιωμάτων:"</string>
+    <string name="rights_status">"Κατάσταση δικαιωμάτων:"</string>
+    <string name="start_time">"Χρόνος έναρξης:"</string>
+    <string name="end_time">"Τέλος χρόνου:"</string>
+    <string name="expiration_time">"Χρόνος λήξης:"</string>
+    <string name="remain_times">"Προσπάθειες που απομένουν:"</string>
+    <string name="rights_validity_valid">"Έγκυρο"</string>
+    <string name="rights_validity_invalid">"Άκυρο"</string>
+    <string name="rights_status_share">"Επιτρέπεται η προώθησή του"</string>
+    <string name="rights_status_not_share">"Δεν επιτρέπεται η προώθησή του"</string>
+    <string name="drm_rights_no_limit">"Απεριόριστο"</string>
+    <string name="drm_rights_unknown">Άγνωστο</string>
+    <string name="drm_rights_inactive">"Δικαιώματα ανενεργά"</string>
+    <string name="drm_file_invalid">"Το αρχείο έχει λήξει"</string>
+    <string name="screenshot_failed">"Το στιγμιότυπο απέτυχε"</string>
+    <string name="floatwindow_unsupported_device">"Το αναδυόμενο παράθυρο δεν υποστηρίζεται στην παρούσα συσκευή"</string>
+    <string name="floatwindow_unsupported_camera">"Το αναδυόμενο παράθυρο δεν υποστηρίζεται στην κάμερα"</string>
+    <string name="floatwindow_unsupported_streaming">"Το αναδυόμενο παράθυρο δεν υποστηρίζεται κατά την αναπαραγωγή βίντεο απευθείας μετάδοσης"</string>
+    <string name="stream_screenshot_not_supported">"Η λειτουργία λήψης δεν υποστηρίζεται κατά την αναπαραγωγή βίντεο απευθείας μετάδοσης."</string>
+    <string name="movie_view_mms_processing_ok">"Η λήψη ολοκληρώθηκε"</string>
+    <string name="movie_view_sms_received_ok">"Λήψη μηνύματος sms"</string>
+    <string name="movie_view_mms_process_title">"Επεξεργασία Mms"</string>
+    <string name="movie_view_sms_process_title">"Sms σε Εξέλιξη"</string>
+    <string name="movie_view_mms_ok">ΟΚ</string>
+    <string name="drm_consume_hint">"Η ενέργειά σας θα κάνει χρήση των δικαιώματων Drm"</string>
+    <string name="choose_drm_alert">"Δεν ήταν δυνατή η επιλογή του αρχείου Drm, Παρακαλούμε επιλέξτε κάποιο άλλο"</string>
+    <string name="drm_consume_title">"Χρήση δικαιωμάτων Drm"</string>
+    <string name="invalid_rights">"Αυτό το αρχείο δεν έχει καμία έγκυρη άδεια"</string>
+    <string name="drm_consumed">"Η Λειτουργία σας έκανε χρήση των δικαιωμάτων Drm"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="slidemusic">"Ορισμός μουσικής παρουσίασης διαφανειών"</string>
+    <string name="setas">"Ορισμός ως"</string>
+    <string name="slide_music_system_ringtones">"Σύστημα ήχων κλήσης"</string>
+    <string name="slide_music_user_defined">"Ορισμένο από το χρήστη"</string>
+    <string name="remove_usbdisk">"Η συσκευή χρήστη έχει καταργηθεί"</string>
+    <string name="edit_crop_free">"Ελεύθερο"</string>
+    <string name="edit_crop_square">"Τετράγωνο"</string>
+    <string name="edit_crop_origin">"Πρωτότυπη"</string>
+    <string name="hide_albums">"Απόκρυψη άλμπουμ"</string>
+    <string name="show_local_albums">"Εμφάνιση τοπικών άλμπουμ"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"Επιλέχθηκε %1$d φωτογραφία"</item>
+        <item quantity="other">"Επιλέχθηκαν %1$d φωτογραφίες"</item>
+    </plurals>
+    <string name="select">"Επιλογή"</string>
+    <string name="popup_title_save_all_selected">"Αποθήκευση όλων των φωτογραφιών;"</string>
+    <string name="keep_all">"Αποθ. όλων"</string>
+    <string name="burst_progress_dialog_title">"Επεξεργασία…"</string>
+    <string name="side_bar_all_photos">"Όλα"</string>
+    <string name="side_bar_photo">"Φωτογραφίες"</string>
+    <string name="side_bar_video">"Βίντεο"</string>
+    <string name="side_bar_album">"Άλμπουμ"</string>
+    <string name="label_select">"Επιλογή"</string>
+    <string name="no_photo_or_video">"Όχι %1$s"</string>
+    <string name="no_photo_or_video_hint">"Εδώ θα εμφανίζονται φωτογραφίες ή βίντεο που έχουν αποθηκευτεί σε αυτήν τη συσκευή."</string>
+    <string name="detail_pop_title">"Πληροφορίες"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"Περισσότερα"</string>
+    <string name="detail_location">"Τοποθεσία"</string>
+    <string name="database_exception">"Εξαίρεση επεξεργασίας δεδομένων, η λειτουργία απέτυχε."</string>
+    <string name="exit_multiwindow_tips">"Η αναζήτηση φωτογραφιών δεν υποστηρίζεται σε λειτουργία διαίρεσης οθόνης"</string>
+    <string name="exit_multiwindow_video_tips">"Η παρακολούθηση βίντεο δεν υποστηρίζεται σε λειτουργία διαίρεσης οθόνης"</string>
+    <string name="decode_image_faild">"Η περικοπή εικόνας απέτυχε"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"Σήμερα"</string>
+    <string name="label_yesterday">"Χθες"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"Φόρτωση δεδομένων σε εξέλιξη, περιμένετε"</string>
+    <string name="distance_photo_unit_conversion">"Μετατροπή μονάδων"</string>
+    <string name="unit">"Μονάδα"</string>
+    <string name="meter">"μέτρο"</string>
+    <string name="centimeter">"Εκατοστό"</string>
+    <string name="foot">"Πόδι"</string>
+    <string name="inch">" Ίντσα"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"Αυτό το βίντεο δεν είναι έγκυρο για ροή σε αυτή τη συσκευή."</string>
+    <string name="VideoView_error_text_unknown">"Δεν μπορείτε να αναπαράγετε αυτό το βίντεο."</string>
+    <string name="no_touch_flip">"αναστροφή χωρίς αφή"</string>
+    <string name="flip_summury">"κάλυψη δευτερεύουσας κάμερας για 1 δευτερόλεπτο για αναστροφή εικόνας."</string>
+    <string name="first_summary">"επόμενη σελίδα από προεπιλογή"</string>
+    <string name="sencond_summury">"προηγούμενη σελίδα κατά την αύξηση της έντασης"</string>
+    <string name="third_summury">"επόμενη σελίδα κατά τη μείωση της έντασης"</string>
+    <string name="fourth_summury">"σύνοψη: πάρτε το πλήκτρο έντασης "</string>
+    <string name="dealing">Φόρτωση...</string>
+    <string name="slide_music_stop">"Η μουσική της διαφάνειας διακόπηκε"</string>
+    <string name="select_tips">"Το επιλεγμένο αντικείμενο είναι το φόντο. Αναδημιουργήστε το σημείο στην περιοχή του προσκηνίου"</string>
+    <string name="definition_subject">"Ορισμός αντικειμένου"</string>
+    <string name="fix_subject">"Διόρθωση αντικειμένου"</string>
+    <string name="fix_background">"Διόρθωση φόντου"</string>
+    <string name="replace_background">"Αντικατάσταση φόντου"</string>
+    <string name="correct_object_tips">"Αρχικά, σχεδιάστε ή μουντζουρώστε προσεγγιστικά την περιοχή όπου το περίγραμμα δεν είναι ακριβές.\nΣτη συνέχεια, κάντε κλικ στο κουμπί «Διόρθωση αντικειμένου» για να ενημερώσετε τη μουντζουρωμένη περιοχή στο αντικείμενο ή κάντε κλικ στο κουμπί «Διόρθωση φόντου» για να ενημερώσετε τη μουτζουρωμένη περιοχή στο φόντο."</string>
+    <string name="def_object_tips">"Ορισμός αντικειμένου: Σχεδιάστε ένα ορθογώνιο για να καλύψετε το περίγραμμα του αντικειμένου που θέλετε να εξαγάγετε."</string>
+    <string name="valid_point">"Το σημείο εκκίνησης ή το σημείο τερματισμού δεν είναι εντός της έγκυρης περιοχής,"</string>
+    <string name="small_rect">"Το ορθογώνιο που σχεδιάστηκε είναι πολύ μικρό."</string>
+    <string name="add">"Προσθήκη"</string>
+    <string name="use_phone_photo">"Χρησιμοποιήστε τις φωτογραφίες που λήφθηκαν με το κινητό σας τηλέφωνο"</string>
+    <string name="extract_failed">"Η εξαγωγή απέτυχε, δοκιμάστε ξανά"</string>
+    <string name="blending_success">"Επιτυχής ανάμειξη εικόνας. Συνεχίστε τη λειτουργία ή πατήστε το κουμπί πίσω για έξοδο"</string>
+    <string name="blending_failed">"Η ανάμειξη εικόνας απέτυχε"</string>
+    <string name="extract_failed_notforground">"Η εξαγωγή απέτυχε. Δεν υπάρχει αντικείμενο προσκηνίου. Δοκιμάστε ξανά"</string>
+    <string name="extract_failed_nomemory">"Η εξαγωγή απέτυχε. Πολύ χαμηλή μνήμη. Δοκιμάστε ξανά"</string>
+    <string name="extract_timeout">"Λήξη χρονικού ορίου εξαγωγής. Δοκιμάστε ξανά"</string>
+    <string name="extract_forground">"Εξαγωγή στόχου προσκηνίου. Περιμένετε μια στιγμή."</string>
+    <string name="update_forground">"Ενημέρωση στόχου προσκηνίου. Περιμένετε μια στιγμή."</string>
+    <string name="blending_image">"Ανάμειξη εικόνας. Περιμένετε μια στιγμή."</string>
+    <string name="select_foreground_subject">"Κάντε κλικ για να επιλέξετε το θέμα προσκηνίου"</string>
+    <string name="adjust_foreground_subject">"Προσαρμογή θέματος προσκηνίου"</string>
+    <string name="correct_subject_outline">"Διόρθωση περιγράμματος θέματος"</string>
+    <string name="edit_background">"Επεξεργασία φόντου"</string>
+    <string name="verify_prompt">"Η τρέχουσα θέση είναι πολύ κοντά στην άκρη και θα επηρεάσει αρνητικά το εφέ. Είστε βέβαιοι ότι θέλετε να κάνετε ανάμειξη;"</string>
+    <string name="fg_too_large">"Το θέμα προσκηνίου είναι πολύ μεγάλο για ανάμειξη."</string>
+    <string name="draw_tips">"Σχεδιάστε εντός του λευκού ορθογωνίου"</string>
+    <string name="undo_faild">"η λειτουργία αναίρεσης απέτυχε"</string>
+    <string name="get_forfround_tips">"Δεν είναι δυνατή η αλλαγή όλων των θεμάτων προσκηνίου σε φόντο. Σχεδιάστε ξανά."</string>
+    <string name="back">"Πίσω"</string>
+    <string name="over_flow">"Υπερχείλιση"</string>
+    <string name="slide_music_play_fail">"Λυπούμαστε, το αρχείο αναπαραγωγής απέτυχε"</string>
+    <string name="refocus_quit">έξοδος</string>
+    <string name="refocus_save_change">"Αποθήκευση αλλαγών"</string>
+    <string name="refocus_confirm_save">"Θέλετε να αποθηκεύσετε ή να κάνετε άμεση έξοδο;"</string>
+    <string name="refocus_save_success">"Επιτυχής αποθήκευση"</string>
+    <string name="refocus_save_fail">"Η αποθήκευση απέτυχε"</string>
+    <string name="none_input_tips">"Το όνομα δεν μπορεί να είναι κενό"</string>
+    <string name="floatview_notification_text">"Το βίντεο αναπαράγεται σε αιωρούμενο παράθυρο."</string>
+    <string name="voice_photo">"Εικόνα ήχου"</string>
+    <string name="continuous_shooting">"Ενίσχυση"</string>
+    <string name="refocus_image">"Θάμπωμα εικόνας"</string>
+    <string name="blur_image_wait">"Επεξεργασία θαμπώματος εικόνας. Περιμένετε"</string>
+    <string name="blur_save_fail">"Η αποθήκευση θαμπώματος εικόνας απέτυχε"</string>
+    <string name="refocus_init_fail">"Αποτυχία προετ. δεδομένων"</string>
+    <string name="conversing">"Συνομιλεί"</string>
+    <string name="share_as_image">"Κοινή χρήση ως εικόνα"</string>
+    <string name="share_as_video">"Κοινή χρήση ως βίντεο"</string>
+    <string name="converse_video_failed">"Η μετατροπή σε βίντεο απέτυχε."</string>
+    <string name="app_photo_edit">"Επεξεργασία φωτογραφίας"</string>
+    <string name="ffx_dehaze">Κατάργηση ομίχλης</string>
+    <string name="select_music">Επιλογή μουσικής</string>
+    <string name="delete_all">"Διαγραφή όλων"</string>
+    <string name="refocus_photo_edit_save">Αποθήκευση</string>
+    <string name="blending_move_limit">Φτάσατε στο άκρο της οθόνης, καμία περαιτέρω ενέργεια. Ρυθμίστε τη θέση για να συνεχίσετε.</string>
+    <string name="init_bitmap_faild">Αποτυχία λήψης εικόνας, δοκιμάστε ξανά</string>
+    <string name="cant_select_file">Μη υποστηριζόμενο αρχείο</string>
+    <string name="input_reached_max_length">"Η εισαγωγή έφτασε στο μέγιστο μήκος"</string>
+    <string name="v2_photo">Φωτογραφία</string>
+    <string name="v2_album">"Άλμπουμ"</string>
+    <string name="v2_discover">Ανακαλύψτε</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">%1$d εικόνα</item>
+        <item quantity="one">%1$d εικόνα</item>
+        <item quantity="other">%1$d εικόνες</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">%1$d βίντεο</item>
+        <item quantity="one">%1$d βίντεο</item>
+        <item quantity="other">%1$d βίντεο</item>
+    </plurals>
+    <string name="new_album">Νέο άλμπουμ</string>
+    <string name="already_select_count">"Επιλεγμένα %1$d"</string>
+    <string name="no_photos_or_videos">Δεν υπάρχουν φωτογραφίες ή βίντεο.</string>
+    <string name="no_albums">Δεν υπάρχουν άλμπουμ.</string>
+    <string name="badname_as_point">"Δεν πρέπει να ονομαστεί ως /,\\,. ή .., αυτό μπορεί να μπερδέψει το σύστημα"</string>
+    <string name="msg_folder_input_empty">"Η ονομασία φακέλου είναι κενή"</string>
+    <string name="badname_endwith_point">"Στο τέλος του ονόματος του φακέλου δεν πρέπει να υπάρχει το . "</string>
+    <string name="illegal_chars_of_foldername">Το όνομα φακέλου δεν μπορεί να περιέχει μη έγκυρους χαρακτήρες \\:*?\"\u003C\u003E|/</string>
+    <string name="msg_file_input_repeat">Το όνομα %1$s υπάρχει ήδη, παρακαλώ εισάγετε ένα άλλο.</string>
+    <string name="menu_mkdir_failed">Αποτυχία δημιουργίας φακέλου %1$s</string>
+    <string name="add_to_album">Προσθήκη στο άλμπουμ</string>
+    <string name="internal_storage">"Εσ. αποθ. χώρος"</string>
+    <string name="external_storage">"Κάρτα SD"</string>
+    <string name="my_album">Το άλμπουμ μου</string>
+    <string name="failed_add_to_album">Αποτυχία προσθήκης στο άλμπουμ</string>
+    <string name="select_images_or_videos">Επιλέξτε εικόνες ή βίντεο</string>
+    <string name="fragment_state_lost_msg">Απώλεια κατάστασης, επανάληψη</string>
+    <string name="recently_deleted">Διαγράφηκαν πρόσφατα</string>
+    <string name="trash_restore">Επαναφορά</string>
+    <string name="wait_for_restoring">Γίνεται ανάκτηση, περιμένετε&#8230;</string>
+    <plurals name="restore_selection">
+        <item quantity="one">Να ανακτηθεί το επιλεγμένο στοιχείο;</item>
+        <item quantity="other">Να ανακτηθούν τα επιλεγμένα στοιχεία;</item>
+    </plurals>
+    <string name="trash_date_tip">Οι φωτογραφίες θα διαγραφούν μόνιμα σε 30 ημέρες.</string>
+    <plurals name="left_day">
+        <item quantity="one">%1$d ημέρα</item>
+        <item quantity="other">%1$d ημέρες</item>
+    </plurals>
+    <string name="tf_discover_things">Πράγματα</string>
+    <string name="tf_discover_people">"Άτομα"</string>
+    <string name="tf_discover_location">"Τοποθεσία"</string>
+    <string name="tf_unknown">Άγνωστο</string>
+    <string name="tf_aircraft">Αεροσκάφος</string>
+    <string name="tf_animal">Ζώο</string>
+    <string name="tf_baby">"Μωρό"</string>
+    <string name="tf_basketball">Μπάσκετ</string>
+    <string name="tf_bedroom">Υπνοδωμάτιο</string>
+    <string name="tf_bicycle">"Ποδήλατο"</string>
+    <string name="tf_bird">"Πουλί"</string>
+    <string name="tf_bridge">Γέφυρα</string>
+    <string name="tf_building">Κτίριο</string>
+    <string name="tf_bus">"Λεωφορείο"</string>
+    <string name="tf_car">Αυτοκίνητο</string>
+    <string name="tf_cat">"Γάτα"</string>
+    <string name="tf_classroom">Αίθουσα διδασκαλίας</string>
+    <string name="tf_conference_room">Αίθουσα συνεδριάσεων</string>
+    <string name="tf_crawling_animal">Ζώο που έρπει</string>
+    <string name="tf_desktop_computer">Σταθερός υπολογιστής</string>
+    <string name="tf_document">"Έγγραφο"</string>
+    <string name="tf_dog">"Σκύλος"</string>
+    <string name="tf_electric_bicycle">Ηλεκτρικό ποδήλατο</string>
+    <string name="tf_evergreen">Αειθαλής</string>
+    <string name="tf_farmland">Αγρός</string>
+    <string name="tf_fish">"Ψάρι"</string>
+    <string name="tf_flower">Λουλούδι</string>
+    <string name="tf_food">Φαγητό</string>
+    <string name="tf_football">Ποδόσφαιρο</string>
+    <string name="tf_graduation_photo">Φωτογραφία αποφοίτησης</string>
+    <string name="tf_grassland">Λιβάδι</string>
+    <string name="tf_group_photo">Ομαδική φωτογραφία</string>
+    <string name="tf_helicopter">"Ελικόπτερο"</string>
+    <string name="tf_kitchen">Κουζίνα</string>
+    <string name="tf_laptop">Λάπτοπ</string>
+    <string name="tf_metro">"Μετρό"</string>
+    <string name="tf_mobile_phone">"Κινητό τηλέφωνο"</string>
+    <string name="tf_motorcycle">Μοτοσυκλέτα</string>
+    <string name="tf_mountain">Βουνό</string>
+    <string name="tf_office">Γραφείο</string>
+    <string name="tf_parlour">Σαλόνι</string>
+    <string name="tf_party">Πάρτι</string>
+    <string name="tf_people">"Άτομα"</string>
+    <string name="tf_playground">Παιδότοπος</string>
+    <string name="tf_river">Ποτάμι</string>
+    <string name="tf_road">Δρόμος</string>
+    <string name="tf_sea">Θάλασσα</string>
+    <string name="tf_selfie">Selfie</string>
+    <string name="tf_ship">"Πλοίο"</string>
+    <string name="tf_shopping_mall">Εμπορικό κέντρο</string>
+    <string name="tf_sky">Ουρανός</string>
+    <string name="tf_telephone">"Τηλέφωνο"</string>
+    <string name="tf_train">"Τρένο"</string>
+    <string name="tf_tree">Δέντρο</string>
+    <string name="tf_waiting_room">Αίθουσα αναμονής</string>
+    <string name="tf_night_scene">Νυχτερινή σκηνή</string>
+    <string name="tf_cake">Τούρτα</string>
+    <string name="tf_lake">Λίμνη</string>
+    <string name="tf_indoor">Εσωτερικός χώρος</string>
+    <string name="tf_computer">Η/Υ</string>
+    <string name="tf_sport">Σπορ</string>
+    <string name="tf_sea_river">Θάλασσα, Ποτάμι, Λίμνη</string>
+    <string name="tf_phone">"Τηλέφωνο"</string>
+    <string name="move_out_of_this_classification">Μετακόμιση</string>
+    <string name="move_out_classification_dialog_title">Θέλετε να καταργηθούν τα επιλεγμένα στοιχεία από την ταξινόμηση;</string>
+    <string name="moving_out">Μετακόμιση&#8230;</string>
+    <string name="image">"Εικόνες"</string>
+    <string name="video">"Βίντεο"</string>
+    <string name="all_medias">"Όλα"</string>
+    <string name="un_named">Ανώνυμο</string>
+    <string name="move_out_of_this_people">Μετακόμιση</string>
+    <string name="move_out_people_dialog_title">Θέλετε να καταργηθούν τα επιλεγμένα στοιχεία από τα άτομα;</string>
+    <string name="add_name">Προσθήκη ονόματος</string>
+    <string name="illegal_chars_of_name">Το όνομα δεν μπορεί να περιέχει μη έγκυρους χαρακτήρες \\:*?\"\u003C\u003E|/</string>
+    <string name="repeated_name">Το όνομα υπάρχει ήδη</string>
+    <string name="replay">Κάντε έξοδο και επαναλάβετε</string>
+    <string name="bokeh_editor">Bokeh Editor</string>
+    <string name="merge_to">Συγχώνευση με</string>
+    <string name="hide_albums_v2">Απόκρυψη άλμπουμ</string>
+    <string name="request_delete_permission_title">Να δοθεί στην Γκαλερί πρόσβαση στην κάρτα SD;</string>
+    <string name="request_delete_permission_msg">Η Γκαλερί χρειάζεται πρόσβαση για την επεξεργασία, διαγραφή ή μεταφορά φωτογραφιών από την κάρτα SD</string>
+    <string name="no_delete_permission_title">Δεν μπορεί να ολοκληρωθεί</string>
+    <string name="no_delete_permission_msg">Η Γκαλερί δεν έχει πρόσβαση στην κάρτα SD. Εξουσιοδοτήστε την ή κάντε εκκαθάριση του χώρου αποθήκευσης της εφαρμογής και επαναλάβετε.</string>
+    <string name="trash_restore_fail">Αποτυχία ανάκτησης</string>
+    <string name="delete_drm_file">"Το αρχείο DRM θα διαγραφεί οριστικά και δεν θα τοποθετηθεί στα Πρόσφατα διαγραμμένα. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;"</string>
+    <string name="tf_discover_story">"Memories"</string>
+    <string name="prefered_motion_photo">"Προτιμώμενη φωτογραφία"</string>
+    <string name="play_motion_photo">"Αναπαραγωγή"</string>
+    <string name="stop_motion_photo">"Διακοπή"</string>
+    <string name="superuser_request_confirm">"Το VideoPlayer δεν έχει πρόσβαση στην SD κάρτα σας, επιλέξτε τον εξωτερικό κεντρικό κατάλογο SANDISK κάρτα SD και εξουσιοδοτήστε το VideoPlayer να λειτουργήσει."</string>
+    <string name="smarterase">"Smart erase"</string>
+    <string name="share_max_warning">"Έχουν επιλεχθεί περισσότερα από 100 αρχεία και η λειτουργία κοινής χρήσης δεν ήταν διαθέσιμη"</string>
+    <string name="scale_screen">"Προσαρμογή μεγέθους οθόνης"</string>
+    <string name="print_screen">"Εκτύπωση οθόνης"</string>
+    <string name="pre_video">"Προηγούμενο βίντεο"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"Θέλετε να κρατήσετε την άλλη φωτογραφία %1$d σε αυτήν την πολλαπλή λήψη;"</item>
+        <item quantity="other">"Θέλετε να διατηρήσετε τις άλλες %1$d φωτογραφίες σε αυτήν πολλαπλή λήψη;"</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"Αποθήκευση μόνο %1$d επιλεγμένης φωτογραφίας"</item>
+        <item quantity="other">"Αποθήκευση μόνο των %1$d επιλεγμένων φωτογραφιών"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">Επιλέχθηκαν %1$d στοιχεία</item>
+        <item quantity="one">"%1$d αντικείμενο επιλεγμένο"</item>
+        <item quantity="other">Επιλέχθηκαν %1$d στοιχεία</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"Διαγραφή %1$d επιλεγμένης φωτογραφίας"</item>
+        <item quantity="other">"Διαγραφή %1$d επιλεγμένων φωτογραφιών"</item>
+    </plurals>
+    <string name="no_sd_write_permission">"Το πρόγραμμα αναπαραγωγής βίντεο δεν έχει επαρκή άδεια για διαγραφή βίντεο"</string>
+    <string name="next_video">"Επόμενο βίντεο"</string>
+    <string name="next">"Επόμενο"</string>
+    <string name="lock_orintation">"Κλείδωμα προσανατολισμού οθόνης"</string>
+    <string name="lock_control">"Έλεγχος κλειδώματος"</string>
+    <string name="float_player">"FloatPlayer"</string>
+</resources>

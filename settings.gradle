@@ -1,0 +1,1 @@
+include ':app', ':app_discover', ':module_bokeh', ':module_dehaze', ':module_eglfence', ':module_facedetector', ':module_filtershow', ':module_imageblendings', ':module_jpegstream', ':app_go', ':app_gms', ':module_gallerycommon', ':module_smarterase'

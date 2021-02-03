@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galerii"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Videopleier"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Video laadimine ..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Jätka videot"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Kas jätkata esitust alates ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Jätka esitust"</string>
+    <string name="loading" msgid="7038208555304563571">"Laadimine ..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Laadimine ebaõnnestus"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Kujutist ei õnnestunud laadida"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Pisipilti pole"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Alusta uuesti"</string>
+    <string name="ok" msgid="5296833083983263293">"OK"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Pildi salvestamine ..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Pildi salvestamine albumisse <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="crop_label" msgid="521114301871349328">"Kärbi pilti"</string>
+    <string name="trim_label" msgid="274203231381209979">"Kärbi videot"</string>
+    <string name="select_image" msgid="7841406150484742140">"Valige foto"</string>
+    <string name="select_video" msgid="4859510992798615076">"Vali video"</string>
+    <string name="select_item" msgid="2816923896202086390">"Valige üksus"</string>
+    <string name="select_album" msgid="1557063764849434077">"Albumi valimine"</string>
+    <string name="select_group" msgid="6744208543323307114">"Rühma valimine"</string>
+    <string name="set_image" msgid="2331476809308010401">"Seadke pilt kui"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Taustapilt"</string>
+    <string name="delete" msgid="2839695998251824487">"Kustuta"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Kas kustutada valitud üksus?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Kas kustutada valitud üksused?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Kinnitamine"</string>
+    <string name="cancel" msgid="3637516880917356226">"Tühista"</string>
+    <string name="share" msgid="3619042788254195341">"Jaga"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Panoraami jagamine"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Fotona jagamine"</string>
+    <string name="deleted" msgid="6795433049119073871">"Kustutatud"</string>
+    <string name="undo" msgid="2930873956446586313">"VÕTA TAGASI"</string>
+    <string name="select_all" msgid="3403283025220282175">"Vali kõik"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Tühista kõik valikud"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Slaidiseanss"</string>
+    <string name="details" msgid="8415120088556445230">"Üksikasjad"</string>
+    <string name="details_title" msgid="2611396603977441273">"Üksusi: %1$d/%2$d"</string>
+    <string name="close" msgid="5585646033158453043">"Sule"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Üleminek rakendusse Kaamera"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"Valitud %1$d"</item>
+        <item msgid="2478365152745637768" quantity="one">"Valitud %1$d"</item>
+        <item msgid="754722656147810487" quantity="other">"Valitud %1$d"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Näita kaardil"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Pööra vasakule"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Pööra paremale"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Üksust ei leitud."</string>
+    <string name="edit" msgid="1502273844748580847">"Muuda"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Lihtne muutmine"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Kärbi"</string>
+    <string name="trim_action" msgid="703098114452883524">"Kärbi"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Vaigista"</string>
+    <string name="set_as" msgid="3636764710790507868">"Seadista kui"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Video vaigistamine ei õnnestu."</string>
+    <string name="video_err" msgid="7003051631792271009">"Videot ei saa esitada."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Asukoha järgi"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Aja järgi"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Märgendite järgi"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Inimeste järgi"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Albumi järgi"</string>
+    <string name="untagged" msgid="7281481064509590402">"Märgendita"</string>
+    <string name="no_location" msgid="4043624857489331676">"Asukoht puudub"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Mõnda asukohta ei suudetud võrguprobleemide tõttu tuvastada."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Fotosid ei saa sellesse albumisse alla laadida. Proovige hiljem uuesti."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Ainult kujutised"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Ainult videod"</string>
+    <string name="show_all" msgid="6963292714584735149">"Kujutised ja videod"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Fotogalerii"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Fotod puuduvad."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Kärbitud kujutis salvestati kausta <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Ühtegi albumit pole saadaval."</string>
+    <string name="empty_album" msgid="4542880442593595494">"O kujutist/videot on saadaval."</string>
+    <string name="done" msgid="217672440064436595">"Valmis"</string>
+    <string name="title" msgid="7622928349908052569">"Pealkiri"</string>
+    <string name="description" msgid="3016729318096557520">"Kirjeldus"</string>
+    <string name="time" msgid="1367953006052876956">"Kellaaeg"</string>
+    <string name="location" msgid="3432705876921618314">"Asukoht"</string>
+    <string name="path" msgid="4725740395885105824">"Tee"</string>
+    <string name="width" msgid="9215847239714321097">"Laius"</string>
+    <string name="height" msgid="3648885449443787772">"Kõrgus"</string>
+    <string name="orientation" msgid="4958327983165245513">"Paigutus"</string>
+    <string name="duration" msgid="8160058911218541616">"Kestus"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME-tüüp"</string>
+    <string name="file_size" msgid="8486169301588318915">"Faili suurus"</string>
+    <string name="maker" msgid="7921835498034236197">"Looja"</string>
+    <string name="model" msgid="8240207064064337366">"Mudel"</string>
+    <string name="flash" msgid="2816779031261147723">"Välk"</string>
+    <string name="aperture" msgid="5920657630303915195">"Ava"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Fookuskaugus"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Valge tasakaal"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Säriaeg"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Käsitsi"</string>
+    <string name="auto" msgid="4296941368722892821">"Autom."</string>
+    <string name="flash_on" msgid="7891556231891837284">"Välk sees"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Välguta"</string>
+    <string name="unknown" msgid="3506693015896912952">"Tundmatu"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Instant"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Pleekimine"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Sinine"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"Mustvalge"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Punš"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X-töötlus"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litorgaafia"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Kõik albumid"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Kohalikud albumid"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> või väiksem"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> või suurem"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> kuni <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Impordi"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Importim. lõpetatud"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Vali album"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Kuva kõik kujutised juhuesitusena"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Vali kujutis"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Kujutiste valimine"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Slaidiseanss"</string>
+    <string name="albums" msgid="7320787705180057947">"Albumid"</string>
+    <string name="times" msgid="2023033894889499219">"Ajad"</string>
+    <string name="locations" msgid="6649297994083130305">"Asukohad"</string>
+    <string name="people" msgid="4114003823747292747">"Inimesed"</string>
+    <string name="tags" msgid="5539648765482935955">"Märgendid"</string>
+    <string name="group_by" msgid="4308299657902209357">"Grupeerimisalus:"</string>
+    <string name="settings" msgid="1534847740615665736">"Seaded"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Kaamera"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Alla laaditud"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Muudetud fotod võrgus"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Imporditud"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Ekraanipilt"</string>
+    <string name="help" msgid="7368960711153618354">"Abi"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Filmiribakuva"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Ruudustiku kuva"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Täisekraani vaade"</string>
+    <string name="trimming" msgid="9122385768369143997">"Kärpimine"</string>
+    <string name="muting" msgid="5094925919589915324">"Vaigistamine"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Palun oodake"</string>
+    <string name="save_into" msgid="9155488424829609229">"Video salvestamine albumisse <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Panoraami renderdamine"</string>
+    <string name="save" msgid="613976532235060516">"Salvesta"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Sisu skannimine ..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d üksust on skannitud"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d üksus on skannitud"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d üksust on skannitud"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Sortimine ..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Skannimine on lõppenud"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Importimine ..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Seadmes pole importimiseks saadaval mingit sisu."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Ühtegi MTP-seadet pole ühendatud"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Kaamera"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Esita videot"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Videomängija ajariba"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Kaamera"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Otsing"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Fotod"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Albumid"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d foto"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d fotot"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Võtmeraamid puuduvad, video taaskäivitab mängimise"</string>
+    <string name="gif_decode_failed">"Bitmap on mängimiseks liiga suur"</string>
+    <string name="spaceLow_content">"Salvestamine nurjus, süsteemil võib olla ebapiisav mäluruum."</string>
+    <string name="wait_for_deleting">"Kustutamine, palun oota&#8230;"</string>
+    <string name="wait_for_rotating">"Ümberliigutamine, palun oota&#8230;"</string>
+    <string name="video_bookmarks">"Järjehoidjad"</string>
+    <string name="video_edit_bookmark">"Muuda"</string>
+    <string name="video_delete_bookmark">"Kustuta"</string>
+    <string name="empty_bookmarks">"Tühjenda järjehoidja"</string>
+    <string name="do_not_save">"Tühista"</string>
+    <string name="net_location">"Aadress"</string>
+    <string name="name">"Nimi"</string>
+    <string name="bookmark_needs_title">"Järjehoidjal peab olema nimi"</string>
+    <string name="bookmark_needs_url">"Järjehoidjal peab olema asukoht"</string>
+    <string name="bookmark_invalid_url">"Asukoht peab algama kas "http(s)://" või "rtsp://""</string>
+    <string name="processing_please_wait">"Töötlen, palun oota."</string>
+    <string name="bookmark_exist">"Sama asukohaga järjehoidja on juba olemas."</string>
+    <string name="default_bookmark_title">"vaikimisi_pealkiri"</string>
+    <string name="bookmark_added">"Salvestatud järjehoidjatesse"</string>
+    <string name="albums_video">"Video"</string>
+    <string name="empty_album_video">"0 videot saadaval."</string>
+    <string name="border_brush">"Pintsel"</string>
+    <string name="border_grunge">"Grunge"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Teip"</string>
+    <string name="border_black">"Must"</string>
+    <string name="border_black_rounded">"must_rd"</string>
+    <string name="border_white">"Valge"</string>
+    <string name="border_white_rounded">"valge_rd"</string>
+    <string name="border_cream">"kreem"</string>
+    <string name="border_cream_rounded">"kreem_rd"</string>
+    <string name="no_face">"Nägu puudub"</string>
+    <string name="can_not_share">"Valitud failid on üle <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, Jagamisfunktsioon ei ole saadaval"</string>
+
+    <string name="video_save_to_bookmark">"Salvesta järjehoidjatesse."</string>
+    <string name="video_view_bookmarks">"Järjehoidjad"</string>
+    <string name="movie_view_proxy_set">"Proxy Säte"</string>
+    <string name="movie_view_network">"Võrk"</string>
+    <string name="movie_view_apn_set">"Määra Apn Sisestus"</string>
+    <string name="movie_view_proxy_ip_set">"Proxy IP Sätted"</string>
+    <string name="movie_view_proxy_port_set">"Proxy Pordi Sätted"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP Pordi Sätted"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP Max Pordi Sätted"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP Min Pordi Sätted"</string>
+    <string name="movie_view_proxy_ok">"OK"</string>
+    <string name="movie_view_proxy_port_seterror_info">"Väärtusega Pordi Sätted peab olema täisarv antud vahemikus："</string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP vigane!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"Port vigane!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Määra kõigepealt pordi ulatus ！"</string>
+    <string name="movie_view_proxy_enable">"Võimalda Proxy"</string>
+    <string name="movie_view_parameter_set">"Parameetri sätted"</string>
+    <string name="dialog_dismiss">"Loobu"</string>
+    <string name="gallery_error_title">"Galerii viga"</string>
+    <string name="videoplayer_error_title">"Videomängija Viga"</string>
+    <string name="error_permissions">"Rakendusel pole käitamiseks kriitilise tähtsusega lube. Kontrollige lubade seadeid."</string>
+    <string name="gallery_premission_change">"Galerii ligipääs on muudetud, palun vali uuesti"</string>
+    <string name="gallery_premission_error">"Galerii ligipääsu viga, palun määra uuesti galerii ligipääsud."</string>
+    <string name="already_exist">"Efekt on juba olemas"</string>
+    <string name="show_details_error">"Andmete laadimine, palun proovi hiljem uuesti."</string>
+    <string name="none_playback">"Esitust pole"</string>
+    <string name="single_playback">"Ühe esitamine"</string>
+    <string name="all_playback">"Kõigi esitamine"</string>
+    <string name="playback_setting">"Esituse viis"</string>
+    <string name="can_not_open_float_video">"Praegune video taust, video hõljuvaid aknaid ei saa avada."</string>
+    <string name="video_file_does_not_exist">"videofaili ei eksisteeri"</string>
+    <string name="movie_view_goto">"Mine"</string>
+    <string name="no_search_app">"otsimisrakendus puudub"</string>
+    <string name="channel_setting_title">"Kanali säte"</string>
+    <string name="channel_setting_left">"Vasak"</string>
+    <string name="channel_setting_right">"Parem"</string>
+    <string name="channel_setting_dual">"Kaksik"</string>
+    <string name="channel_setting_ok">"OK"</string>
+    <string name="channel_setting_cancel">"Tühista"</string>
+    <string name="channel_setting">"Kanali säte"</string>
+    <string name="movie_view_calling_title">"Helistamine"</string>
+    <string name="movie_view_calling_msg">"Palun proovi uuesti pärast kõne lõpetamist!"</string>
+    <string name="movie_view_calling_try">"Proovi"</string>
+    <string name="movie_view_calling_cancel">"Tühista"</string>
+    <string name="time_out">"Ajalõpp"</string>
+    <string name="time_out_message">"Võrgu anomaaliad või ühenduse aeg läbi, kas teha praegu restart?"</string>
+    <string name="headset">"Peakomplekt"</string>
+    <string name="loud_speaker">"Kõlar"</string>
+    <string name="cannot_load_crop_image">"Rakenduse töömälu ei ole piisav, pildi laadimine nurjus."</string>
+    <string name="back_exit">"uuesti vajutamisel väljumine"</string>
+    <string name="slideshow_music">"Slaidiga muusika"</string>
+    <string name="system_ringtones">"Süsteemi helinatoonid"</string>
+    <string name="user_defined">"Kasutaja määratud"</string>
+    <string name="cannot_play_music">"Ei saa praegu muusikat mängida"</string>
+    <string name="play_audio_failed">"Ei saa praegu audiot mängida"</string>
+    <string-array name="planets_array">
+        <item>"Kõik videod"</item>
+        <item>"Kohalikud videod"</item>
+        <item>"Filmitud videod"</item>
+        <item>"Hiljuti esitatud"</item>
+    </string-array>
+    <string name="last_play">"Viimati esitatud:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Kas kustutada salvestised?"</item>
+        <item quantity="other">"Kas kustutada salvestised?"</item>
+    </plurals>
+    <string name="today">"Täna"</string>
+    <string name="yesterday">"Eile"</string>
+    <string name="earlier">"Varem"</string>
+    <string name="drawer_open">"Videoloend"</string>
+    <string name="drawer_close">"Kõik videod"</string>
+    <string name="share_actionmode">"Jaga"</string>
+    <string name="delete_actionmode">"Kustuta"</string>
+    <string name="clear_all">"Kustuta Kõik"</string>
+    <string name="video_list">"Videoloend"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Kas kustutada valitud üksus?"</item>
+        <item quantity="other">"Kas kustutada valitud üksus?"</item>
+    </plurals>
+    <string name="current_select">"%d valitud"</string>
+    <string name="no_video_play_records">"Esitatavaid salvestisi ei ole"</string>
+    <string name="no_videos">"Videod puuduvad"</string>
+    <string name="video_not_exist">"Videot ei ole olemas"</string>
+    <string name="save_picture">"Salvestis salvestati asukohta %s"</string>
+    <string name="mute">"Vaigistamine"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Kaitse Informatsioon"</string>
+    <string name="drm_info">"Kaitse Informatsioon"</string>
+    <string name="file_name">"Faili nimi:"</string>
+    <string name="rights_validity">"Õiguste kehtivus:"</string>
+    <string name="rights_status">"Õiguste olek:"</string>
+    <string name="start_time">"Algusaeg:"</string>
+    <string name="end_time">"Lõpuaeg:"</string>
+    <string name="expiration_time">"Kehtivusaeg:"</string>
+    <string name="remain_times">"Allesjäänud korrad:"</string>
+    <string name="rights_validity_valid">"Kehtiv"</string>
+    <string name="rights_validity_invalid">"Kehtetu"</string>
+    <string name="rights_status_share">"Lubatud edastada"</string>
+    <string name="rights_status_not_share">"Edastamine pole lubatud"</string>
+    <string name="drm_rights_no_limit">"Piiranguteta"</string>
+    <string name="drm_rights_unknown">"Tundmatu"</string>
+    <string name="drm_rights_inactive">"Õigused inaktiivsed"</string>
+    <string name="drm_file_invalid">"Fail on aegunud"</string>
+    <string name="screenshot_failed">"Ekraanitõmmis ebaõnnestus"</string>
+    <string name="floatwindow_unsupported_device">"Ujuakent ei toetata selles seadmes"</string>
+    <string name="floatwindow_unsupported_camera">"Ujuakent ei toetata kaameras"</string>
+    <string name="floatwindow_unsupported_streaming">"Ujuakent ei toetata video voogesituse ajal"</string>
+    <string name="stream_screenshot_not_supported">"Salvestust ei toetata video voogesituse ajal"</string>
+
+    <string name="movie_view_mms_processing_ok">"Vastuvõtmine lõpetatud"</string>
+    <string name="movie_view_sms_received_ok">"sms vastu võetud"</string>
+    <string name="movie_view_mms_process_title">"Mms Töötlemine"</string>
+    <string name="movie_view_sms_process_title">"Sms Töötlemine"</string>
+    <string name="movie_view_mms_ok">"OK"</string>
+    <string name="drm_consume_title">"Tarbi Drm Õigused"</string>
+    <string name="invalid_rights">"Sellel failil ei ole kehtivat litsentsi"</string>
+    <string name="choose_drm_alert">"Ei saa valida Drm faili, Palun vali uus"</string>
+    <string name="drm_consume_hint">"Sinu operatsioon tarbib Drm õigusi"</string>
+    <string name="drm_consumed">"Sinu operatsioon on kasutanud Drm õigusi"</string>
+    <string name="drm_unit_minutes">"s"</string>
+</resources>

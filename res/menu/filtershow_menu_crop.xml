@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/crop_menu_free"
+            android:title="@string/edit_crop_free" />
+        <item
+            android:id="@+id/crop_menu_4to3"
+            android:title="@string/edit_crop_4_3" />
+        <item
+            android:id="@+id/crop_menu_16to9"
+            android:title="@string/edit_crop_16_9" />
+        <item
+            android:id="@+id/crop_menu_square"
+            android:title="@string/edit_crop_square" />
+        <item
+            android:id="@+id/crop_menu_original"
+            android:title="@string/edit_crop_origin" />
+    </group>
+
+</menu>

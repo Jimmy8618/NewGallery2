@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galeri"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Pemutar video"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Memuat video..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Lanjutkan video"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Lanjutkan pemutaran dari ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Lanjutkan pemutaran"</string>
+    <string name="loading" msgid="7038208555304563571">"Memuat…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Tidak dapat memuat"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Tidak dapat memuat gambar"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Tidak ada gambar mini"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Memulai"</string>
+    <string name="ok" msgid="5296833083983263293">"Oke"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Menyimpan gambar…"</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Menyimpan gambar ke <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="crop_label" msgid="521114301871349328">"Pangkas gambar"</string>
+    <string name="trim_label" msgid="274203231381209979">"Potong video"</string>
+    <string name="select_image" msgid="7841406150484742140">"Pilih foto"</string>
+    <string name="select_video" msgid="4859510992798615076">"Pilih video"</string>
+    <string name="select_item" msgid="2816923896202086390">"Pilih item"</string>
+    <string name="select_album" msgid="1557063764849434077">"Pilih album"</string>
+    <string name="select_group" msgid="6744208543323307114">"Pilih grup"</string>
+    <string name="set_image" msgid="2331476809308010401">"Setel gambar sebagai"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Wallpaper"</string>
+    <string name="delete" msgid="2839695998251824487">"Hapus"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Hapus item yang dipilih?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Hapus item yang dipilih?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Konfirmasi"</string>
+    <string name="cancel" msgid="3637516880917356226">"Batal"</string>
+    <string name="share" msgid="3619042788254195341">"Bagikan"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Bagikan panorama"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Bagikan sebagai foto"</string>
+    <string name="deleted" msgid="6795433049119073871">"Dihapus"</string>
+    <string name="undo" msgid="2930873956446586313">"URUNGKAN"</string>
+    <string name="select_all" msgid="3403283025220282175">"Pilih semua"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Batalkan semua pilihan"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Rangkai slide"</string>
+    <string name="details" msgid="8415120088556445230">"Detail"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d dari %2$d item:"</string>
+    <string name="close" msgid="5585646033158453043">"Tutup"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Beralih ke Kamera"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d dipilih"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d dipilih"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d dipilih"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Tampilkan pada peta"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Putar ke kiri"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Putar ke kanan"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Tidak dapat menemukan item."</string>
+    <string name="edit" msgid="1502273844748580847">"Edit"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Edit Sederhana"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Pangkas"</string>
+    <string name="trim_action" msgid="703098114452883524">"Pangkas"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Bisukan"</string>
+    <string name="set_as" msgid="3636764710790507868">"Setel sebagai"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Tidak dapat membisukan video."</string>
+    <string name="video_err" msgid="7003051631792271009">"Tidak dapat memutar video."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Menurut lokasi"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Menurut waktu"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Menurut tag"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Menurut orang"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Menurut album"</string>
+    <string name="untagged" msgid="7281481064509590402">"Tidak di-tag"</string>
+    <string name="no_location" msgid="4043624857489331676">"Tidak ada lokasi"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Beberapa lokasi tidak dapat diidentifikasi karena masalah jaringan."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Tidak dapat mengunduh foto di album ini. Coba lagi nanti."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Hanya gambar"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Hanya video"</string>
+    <string name="show_all" msgid="6963292714584735149">"Gambar &amp; video"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Galeri Foto"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Tidak ada foto."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Gambar yang dipotong disimpan ke <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Tidak ada album yang tersedia."</string>
+    <string name="empty_album" msgid="4542880442593595494">"O gambar/video tersedia."</string>
+    <string name="done" msgid="217672440064436595">"Selesai"</string>
+    <string name="title" msgid="7622928349908052569">"Judul"</string>
+    <string name="description" msgid="3016729318096557520">"Deskripsi"</string>
+    <string name="time" msgid="1367953006052876956">"Waktu"</string>
+    <string name="location" msgid="3432705876921618314">"Lokasi"</string>
+    <string name="path" msgid="4725740395885105824">"Jalur"</string>
+    <string name="width" msgid="9215847239714321097">"Lebar"</string>
+    <string name="height" msgid="3648885449443787772">"Tinggi"</string>
+    <string name="orientation" msgid="4958327983165245513">"Orientasi"</string>
+    <string name="duration" msgid="8160058911218541616">"Durasi"</string>
+    <string name="mimetype" msgid="8024168704337990470">"Jenis MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"Ukuran file"</string>
+    <string name="maker" msgid="7921835498034236197">"Pembuat"</string>
+    <string name="model" msgid="8240207064064337366">"Model"</string>
+    <string name="flash" msgid="2816779031261147723">"Lampu Kilat"</string>
+    <string name="aperture" msgid="5920657630303915195">"Bukaan"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Jarak Fokus"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Seimbang putih"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Pencahayaan"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Manual"</string>
+    <string name="auto" msgid="4296941368722892821">"Otomatis"</string>
+    <string name="flash_on" msgid="7891556231891837284">"Lampu kilat aktif"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Tanpa lampu kilat"</string>
+    <string name="unknown" msgid="3506693015896912952">"Tidak diketahui"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Instan"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Bleach"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Biru"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"H/P"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Punch"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"Proses X"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litho"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Semua album"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Album lokal"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> atau kurang"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> atau lebih"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> hingga <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Impor"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Impor selesai"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Pilih album"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Kocok semua gambar"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Pilih gambar"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Pilih gambar"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Rangkai slide"</string>
+    <string name="albums" msgid="7320787705180057947">"Album"</string>
+    <string name="times" msgid="2023033894889499219">"Waktu"</string>
+    <string name="locations" msgid="6649297994083130305">"Lokasi"</string>
+    <string name="people" msgid="4114003823747292747">"Orang"</string>
+    <string name="tags" msgid="5539648765482935955">"Tag"</string>
+    <string name="group_by" msgid="4308299657902209357">"Kelompokkan menurut"</string>
+    <string name="settings" msgid="1534847740615665736">"Setelan"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Kamera"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Unduhan"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Foto Online yang Diedit"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Diimpor"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Tangkapan Layar"</string>
+    <string name="help" msgid="7368960711153618354">"Bantuan"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Tampilan strip film"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Tampilan kisi"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Tampilan layar penuh"</string>
+    <string name="trimming" msgid="9122385768369143997">"Pemangkasan"</string>
+    <string name="muting" msgid="5094925919589915324">"Membisukan"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Harap tunggu"</string>
+    <string name="save_into" msgid="9155488424829609229">"Menyimpan video ke <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Merender panorama"</string>
+    <string name="save" msgid="613976532235060516">"Simpan"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Memindai konten..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d item dipindai"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d item dipindai"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d item dipindai"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Menyortir…"</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Pemindaian selesai"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Mengimpor..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Tidak ada konten yang dapat diimpor pada perangkat ini."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Tidak ada perangkat MTP yang tersambung"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Kamera"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Putar video"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Bilah waktu pemutar video"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Kamera"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Telusuri"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Foto"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Album"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d foto"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d foto"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Tidak ada kunci frame video akan ulangi pemulaian bermain"</string>
+    <string name="gif_decode_failed">"Bitmap telalu besar untuk dimainkan"</string>
+    <string name="spaceLow_content">"Gagal menyimpan, sistem ini mungkin tidak cukup ruang penyimpanan."</string>
+    <string name="wait_for_deleting">"Menghapus. silahkan untuk menunggu&#8230;"</string>
+    <string name="wait_for_rotating">"Memutar. silahkan untuk menunggu&#8230;"</string>
+    <string name="video_bookmarks">"Bookmark"</string>
+    <string name="video_edit_bookmark">Ubah</string>
+    <string name="video_delete_bookmark">"Hapus"</string>
+    <string name="empty_bookmarks">"Bookmark kosong"</string>
+    <string name="do_not_save">"Batal"</string>
+    <string name="net_location">"Alamat"</string>
+    <string name="name">"Nama"</string>
+    <string name="bookmark_needs_title">Penunjuk halaman buku harus mempunyai nama</string>
+    <string name="bookmark_needs_url">Penunjuk halaman buku harus mempunyai lokasi</string>
+    <string name="bookmark_invalid_url">Lokasi harus mulai dengan "http(s)://" or "rtsp://"</string>
+    <string name="processing_please_wait">Dalam proses, silahkan tunggu.</string>
+    <string name="bookmark_exist">Penunjuk halaman buku dengan lokasi sama ada.</string>
+    <string name="default_bookmark_title">Judul terkait</string>
+    <string name="bookmark_added">"Simpan ke bookmarks"</string>
+    <string name="albums_video">"Film"</string>
+    <string name="empty_album_video">"0 video tersedia"</string>
+    <string name="border_brush">"Menyapu"</string>
+    <string name="border_grunge">"Grunge"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Tape"</string>
+    <string name="border_black">"Hitam"</string>
+    <string name="border_black_rounded">"hitam_rd"</string>
+    <string name="border_white">"Putih"</string>
+    <string name="border_white_rounded">"putih_rd"</string>
+    <string name="border_cream">"Krem"</string>
+    <string name="border_cream_rounded">"Krem_rd"</string>
+    <string name="no_face">"Tidak ada depan"</string>
+    <string name="can_not_share">"Catatan terpilih telah kelebihan <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, berbagi fitur tidak tersedia"</string>
+
+    <string name="video_save_to_bookmark">"Simpan ke bookmark"</string>
+    <string name="video_view_bookmarks">"Bookmark"</string>
+    <string name="movie_view_proxy_set">"Atur Proxy"</string>
+    <string name="movie_view_network">"Jaringan"</string>
+    <string name="movie_view_apn_set">"Mengatur masuk APn"</string>
+    <string name="movie_view_proxy_ip_set">"Pengaturan Proxy IP"</string>
+    <string name="movie_view_proxy_port_set">"Pengaturan Port Proxy"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"Pengaturan Port tRTP/RTCP"</string>
+    <string name="movie_view_max_port_set">"Pengaturan Port RTP/RTCP maksimal"</string>
+    <string name="movie_view_min_port_set">"Pengaturan Port RTP/RTCP minimal"</string>
+    <string name="movie_view_proxy_ok">"OK"</string>
+    <string name="movie_view_proxy_port_seterror_info">"Nilai Pengaturan Port harus dengan bilangan utuh diantara jarak yang diberi:"</string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP tidak sah"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"Port tidak sah"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Mengatur jarak Port dulu !"</string>
+    <string name="movie_view_proxy_enable">"Mengaktifkan proxy"</string>
+    <string name="movie_view_parameter_set">"Pengaturan Parameter"</string>
+    <string name="dialog_dismiss">"Abaikan"</string>
+    <string name="gallery_error_title">"Galeri gagal"</string>
+    <string name="videoplayer_error_title">"Video Player Gagal"</string>
+    <string name="error_permissions">"Aplikasi ini tidak memiliki izin kritis yang diperlukan untuk berjalan. Periksa setelan izin."</string>
+    <string name="gallery_premission_change">"Izin galeri diubah, silahkan pilih ulang"</string>
+    <string name="gallery_premission_error">"Izin galeri salah, silahkan mengatur ulang izin galeri."</string>
+    <string name="already_exist">"Efek terlah tersedia"</string>
+    <string name="show_details_error">"Memuat data, silahkan coba lagi nanti."</string>
+    <string name="none_playback">"Tidak Memainkankembali"</string>
+    <string name="single_playback">"Memainkan kembali Tunggal"</string>
+    <string name="all_playback">"Memainkan kembali semua"</string>
+    <string name="playback_setting">"Mode memainkan kembali"</string>
+    <string name="can_not_open_float_video">"Gambar dinding video sekarang ini, memfloat jendela video tidak dapat dibuka."</string>
+    <string name="video_file_does_not_exist">"Catatan video tidak ada"</string>
+    <string name="movie_view_goto">"ke"</string>
+    <string name="no_search_app">"Tidak ada pencarian aplikasi"</string>
+    <string name="channel_setting_title">"Pengaturan Saluran"</string>
+    <string name="channel_setting_left">"Kiri"</string>
+    <string name="channel_setting_right">"kanan"</string>
+    <string name="channel_setting_dual">"Ganda"</string>
+    <string name="channel_setting_ok">"OK"</string>
+    <string name="channel_setting_cancel">"Batal"</string>
+    <string name="channel_setting">"Pengaturan Saluran"</string>
+    <string name="movie_view_calling_title">"Menghubungi"</string>
+    <string name="movie_view_calling_msg">"SIlahkan ulangi lagi setelah panggilan berakhir"</string>
+    <string name="movie_view_calling_try">"Coba"</string>
+    <string name="movie_view_calling_cancel">"Batal"</string>
+    <string name="time_out">"Waktu habis"</string>
+    <string name="time_out_message">Keanehan jaringan atau batas waktu jajringan habis, apakah ulangi pemulaian atau tidak?</string>
+    <string name="headset">Headset</string>
+    <string name="loud_speaker">"Pengeras Suara"</string>
+    <string name="cannot_load_crop_image">"Memori aplikasi runtime tidak cukup, memuat gambar gagal"</string>
+    <string name="back_exit">"keluar ketika ditekan kembali"</string>
+    <string name="slideshow_music">"Slide musik"</string>
+    <string name="system_ringtones">"Sistem Nada dering"</string>
+    <string name="user_defined">"Pengguna ditetapkan"</string>
+    <string name="cannot_play_music">"Tidak dapat memainkan musik sekarang"</string>
+    <string name="play_audio_failed">"Tidak dapat meainkan audio sekarang"</string>
+    <string-array name="planets_array">
+        <item>"Semua video"</item>
+        <item>"Video Lokal"</item>
+        <item>"Video diflmkan"</item>
+        <item>"Baru Dimainkan"</item>
+    </string-array>
+    <string name="last_play">"Terakhir Mainkan:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Menghapus rekor sekarang?"</item>
+        <item quantity="other">"Menghapus rekor sekarang?"</item>
+    </plurals>
+    <string name="today">"Hari ini"</string>
+    <string name="yesterday">"Kemarin"</string>
+    <string name="earlier">"Lebih Awah"</string>
+    <string name="drawer_open">"Daftar Video"</string>
+    <string name="drawer_close">"Semua video"</string>
+    <string name="share_actionmode">"Bagikan"</string>
+    <string name="delete_actionmode">"Hapus"</string>
+    <string name="clear_all">"Hapus semua"</string>
+    <string name="video_list">"Daftar Video"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Hapus item yang dipilih?"</item>
+        <item quantity="other">"Hapus item yang dipilih?"</item>
+    </plurals>
+    <string name="current_select">"%d Terpilih"</string>
+    <string name="no_video_play_records">"Tidak ada rekor main"</string>
+    <string name="no_videos">"Tidak ada video"</string>
+    <string name="video_not_exist">"Video tidak ada"</string>
+    <string name="save_picture">"Pemotretan telah disimpan ke %s"</string>
+    <string name="mute">"Membisukan"</string>
+    <string name="date_format">"MM/dd/yyyy"</string>
+    <string name="protected_info">"Informasi Perlindungan"</string>
+    <string name="drm_info">"Informasi Perlindungan"</string>
+    <string name="file_name">"Nama Catatn:"</string>
+    <string name="rights_validity">"Validitas Hak"</string>
+    <string name="rights_status">"Status Hak"</string>
+    <string name="start_time">"Waktu mulai:"</string>
+    <string name="end_time">"Waktu akhir:"</string>
+    <string name="expiration_time">"Waktu Berakhir"</string>
+    <string name="remain_times">"Waktu Tersisa:"</string>
+    <string name="rights_validity_valid">"Sah"</string>
+    <string name="rights_validity_invalid">"Tidak Sah"</string>
+    <string name="rights_status_share">"Dibolehkan untuk diteruskan"</string>
+    <string name="rights_status_not_share">"Tidak diperbolehkan untuk di teruskan"</string>
+    <string name="drm_rights_no_limit">"Tidak terbatas"</string>
+    <string name="drm_rights_unknown">"Tidak diketahui"</string>
+    <string name="drm_rights_inactive">"Hak tidak aktif"</string>
+    <string name="drm_file_invalid">"Catatan telah kadaluarsa"</string>
+    <string name="screenshot_failed">"Potret Layar Gagal"</string>
+    <string name="floatwindow_unsupported_device">"Float window tidak mendukung dalam perangkat ini"</string>
+    <string name="floatwindow_unsupported_camera">"Float window tidak mendukung dalam kamera"</string>
+    <string name="floatwindow_unsupported_streaming">"Float window tidak mendukung ketika memainkan video streaming"</string>
+    <string name="stream_screenshot_not_supported">"Fungsi memotret tidak mendukung ketika memainkan video streaming."</string>
+
+    <string name="movie_view_mms_process_title">"Proses MMS"</string>
+    <string name="movie_view_sms_process_title">"SMS dalam proses"</string>
+    <string name="movie_view_mms_ok">"OK"</string>
+    <string name="movie_view_mms_processing_ok">"selesai menerima"</string>
+    <string name="movie_view_sms_received_ok">"SMS diterima"</string>
+    <string name="drm_consume_hint">"Pengerjaan anda akan mengkonsumsi hak Drm" </string>
+    <string name="drm_consume_title">"Mengkonsumsi Hak DRM"</string>
+    <string name="drm_consumed">"Pengerjaan anda telah dikonsumsikan hak Drm"</string>
+    <string name="invalid_rights">"Catatan ini  ini tidak mempunyai surat izin yang sah" </string>
+    <string name="choose_drm_alert">"Tidak dapat memilih catatan Drm, Silahkan pilih yang lain"</string>
+    <string name="drm_unit_minutes">"d"</string>
+    <string name="slidemusic">"Atur slide show musik"</string>
+    <string name="setas">"Setel sebagai"</string>
+    <string name="slide_music_system_ringtones">"Sistem Nada dering"</string>
+    <string name="slide_music_user_defined">"Pengguna ditetapkan"</string>
+    <string name="remove_usbdisk">"Perangkat pengguna telah dilepas"</string>
+    <string name="edit_crop_free">Bebas</string>
+    <string name="edit_crop_square">"Persegi"</string>
+    <string name="edit_crop_origin">"Asli"</string>
+    <string name="hide_albums">"Sembunyikan album"</string>
+    <string name="show_local_albums">"Tampilkan album lokal"</string>
+    <string name="select">"Pilih"</string>
+    <string name="popup_title_save_all_selected">"Simpan semua Foto?"</string>
+    <string name="keep_all">"Simpan semua"</string>
+    <string name="burst_progress_dialog_title">"Pemrosesan..."</string>
+    <string name="side_bar_all_photos">"Semua"</string>
+    <string name="side_bar_photo">"Foto"</string>
+    <string name="side_bar_video">"Video"</string>
+    <string name="side_bar_album">"Album"</string>
+    <string name="label_select">"Pilih"</string>
+    <string name="no_photo_or_video">"Tidak Ada %1$s"</string>
+    <string name="no_photo_or_video_hint">"Foto atau video yang disimpan dalam perangkat akan ditampilkan di sini."</string>
+    <string name="detail_pop_title">"Info"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"Lainnya"</string>
+    <string name="detail_location">"Lokasi"</string>
+    <string name="database_exception">"Pengecualian pemrosesan data, operasi gagal."</string>
+    <string name="exit_multiwindow_tips">"Penelusuran foto tidak dapat dilakukan dalam mode layar terpisah"</string>
+    <string name="exit_multiwindow_video_tips">"Tidak dapat menonton video dalam mode layar terpisah"</string>
+    <string name="decode_image_faild">"Gagal memangkas gambar"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"Hari ini"</string>
+    <string name="label_yesterday">"Kemarin"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"Data sedang dimuat, harap tunggu"</string>
+    <string name="distance_photo_unit_conversion">"Konversi Satuan"</string>
+    <string name="unit">"Satuan"</string>
+    <string name="meter">"meter"</string>
+    <string name="centimeter">"sentimeter"</string>
+    <string name="foot">"Kaki"</string>
+    <string name="inch">"Inci"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"Video ini tidak valid untuk pengaliran ke perangkat ini."</string>
+    <string name="VideoView_error_text_unknown">"Tidak dapat memutar video ini."</string>
+    <string name="no_touch_flip">"balik tanpa sentuhan"</string>
+    <string name="flip_summury">"tutupi kamera sekunder 1 detik untuk membalik gambar"</string>
+    <string name="first_summary">"turunkan halaman secara default"</string>
+    <string name="sencond_summury">"naikkan halaman saat volume ditambah"</string>
+    <string name="third_summury">"turunkan halaman saat menurunkan volume"</string>
+    <string name="fourth_summury">"ringkasan: menghilangkan tombol volume"</string>
+    <string name="dealing">"Memuat..."</string>
+    <string name="slide_music_stop">"Slide musik dihentikan"</string>
+    <string name="select_tips">"Objek yang dipilih berada di latar belakang. Harap buat ulang titik di rentang latar depan"</string>
+    <string name="definition_subject">"Tentukan objek"</string>
+    <string name="fix_subject">"Koreksi objek"</string>
+    <string name="fix_background">"Koreksi latar belakang"</string>
+    <string name="replace_background">"Ganti latar belakang"</string>
+    <string name="correct_object_tips">"Mula-mula, buat sketsa kasar atau beri tanda pada lokasi di mana garisnya tidak akurat.\nLalu klik tombol \"Koreksi Objek\" untuk memperbaiki area bertanda di objek, atau klik tombol \"Koreksi Latar Belakang\" untuk memperbarui area bertanda di latar belakang."</string>
+    <string name="def_object_tips">"Menentukan objek: Gambar persegi panjang untuk memasukkan garis keliling objek yang ingin Anda ekstrak."</string>
+    <string name="valid_point">"Titik awal atau titik henti tidak berada dalam rentang yang valid,"</string>
+    <string name="small_rect">"Persegi yang digambar terlalu kecil."</string>
+    <string name="add">"Tambahkan"</string>
+    <string name="use_phone_photo">"Gunakan foto yang diambil dari telepon seluler Anda"</string>
+    <string name="extract_failed">"Gagal mengekstrak, coba lagi"</string>
+    <string name="blending_success">"Berhasil memadukan gambar, Lanjutkan operasi atau tekan tombol kembali untuk keluar"</string>
+    <string name="blending_failed">"Gagal memadukan gambar"</string>
+    <string name="extract_failed_notforground">"Gagal mengekstrak, bukan objek latar depan, harap mulai lagi"</string>
+    <string name="extract_failed_nomemory">"Gagal mengekstrak, kekurangan ruang memori, mulai lagi"</string>
+    <string name="extract_timeout">"Waktu mengekstrak habis, coba lagi"</string>
+    <string name="extract_forground">"Mengekstrak target latar depan, tunggu beberapa saat."</string>
+    <string name="update_forground">"Memperbarui target latar depan, tunggu beberapa saat."</string>
+    <string name="blending_image">"Memadukan gambar, tunggu beberapa saat."</string>
+    <string name="select_foreground_subject">"Klik untuk memilih subjek latar depan"</string>
+    <string name="adjust_foreground_subject">"Sesuaikan subjek latar depan"</string>
+    <string name="correct_subject_outline">"Koreksi garis keliling subjek"</string>
+    <string name="edit_background">"Edit latar belakang"</string>
+    <string name="verify_prompt">"Posisi terkini terlalu dekat dengan tepi, hal tersebut bisa memperburuk efek yang didapatkan, yakin ingin tetap memadukannya?"</string>
+    <string name="fg_too_large">"Subjek latar depan terlalu besar untuk dipadukan。"</string>
+    <string name="draw_tips">"Buat gambar di dalam kotak putih"</string>
+    <string name="undo_faild">"gagal mengurungkan operasi"</string>
+    <string name="get_forfround_tips">"Tidak bisa mengubah semua subjek latar depan menjadi latar belakang. Harap gambar kembali."</string>
+    <string name="next_video">"Video Berikutnya"</string>
+    <string name="pre_video">"Video Sebelumnya"</string>
+    <string name="lock_control">"Kontrol Kunci"</string>
+    <string name="lock_orintation">"Orientasi Kunci"</string>
+    <string name="print_screen">"Cetak Layar"</string>
+    <string name="float_player">"Pemutar Mengambang"</string>
+    <string name="scale_screen">"Perbesar"</string>
+    <string name="back">"Kembali"</string>
+    <string name="over_flow">"Meluap"</string>
+    <string name="slide_music_play_fail">"Maaf, gagal memutar file"</string>
+    <string name="refocus_quit">"Keluar"</string>
+    <string name="refocus_save_change">"Simpan perubahan"</string>
+    <string name="refocus_confirm_save">"Apakah Anda ingin menyimpan atau langsung keluar?"</string>
+    <string name="refocus_save_success">"Berhasil menyimpan"</string>
+    <string name="refocus_save_fail">"Gagal menyimpan"</string>
+    <string name="none_input_tips">"Nama tidak boleh dikosongi"</string>
+    <string name="floatview_notification_text">"Video diputar dalam jendela apung."</string>
+    <string name="voice_photo">"Foto Audio"</string>
+    <string name="continuous_shooting">"Burst"</string>
+    <string name="refocus_image">"Buramkan gambar"</string>
+    <string name="blur_image_wait">"Pemburaman gambar sedang berlangsung, Harap tunggu"</string>
+    <string name="blur_save_fail">"Gagal menyimpan gambar yang diburamkan"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"Foto %1$d yang Dipilih"</item>
+        <item quantity="other">"Foto %1$d yang Dipilih"</item>
+    </plurals>
+    <string name="ffx_dehaze">"Dehaze"</string>
+    <string name="select_music">"Pilih musik"</string>
+    <string name="delete_all">"Hapus semua"</string>
+    <string name="refocus_photo_edit_save">Simpan</string>
+    <string name="blending_move_limit">"Mencapai tepi layar, Tidak ada tindakan selanjutnya yang dapat dilakukan, sesuaikan posisi untuk melanjutkan."</string>
+    <string name="init_bitmap_faild">"Gagal mengambil gambar, coba lagi"</string>
+    <string name="refocus_init_fail">"Inisiasi data gagal"</string>
+    <string name="conversing">"Mengubah"</string>
+    <string name="share_as_image">"Bagikan sebagai gambar"</string>
+    <string name="share_as_video">"Bagikan sebagai video"</string>
+    <string name="converse_video_failed">"Gagal mengubah ke video."</string>
+    <string name="app_photo_edit">"Pengeditan Foto"</string>
+    <string name="cant_select_file">"File tidak didukung"</string>
+    <string name="input_reached_max_length">"Masukkan tercapaikan panjang maks"</string>
+    <string name="v2_photo">"Foto"</string>
+    <string name="v2_album">"Album"</string>
+    <string name="v2_discover">"Telusuri"</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">"%1$d Gambar"</item>
+        <item quantity="one">"%1$d Gambar"</item>
+        <item quantity="other">"%1$d Gambar"</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">"%1$d Video"</item>
+        <item quantity="one">"%1$d Video"</item>
+        <item quantity="other">"%1$d Video"</item>
+    </plurals>
+    <string name="new_album">"Album baru"</string>
+    <string name="already_select_count">"Pilih %1$d"</string>
+    <string name="no_photos_or_videos">"Tidak ada foto atau video."</string>
+    <string name="no_albums">"Tidak ada album."</string>
+    <string name="badname_as_point">"Tidak seharusnya dinamakan atas , atau .., itu akan mengelirukan sistem file Anda"</string>
+    <string name="msg_folder_input_empty">"Berkas nama kosong"</string>
+    <string name="badname_endwith_point">"Akhir dari nama berkas tidak dapat dengan ."</string>
+    <string name="illegal_chars_of_foldername">"Nama folder tidak boleh mengandung karakter yang tidak diizinkan \\:*?\"\u003C\u003E|/"</string>
+    <string name="msg_file_input_repeat">nama %1$s telah ada, silahkan masukkan nama lainnya.</string>
+    <string name="menu_mkdir_failed">Gagal untuk membuat berkas %1$s</string>
+    <string name="add_to_album">"Tambahkan ke album"</string>
+    <string name="internal_storage">Penyimpanan Internal</string>
+    <string name="external_storage">"Kartu SD"</string>
+    <string name="my_album">"Album saya"</string>
+    <string name="failed_add_to_album">"Gagal menambahkan ke album"</string>
+    <string name="select_images_or_videos">"Pilih gambar atau video"</string>
+    <string name="fragment_state_lost_msg">"Status hilang, silakan Operasikan ulang"</string>
+    <string name="recently_deleted">"Baru dihapus"</string>
+    <string name="trash_restore">"Pengembalian"</string>
+    <string name="wait_for_restoring">"Memulihkan, tunggu&#8230;"</string>
+    <plurals name="restore_selection">
+        <item quantity="one">"Pulihkan item terpilih?"</item>
+        <item quantity="other">"Pulihkan item terpilih?"</item>
+    </plurals>
+    <string name="trash_date_tip">"Foto akan dihapus secara permanen dalam 30 hari."</string>
+    <plurals name="left_day">
+        <item quantity="one">"%1$d hari"</item>
+        <item quantity="other">"%1$d hari"</item>
+    </plurals>
+    <string name="tf_discover_things">"Benda"</string>
+    <string name="tf_discover_people">"Orang"</string>
+    <string name="tf_discover_location">"Lokasi"</string>
+    <string name="tf_unknown">Tidak diketahui</string>
+    <string name="tf_aircraft">"Pesawat"</string>
+    <string name="tf_animal">"Hewan"</string>
+    <string name="tf_baby">"Bayi"</string>
+    <string name="tf_basketball">"Bola basket"</string>
+    <string name="tf_bedroom">"Kamar tidur"</string>
+    <string name="tf_bicycle">"Sepeda"</string>
+    <string name="tf_bird">"Burung"</string>
+    <string name="tf_bridge">"Jembatan"</string>
+    <string name="tf_building">"Bangunan"</string>
+    <string name="tf_bus">"Bus"</string>
+    <string name="tf_car">"Mobil"</string>
+    <string name="tf_cat">"Kucing"</string>
+    <string name="tf_classroom">"Ruang kelas"</string>
+    <string name="tf_conference_room">"Ruang konferensi"</string>
+    <string name="tf_crawling_animal">"Hewan melata"</string>
+    <string name="tf_desktop_computer">"Komputer desktop"</string>
+    <string name="tf_document">"Dokumen"</string>
+    <string name="tf_dog">"Anjing"</string>
+    <string name="tf_electric_bicycle">"Sepeda listrik"</string>
+    <string name="tf_evergreen">"Hijau Lestari"</string>
+    <string name="tf_farmland">"Lahan pertanian"</string>
+    <string name="tf_fish">"Ikan"</string>
+    <string name="tf_flower">"Bunga"</string>
+    <string name="tf_food">"Makanan"</string>
+    <string name="tf_football">"Sepak bola"</string>
+    <string name="tf_graduation_photo">"Foto wisuda"</string>
+    <string name="tf_grassland">"Padang rumput"</string>
+    <string name="tf_group_photo">"Foto grup"</string>
+    <string name="tf_helicopter">"Helikopter"</string>
+    <string name="tf_kitchen">"Dapur"</string>
+    <string name="tf_laptop">"Laptop"</string>
+    <string name="tf_metro">"Angkutan cepat"</string>
+    <string name="tf_mobile_phone">"Ponsel"</string>
+    <string name="tf_motorcycle">"Sepeda motor"</string>
+    <string name="tf_mountain">"Gunung"</string>
+    <string name="tf_office">"Kantor"</string>
+    <string name="tf_parlour">"Ruang tamu"</string>
+    <string name="tf_party">"Pesta"</string>
+    <string name="tf_people">"Orang"</string>
+    <string name="tf_playground">"Tempat bermain"</string>
+    <string name="tf_river">"Sungai"</string>
+    <string name="tf_road">"Jalan"</string>
+    <string name="tf_sea">"Laut"</string>
+    <string name="tf_selfie">"Swafoto"</string>
+    <string name="tf_ship">"Kapal"</string>
+    <string name="tf_shopping_mall">"Pusat perbelanjaan"</string>
+    <string name="tf_sky">"Langit"</string>
+    <string name="tf_telephone">"Telepon"</string>
+    <string name="tf_train">"Kereta api"</string>
+    <string name="tf_tree">"Pohon"</string>
+    <string name="tf_waiting_room">"Ruang tunggu"</string>
+    <string name="tf_night_scene">"Suasana malam"</string>
+    <string name="tf_cake">"Roti"</string>
+    <string name="tf_lake">"Danau"</string>
+    <string name="tf_indoor">"Dalam ruang"</string>
+    <string name="tf_computer">"Komputer"</string>
+    <string name="tf_sport">"Olahraga"</string>
+    <string name="tf_sea_river">"Laut, Sungai, Danau"</string>
+    <string name="tf_phone">"Telepon"</string>
+    <string name="move_out_of_this_classification">"Pindah"</string>
+    <string name="move_out_classification_dialog_title">"Apakah Anda ingin menghapus item terpilih dari klasifikasi?"</string>
+    <string name="moving_out">"Memindah&#8230;"</string>
+    <string name="image">"Gambar"</string>
+    <string name="video">"Video"</string>
+    <string name="all_medias">"Semua"</string>
+    <string name="un_named">"Tanpa nama"</string>
+    <string name="move_out_of_this_people">"Pindah"</string>
+    <string name="move_out_people_dialog_title">"Apakah Anda ingin menghapus item terpilih orang?"</string>
+    <string name="add_name">"Tambah nama"</string>
+    <string name="illegal_chars_of_name">"Nama tidak boleh mengandung karakter yang tidak diizinkan \\:*?\"\u003C\u003E|/"</string>
+    <string name="repeated_name">"Nama sudah ada"</string>
+    <string name="replay">"Silakan keluar dan putar ulang"</string>
+    <string name="bokeh_editor">"Editor Bokeh"</string>
+    <string name="merge_to">"Gabungkan ke"</string>
+    <string name="hide_albums_v2">"Sembunyikan album"</string>
+    <string name="request_delete_permission_title">"Berikan izin kepada Galeri untuk mengakses kartu SD?"</string>
+    <string name="request_delete_permission_msg">"Galeri perlu akses untuk mengedit, menghapus, atau memindah foto dari kartu SD"</string>
+    <string name="no_delete_permission_title">"Tidak dapat diselesaikan"</string>
+    <string name="no_delete_permission_msg">"Galeri tidak memiliki akses ke kartu SD, beri izin atau hapus penyimpanan aplikasi lalu operasikan ulang"</string>
+    <string name="trash_restore_fail">"Gagal memulihkan"</string>
+    <string name="delete_drm_file">"File DRM akan dihapus secara permanen dan tidak akan ditaruh di Terbaru dihapus. Anda yakin ingin melanjutkan?"</string>
+    <string name="tf_discover_story">"Kenangan"</string>
+    <string name="prefered_motion_photo">"Foto yang lebih disukai"</string>
+    <string name="play_motion_photo">"Putar"</string>
+    <string name="stop_motion_photo">"Hentikan"</string>
+    <string name="superuser_request_confirm">"VideoPlayer tidak memiliki akses ke kartu SD Anda, pilihlah direktori akar eksternal kartu SD SANDISK dan izinkan VideoPlayer bekerja dengannya."</string>
+    <string name="smarterase">"Penghapusan cerdas"</string>
+    <string name="share_max_warning">"Lebih dari 100 file dipilih, dan tidak ada fungsi untuk membagikan"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"Ingin menyimpan foto %1$d lainnya dalam burst ini?"</item>
+        <item quantity="other">"Apakah Anda ingin menyimpan %1$d foto lain dalam burst ini?"</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"Hanya Simpan %1$d Foto Terpilih"</item>
+        <item quantity="other">"Hanya Simpan %1$d Foto yang Dipilih"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">"%1$d item dipilih"</item>
+        <item quantity="one">"%1$d item dipilih"</item>
+        <item quantity="other">"%1$d item dipilih"</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"Hapus %1$d Foto Terpilih"</item>
+        <item quantity="other">"Hapus %1$d Foto Terpilih"</item>
+    </plurals>
+    <string name="no_sd_write_permission">"PemutarVideo tidak memiliki perizinan yang cukup menghapus video"</string>
+    <string name="next">"Berikutnya"</string>
+</resources>

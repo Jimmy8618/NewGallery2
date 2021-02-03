@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"ଗ୍ୟାଲେରି"</string>
+    <string name="movie_view_label">"ଭିଡିଓ ପ୍ଲେୟାର୍"</string>
+    <string name="loading_video">"ଭିଡିଓ ଲୋଡ଼ କରୁଛି..."</string>
+    <string name="resume_playing_title">"ଭିଡ଼ିଓ ପୁନରାରମ୍ଭ କରନ୍ତୁ"</string>
+    <string name="resume_playing_message">"ପୂର୍ବରୁ ଥିବା ପୋଜିସନରୁ ବଜାଇବା ଆରମ୍ଭ କରନ୍ତୁ!"</string>
+    <string name="resume_playing_resume">"ଚଲେଇବା ପୁନରାରମ୍ଭ କରନ୍ତୁ"</string>
+    <string name="loading">"ପଠାଇବା..."</string>
+    <string name="fail_to_load">"ଲୋଡ୍ ହୋଇପାରିଲା ନାହିଁ"</string>
+    <string name="fail_to_load_image">"ପ୍ରତିଛବି ଲୋଡ୍ ହୋଇପାରିଲା ନାହିଁ"</string>
+    <string name="no_thumbnail">"କୌଣସି ଥମ୍ବନେଲ୍ ନାହିଁ"</string>
+    <string name="resume_playing_restart">"ପୁଣି ଆରମ୍ଭ କରନ୍ତୁ"</string>
+    <string name="ok">"ଠିକଠାକ"</string>
+    <string name="saving_image">"ଛବି ସେଭ୍‌‌କରୁଛି..."</string>
+    <string name="filtershow_saving_image">"ପିକ୍ଚର୍ <xliff:g id="album_name">%1$s</xliff:g> କୁ ସେଭ୍ କରୁଛି..."</string>
+    <string name="crop_label">"ଛବି କ୍ରପ୍‌କରନ୍ତୁ"</string>
+    <string name="trim_label">"ଭିଡିଓକୁ ଛୋଟ କରନ୍ତୁ"</string>
+    <string name="select_image">"ଫୋଟୋ ଚୟନ କରନ୍ତୁ"</string>
+    <string name="select_video">"ଭିଡିଓ ସିଲେକ୍ଟ କରନ୍ତୁ"</string>
+    <string name="select_item">"ଆଇଟମ ସିଲେକ୍ଟ କରନ୍ତୁ"</string>
+    <string name="select_album">"ଆଲବମ୍ ଚୟନ କରନ୍ତୁ"</string>
+    <string name="select_group">"ଗ୍ରୁପ ସିଲେକ୍ଟ କରନ୍ତୁ"</string>
+    <string name="set_image">"ସେଟ୍‍ ପିକଚର୍‌ ଏଜ୍‌"</string>
+    <string name="camera_setas_wallpaper">"ପ୍ରାଚୀରପତ୍ର"</string>
+    <string name="delete">"କାଟ"</string>
+    <plurals name="delete_selection">
+        <item quantity="one">"ଚୟନ କରାଯାଇଥିବା ଆଇଟମ୍ ଡିଲିଟ୍ କରିବେ କି?"</item>
+        <item quantity="other">"ଚୟନ କରାଯାଇଥିବା ଆଇଟମ୍ ଗୁଡ଼ିକ ଡିଲିଟ୍ କରିବେ କି?"</item>
+    </plurals>
+    <string name="confirm">"ନିଶ୍ଚିତ କରନ୍ତୁ"</string>
+    <string name="cancel">"ବାତିଲ କରନ୍ତୁ"</string>
+    <string name="share">"ଭାଗୀଦାରୀତା କରନ୍ତୁ"</string>
+    <string name="share_panorama">"ପାନୋରାମା ସେଆର୍‌"</string>
+    <string name="share_as_photo">"ଫୋଟୋ ରୁପେ ସେଆର୍‌କରନ୍ତୁ"</string>
+    <string name="deleted">"ଅପସାରିତ"</string>
+    <string name="undo">"ଫୂର୍ବବତ"</string>
+    <string name="select_all">"ସବୁ ଯାକ ବାଛନ୍ତୁ"</string>
+    <string name="deselect_all">"ସମସ୍ତ ଅମନୋନୀତ କରନ୍ତୁ"</string>
+    <string name="slideshow">"ସ୍ଲାଇଡ୍‍ ଶୋ"</string>
+    <string name="details">"ସବିଶେଷ"</string>
+    <string name="details_title">"%1$d ରୁ %2$d ଆଇଟମ୍ ଗୁଡ଼ିକ:"</string>
+    <string name="close">"ବନ୍ଦ"</string>
+    <string name="switch_to_camera">"କ୍ୟାମେରାକୁ ସ୍ୱିଚ୍ କରନ୍ତୁ"</string>
+    <plurals name="number_of_items_selected">
+        <item quantity="zero">"%1$d ଚୟନ ହୋଇଛି"</item>
+        <item quantity="one">"%1$d ଚୟନ ହୋଇଛି"</item>
+        <item quantity="other">"%1$d ଚୟନ ହୋଇଛି"</item>
+    </plurals>
+    <string name="show_on_map">"ମ୍ୟାପରେ ଦର୍ଶାନ୍ତୁ"</string>
+    <string name="rotate_left">"ବାମକୁ ବୁଲାନ୍ତୁ"</string>
+    <string name="rotate_right">"ଡାହାଣକୁ ବୁଲାନ୍ତୁ"</string>
+    <string name="no_such_item">"ଆଇଟମ୍ ମିଳୁନାହିଁ"</string>
+    <string name="edit">"ସଂଶୋଧନ କରନ୍ତୁ"</string>
+    <string name="simple_edit">"ସରଳ ଏଡିଟ୍"</string>
+    <string name="crop_action">"କପି"</string>
+    <string name="trim_action">"ଟ୍ରିମ୍‌"</string>
+    <string name="mute_action">"ମୁକ"</string>
+    <string name="set_as">"ସେଟ୍‌ ଏଜ୍‌"</string>
+    <string name="video_mute_err">"ଭିଡିଓ ମ୍ୟୁଟ୍ କରିପାରୁ ନାହିଁ ।"</string>
+    <string name="video_err">"ଭିଡ଼ିଓ ଚଲେଇହେବ ନାହିଁ |"</string>
+    <string name="group_by_location">"ସ୍ଥାନ ଅନୁଯାୟୀ"</string>
+    <string name="group_by_time">"ସମୟ ଅନୁଯାୟୀ"</string>
+    <string name="group_by_tags">"ଟ୍ୟାଗ୍ ଅନୁଯାୟୀ"</string>
+    <string name="group_by_faces">"ଲୋକମାନଙ୍କ ଅନୁଯାୟୀ"</string>
+    <string name="group_by_album">"ଆଲବମ୍ ଅନୁଯାୟୀ"</string>
+    <string name="untagged">"ଟ୍ୟାଗ୍ ହୋଇନାହିଁ"</string>
+    <string name="no_location">"କୌଣସି ସ୍ଥାନ ନୁହେଁ"</string>
+    <string name="no_connectivity">"ନେଟୱର୍କ ସମସ୍ୟା ଯୋଗୁଁ କେତେକ ସ୍ଥାନ ଚିହ୍ନଟ ହୋଇପାରୁ ନାହିଁ ।"</string>
+    <string name="sync_album_error">"ଏହି ଆଲବମ୍ ରେ ଫୋଟୋଗୁଡ଼ିକ ଡାଉନଲୋଡ୍ ହୋଇପାରୁ ନାହିଁ । ପରେ ପୁଣି ଥରେ ଚେଷ୍ଟା କରନ୍ତୁ ।"</string>
+    <string name="show_images_only">"କେବଳ ପ୍ରତିଛବି"</string>
+    <string name="show_videos_only">"କେବଳ ଭିଡିଓ"</string>
+    <string name="show_all">"ପ୍ରତିଛବି &amp; ଭିଡିଓ"</string>
+    <string name="appwidget_title">"ଫୋଟୋ ଗ୍ୟାଲେରୀ"</string>
+    <string name="appwidget_empty_text">"କୌଣସି ଫୋଟୋ ନୁହେଁ ।"</string>
+    <string name="crop_saved">"<xliff:g id="folder_name">%s</xliff:g> ରେ କ୍ରପ୍ ହୋଇଥିବା ପ୍ରତିଛବି ସେଭ୍ ହୋଇଛି ।"</string>
+    <string name="no_albums_alert">"କୌଣସି ଆଲବମ୍ ଉପଲବ୍ଧ ନୁହେଁ ।"</string>
+    <string name="empty_album">"କୌଣସି ପ୍ରତିଛବି/ଭିଡିଓ ଉପଲବ୍ଧ ନୁହେଁ ।"</string>
+    <string name="done">"ହୋଇଗଲା"</string>
+    <string name="title">"ଶୀର୍ଷକ"</string>
+    <string name="description">"ବର୍ଣ୍ଣନା"</string>
+    <string name="time">"ସମୟ"</string>
+    <string name="location">"ଅବସ୍ଥାନ"</string>
+    <string name="path">"ପାଥ୍‌"</string>
+    <string name="width">"ୱିଡ୍‌ଥ୍‌"</string>
+    <string name="height">"ଉଚ୍ଚତା"</string>
+    <string name="orientation">"ଖାପ ଖୁଏଇବା"</string>
+    <string name="duration">"ଅବଧି"</string>
+    <string name="mimetype">"MIME ପ୍ରକାର"</string>
+    <string name="file_size">"ଫାଇଲ୍‍ ଆକାର"</string>
+    <string name="maker">"ମେକର୍‌"</string>
+    <string name="model">"ମଡେଲ୍‌"</string>
+    <string name="flash">"ଫ୍ଲାସ୍‌"</string>
+    <string name="aperture">"ଆପାର୍ଚର୍‌"</string>
+    <string name="focal_length">"ଫୋକାଲ୍‌ ଲମ୍ବ"</string>
+    <string name="white_balance">"ହ୍ୱାଇଟ୍‌ ବାଲାନ୍ସ"</string>
+    <string name="exposure_time">"ଏକ୍ସପୋଜର୍‌ ସମୟ"</string>
+    <string name="manual">"ମାନୁଆଲ୍‌"</string>
+    <string name="auto">"ଆପେ"</string>
+    <string name="flash_on">"ଫ୍ଲାସ୍‌ ଫାୟାର୍ଡ଼"</string>
+    <string name="flash_off">"ଫ୍ଲାସ୍‌ ନାହିଁ"</string>
+    <string name="unknown">"ଅଜଣା"</string>
+    <string name="ffx_vintage">"ଭିଣ୍ଟେଜ୍"</string>
+    <string name="ffx_instant">"ଇନଷ୍ଟାଣ୍ଟ"</string>
+    <string name="ffx_bleach">"ବ୍ଲିଚ୍"</string>
+    <string name="ffx_blue_crush">"ନୀଳ"</string>
+    <string name="ffx_bw_contrast">"B/W"</string>
+    <string name="ffx_punch">"ପଞ୍ଚ୍"</string>
+    <string name="ffx_x_process">"X ପ୍ରୋସେସ୍"</string>
+    <string name="ffx_washout">"ଲାଟେ"</string>
+    <string name="ffx_washout_color">"ଲିଥୋ"</string>
+    <string name="set_label_all_albums">"ସମସ୍ତ ଆଲବମ୍ ଗୁଡ଼ିକ"</string>
+    <string name="set_label_local_albums">"ସ୍ଲୋକାଲ୍ ଆଲବମ୍ ଗୁଡ଼ିକ"</string>
+    <string name="size_below">"<xliff:g id="size">%1$s</xliff:g> କିମ୍ବା ତଳେ"</string>
+    <string name="size_above">"<xliff:g id="size">%1$s</xliff:g> କିମ୍ବା ଉପରେ"</string>
+    <string name="size_between">"<xliff:g id="min_size">%1$s</xliff:g> ଠାରୁ <xliff:g id="max_size">%2$s</xliff:g>"</string>
+    <string name="Import">"ଇମ୍ପୋର୍ଟ"</string>
+    <string name="import_complete">"ଇମ୍ପୋର୍ଟ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି"</string>
+    <string name="widget_type_album">"ଏକ ଆଲବମ୍ ଚୟନ କରନ୍ତୁ"</string>
+    <string name="widget_type_shuffle">"ସମସ୍ତ ପ୍ରତିଛବି ଫେଣ୍ଟି ଦିଅନ୍ତୁ"</string>
+    <string name="widget_type_photo">"ଏକ ପ୍ରତିଛବି ଚୟନ କରନ୍ତୁ"</string>
+    <string name="widget_type">"ପ୍ରତିଛବିଗୁଡ଼ିକ ଚୟନ କରନ୍ତୁ"</string>
+    <string name="slideshow_dream_name">"ସ୍ଲାଇଡ଼ସୋ"</string>
+    <string name="albums">"ଆଲବମ୍ ଗୁଡ଼ିକ"</string>
+    <string name="times">"ସମୟଗୁଡ଼ିକ"</string>
+    <string name="locations">"ସ୍ଥାନଗୁଡ଼ିକ"</string>
+    <string name="people">"ଲୋକମାନେ"</string>
+    <string name="tags">"ଟ୍ୟାଗ୍ ଗୁଡ଼ିକ"</string>
+    <string name="group_by">"ଅନୁଯାୟୀ ଗ୍ରୁପ୍ କରନ୍ତୁ"</string>
+    <string name="settings">"ସଂସ୍ଥାପନା"</string>
+    <string name="folder_camera">"କେମେରା"</string>
+    <string name="folder_download">"ଡ଼ାଉନଲୋଡ"</string>
+    <string name="folder_edited_online_photos">"ଏଡିଟ୍ ହୋଇଥିବା ଅନଲାଇନ୍ ଫୋଟୋଗୁଡ଼ିକ"</string>
+    <string name="folder_imported">"ଇମ୍ପୋର୍ଟ ହୋଇଥିବା"</string>
+    <string name="folder_screenshot">"ସ୍କ୍ରିନସଟ୍"</string>
+    <string name="help">"ସାହାଯ୍ୟ"</string>
+    <string name="switch_photo_filmstrip">"ଫିଲ୍ମଷ୍ଟ୍ରିପ୍‌ ଭିଉ"</string>
+    <string name="switch_photo_grid">"ଜାଲି ଦୃଶ୍ୟ"</string>
+    <string name="switch_photo_fullscreen">"ଫୁଲ୍ ସ୍କ୍ରିନ୍ ଭିଉ"</string>
+    <string name="trimming">"ଛୋଟ କରୁଛି"</string>
+    <string name="muting">"ମ୍ୟୁଟ୍ କରୁଛି"</string>
+    <string name="please_wait">"ଦୟାକରି ଅପେକ୍ଷାକରନ୍ତୁ"</string>
+    <string name="save_into">"<xliff:g id="album_name">%1$s</xliff:g> ରେ ଭିଡିଓ ସେଭ୍ ହେଉଛି..."</string>
+    <string name="pano_progress_text">"ପାନୋରାମା ତର୍ଜମା କରୁଛି"</string>
+    <string name="save">"ସଞ୍ଚୟ କରନ୍ତୁ"</string>
+    <string name="ingest_scanning">"କଣ୍ଟେଣ୍ଟ ସ୍କାନ୍ କରୁଛି…"</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="zero">"%1$d ଆଇଟମ୍ ଗୁଡ଼ିକ ସ୍କାନ୍ କରାଯାଇଛି"</item>
+        <item quantity="one">"%1$d ଆଇଟମ୍ ସ୍କାନ୍ କରାଯାଇଛି"</item>
+        <item quantity="other">"%1$d ଆଇଟମ୍ ଗୁଡ଼ିକ ସ୍କାନ୍ କରାଯାଇଛି"</item>
+    </plurals>
+    <string name="ingest_sorting">"ଅଲଗା ଅଲଗା କରି ସଜାଉଛି…"</string>
+    <string name="ingest_scanning_done">"ସ୍କାନିଂ ସରିଛି"</string>
+    <string name="ingest_importing">"ଇମ୍ପୋର୍ଟ ହୋଉଛି…"</string>
+    <string name="ingest_empty_device">"ଏହି ଡିଭାଇସରେ ଇମ୍ପୋର୍ଟ କରିବା ପାଇଁ କୌଣସି କଣ୍ଟେଣ୍ଟ ଉପଲବ୍ଧ ନାହିଁ ।"</string>
+    <string name="ingest_no_device">"କୌଣସି MTP ଡିଭାଇସ୍ ସଂଯୁକ୍ତ ହୋଇନାହିଁ"</string>
+    <string name="camera_label">"କେମେରା"</string>
+    <string name="accessibility_play_video">"ଭିଡ଼ିଓ ଚଲାନ୍ତୁ"</string>
+    <string name="accessibility_time_bar">"ଭିଡିଓ ପ୍ଲେୟାର ଟାଇମ୍ ବାର୍"</string>
+    <string name="menu_camera">"କେମେରା"</string>
+    <string name="menu_search">"ଖୋଜ"</string>
+    <string name="tab_photos">"ଫୋଟୋଗୁଡ଼ିକ"</string>
+    <string name="tab_albums">"ଆଲବମ୍ ଗୁଡ଼ିକ"</string>
+    <plurals name="number_of_photos">
+        <item quantity="one">"%1$dଫୋଟୋ"</item>
+        <item quantity="other">"%1$dଫୋଟୋଗୁଡ଼ିକ"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"କୌଣସି କୀଫ୍ରେମ୍ସ ଭିଡିଓ ପୁଣି ଥରେ ବଜାଇବା ଆରମ୍ଭ କରିବ ନାହିଁ"</string>
+    <string name="gif_decode_failed">"ଜିଆଇଏଫ୍ ଇମେଜ୍ ବଜାଇବା ପାଇଁ ବହୁତ ବଡ଼"</string>
+    <string name="spaceLow_content">"ସେଭ୍ କରିବା ବିଫଳ ହୋଇଛି, ସିଷ୍ଟମରେ ଯଥେଷ୍ଟ ଷ୍ଟୋରେଜ ସ୍ଥାନ ନ ଥାଇପାରେ"</string>
+    <string name="wait_for_deleting">"ଡିଲିଟ୍ ହେଉଛି, ଦୟାକରି  ପାଇଁ ଅପେକ୍ଷା କରନ୍ତୁ..."</string>
+    <string name="wait_for_rotating">"ଘୂରୁଛି, ଦୟାକରି  ପାଇଁ ଅପେକ୍ଷା କରନ୍ତୁ..."</string>
+    <string name="video_save_to_bookmark">"ବୁକମାର୍କରେ ସେଭ୍‌କରନ୍ତୁ"</string>
+    <string name="video_view_bookmarks">"ବୁକମାର୍କଗୁଡିକ"</string>
+    <string name="video_bookmarks">"ବୁକମାର୍କଗୁଡିକ"</string>
+    <string name="video_edit_bookmark">"ସଂଶୋଧନ କରନ୍ତୁ"</string>
+    <string name="video_delete_bookmark">"କାଟ"</string>
+    <string name="empty_bookmarks">"ଖାଲି ବୁକମାର୍କ"</string>
+    <string name="do_not_save">"ବାତିଲ କରନ୍ତୁ"</string>
+    <string name="net_location">"ଠିକଣା"</string>
+    <string name="name">"ନାମ"</string>
+    <string name="bookmark_needs_title">"ବୁକମାର୍କର ଏକ ନାମ ରହିବା ଉଚିତ"</string>
+    <string name="bookmark_needs_url">"ବୁକମାର୍କର ଏକ ସ୍ଥାନ ରହିବା ଉଚିତ"</string>
+    <string name="bookmark_invalid_url">"ସ୍ଥାନ"http(s)://" କିମ୍ବା"rtsp:// ସହ ଆରମ୍ଭ ହେବା ଉଚିତ"</string>
+    <string name="processing_please_wait">"ପ୍ରୋସେସିଂ କରୁଛି, ଦୟାକରି ଅପେକ୍ଷାକରନ୍ତୁ |"</string>
+    <string name="bookmark_exist">"ସେହି ଏକା ସ୍ଥାନ ସହ ବୁକମାର୍କ ରହିଛି ।"</string>
+    <string name="default_bookmark_title">"ଡିଫଲ୍ଟ_ଟାଇଟଲ୍"</string>
+    <string name="bookmark_added">"ବୁକମାର୍କଗୁଡ଼ିକରେ ସେଭ୍ ହୋଇଛି"</string>
+    <string name="albums_video">"ଭିଡ଼ିଓ"</string>
+    <string name="empty_album_video">"କୌଣସି ଭିଡିଓ ଉପଲବ୍ଧ ନୁହେଁ ।"</string>
+    <string name="border_brush">"ବ୍ରଶ୍"</string>
+    <string name="border_grunge">"ଗ୍ରଞ୍ଜ"</string>
+    <string name="border_sumi">"ସୁମି"</string>
+    <string name="border_tape">"ଟେପ୍"</string>
+    <string name="border_black">"କଳା"</string>
+    <string name="border_black_rounded">"କଳା_ଲାଲ୍"</string>
+    <string name="border_white">"ଧଳା"</string>
+    <string name="border_white_rounded">"ଧଳା_ଲାଲ୍"</string>
+    <string name="border_cream">"କ୍ରିମ୍"</string>
+    <string name="border_cream_rounded">"କ୍ରିମ୍_ଲାଲ୍"</string>
+    <string name="no_face">"ଫେସ୍‍ ନାହିଁ"</string>
+    <string name="can_not_share">"ଚୟନ ହୋଇଥିବା ଫାଇଲ୍ <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g> ର ଉପରେ, ସେୟାରି ଫିଚର ଉପଲବ୍ଧ ନୁହେଁ"</string>
+    <string name="movie_view_proxy_set">"ପ୍ରୋକ୍ସି ସେଟ୍"</string>
+    <string name="movie_view_network">"ନେଟୱର୍କ"</string>
+    <string name="movie_view_apn_set">"Apn ଏଣ୍ଟ୍ରି ସେଟ୍"</string>
+    <string name="movie_view_proxy_ip_set">"ପ୍ରୋକ୍ସି IP ସେଟିଂସ୍"</string>
+    <string name="movie_view_proxy_port_set">"ପ୍ରୋକ୍ସି ପୋର୍ଟ ସେଟିଂସ୍"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP ପୋର୍ଟ ସେଟିଂସ୍"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP ସର୍ବାଧିକ ପୋର୍ଟ ସେଟିଂସ୍"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP ସର୍ବନିମ୍ନ ପୋର୍ଟ ସେଟିଂସ୍"</string>
+    <string name="movie_view_proxy_ok">"ଠିକଠାକ"</string>
+    <string name="movie_view_proxy_port_seterror_info">"ଏକ ଭ୍ୟାଲ୍ୟୁଡ୍ ପୋର୍ଟ ସେଟିଂସ୍ ଦତ୍ତ ପରିସର ମଧ୍ୟରେ ଏକ ପୂର୍ଣ୍ଣସଂଖ୍ୟା ହେବା ଉଚିତ:"</string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP ଅବୈଧ!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"ପୋର୍ଟ ଅବୈଧ!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"ପ୍ରଥମେ ପୋର୍ଟ ରେଞ୍ଜ୍ ସେଟ୍ କରନ୍ତୁ!"</string>
+    <string name="movie_view_proxy_enable">"ପ୍ରୋକ୍ସି ଏନାବଲ୍"</string>
+    <string name="movie_view_parameter_set">"ପାରାମିଟର ସେଟିଂସ୍"</string>
+    <string name="dialog_dismiss">"ଡିସ୍‌ମିସ୍‌"</string>
+    <string name="gallery_error_title">"ଗ୍ୟାଲେରୀ ଏରର୍"</string>
+    <string name="videoplayer_error_title">"ଭିଡିଓ ପ୍ଲେୟାର ଏରର୍"</string>
+    <string name="error_permissions">"ଚାଲିବା ପାଇଁ ଆବଶ୍ୟକ ନିର୍ଣ୍ଣୟମୂଳକ ଅନୁମତି ଏପ ର ନାହିଁ । ଦୟାକରି ଆପଣଙ୍କ ଅନୁମତି ସଂସ୍ଥାପନା ଗୁଡିକୁ ଯାଞ୍ଚ କରନ୍ତୁ ।"</string>
+    <string name="gallery_premission_change">"ଗ୍ୟାଲେରୀ ଅନୁମତି ପରିବର୍ତ୍ତିତ ହୋଇଛି, ଦୟାକରି ପୁଣିଥରେ ଚୟନ କରନ୍ତୁ"</string>
+    <string name="gallery_premission_error">"ଗ୍ୟାଲେରୀ ଅନୁମତିଜନିତ ତ୍ରୁଟି, ଦୟାକରି ଗ୍ୟାଲେରୀଜନିତ ତ୍ରୁଟି ପୁଣିଥରେ ସେଟ୍ କରନ୍ତୁ ।"</string>
+    <string name="already_exist">"ଇଫେକ୍ଟ ପୂର୍ବରୁ ରହିଅଛି"</string>
+    <string name="show_details_error">"ଡାଟା ଲୋଡ୍ ହେଉଛି, ଦୟାକରି ପରେ ପୁଣିଥରେ ଚେଷ୍ଟା କରନ୍ତୁ ।"</string>
+    <string name="none_playback">"ନନ୍ ପ୍ଲେବ୍ୟାକ୍"</string>
+    <string name="single_playback">"ସିଙ୍ଗଲ୍ ପ୍ଲେବ୍ୟାକ୍"</string>
+    <string name="all_playback">"ସମସ୍ତ ପ୍ଲେବ୍ୟାକ୍"</string>
+    <string name="playback_setting">"ପ୍ଲେବ୍ୟାକ୍ ମୋଡ୍"</string>
+    <string name="can_not_open_float_video">"କରେଣ୍ଟ ଭିଡିଓ ୱାଲପେପର୍, ଭିଡିଓ ଫ୍ଲୋଟିଂ ୱିଣ୍ଡୋସ୍ ଓପନ୍ ହୋଇପାରିବ ନାହିଁ ।"</string>
+    <string name="video_file_does_not_exist">"ଭିଡିଓ ଫାଇଲ୍ ନାହିଁ"</string>
+    <string name="movie_view_goto">"ଯାଆନ୍ତୁ"</string>
+    <string name="no_search_app">"କୌଣସି ସର୍ଚ୍ଚ ଆପ୍ ନାହିଁ"</string>
+    <string name="channel_setting_title">"ଚ୍ୟାନେଲ୍ ସେଟିଂ"</string>
+    <string name="channel_setting_left">"ବାମ"</string>
+    <string name="channel_setting_right">"ଡାହାଣ"</string>
+    <string name="channel_setting_dual">"ଦ୍ୱୈତ"</string>
+    <string name="channel_setting_ok">"ଠିକଠାକ"</string>
+    <string name="channel_setting_cancel">"ବାତିଲ କରନ୍ତୁ"</string>
+    <string name="channel_setting">"ଚ୍ୟାନେଲ୍ ସେଟିଂ"</string>
+    <string name="movie_view_calling_title">"କଲ୍ କରୁଛି"</string>
+    <string name="movie_view_calling_msg">"କଲ୍ ସରିବା ପରେ ଦୟାକରି ପୁଣିଥରେ ଚେଷ୍ଟା କରନ୍ତୁ!"</string>
+    <string name="movie_view_calling_try">"ଚେଷ୍ଟା କରନ୍ତୁ"</string>
+    <string name="movie_view_calling_cancel">"ବାତିଲ କରନ୍ତୁ"</string>
+    <string name="time_out">"ଟାଇମଆଉଟ୍"</string>
+    <string name="time_out_message">"ନେଟୱର୍କ ଅନିୟମିତତାଗୁଡ଼ିକ କିମ୍ବା କନେକସନ୍ ଟାଇମଆଉଟ୍, ପୁଣିଥରେ ଷ୍ଟାର୍ଟ କରାଯିବ କି ନାହିଁ?"</string>
+    <string name="headset">"ହେଡସେଟ୍"</string>
+    <string name="loud_speaker">"ଲାଉଡ ସ୍ପିକର୍"</string>
+    <string name="back_exit">"ପୁଣିଥରେ ଦବାଇଲେ ପ୍ରସ୍ଥାନ କରନ୍ତୁ"</string>
+    <string name="cannot_load_crop_image">"ଆପ୍ଲିକେସନ୍ ରନ୍ ଟାଇମ୍ ମେମୋରୀ ଯଥେଷ୍ଟ ନୁହେଁ, ପ୍ରତିଛବି ଲୋଡ୍ ହେବା ବିଫଳ ।"</string>
+    <string name="slideshow_music">"ସ୍ଲାଇଡ୍ ମ୍ୟୁଜିକ୍"</string>
+    <string name="system_ringtones">"ସିଷ୍ଟମ୍ ରିଙ୍ଗଟୋନ୍ ଗୁଡ଼ିକ"</string>
+    <string name="user_defined">"ବ୍ୟବହାରକାରୀ ନିରୂପିତ"</string>
+    <string name="cannot_play_music">"ବର୍ତ୍ତମାନ ସଂଙ୍ଗୀତ ବଜାଇପାରିବ ନାହିଁ"</string>
+    <string name="play_audio_failed">"ବର୍ତ୍ତମାନ ଶବ୍ଦ ବଜାଇ ପାରିବ ନାହିଁ"</string>
+    <string-array name="planets_array">
+        <item>"ସମସ୍ତ ଭିଡ଼ିଓ"</item>
+        <item>"ଲୋକାଲ୍ ଭିଡିଓ"</item>
+        <item>"ଫିଲ୍ମ କରାଯାଇଥିବା ଭିଡିଓ"</item>
+        <item>"ନିକଟରେ ବଜାଯାଇଥିବା"</item>
+    </string-array>
+    <string name="last_play">"ଏହା ପୂର୍ବରୁ ବଜାଯାଇଥିବା:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"ରେକର୍ଡଗୁଡ଼ିକ ବର୍ତ୍ତମାନ ଡିଲିଟ୍ କରିବେ କି?"</item>
+        <item quantity="other">"ରେକର୍ଡଗୁଡ଼ିକ ବର୍ତ୍ତମାନ ଡିଲିଟ୍ କରିବେ କି?"</item>
+    </plurals>
+    <string name="today">"ଆଜି"</string>
+    <string name="yesterday">"ଗତକାଲି"</string>
+    <string name="earlier">"ଅଧିକତର ପୁରୁଣା"</string>
+    <string name="drawer_open">"ଭିଡିଓ ଲିଷ୍ଟ""</string>
+    <string name="drawer_close">"ସମସ୍ତ ଭିଡ଼ିଓ"</string>
+    <string name="share_actionmode">"ଭାଗୀଦାରୀତା କରନ୍ତୁ"</string>
+    <string name="delete_actionmode">"କାଟ"</string>
+    <string name="clear_all">"ସମସ୍ତ ଅପସାରଣ କରନ୍ତୁ"</string>
+    <string name="video_list">"ଭିଡିଓ ଲିଷ୍ଟ""</string>
+    <plurals name="delete_confirm">
+        <item quantity="other">"ରେକର୍ଡଗୁଡ଼ିକ ବର୍ତ୍ତମାନ ଡିଲିଟ୍ କରିବେ କି?"</item>
+        <item quantity="one">"ରେକର୍ଡଗୁଡ଼ିକ ବର୍ତ୍ତମାନ ଡିଲିଟ୍ କରିବେ କି?"</item>
+    </plurals>
+    <string name="current_select">"%d ଚୟନ କରାଯାଇଛି"</string>
+    <string name="no_video_play_records">"କୌଣସି ପ୍ଲେ ରେକର୍ଡ ନାହିଁ"</string>
+    <string name="no_videos">"କୌଣସି ଭିଡିଓ ନାହିଁ"</string>
+    <string name="video_not_exist">"ଭିଡିଓ ନାହିଁ"</string>
+    <string name="save_picture">"କ୍ୟାପଚର୍ %s ପର୍ଯ୍ୟନ୍ତ ସେଭ୍ କରାଯାଇଛି"</string>
+    <string name="mute">"ମ୍ୟୁଟ୍ କରୁଛି"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"ସୁରକ୍ଷା ସୁଚନା"</string>
+    <string name="drm_info">"ସୁରକ୍ଷା ସୁଚନା"</string>
+    <string name="file_name">"ଫାଇଲ୍ ନାମ:"</string>
+    <string name="rights_validity">"ରାଇଟ୍ ବୈଧତା:"</string>
+    <string name="rights_status">"ରାଇଟ୍ ସ୍ଥିତି:"</string>
+    <string name="start_time">"ଆରମ୍ଭ ସମୟ:"</string>
+    <string name="end_time">"ଶେଷ ସମୟ:"</string>
+    <string name="expiration_time">"ଏକ୍ସପାୟାରେସନ୍ ସମୟ:"</string>
+    <string name="remain_times">"ବାକି ଥିବା ସମୟ:"</string>
+    <string name="rights_validity_valid">"ବୈଧ"</string>
+    <string name="rights_validity_invalid">"ଅବୈଧ"</string>
+    <string name="rights_status_share">"ଫର୍ୱାଡ଼ ହେବାକୁ ଅନୁମୋଦିତ"</string>
+    <string name="rights_status_not_share">"ଫର୍ୱାଡ଼ ହେବାକୁ ଅନୁମୋଦିତ କରନ୍ତୁନାହିଁ"</string>
+    <string name="drm_rights_no_limit">"ଅସୀମ"</string>
+    <string name="drm_rights_unknown">"ଅଜଣା"</string>
+    <string name="drm_rights_inactive">"ଅଧିକାର ସକ୍ରିୟ ନୁହେଁ"</string>
+    <string name="drm_file_invalid">"ଫାଇଲ ଏକ୍ସପାୟର କରିଯାଇଛି"</string>
+    <string name="screenshot_failed">""ସ୍କ୍ରିନସଟ୍ ବିଫଳ ହୋଇଛି" "</string>
+    <string name="slidemusic">"ସ୍ଲାଇଡ୍ ଶୋ ମ୍ୟୁଜିକ୍ ସେଟ୍ କରନ୍ତୁ"</string>
+    <string name="setas">"ସେଟ୍‌ ଏଜ୍‌"</string>
+    <string name="slide_music_system_ringtones">"ସିଷ୍ଟମ୍ ରିଙ୍ଗଟୋନ୍ ଗୁଡ଼ିକ"</string>
+    <string name="slide_music_user_defined">"ବ୍ୟବହାରକାରୀ ନିରୂପିତ"</string>
+    <string name="remove_usbdisk">"ୟୁଜର୍ ଡିଭାଇସ୍ ହଟାଇ ଦିଆଯାଇଛି"</string>
+    <string name="edit_crop_free">"ମୁକ୍ତ"</string>
+    <string name="edit_crop_square">"ବର୍ଗ"</string>
+    <string name="edit_crop_origin">"ଅରିଜିନାଲ୍"</string>
+    <string name="hide_albums">"ଆଲବମ୍ ଗୁଡ଼ିକ ଲୁଚାନ୍ତୁ"</string>
+    <string name="show_local_albums">"ଲୋକାଲ୍ ଆଲବମ୍ ଗୁଡ଼ିକ ଦେଖାନ୍ତୁ"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"%1$d ଫୋଟୋ ଚୟନ ହୋଇଛି"</item>
+        <item quantity="other">"%1$d ଫୋଟୋ ଚୟନ ହୋଇଛି"</item>
+    </plurals>
+    <string name="select">"ବାଛନ୍ତୁ"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"%1$d  ଚୟନ ହୋଇ ନ ଥିବା ଫୋଟୋ ସେଭ୍ କରିବେ କି?"</item>
+        <item quantity="other">"%1$d  ଚୟନ ହୋଇ ନ ଥିବା ଫୋଟୋ ସେଭ୍ କରିବେ କି?"</item>
+    </plurals>
+    <string name="popup_title_save_all_selected">"ସମସ୍ତ ଫୋଟୋ ସେଭ୍ କରିବେ?"</string>
+    <string name="keep_all">"ସବୁଗୁଡ଼ିକ ସେଭ୍ କରନ୍ତୁ"</string>
+    <plurals name="keep_selected">
+        <item quantity="one">"କେବଳ %1$d ଚୟନ ହୋଇଥିବା ଫୋଟୋ ସେଭ୍ କରନ୍ତୁ"</item>
+        <item quantity="other">"କେବଳ %1$d ଚୟନ ହୋଇଥିବା ଫୋଟୋ ସେଭ୍ କରନ୍ତୁ"</item>
+    </plurals>
+    <string name="burst_progress_dialog_title">"ପ୍ରୋସେସ୍ କରୁଛି…"</string>
+    <string name="side_bar_all_photos">"ସମସ୍ତ"</string>
+    <string name="side_bar_photo">"ଫୋଟୋ"</string>
+    <string name="side_bar_video">"ଭିଡ଼ିଓ"</string>
+    <string name="side_bar_album">"ଆଲବମ୍‌"</string>
+    <string name="label_select">"ବାଛନ୍ତୁ"</string>
+    <string name="no_photo_or_video">""ନା %1$s"</string>
+    <string name="no_photo_or_video_hint">"ଏହି ଡିଭାଇସରେ ସେଭ୍ ହୋଇଥିବା ଫୋଟୋ କିମ୍ବା ଭିଡିଓଗୁଡ଼ିକ ଏଠାରେ ପ୍ରଦର୍ଶିତ ହେବ ।"</string>
+    <string name="detail_pop_title">"ମେସେଜ"</string>
+    <string name="detail_date_info_format">"ମାସ, ଦିନ, ବର୍ଷ"</string>
+    <string name="detail_more">"ଅଧିକ"</string>
+    <string name="floatwindow_unsupported_device">"ଏହି ଡିଭାଇସରେ ଫ୍ଲୋଟ୍ ୱିଣ୍ଡୋ ସପୋର୍ଟ କରୁନାହିଁ"</string>
+    <string name="floatwindow_unsupported_camera">"ଫ୍ଲୋଟ୍ ୱିଣ୍ଡୋ କ୍ୟାମେରାରେ ସପୋର୍ଟ କରୁନାହିଁ"</string>
+    <string name="floatwindow_unsupported_streaming">"ଷ୍ଟ୍ରିମିଂ ଭିଡିଓ ପ୍ଲେ କରିବା ସମୟରେ ଫ୍ଲୋଟ୍ ୱିଣ୍ଡୋ ସପୋର୍ଟ କରୁନାହିଁ"</string>
+    <string name="stream_screenshot_not_supported">"ଷ୍ଟ୍ରିମିଂ ଭିଡିଓ ପ୍ଲେ କରିବା ସମୟରେ କ୍ୟାପଚର୍ ଫଙ୍କସନ୍ ସପୋର୍ଟ କରୁନାହିଁ ।"</string>
+    <string name="database_exception">"ଡାଟା ପ୍ରୋସେସିଂ ବ୍ୟତିକ୍ରମ, ବିଫଳ ହୋଇଛି ।"</string>
+    <string name="exit_multiwindow_tips">"ମଲ୍ଟି-ୱିଣ୍ଡୋ ମୋଡ୍ ରେ ଫୋଟୋ ବ୍ରାଉଜ୍ କରିବା ସପୋର୍ଟ କରେ ନାହିଁ"</string>
+    <string name="exit_multiwindow_video_tips">"ମଲ୍ଟି-ୱିଣ୍ଡୋ ମୋଡ୍ ରେ ଭିଡିଓ ଦେଖିବା ସପୋର୍ଟ କରେ ନାହିଁ"</string>
+    <string name="decode_image_faild">"କ୍ରପ୍ ଇମେଜ୍ ବିଫଳ ହୋଇଛି"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"ଆଜି"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="movie_view_mms_processing_ok">"ଗ୍ରହଣ ସମ୍ପୂର୍ଣ୍ଣ ହେଲା"</string>
+    <string name="movie_view_sms_received_ok">"SMS ଗ୍ରହଣ"</string>
+    <string name="movie_view_mms_process_title">"MMS ପ୍ରକ୍ରିୟାକରଣ ଚାଲୁଅଛି"</string>
+    <string name="movie_view_sms_process_title">"SMS  ପ୍ରକ୍ରିୟା ଚାଲୁଅଛି"</string>
+    <string name="movie_view_mms_ok">"ଠିକଠାକ"</string>
+    <string name="invalid_rights">"ଏହି ଫାଇଲ୍‌ର କୌଣସି ବୈଧ ଲାଇସେନ୍ସ ନାହିଁ"</string>
+    <string name="drm_consume_hint">"ଆପଣଙ୍କ ଅପରେସନ୍ ଡିଆରଏମ୍ ଅଧିକାରର ବ୍ୟବହାର କରିବ"</string>
+    <string name="drm_consumed">"ଆପଣଙ୍କ ଅପରେସନ୍‌ Drm ଅଧିକାର ବ୍ୟବହାର କରିସାରିଛି"</string>
+    <string name="drm_consume_title">"ଡିଆରଏମ୍ ଅଧିକାର ଉପଭୋଗ କରନ୍ତୁ"</string>
+    <string name="choose_drm_alert">"DRM ଫାଇଲ ବାଛିହେବ ନାହିଁ, ଦୟାକରି ଅନ୍ୟଗୋଟିଏ ନିଅନ୍ତୁ"</string>
+    <string name="drm_unit_minutes">"S"</string>
+    <string name="album_set_loading_tip">"ଡାଟା ଲୋଡ୍ ହେଉଛି, ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ ।"</string>
+    <string name="slide_music_stop">"ସ୍ଲାଇଡ୍ ମ୍ୟୁଜିକ୍ ବନ୍ଦ ହୋଇଗଲା"</string>
+    <string name="distance_photo_unit_conversion">"ଏକକ ପରିବର୍ତ୍ତନ"</string>
+    <string name="unit">"କାମ"</string>
+    <string name="meter">"ମିଟର"</string>
+    <string name="centimeter">"ସେଣ୍ଟିମିଟର"</string>
+    <string name="foot">"ଫୁଟ୍‍"</string>
+    <string name="inch">"ଇଞ୍ଚ୍‍"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"ଏହି ଉପକରଣକୁ ଏହି ଭିଡିଓ ପ୍ରବାହିତ କରିବା ବୈଧ୍ୟ ନୁହେଁ ।"</string>
+    <string name="VideoView_error_text_unknown">"ଏହି ଭିଡିଓ ଚଲାଯାଇପାରିବ ନାହିଁ।"</string>
+    <string name="onesong">"1 ଗୀତ"</string>
+    <plurals name="Nsongs">
+        <item quantity="one">"<xliff:g id="count">%d</xliff:g> ଗୀତ"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> ଗୀତଗୁଡ଼ିକ"</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="one">"<xliff:g id="total_count">%1$d</xliff:g> ର <xliff:g id="count_for_artist">%2$d</xliff:g>  ଗୀତ"</item>
+        <item quantity="other">"<xliff:g id="total_count">%1$d</xliff:g> ଗୀତଗୁଡ଼ିକର <xliff:g id="count_for_artist">%2$d</xliff:g>"</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one">"1 ଆଲବମ୍"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> ଆଲବମ୍ ଗୁଡ଼ିକ"</item>
+    </plurals>
+    <string name="whoes_album">"ଙ୍କର ଆଲବମ୍"</string>
+    <string name="goto_start">"ଲାଇବ୍ରେରୀ"</string>
+    <string name="party_shuffle">"ପାର୍ଟି ସଫଲ୍"</string>
+    <string name="party_shuffle_off">"ପାର୍ଟି ସଫଲ୍ ବନ୍ଦ"</string>
+    <string name="delete_item">"କାଟ"</string>
+    <string name="shuffle_all">"ସମସ୍ତଙ୍କୁ ସଫଲ୍ କରନ୍ତୁ"</string>
+    <string name="play_all">"ସବୁଗୁଡ଼ିକ ବଜାନ୍ତୁ"</string>
+    <string name="delete_artist_desc">"SD କାର୍ଡରୁ <xliff:g id="artist">%s</xliff:g> ଦ୍ୱାରା ସ୍ଥାୟୀଭାବରେ ସବୁ ଗୀତ ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="delete_artist_desc_nosdcard">"USB ଷ୍ଟୋରେଜରୁ <xliff:g id="artist">%s</xliff:g> ଦ୍ୱାରା ସବୁ ଗୀତ ସ୍ଥାୟୀ ଭାବରେ ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="delete_album_desc">"SD କାର୍ଡରୁ ସ୍ଥାୟୀଭାବରେ ସମ୍ପୂର୍ଣ୍ଣ \"<xliff:g id="album">%s</xliff:g>\" ଆଲବମ୍ ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="delete_album_desc_nosdcard">"USB ଷ୍ଟୋରେଜରୁ ସ୍ଥାୟୀଭାବରେ ସମ୍ପୂର୍ଣ୍ଣ \"<xliff:g id="album">%s</xliff:g>\" ଆଲବମ୍ ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="delete_song_desc">"SD କାର୍ଡରୁ ସ୍ଥାୟୀଭାବରେ \"<xliff:g id="song">%s</xliff:g>\" ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="delete_song_desc_nosdcard">"USB ଷ୍ଟୋରେଜରୁ ସ୍ଥାୟୀଭାବରେ \"<xliff:g id="song">%s</xliff:g>\" ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="delete_confirm_button_text">"ଠିକଠାକ"</string>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one">"1 ଗୀତ ଡିଲିଟ୍ ହୋଇଥିଲା ।"</item>
+        <item quantity="other">"<xliff:g id="songs_to_delete">%d</xliff:g> ଗୀତ ଡିଲିଟ୍ ହୋଇଥିଲା ।"</item>
+    </plurals>
+    <string name="scanning">"SD କାର୍ଡ ସ୍କାନ୍ କରୁଛି…"</string>
+    <string name="scanning_nosdcard">"USB ଷ୍ଟୋରେଜ ସ୍କାନ୍ କରୁଛି…"</string>
+    <string name="nowplaying_title">"ବର୍ତ୍ତମାନ ବାଜୁଛି"</string>
+    <string name="partyshuffle_title">"ପାର୍ଟି ସଫଲ୍"</string>
+    <string name="artists_title">"କଳାକାରମାନେ"</string>
+    <string name="albums_menu">"ଆଲବମ୍ ଗୁଡ଼ିକ"</string>
+    <string name="albums_title">"ଆଲବମ୍ ଗୁଡ଼ିକ"</string>
+    <string name="tracks_menu">"ଗୀତଗୁଡ଼ିକ"</string>
+    <string name="tracks_title">"ଗୀତଗୁଡ଼ିକ"</string>
+    <string name="playlists_menu">"ପ୍ଲେଲିଷ୍ଟଗୁଡ଼ିକ"</string>
+    <string name="playlists_title">"ପ୍ଲେଲିଷ୍ଟଗୁଡ଼ିକ"</string>
+    <string name="videos_title">"ଭିଡିଓଗୁଡ଼ିକ"</string>
+    <string name="all_title">"ସମସ୍ତ ମିଡିଆ"</string>
+    <string name="browse_menu">"କଳାକାରମାନେ"</string>
+    <string name="search_title">"ଖୋଜ"</string>
+    <string name="no_tracks_title">"କୌଣସି ଗୀତ ନାହିଁ"</string>
+    <string name="no_album_title">"କୌଣସି ଆଲବମ୍ ନାହିଁ"</string>
+    <string name="no_artist_title">"କୌଣସି ଆର୍ଟିଷ୍ଟ ନାହାଁନ୍ତି"</string>
+    <string name="no_folderlist_title">"କୌଣସି ଫୋଲ୍ଡର ନାହିଁ"</string>
+    <string name="no_videos_title">"କୌଣସି ଭିଡିଓ ନାହିଁ"</string>
+    <string name="no_playlists_title">"କୌଣସି ପ୍ଲେଲିଷ୍ଟ ନାହିଁ"</string>
+    <string name="delete_playlist_menu">"କାଟ"</string>
+    <string name="edit_playlist_menu">"ସଂଶୋଧନ କରନ୍ତୁ"</string>
+    <string name="rename_playlist_menu">"ପୁଣି ନାମ ଦିଅନ୍ତୁ"</string>
+    <string name="playlist_deleted_message">"ପ୍ଲେଲିଷ୍ଟ ଡିଲିଟ୍ ହୋଇଯାଇଛି ।"</string>
+    <string name="playlist_renamed_message">"ପ୍ଲେଲିଷ୍ଟ ରିନେମ୍ ହୋଇଛି ।"</string>
+    <string name="recentlyadded">"ନିକଟରେ ଯୋଡ଼ାଯାଇଛି"</string>
+    <string name="recentlyadded_title">"ନିକଟରେ ଯୋଡ଼ାଯାଇଛି"</string>
+    <string name="podcasts_listitem">"ପୋଡକାଷ୍ଟଗୁଡ଼ିକ"</string>
+    <string name="podcasts_title">"ପୋଡକାଷ୍ଟଗୁଡ଼ିକ"</string>
+    <string name="sdcard_missing_title">"କିଛି SD କାର୍ଡ଼ ନାହିଁ"</string>
+    <string name="sdcard_missing_title_nosdcard">"କୌଣସି USB ଷ୍ଟୋରେଜ ନାହିଁ"</string>
+    <string name="sdcard_missing_message">"ଆପଣଙ୍କ ଫୋନ୍ ରେ SD କାର୍ଡ ଇନସର୍ଟ କରାଯାଇ ନାହିଁ ।"</string>
+    <string name="sdcard_missing_message_nosdcard">"ଆପଣଙ୍କ ଫୋନ୍ ରେ USB ଷ୍ଟୋରେଜ ନାହିଁ ।"</string>
+    <string name="sdcard_busy_title">"SD କାର୍ଡ଼ ଅନୁପଲବ୍ଧ"</string>
+    <string name="sdcard_busy_title_nosdcard">"USB ଷ୍ଟୋରେଜ ଅନୁପଲବ୍ଧ"</string>
+    <string name="sdcard_busy_message">"ଆପଣଙ୍କ SD କାର୍ଡ ବ୍ୟସ୍ତ ଅଛି ।"</string>
+    <string name="sdcard_busy_message_nosdcard">"ଆପଣଙ୍କ USB ଷ୍ଟୋରେଜ ବ୍ୟସ୍ତ ଅଛି ।"</string>
+    <string name="sdcard_error_title">"SD କାର୍ଡ ତ୍ରୁଟି"</string>
+    <string name="sdcard_error_title_nosdcard">"USB ଷ୍ଟୋରେଜ ତ୍ରୁଟି"</string>
+    <string name="sdcard_error_message">"ଆପଣଙ୍କ SD କାର୍ଡରେ ଏକ ତ୍ରୁଟି ଦେଖାଦେଇଛି ।"</string>
+    <string name="sdcard_error_message_nosdcard">"ଆପଣଙ୍କ USB ଷ୍ଟୋରେଜରେ ଏକ ତ୍ରୁଟି ଦେଖାଦେଇଛି ।"</string>
+    <string name="unknown_artist_name">"ଅଜଣା କଳାକାର"</string>
+    <string name="unknown_album_name">"ଅଜଣା ଆଲବମ୍"</string>
+    <string name="shuffle_on_notif">"ସଫଲ୍ ଅନ୍ ଅଛି ।"</string>
+    <string name="shuffle_off_notif">"ସଫଲ୍ ବନ୍ଦ ଅଛି ।"</string>
+    <string name="repeat_off_notif">"ରିପିଟ୍ ବନ୍ଦ ଅଛି ।"</string>
+    <string name="repeat_current_notif">"ବର୍ତ୍ତମାନର ଗୀତ ରିପିଟ୍ କରୁଛି ।"</string>
+    <string name="repeat_all_notif">"ସମସ୍ତ ଗୀତ ରିପିଟ୍ କରୁଛି ।"</string>
+    <string name="ringtone_menu">"ଫୋନ୍ ରିଂଟୋନ୍ ଭାବରେ ବ୍ୟବହାର କରନ୍ତୁ"</string>
+    <string name="ringtone_menu_short">"ରିଂଟୋନ୍ ଭାବରେ ବ୍ୟବହାର କରନ୍ତୁ"</string>
+    <string name="ringtone_set">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ରିଂଟୋନ୍ ଭାବରେ ସେଟ୍ କରନ୍ତୁ ।"</string>
+    <string name="play_selection">"ଚଲାନ୍ତୁ"</string>
+    <string name="add_to_playlist">"ପ୍ଲେଲିଷ୍ଟରେ ଯୋଡ଼ନ୍ତୁ"</string>
+    <string name="show_artist">"ଆର୍ଟିଷ୍ଟ ସମ୍ବନ୍ଧୀୟ ତଥ୍ୟ ଦର୍ଶାନ୍ତୁ"</string>
+    <string name="delete_folder">"କାଟ"</string>
+    <string name="queue">"ବର୍ତ୍ତମାନର ପ୍ଲେଲିଷ୍ଟ"</string>
+    <string name="new_playlist">"ନୁଆ"</string>
+    <string name="new_playlist_name_template">"ନୂଆ ପ୍ଲେଲିଷ୍ଟ <xliff:g id="number">%d</xliff:g>"</string>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one">"ପ୍ଲେଲିଷ୍ଟରେ 1 ଗୀତ ଯୋଡ଼ାଗଲା ।"</item>
+        <item quantity="other">"ପ୍ଲେଲିଷ୍ଟରେ <xliff:g id="number" example="27">%d</xliff:g> ଗୀତ ଯୋଡ଼ାଗଲା ।"</item>
+    </plurals>
+    <string name="emptyplaylist">"ଚୟନ ହୋଇଥିବା ପ୍ଲେଲିଷ୍ଟ ଖାଲି ଅଛି ।"</string>
+    <string name="create_playlist_create_text">"ସଞ୍ଚୟ କରନ୍ତୁ"</string>
+    <string name="create_playlist_overwrite_text">"ଓଭରରାଇଟ୍ କରନ୍ତୁ"</string>
+    <string name="service_start_error_title">"ପ୍ଲେବ୍ୟାକ୍ ସମସ୍ୟା"</string>
+    <string name="service_start_error_msg">"ଗୀତ ବାଜି ପାରିବ ନାହିଁ ।"</string>
+    <string name="service_start_error_button">"ଠିକଠାକ"</string>
+    <string-array name="weeklist">
+        <item>"1 ସପ୍ତାହ"</item>
+        <item>"2 ସପ୍ତାହ"</item>
+        <item>"3 ସପ୍ତାହ"</item>
+        <item>"4 ସପ୍ତାହ"</item>
+        <item>"5 ସପ୍ତାହ"</item>
+        <item>"6 ସପ୍ତାହ"</item>
+        <item>"7 ସପ୍ତାହ"</item>
+        <item>"8 ସପ୍ତାହ"</item>
+        <item>"9 ସପ୍ତାହ"</item>
+        <item>"10 ସପ୍ତାହ"</item>
+        <item>"11 ସପ୍ତାହ"</item>
+        <item>"12 ସପ୍ତାହ"</item>
+    </string-array>
+    <string name="weekpicker_set">"ହୋଇଗଲା"</string>
+    <string name="weekpicker_title">"ସମୟ ସ୍ଥାପନ କରନ୍ତୁ"</string>
+    <string name="save_as_playlist">"ପ୍ଲେଲିଷ୍ଟଭାବରେ ସେଭ୍ କରନ୍ତୁ"</string>
+    <string name="clear_playlist">"ପ୍ଲେଲିଷ୍ଟ କ୍ଲିଅର୍ କରନ୍ତୁ"</string>
+    <string name="musicbrowserlabel">"ମ୍ୟୁଜିକ୍‌"</string>
+    <string name="musicshortcutlabel">"ମ୍ୟୁଜିକ୍ ପ୍ଲେଲିଷ୍ଟ"</string>
+    <string name="mediaplaybacklabel">"ମ୍ୟୁଜିକ୍‌"</string>
+    <string name="videobrowserlabel">"ଭିଡିଓଗୁଡ଼ିକ"</string>
+    <string name="mediapickerlabel">"ମ୍ୟୁଜିକ୍‌"</string>
+    <string name="playback_failed">"ଦୁଃଖିତ, ଫାଇଲ୍‍ ଚାଲିବାକୁ ବିଫଳ ।"</string>
+    <string name="remove_from_playlist">"ପ୍ଲେଲିଷ୍ଟରୁ ହଟାନ୍ତୁ"</string>
+    <string name="streamloadingtext">"<xliff:g id="host">%s</xliff:g> ସହ ସଂଯୋଗ କରୁଛି..."</string>
+    <string name="mediasearch">"ଏହା ବ୍ୟବହାର କରି <xliff:g id="term" example="Beethoven">%s</xliff:g>ଖୋଜନ୍ତୁ:"</string>
+    <string name="working_artists">"କଳାକରମାନେ…"</string>
+    <string name="working_albums">"ଆଲବମ୍ ଗୁଡ଼ିକ…"</string>
+    <string name="working_songs">"ଗୀତଗୁଡ଼ିକ…"</string>
+    <string name="working_playlists">"ପ୍ଲେଲିଷ୍ଟଗୁଡ଼ିକ…"</string>
+    <string name="sort_by_track">"ଟ୍ରାକ୍ ଗୁଡ଼ିକ"</string>
+    <string name="sort_by_album">"ଆଲବମ୍ ଗୁଡ଼ିକ"</string>
+    <string name="sort_by_artist">"କଳାକାରମାନେ"</string>
+    <string name="music_picker_title">"ମ୍ୟୁଜିକ୍ ଟ୍ରାକ୍ ଚୟନ କରନ୍ତୁ"</string>
+    <string name="search_settings_description">"କଳାକାର, ଆଲବମ୍, ଏବଂ ଟ୍ରାକ୍ ଗୁଡ଼ିକ"</string>
+    <string name="search_hint">"ମ୍ୟୁଜିକ୍ ସର୍ଚ୍ଚ କରନ୍ତୁ"</string>
+    <string name="search_result">"ପରିଣାମ ସର୍ଚ୍ଚ କରନ୍ତୁ"</string>
+    <string name="fast_scroll_alphabet">"\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="widget_initial_text">"ମ୍ୟୁଜିକ୍ ଚୟନ କରିବା ପାଇଁ ଟଚ୍ କରନ୍ତୁ ।"</string>
+    <string name="effectspanel">"ସାଉଣ୍ଡ ଇଫେକ୍ଟଗୁଡ଼ିକ"</string>
+    <string name="no_play">"ବର୍ତ୍ତମାନ ପ୍ଲେ ହେବ ନାହିଁ!"</string>
+    <string name="add_favourite_song">"ମୋ ପ୍ରିୟ ଗୀତର ଲିଷ୍ଟରେ ଆଡ୍ ହୋଇଛି"</string>
+    <string name="remove_favourite_song">"ମୋ ପ୍ରିୟ ଗୀତ ଲିଷ୍ଟରୁ ହଟାଇ ଦିଆଯାଇଛି"</string>
+    <string name="activity_title_delete">"ଗୀତଗୁଡ଼ିକ ହଟାନ୍ତୁ"</string>
+    <string name="activity_title">"ସଂଗୀତ ଯୋଡ଼ନ୍ତୁ"</string>
+    <string name="add_music">"ସଂଗୀତ ଯୋଡ଼ନ୍ତୁ"</string>
+    <string name="music_selected_all">"ସବୁ ଯାକ ବାଛନ୍ତୁ"</string>
+    <string name="confirm_add">"ଯୋଗ କରନ୍ତୁ"</string>
+    <string name="cancel_add">"ବାତିଲ କରନ୍ତୁ"</string>
+    <string name="delete_all_music">"ବାହାର କରି ଦିଅନ୍ତୁ"</string>
+    <string name="confirm_delete">"ବାହାର କରି ଦିଅନ୍ତୁ"</string>
+    <string name="music_selected_all_delete">"ଖାଲି ଗୋଟିଏ କୀ ଚୟନ କରନ୍ତୁ"</string>
+    <string name="music_cancle_selected_all">"ଅଲ୍‌କୁ ବାତିଲକରନ୍ତୁ"</string>
+    <string name="being_add">"ଯୋଡ଼ୁଛି, ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…"</string>
+    <string name="remove_track">"ହଟା ଯାଉଛି, ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…"</string>
+    <string name="invalid">"ଏହି ଡିରେକ୍ଟୋରୀ ଖୋଲି ପାରିବ ନାହିଁ"</string>
+    <string name="from_library">"ଲାଇବ୍ରେରୀରୁ ମ୍ୟୁଜିକ୍ ଯୋଡ଼ନ୍ତୁ"</string>
+    <string name="from_folder">"ଫୋଲ୍ଡରରୁ ମ୍ୟୁଜିକ୍ ଯୋଡ଼ନ୍ତୁ"</string>
+    <string name="lyrics_edit_title">"ଗୀତ ସମ୍ପାଦନା କରନ୍ତୁ"</string>
+    <string name="nolrc">"କୌଣସି ଗୀତ କିମ୍ବା ଫାଇଲ୍ ଅବୈଧ ନୁହେଁ"</string>
+    <string name="del_track">"ଆଇଟମ୍ ଗୁଡ଼ିକ ଡିଲିଟ୍ କରୁଛି, ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ…"</string>
+    <string name="ringtone_title_sim1">"SIM1 ଫୋନ୍ ରିଂଟୋନ୍"</string>
+    <string name="ringtone_title_sim2">"SIM2 ଫୋନ୍ ରିଂଟୋନ୍"</string>
+    <string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" SIM1 ଫୋନ୍ ରିଂଟୋନ୍ ଭାବରେ ସେଟ୍ କରନ୍ତୁ"</string>
+    <string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\ SIM2 ଫୋନ୍ ରିଂଟୋନ୍ ଭାବରେ ସେଟ୍ କରନ୍ତୁ"</string>
+    <string name="ring_set_fail">"ଦୁଃଖିତ, ଗୀତଟି ବାଜି ପାରିବ ନାହିଁ । ଦୟାକରି ଅନ୍ୟ ଏକ ଗୀତ ରିଂଟୋନ୍ ଭାବରେ ଚୟନ କରନ୍ତୁ"</string>
+    <string name="ring_set_silent_vibrate">"ବର୍ତ୍ତମାନର ମୋଡରେ କଷ୍ଟମ୍ ରିଂଟୋନ୍ ଗୁଡ଼ିକ ସପୋର୍ଟ ସମର୍ଥିତ ହେଉନାହିଁ"</string>
+    <string name="please_insert_sim_card">"ଦୟାକରି ଅତି କମ୍ ରେ ଗୋଟିଏ SIM କାର୍ଡ ଇନସର୍ଟ କରନ୍ତୁ"</string>
+    <string name="create_playlist_warning">"ନିକଟରେ ଯୋଡ଼ାଯାଇଥିବା ସହ ଏକା ନାମ ବ୍ୟବହାର କରିପାରିବ ନାହିଁ ।"</string>
+    <string name="overwrite_playlist_alert">""<xliff:g id="NAME">%s</xliff:g>" ରେ ଥିବା ପ୍ଲେଲିଷ୍ଟ ଡାଟା କ୍ଲିଅର ହୋଇଯିବ ।"</string>
+    <string name="playlist_created_message">"ପ୍ଲେଲିଷ୍ଟ ବନିଗଲା ।"</string>
+    <string name="overwrite_playlist_alert_rename">"<xliff:g id="NAME">%s</xliff:g> ରେ ଥିବା ପ୍ଲେଲିଷ୍ଟ ଡାଟା କଭର ହେବ ।"</string>
+    <string name="delete_artist">"\"<xliff:g id="artist">%s</xliff:g>\" ଅନୁଯାୟୀ ସ୍ଥାୟୀ ଭାବରେ ସମସ୍ତ ଗୀତଗୁଡ଼ିକ ଡିଭାଇସରୁ ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="delete_album">"ଡିଭାଇସରୁ ସମ୍ପୂର୍ଣ୍ଣ \"<xliff:g id="album">%s</xliff:g>\" ଆଲବମ୍ ସ୍ଥାୟୀଭାବରେ ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="delete_song">"ସ୍ଥାୟୀଭାବରେ ଡିଭାଇସରୁ \"<xliff:g id="song">%s</xliff:g>\" ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="delete_playlist">"ପ୍ଲେଲିଷ୍ଟରୁ "<xliff:g id="song">%s</xliff:g>" ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="delete_songs">"ଡିଭାଇସରୁ ସ୍ଥାୟୀ ଭାବରେ ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="display_music">"ମ୍ୟୁଜିକ୍‌"</string>
+    <string name="quit">"ତ୍ୟାଗ କରନ୍ତୁ"</string>
+    <string name="setting">"ସଂସ୍ଥାପନା"</string>
+    <string name="folder_menu">"ଫାଇଲ୍ ଫୋଲ୍ଡର"</string>
+    <string name="delete_playlist_message">"%1$s" ପ୍ଲେଲିଷ୍ଟ ଡିଲିଟ୍ କରିବା ପାଇଁ ଆପଣ ନିଶ୍ଚିତ କି?"</string>
+    <string name="delete_all_playlist">"ସମସ୍ତ ପ୍ଲେଲିଷ୍ଟ କ୍ଲିଅର କରନ୍ତୁ"</string>
+    <plurals name="NNNallSongsExist">
+        <item quantity="one">"ପ୍ଲେଲିଷ୍ଟରେ ଗୀତ ରହିଛି ।"</item>
+        <item quantity="other">"ପ୍ଲେଲିଷ୍ଟରେ ଗୀତଗୁଡ଼ିକ ରହିଛି ।"</item>
+    </plurals>
+    <plurals name="NNNaddsongtoplaylist">
+        <item quantity="one">"1 ଗୀତ ଯୋଡ଼ାଯାଇଛି,"</item>
+        <item quantity="other">"<xliff:g id="number" example="27">%d</xliff:g> ଗୀତଗୁଡ଼ିକ ଯୋଡ଼ାଯାଇଛି,"</item>
+    </plurals>
+    <plurals name="NNNsongAlreadyExist">
+        <item quantity="one">"ପ୍ଲେଲିଷ୍ଟରେ 1 ଗୀତ ପୂର୍ବରୁ ରହିଛି ।"</item>
+        <item quantity="other">"<xliff:g id="number" example="27">%d</xliff:g> ଗୀତଗୁଡ଼ିକ ପୂର୍ବରୁ ପ୍ଲେଲିଷ୍ଟରେ ରହିଛି ।"</item>
+    </plurals>
+    <string name="length_limited">"ସର୍ବାଧିକ ଦୈର୍ଘ୍ୟ ପର୍ଯ୍ୟନ୍ତ ନାମ"</string>
+    <string name="favorite_added">"ମୋ ପ୍ରିୟ ଗୀତ"</string>
+    <string name="add_playlist_title">"ପ୍ଲେ ଲିଷ୍ଟ ଆଡ୍ କରନ୍ତୁ"</string>
+    <string name="empty_play_list">"ପ୍ଲେ ଲିଷ୍ଟ ଖାଲି କରନ୍ତୁ"</string>
+    <string name="sort_by_time">"ସମୟ ଦ୍ୱାରା ବଛାଯାଇଛି"</string>
+    <string name="sort_by_name">"ନାମ ଦ୍ୱାରା ବଛାଯାଇଛି"</string>
+    <string name="share_error">"ନୋ ସେୟାରର ଆପ୍ଲିକେସନ୍!"</string>
+    <string name="no_search_result">"କୌଣସି ଗୀତ ମିଳିଲା ନାହିଁ"</string>
+    <string name="search_title_hint">"କଳାକାର, ଗୀତ କିମ୍ବା ଆଲବମ୍ଗୁଡ଼ିକ"</string>
+    <string name="toast_fileexplorer_internal_error">"ମ୍ୟୁଜିକ୍ ରେ ଅନୁମତି ମିଳିଲା ନାହିଁ!"</string>
+    <string name="fifty_min">"15 ମିନିଟ୍‌"</string>
+    <string name="theirty_min">"30 ମିନିଟ୍‌"</string>
+    <string name="sixty_min">"60 ମିନିଟ୍"</string>
+    <string name="ninety_min">"90 ମିନିଟ୍"</string>
+    <string name="self_define">"ପରମ୍ପରା"</string>
+    <string name="timer_option">"ସଫଳତାର ସହ ସେଟ୍ ହୋଇଛି, କାଉଣ୍ଟଡାଉନ ପରେ ମ୍ୟୁଜିକ୍ ବନ୍ଦ ହେବ ।"</string>
+    <string name="self_min">"ମିନଣ୍ଟ"</string>
+    <string name="timer_setting">"ଷ୍ଟପ୍ ଟାଇମର୍ ସେଟ୍ କରନ୍ତୁ"</string>
+    <string name="change_face">"ଫେସ୍ ବଦଳାନ୍ତୁ"</string>
+    <string name="timed_setting">"ବନ୍ଦ ହେବାର ସମୟ ଚୟନ କରନ୍ତୁ"</string>
+    <string name="time_warning">"କଷ୍ଟମ୍ ଟାଇମର୍ 1440  ମିନିଟ୍ (24 ଘଣ୍ଟା)ର ଉପର ଲିମିଟ୍ ଅତିକ୍ରମ କରଯାଇଛି !"</string>
+    <string name="time_min_warning">"କଷ୍ଟମ୍ ଟାଇମର୍ ଗୋଟିଏ ମିନିଟ୍ ରୁ କମ୍ ହେବା ଉଚିତ ନୁହେଁ!"</string>
+    <string name="no_allow_play_calling">"(ରେଡିଓ/ଭିଡିଓ) କଲ୍ ସମୟରେ ମ୍ୟୁଜିକ୍ ବଜାଇବାର ଅନୁମତି ନାହିଁ ।"</string>
+    <string name="songs_nums_for_suffix">"ଗୀତ"</string>
+    <string name="random_play_all">"ସବୁଗୁଡ଼ିକ ମିଶାଇ ପ୍ଲେ କରନ୍ତୁ"</string>
+    <string name="unable_to_connect_title">"ଫାଇଲ୍ ସହ ସଂଯୁକ୍ତ ହେବା ପାଇଁ ଅସମର୍ଥ"</string>
+    <string name="unable_to_connect_message">"ବର୍ତ୍ତମାନର ଫାଇଲ୍ ପାଇ ପାରିଲେ ନାହିଁ । ଦୟାକରି ସଂଯୋଗ ଯାଂଚ କରନ୍ତୁ"</string>
+    <string name="protect_information">"ତଥ୍ୟ ସୁରକ୍ଷିତ ରଖନ୍ତୁ"</string>
+    <string name="drm_file_name">"ଫାଇଲ୍ ନାମ:%1$s"</string>
+    <string name="drm_rights_validity">"ଅଧିକାର ବୈଧତା:ବୈଧ"</string>
+    <string name="drm_rights_invalidity">"ଅଧିକାର ବୈଧତା:ଅବୈଧ"</string>
+    <string name="drm_rights_status_transfer">"ଅଧିକାର ସ୍ଥିତି: ସ୍ଥାନାନ୍ତରିତ ହେବା ପାଇଁ ଅନୁମତିପ୍ରାପ୍ତ"</string>
+    <string name="drm_rights_status_untransfer">"ଅଧିକାର ସ୍ଥିତି: ସ୍ଥାନାନ୍ତରିତ ହେବା ପାଇଁ ଅନୁମତିପ୍ରାପ୍ତ ନୁହେଁ"</string>
+    <string name="drm_start_time">"ଆରମ୍ଭ ସମୟ:%1$s"</string>
+    <string name="drm_end_time">"ଶେଷ ସମୟ:%1$s"</string>
+    <string name="drm_expiration_time">"ଏକ୍ସପାରେସନ୍ ସମୟ:%1$s"</string>
+    <string name="drm_remain_times">"ବାକି ଥିବା ସମୟ: %1$s"</string>
+    <string name="drm_no_info">"କୌଣସି ତଥ୍ୟ ନାହିଁ"</string>
+    <string name="drm_unlimited_rights">"ଅସୀମ"</string>
+    <string name="drm_inactive_rights">"ଅଧିକାର ସକ୍ରିୟ ନୁହେଁ"</string>
+    <string name="statusbarlabel">"ମ୍ୟୁଜିକ୍ · "</string>
+    <string name="dock_forced_resizable">"ସ୍ପ୍ଲିଟ୍-ସ୍କ୍ରିନ୍ ସହ ଆପ୍ କାମ କରି ନ ପାରେ ।"</string>
+    <string name="error_choose_drm_for_gallery">"Drm ଫାଇଲ ଗୁଡିକୁ ସିଲେକ୍ଟ କରିହେବ ନାହିଁ"</string>
+    <string name="delete_from_device">"ଡିଭାଇସ୍ ରୁ ହଟାନ୍ତୁ"</string>
+    <string name="delete_from_playlist">"ପ୍ଲେଲିଷ୍ଟରୁ ଡିଲିଟ୍ କରିବେ କି?"</string>
+    <string name="ffx_dehaze">"ଡିହେଜ"</string>
+    <string name="select_music">"ସଂଗୀତ ଚୟନ କର"</string>
+    <string name="delete_all">"ସମସ୍ତ ଅପସାରଣ କରନ୍ତୁ"</string>
+    <string name="detail_location">"ଅବସ୍ଥାନ"</string>
+    <string name="label_yesterday">"ଗତକାଲି"</string>
+    <string name="refocus_photo_edit_save">"ସଞ୍ଚୟ କରନ୍ତୁ"</string>
+    <string name="no_touch_flip">"କୌଣସି ଟଚ୍ ଫ୍ଲିପ୍ ନାହିଁ"</string>
+    <string name="flip_summury">"ଇମେଜ୍ ଓଲଟାଇବା ପାଇଁ ଭାଇସ୍ କ୍ୟାମେରା 1s କଭର କରନ୍ତୁ"</string>
+    <string name="first_summary">"ଡିଫଲ୍ଟଭାବରେ ପୃଷ୍ଠା ତଳକୁ କରନ୍ତୁ"</string>
+    <string name="sencond_summury">"ଭଲ୍ୟୁମ୍ ଅଧିକ ଥିଲେ ପୃଷ୍ଠା ଉପରକୁ କରନ୍ତୁ"</string>
+    <string name="third_summury">"ଭଲ୍ୟୁମ୍ କମ୍ ଥିଲେ ପୃଷ୍ଠା ତଳକୁ କରନ୍ତୁ"</string>
+    <string name="fourth_summury">"ସାରାଂଶ:ଭଲ୍ୟୁମ କି ଉପରକୁ ନିଅ"</string>
+    <string name="dealing">"ଲୋଡ୍ ହେଉଛି…"</string>
+    <string name="select_tips">"ଚୟନ କରାଯାଇଥିବା ବସ୍ତୁ ବ୍ୟାକଗ୍ରାଉଣ୍ଡ ଅଟେ, ଦୟାକରି ଅଗ୍ରଭୂମି ସୀମାରେ ବିନ୍ଦୁ କୁ ପୁଣିଥରେ ପ୍ରସ୍ତୁତ କରନ୍ତୁ"</string>
+    <string name="definition_subject">"ବସ୍ତୁ ପରିଭାଷିତ କରନ୍ତୁ"</string>
+    <string name="fix_subject">"ଲକ୍ଷ ଭାବରେ ଅପଡେଟ କରନ୍ତୁ"</string>
+    <string name="fix_background">"ବ୍ୟାକଗ୍ରାଉଣ୍ଡ ଭାବରେ ଅପଡେଟ କରନ୍ତୁ"</string>
+    <string name="replace_background">"ବ୍ୟାକଗ୍ରାଉଣ୍ଡ ବଦଳାନ୍ତୁ"</string>
+    <string name="correct_object_tips">"ସେହି କ୍ଷେତ୍ର କୁ ଟିକେ ଝଲସିଆ କର ଯେଉଁଠାରେ ଆଉଟଲାଇନ କୁ ଗୋଟେ ଆଂଗୁଳିରେ ସଠିକ ଭାବରେ ପୂର୍ବାନୁମାନିତ ହୋଇପାରି ନାହିଁ,ତାପରେ ଚିତ୍ରକୁ ଲକ୍ଷିତ ବସ୍ତୁ ଭାବରେ ଅପଡେଟ କରିବା ପାଇଁ"ଅପଡେଟ ଆଜ ଟାର୍ଗେଟ"ଉପରେ କ୍ଲିକ କରନ୍ତୁ କିମ୍ବା ବ୍ୟାକଗ୍ରାଉଣ୍ଡ ରୂପରେ ଅପଡେଟ କରିବା ପାଇଁ "ଅପଡେଟ ଆଜ ବ୍ଯାକଗ୍ରାଉଣ୍ଡ"ଉପରେ କ୍ଲିକ କରନ୍ତୁ |ଅପଡେଟ କରିବା ପାଇଁ ଏବଂ ଅଧିକ ସଠିକ କରିବା ପାଇଁ ଆପଣ ଜୁମ ଆଂଗୁଳି ସହିତ ଜୁମ୍‍ ଭି କରିପାରିବେ ଏବଂ ସ୍ଥାନାନ୍ତରିତ କରିପାରିବେ"</string>
+    <string name="def_object_tips">"ବସ୍ତୁ ପରିଭାଷିତ କରନ୍ତୁ: ସେହି ବସ୍ତୁ ର ଆଉଟଲାଇନ କୁ କଭର କରିବା ପାଇଁ ଏକ ଆୟତାକାର ବନାନ୍ତୁ ଯାହାକୁ ଆପଣ ବାହାର କରିବାକୁ ଚାହୁଁଛନ୍ତି"</string>
+    <string name="valid_point">"ପ୍ରାରମ୍ଭିକ ବିନ୍ଦୁ କିମ୍ବା ସମାପ୍ତି ବିନ୍ଦୁ ମାନ୍ୟ ସୀମା ଭିତରେ ନାହିଁ"</string>
+    <string name="small_rect">"ଅଙ୍କା ଯାଇଥିବା ଆୟତାକାର ଟି ବହୁତ ଛୋଟ"</string>
+    <string name="add">"ଯୋଗ କରନ୍ତୁ"</string>
+    <string name="use_phone_photo">"ଦୟାକରି ଆପଣଙ୍କ ଦ୍ୱାରା ନିଆଯାଇଥିବା ଫଟ କୁ ବ୍ୟବହାର କର"</string>
+    <string name="extract_failed">"ବାହାର କରିବା ଫେଲ ହୋଇଗଲା, ଦୟାକରି ଆଉଥରେ ଆରମ୍ଭ କରନ୍ତୁ"</string>
+    <string name="blending_success">"ଛବି ମିଶ୍ରଣ ସଫଳ,ଅପରେସନ ଜାରି ରଖନ୍ତୁ କିମ୍ବା ଏକ୍ଝିଟ ବଟନ୍‍ ପ୍ରେସ କରନ୍ତୁ"</string>
+    <string name="blending_failed">"ଛବି ମିଶ୍ରଣ ବିଫଳ"</string>
+    <string name="extract_failed_notforground">"ବାହାର କରିବା ଫେଲ ହୋଇଗଲା, ଅଗ୍ରଭୂମି ବସ୍ତୁ ନାହିଁ ଦୟାକରି ଆଉଥରେ ଆରମ୍ଭ କରନ୍ତୁ"</string>
+    <string name="extract_failed_nomemory">"ବାହାର କରିବା ଫେଲ ହୋଇଗଲା, ମେମୋରି ବହୁତ କମ, ଦୟାକରି ଆଉଥରେ ଆରମ୍ଭ କରନ୍ତୁ"</string>
+    <string name="extract_timeout">"ବାହାର କରିବା ଟାଇମ ସରିଗଲା, ଦୟାକରି ଆଉଥରେ ଆରମ୍ଭ କରନ୍ତୁ"</string>
+    <string name="extract_forground">"ଅଗ୍ରଭୂମି ଲକ୍ଷ ବାହାର କରିବା, ଦୟାକରି କିଛି ସମୟ ଅପେକ୍ଷା କରନ୍ତୁ|"</string>
+    <string name="update_forground">"ଅଗ୍ରଭୂମି ଲକ୍ଷ ଅପଡେଟ ହେଉଛି, ଦୟାକରି କିଛି ସମୟ ଅପେକ୍ଷା କରନ୍ତୁ|"</string>
+    <string name="blending_image">"ଛବି ମିଶ୍ରଣ,ଦୟାକରି କିଛି ସମୟ ଅପେକ୍ଷା କରନ୍ତୁ|"</string>
+    <string name="select_foreground_subject">"ଅଗ୍ରଭୂମି ଲକ୍ଷ ଚୟନ କରିବା ପାଇଁ କ୍ଲିକ କରନ୍ତୁ"</string>
+    <string name="adjust_foreground_subject">"ଅଗ୍ରଭୂମି ଲକ୍ଷ କୁ ସମଯୋଜିତ କରନ୍ତୁ"</string>
+    <string name="correct_subject_outline">"ଠିକ ଲକ୍ଷ ରୂପରେଖ"</string>
+    <string name="edit_background">"ବ୍ୟାକଗ୍ରାଉଣ୍ଡ ଏଡିଟ କର"</string>
+    <string name="verify_prompt">"ବର୍ତ୍ତମାନ ର ସ୍ଥିତି ଧାର ଠୁ ବହୁତ ପାଖରେ, ଯଦ୍ୱାରା ବହୁତ ଖରାପ ପ୍ରଭାବ ପଡିବ, ଆପଣ କଣ ମିଶ୍ରଣ କରିବାକୁ ସୁନିଶ୍ଚିତ?"</string>
+    <string name="fg_too_large">"ଅଗ୍ରଭୂମି ଲକ୍ଷ ମିଶ୍ରଣ ପାଇଁ ବହୁତ ବଡ"</string>
+    <string name="draw_tips">"ଦୟାକରି ଧଳା ଆୟତାକାର ଭିତରେ ଆଙ୍କନ୍ତୁ"</string>
+    <string name="undo_faild">"ଅଣ୍ଡୋ ଅପରେସନ ବିଫଳ"</string>
+    <string name="get_forfround_tips">"ସମସ୍ତ ଅଗ୍ରଭୂମି ବିଷୟ  ପୃଷ୍ଠଭୂମି ରେ ବଦଳିବାରେ ଅସମର୍ଥ| ଦୟାକରି ଆଉଥରେ ବାହାର କରନ୍ତୁ|"</string>
+    <string name="blending_move_limit">"ସ୍କ୍ରିନ ର ଧାର ପର୍ଯ୍ୟନ୍ତ ପହଁଚି ଗଲଣି ଏବେ ଆଉ କିଛି କର ନାହିଁ,ଦୟାକରି ଚାଲୁ ରଖିବା ପାଇଁ ସ୍ଥିତି ସମଯୋଜିତ କରନ୍ତୁ"</string>
+    <string name="init_bitmap_faild">"ଚିତ୍ର ବିଫଳତା , ଆଉଥରେ ଚେଷ୍ଟା କରନ୍ତୁ"</string>
+    <string name="next_video">"ପରବର୍ତ୍ତୀ ଭିଡିଓ"</string>
+    <string name="pre_video">"ପୂର୍ବ ଭିଡିଓ"</string>
+    <string name="lock_control">"ଲକ ନିୟନ୍ତ୍ରଣ"</string>
+    <string name="lock_orintation">"ଲକ ଓରିଏଣ୍ଟେସନ"</string>
+    <string name="print_screen">"ପ୍ରିଣ୍ଟ ସ୍କ୍ରିନ"</string>
+    <string name="float_player">"ଫ୍ଲୋଟ ପ୍ଲେୟାର"</string>
+    <string name="scale_screen">"ସ୍କେଲ ସ୍କ୍ରିନ"</string>
+    <string name="back">"ପଛ"</string>
+    <string name="over_flow">"ଓଭର ଫ୍ଲୋ"</string>
+    <string name="slide_music_play_fail">"ଦୁଃଖିତ, ପ୍ଲେ ଫାଇଲ ବିଫଳ"</string>
+    <string name="refocus_quit">"ତ୍ୟାଗ କରନ୍ତୁ"</string>
+    <string name="refocus_save_change">"ପରବର୍ତ୍ତନ କୁ ସୁରକ୍ଷିତ କର"</string>
+    <string name="refocus_confirm_save">"ଆପଣ କଣ ସିଧା ସୁରକ୍ଷା କିମ୍ବା ବାହାରକୁ ଯିବାକୁ ଚାହୁଁଛନ୍ତି?"</string>
+    <string name="refocus_save_success">"ସଫଳତାର ସହ ସଂରକ୍ଷଣ କରନ୍ତୁ"</string>
+    <string name="refocus_save_fail">"ସୁରକ୍ଷା ବିଫଳ"</string>
+    <string name="none_input_tips">"ନାମ ଶୂନ୍ୟ ହୋଇପାରିବ ନାହିଁ"</string>
+    <string name="floatview_notification_text">"ଭିଡିଓ ଫ୍ଲୋଟ ୱିଣ୍ଡୋ ରେ ଚାଲୁଛି"</string>
+    <string name="voice_photo">"ଅଡ଼ିଓ ନୋଟ୍‌"</string>
+    <string name="continuous_shooting">"ବର୍ଷ୍ଟ"</string>
+    <string name="refocus_image">"ଝଲସା ଚିତ୍ର"</string>
+    <string name="blur_image_wait">"ଝଲସା ଚିତ୍ର ପ୍ରସଂସ୍କରଣ ଚାଲିଛି, ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ"</string>
+    <string name="blur_save_fail">"ଝଲସା ଚିତ୍ର ସେଭ ବିଫଳ"</string>
+    <string name="refocus_init_fail">"ଡାଟା ଇନ ଇଟ ବିଫଳ"</string>
+    <string name="conversing">"କଥା ବାର୍ତ୍ତା"</string>
+    <string name="share_as_image">"ଏକ ଚିତ୍ର ସେୟାର କରନ୍ତୁ"</string>
+    <string name="share_as_video">"ଏକ ଭିଡିଓ ଭାବରେ ସେୟାର କରନ୍ତୁ"</string>
+    <string name="converse_video_failed">"ଭିଡିଓ ସହିତ କଥା ବାର୍ତ୍ତା ବିଫଳ"</string>
+    <string name="app_photo_edit">"ଫୋଟ ଏଡିଟ"</string>
+    <string name="cant_select_file">"ଅସମର୍ଥିତ ଫାଇଲ"</string>
+    <string name="input_reached_max_length">"ଇନପୁଟ୍ ସର୍ବାଧିକ ଦୈର୍ଘ୍ୟ ପର୍ଯ୍ୟନ୍ତ ପହଞ୍ଚିଛି"</string>
+
+</resources>

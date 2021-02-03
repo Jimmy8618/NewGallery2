@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galleria"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d.%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d.%2$02d.%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Videosoitin"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Ladataan videota…"</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Jatka videon toistoa"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Jatketaanko toistoa kohdasta ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Jatka toistoa"</string>
+    <string name="loading" msgid="7038208555304563571">"Ladataan…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Ei voi ladata"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Kuvaa ei voi ladata"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Ei pikkukuvaa"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Aloita alusta"</string>
+    <string name="ok" msgid="5296833083983263293">"OK"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Tallennetaan kuvaa…"</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Tallennetaan kuvaa albumiin <xliff:g id="ALBUM_NAME">%1$s</xliff:g>..."</string>
+    <string name="crop_label" msgid="521114301871349328">"Leikkaa kuvaa"</string>
+    <string name="trim_label" msgid="274203231381209979">"Lyhennä videota"</string>
+    <string name="select_image" msgid="7841406150484742140">"Valitse valokuva"</string>
+    <string name="select_video" msgid="4859510992798615076">"Valitse video"</string>
+    <string name="select_item" msgid="2816923896202086390">"Valitse kohde"</string>
+    <string name="select_album" msgid="1557063764849434077">"Valitse albumi"</string>
+    <string name="select_group" msgid="6744208543323307114">"Valitse ryhmä"</string>
+    <string name="set_image" msgid="2331476809308010401">"Aseta kuva"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"taustakuvaksi"</string>
+    <string name="delete" msgid="2839695998251824487">"Poista"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Poistetaanko valittu kohde?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Poistetaanko valitut kohteet?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Vahvista"</string>
+    <string name="cancel" msgid="3637516880917356226">"Peruuta"</string>
+    <string name="share" msgid="3619042788254195341">"Jaa"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Jaa panoraama"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Jaa kuvana"</string>
+    <string name="deleted" msgid="6795433049119073871">"Poistettu"</string>
+    <string name="undo" msgid="2930873956446586313">"KUMOA"</string>
+    <string name="select_all" msgid="3403283025220282175">"Valitse kaikki"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Poista kaikki valinnat"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Diaesitys"</string>
+    <string name="details" msgid="8415120088556445230">"Tiedot"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d/%2$d kohdetta:"</string>
+    <string name="close" msgid="5585646033158453043">"Sulje"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Vaihda kameraan"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d valittu"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d valittu"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d valittu"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Näytä kartalla"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Kierrä vastapäivään"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Kierrä myötäpäivään"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Kohdetta ei löytynyt."</string>
+    <string name="edit" msgid="1502273844748580847">"Muokkaa"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Yksinkert. muokkaus"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Rajaa"</string>
+    <string name="trim_action" msgid="703098114452883524">"Leikkaa"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Mykistä"</string>
+    <string name="set_as" msgid="3636764710790507868">"Aseta"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Videon mykistys epäonnistui."</string>
+    <string name="video_err" msgid="7003051631792271009">"Videon toistaminen epäonnistui."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Sijainnin mukaan"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Ajan mukaan"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Tunnisteiden mukaan"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Ihmiset"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Albumin mukaan"</string>
+    <string name="untagged" msgid="7281481064509590402">"Merkitsemättömät"</string>
+    <string name="no_location" msgid="4043624857489331676">"Ei sijaintia"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Verkkoyhteysongelma – joitakin paikkoja ei voi tunnistaa."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Albumin valokuvia ei voi ladata. Yritä myöhemmin uudelleen."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Vain kuvat"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Vain videot"</string>
+    <string name="show_all" msgid="6963292714584735149">"Kuvat ja videot"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Kuvagalleria"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Ei valokuvia."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Rajattu kuva tallennettu kansioon <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Ei albumeja käytettävissä."</string>
+    <string name="empty_album" msgid="4542880442593595494">"0 kuvaa/videota saatavilla."</string>
+    <string name="done" msgid="217672440064436595">"Valmis"</string>
+    <string name="title" msgid="7622928349908052569">"Nimi"</string>
+    <string name="description" msgid="3016729318096557520">"Kuvaus"</string>
+    <string name="time" msgid="1367953006052876956">"Aika"</string>
+    <string name="location" msgid="3432705876921618314">"Sijainti"</string>
+    <string name="path" msgid="4725740395885105824">"Polku"</string>
+    <string name="width" msgid="9215847239714321097">"Leveys"</string>
+    <string name="height" msgid="3648885449443787772">"Korkeus"</string>
+    <string name="orientation" msgid="4958327983165245513">"Suunta"</string>
+    <string name="duration" msgid="8160058911218541616">"Kesto"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME-tyyppi"</string>
+    <string name="file_size" msgid="8486169301588318915">"Tiedoston koko"</string>
+    <string name="maker" msgid="7921835498034236197">"Tekijä"</string>
+    <string name="model" msgid="8240207064064337366">"Malli"</string>
+    <string name="flash" msgid="2816779031261147723">"Salama"</string>
+    <string name="aperture" msgid="5920657630303915195">"Aukko"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Polttoväli"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Valkotasapaino"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Valotusaika"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Manuaalinen"</string>
+    <string name="auto" msgid="4296941368722892821">"Autom."</string>
+    <string name="flash_on" msgid="7891556231891837284">"Salama käyt."</string>
+    <string name="flash_off" msgid="1445443413822680010">"Ei salamaa"</string>
+    <string name="unknown" msgid="3506693015896912952">"Tuntematon"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vanha"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Pika"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Valkaisu"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Sininen"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"MV"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Isku"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X-prosessi"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litografia"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Kaikki albumit"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Paikalliset albumit"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> tai alle"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> tai yli"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> – <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Tuo"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Tuonti valmis"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Valitse albumi"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Sekoita kaikki kuvat"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Valitse kuva"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Valitse kuvat"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Diaesitys"</string>
+    <string name="albums" msgid="7320787705180057947">"Albumit"</string>
+    <string name="times" msgid="2023033894889499219">"Kerrat"</string>
+    <string name="locations" msgid="6649297994083130305">"Sijainnit"</string>
+    <string name="people" msgid="4114003823747292747">"Henkilöt"</string>
+    <string name="tags" msgid="5539648765482935955">"Tunnisteet"</string>
+    <string name="group_by" msgid="4308299657902209357">"Ryhmittely"</string>
+    <string name="settings" msgid="1534847740615665736">"Asetukset"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Kamera"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Lataus"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Muokatut verkkokuvat"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Tuonti"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Kuvakaappaus"</string>
+    <string name="help" msgid="7368960711153618354">"Ohje"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Filminäkymä"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Ruudukkonäkymä"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Koko ruudun näkymä"</string>
+    <string name="trimming" msgid="9122385768369143997">"Leikataan"</string>
+    <string name="muting" msgid="5094925919589915324">"Mykistetään"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Odota"</string>
+    <string name="save_into" msgid="9155488424829609229">"Tallennetaan videota albumiin <xliff:g id="ALBUM_NAME">%1$s</xliff:g>..."</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Panoraamaa hahmonnetaan"</string>
+    <string name="save" msgid="613976532235060516">"Tallenna"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Skannataan sisältöä..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d kohdetta skannattu"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d kohde skannattu"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d kohdetta skannattu"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Järjestellään..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Skannaus valmis"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Tuodaan..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Tällä laitteella ei ole tuotavaa sisältöä."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"MTP-laitetta ei ole yhdistetty"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Kamera"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Katso video"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Videosoittimen aikapalkki"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Kamera"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Haku"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Kuvat"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Albumit"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d valokuva"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d valokuvaa"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Ei näppäimistöä, video käynnistää toiston "</string>
+    <string name="gif_decode_failed">"Bittikartta on liian suuri soitettavaksi"</string>
+    <string name="spaceLow_content">"Tallennus epäonnistui, järjestelmän varasto ei toimi."</string>
+    <string name="wait_for_deleting">"Poistetaan wait&#8230;"</string>
+    <string name="wait_for_rotating">"Kierretään wait&#8230;"</string>
+    <string name="video_bookmarks">"Kirjanmerkit"</string>
+    <string name="video_edit_bookmark">"Muokkaa"</string>
+    <string name="video_delete_bookmark">"Poista"</string>
+    <string name="empty_bookmarks">"Tyhjennä kirjainmerkki"</string>
+    <string name="do_not_save">"Peruuta"</string>
+    <string name="net_location">"Osoite"</string>
+    <string name="name">"Nimi"</string>
+    <string name="bookmark_needs_title">"Kirjanmerkillä on oltava nimi"</string>
+    <string name="bookmark_needs_url">"Kirjanmerkillä on oltava sijainti "</string>
+    <string name="bookmark_invalid_url">Sijainnin on alettava "http(s)://" tai "rtsp://"</string>
+    <string name="processing_please_wait">"Käsittelee, odota."</string>
+    <string name="bookmark_exist">"Kirjanmerkki on olemassa samalla sijainnilla."</string>
+    <string name="default_bookmark_title">"oletus_otsikko"</string>
+    <string name="bookmark_added">"Tallenna kirjanmerkit"</string>
+    <string name="albums_video">"Video"</string>
+    <string name="empty_album_video">"O videota käytettävissä."</string>
+    <string name="border_brush">"Harja"</string>
+    <string name="border_grunge">"Grunge"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Nauha"</string>
+    <string name="border_black">"Musta"</string>
+    <string name="border_black_rounded">"Musta_rd"</string>
+    <string name="border_white">"Valkoinen"</string>
+    <string name="border_white_rounded">"Valkoinen_rd"</string>
+    <string name="border_cream">"Kerma"</string>
+    <string name="border_cream_rounded">"Kerma_rd"</string>
+    <string name="no_face">"Ei kasvoa"</string>
+    <string name="can_not_share">"Valittu tiedosto on yli <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g> Jako ei ole mahdollista"</string>
+
+    <string name="video_save_to_bookmark">"Tallenna kirjanmerkkeihin"</string>
+    <string name="video_view_bookmarks">"Kirjanmerkit"</string>
+    <string name="movie_view_proxy_set">"Välimuistin asetus"</string>
+    <string name="movie_view_network">"Verkko"</string>
+    <string name="movie_view_apn_set">"Apn kirjoituksen asetus"</string>
+    <string name="movie_view_proxy_ip_set">"Välimuistin IP asetukset"</string>
+    <string name="movie_view_proxy_port_set">"Välimuistin portin asetukset"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP portin asetukset"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP Max portin asetukset"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP Min portin asetukset"</string>
+    <string name="movie_view_proxy_ok">"OK"</string>
+    <string name="movie_view_proxy_port_seterror_info">"Arvioidut portin asetusten on oltava kokonaislukuja annettujen kantamien välillä："</string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP pätemätön!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"Portti pätemätön!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Aseta ensin portin kantama ！"</string>
+    <string name="movie_view_proxy_enable">"Välimuisti kytketty päälle"</string>
+    <string name="movie_view_parameter_set">"Parametrin asetukset"</string>
+    <string name="dialog_dismiss">"Hylkää"</string>
+    <string name="gallery_error_title">"Galleriavirhe"</string>
+    <string name="videoplayer_error_title">"Videosoitinvirhe"</string>
+    <string name="error_permissions">"Sovelluksella ei ole sen suorittamiseen tarvittavia oikeuksia. Tarkista käyttöoikeusasetuksesi."</string>
+    <string name="gallery_premission_change">"Gallerian lupa muutettu, valitse uudestaan"</string>
+    <string name="gallery_premission_error">"Gallerian lupavirhe, aseta gallerialuvat uudestaan."</string>
+    <string name="already_exist">"Vaikutus on jo olemassa"</string>
+    <string name="show_details_error">"Ladataan dataa, kokeile myöhemmin uudestaan."</string>
+    <string name="none_playback">"Ei toistoa"</string>
+    <string name="single_playback">"Yksi toisto"</string>
+    <string name="all_playback">"Kaikki toistot"</string>
+    <string name="playback_setting">"Toistotila"</string>
+    <string name="can_not_open_float_video">"Nykyinen videotaustakuva, videokuvia ei voi avata."</string>
+    <string name="video_file_does_not_exist">"Videotiedostoa ei ole olemassa"</string>
+    <string name="movie_view_goto">"Mene"</string>
+    <string name="no_search_app">"ei etsintäsovellusta"</string>
+    <string name="channel_setting_title">"Kanavan asetus"</string>
+    <string name="channel_setting_left">"Vasen"</string>
+    <string name="channel_setting_right">"Oikea"</string>
+    <string name="channel_setting_dual">"Kaksois"</string>
+    <string name="channel_setting_ok">"OK"</string>
+    <string name="channel_setting_cancel">"Peruuta"</string>
+    <string name="channel_setting">"Kanavan asetus"</string>
+    <string name="movie_view_calling_title">"Soittaa"</string>
+    <string name="movie_view_calling_msg">"Yirtä uudelleen puhelun lopettamisen jälkeen!"</string>
+    <string name="movie_view_calling_try">"Yritä"</string>
+    <string name="movie_view_calling_cancel">"Peruuta"</string>
+    <string name="time_out">"Aikaraja"</string>
+    <string name="time_out_message">"Verkoston anomaalit tai yhteyden aika-katkaisu, käynnistänkö uudelleen vai en?"</string>
+    <string name="headset">Kuuloke</string>
+    <string name="loud_speaker">"Äänekäs kaiutin"</string>
+    <string name="cannot_load_crop_image">"Sovelluksen käyntiaikamuisti ei riitä, kuvan lataus epäonnistui."</string>
+    <string name="back_exit">"poistuu, kun painat uudelleen"</string>
+    <string name="slideshow_music">"Liu\'uta musiikkia"</string>
+    <string name="system_ringtones">"Järjestelmän soittoäänet"</string>
+    <string name="user_defined">"Käyttäjä määritetty"</string>
+    <string name="cannot_play_music">"Ei voi toistaa musiikkia nyt"</string>
+    <string name="play_audio_failed">"Ei voi toistaa ääntä nyt"</string>
+    <string-array name="planets_array">
+        <item>"Kaikki videot"</item>
+        <item>"Paikalliset videot"</item>
+        <item>"Kuvatut videot"</item>
+        <item>"Viimeksi toistetut"</item>
+    </string-array>
+    <string name="last_play">"Viimeksi toistettu:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"poistetaanko nämä nyt?"</item>
+        <item quantity="other">"poistetaanko nämä nyt?"</item>
+    </plurals>
+    <string name="today">"Tänään"</string>
+    <string name="yesterday">"Eilen"</string>
+    <string name="earlier">"Aikaisemmin"</string>
+    <string name="drawer_open">"Videolista"</string>
+    <string name="drawer_close">"Kaikki videot"</string>
+    <string name="share_actionmode">"Jaa"</string>
+    <string name="delete_actionmode">"Poista"</string>
+    <string name="clear_all">"Pyyhi kaikki"</string>
+    <string name="video_list">"Videolista"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Poistetaanko valittu kohde?"</item>
+        <item quantity="other">"Poistetaanko valittu kohde?"</item>
+    </plurals>
+    <string name="current_select">"%d valittu"</string>
+    <string name="no_video_play_records">"Ei toistettavia tallenteita"</string>
+    <string name="no_videos">"Ei videoita"</string>
+    <string name="video_not_exist">"Videota ei ollut olemassa"</string>
+    <string name="save_picture">"Tallenne tallennettiin %s"</string>
+    <string name="mute">"Mykistetään"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Suojatiedot"</string>
+    <string name="drm_info">"Suojatiedot"</string>
+    <string name="file_name">"Tiedostonimi:"</string>
+    <string name="rights_validity">"Oikeuksien pätevyys:"</string>
+    <string name="rights_status">"Oikeuksien tila:"</string>
+    <string name="start_time">"Aloitusaika:"</string>
+    <string name="end_time">"Loppuaika:"</string>
+    <string name="expiration_time">"Loppumisaika:"</string>
+    <string name="remain_times">"Jäljellä olevat ajat:"</string>
+    <string name="rights_validity_valid">"Voimassa"</string>
+    <string name="rights_validity_invalid">"Ei voimassa"</string>
+    <string name="rights_status_share">"Saa lähettää eteenpäin"</string>
+    <string name="rights_status_not_share">"Ei saa lähettää eteenpäin"</string>
+    <string name="drm_rights_no_limit">"Rajoittamaton"</string>
+    <string name="drm_rights_unknown">"Tuntematon"</string>
+    <string name="drm_rights_inactive">"Oikeudet inaktiiviset"</string>
+    <string name="drm_file_invalid">"Tiedosto on mennyt umpeen"</string>
+    <string name="screenshot_failed">"Kuvakaappaus epäonnistui"</string>
+    <string name="floatwindow_unsupported_device">"Kohoikkunaa ei tueta tällä laitteella"</string>
+    <string name="floatwindow_unsupported_camera">"Kohoikkunaa ei tueta tässä kamerassa"</string>
+    <string name="floatwindow_unsupported_streaming">"Kohoikkunaa ei tueta kun streamataan videoita"</string>
+    <string name="stream_screenshot_not_supported">"Tallentamistoimintoa ei tueta kun streamataan videoita."</string>
+
+    <string name="movie_view_sms_received_ok">"sms vastaanotto"</string>
+    <string name="movie_view_mms_process_title">"Mms käsittelee"</string>
+    <string name="movie_view_sms_process_title">"Sms käsittelee"</string>
+    <string name="movie_view_mms_ok">"OK"</string>
+    <string name="movie_view_mms_processing_ok">"vastaanotto valmis"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="invalid_rights">"Tällä tiedostolla ei ole voimassaolevaa lisenssiä "</string>
+    <string name="choose_drm_alert">"Ei pysty valitsemaan Drm tiedostoa, Ota toinen "</string>
+    <string name="drm_consumed">"Toimintasi on kuluttaneet Drm oikeudet"</string>
+    <string name="drm_consume_title">"Kuluta Drm oikeuksia"</string>
+    <string name="drm_consume_hint">"Toimintasi kuluttaa Drm Oikeuksia"</string>
+    <string name="ffx_dehaze">"Dehaze"</string>
+    <string name="select_music">"Valitse musiikki"</string>
+    <string name="slidemusic">"Aseta diaesityksen musiikki"</string>
+    <string name="setas">"Aseta"</string>
+    <string name="slide_music_system_ringtones">"Järjestelmän soittoäänet"</string>
+    <string name="slide_music_user_defined">"Käyttäjä määritetty"</string>
+    <string name="remove_usbdisk">"Käyttäjän laite on poistettu"</string>
+    <string name="edit_crop_free">"Vapaa"</string>
+    <string name="edit_crop_square">"Neliö"</string>
+    <string name="edit_crop_origin">"Alkuperäinen"</string>
+    <string name="hide_albums">"Piilota albumit"</string>
+    <string name="show_local_albums">"Näytä paikalliset albumit"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"Valittu %1$d valokuva"</item>
+        <item quantity="other">"Valittu %1$d valokuvaa"</item>
+    </plurals>
+    <string name="select">"Valitse"</string>
+    <string name="popup_title_save_all_selected">"Tallennetaanko kaikki valokuvat?"</string>
+    <string name="keep_all">"Tallenna kaikki"</string>
+    <string name="delete_all">"Pyyhi kaikki"</string>
+    <string name="burst_progress_dialog_title">"Käsitellään..."</string>
+    <string name="side_bar_all_photos">"Kaikki"</string>
+    <string name="side_bar_photo">"Valokuvat"</string>
+    <string name="side_bar_video">"Videot"</string>
+    <string name="side_bar_album">"Albumit"</string>
+    <string name="label_select">"Valitse"</string>
+    <string name="no_photo_or_video">"Ei %1$s"</string>
+    <string name="no_photo_or_video_hint">"Tähän laitteeseen tallennetut valokuvat ja videot näkyvät tässä."</string>
+    <string name="detail_pop_title">"Tietoja"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"Lisää"</string>
+    <string name="detail_location">"Sijainti"</string>
+    <string name="database_exception">"Tietojenkäsittelyn poikkeus, toiminto epäonnistui."</string>
+    <string name="exit_multiwindow_tips">"Ei tue valokuvien selausta jaetun ruudun tilassa"</string>
+    <string name="exit_multiwindow_video_tips">"Ei tue videoiden katselua jaetun ruudun tilassa"</string>
+    <string name="decode_image_faild">"Kuvan rajaus epäonnistui"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"Tänään"</string>
+    <string name="label_yesterday">"Eilen"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"Tiedot latautuvat, odota hetki"</string>
+    <string name="refocus_photo_edit_save">"Tallenna"</string>
+    <string name="distance_photo_unit_conversion">"Yksiköiden muunto"</string>
+    <string name="unit">"Yksikkö"</string>
+    <string name="meter">"metri"</string>
+    <string name="centimeter">"Senttimetri"</string>
+    <string name="foot">"Jalka"</string>
+    <string name="inch">"Tuuma"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"Tätä videota ei voi suoratoistaa tässä palvelussa."</string>
+    <string name="VideoView_error_text_unknown">"Tätä videota ei voi toistaa."</string>
+    <string name="no_touch_flip">"kääntö koskematta"</string>
+    <string name="flip_summury">"käännä kuva peittämällä kamera 1 sekunnin ajaksi "</string>
+    <string name="first_summary">"sivu alas oletuksena"</string>
+    <string name="sencond_summury">"sivu ylös, kun äänenvoimakkuus ylös "</string>
+    <string name="third_summury">"sivua alas, kun äänenvoimakkuus alas "</string>
+    <string name="fourth_summury">"yhteenveto: pidä äänenvoimakkuuspainiketta "</string>
+    <string name="dealing">"Lataus..."</string>
+    <string name="slide_music_stop">"Diaesityksen musiikki loppui"</string>
+    <string name="select_tips">"Valittu kohde on tausta. Luo piste uudelleen etualan alueelle"</string>
+    <string name="definition_subject">"Määrittele kohde"</string>
+    <string name="fix_subject">"Päivitä kohteeksi"</string>
+    <string name="fix_background">"Päivitä taustaksi"</string>
+    <string name="replace_background">"Vaihda tausta"</string>
+    <string name="correct_object_tips">"Pyyhi alue, jossa ääriviiva ei ole tarkasti ennustettu yhdellä sormella, ja päivitä sitten maalattu alue kohteeksi valitsemalla "Päivitä kohteeksi" -painike tai taustaksi valitsemalla "Päivitä taustaksi" -painike. Voit myös zoomata ja siirtää kuvia kahden sormen eleillä päivittämisen tarkentamiseksi."</string>
+    <string name="def_object_tips">"Määrittele kohde: piirrä suorakaide, joka kattaa irrotettavan kohteen ääriviivat mahdollisimman tarkasti niiden mukaisesti."</string>
+    <string name="valid_point">"Aloitus- tai päättymiskohta ei ole kelpaavan alueen sisällä,"</string>
+    <string name="small_rect">"Piirretty suorakaide on liian pieni."</string>
+    <string name="add">"Lisää"</string>
+    <string name="use_phone_photo">"Käytä matkapuhelimella otettuja valokuvia"</string>
+    <string name="extract_failed">"Irrotus epäonnistui, aloita uudelleen"</string>
+    <string name="blending_success">"Kuvan sekoitus onnistui, jatka toimintoa tai lopeta painamalla Edellinen-painiketta"</string>
+    <string name="blending_failed">"Kuvan sekoitus epäonnistui"</string>
+    <string name="extract_failed_notforground">"Irrotus epäonnistui, ei edustakohde. Aloita uudelleen"</string>
+    <string name="extract_failed_nomemory">"Irrotus epäonnistui, muisti ei riitä. Aloita uudelleen"</string>
+    <string name="extract_timeout">"Irrotus aikakatkaistiin, aloita uudelleen"</string>
+    <string name="extract_forground">"Irrotetaan edustakohdetta, odota hetki."</string>
+    <string name="update_forground">"Päivitetään edustakohdetta, odota hetki."</string>
+    <string name="blending_image">"Sekoitetaan kuvaa, odota hetki."</string>
+    <string name="select_foreground_subject">"Valitse edustakohde napsauttamalla"</string>
+    <string name="adjust_foreground_subject">"Säädä edustakohdetta"</string>
+    <string name="correct_subject_outline">"Oikea kohteen ääriviiva"</string>
+    <string name="edit_background">"Muokkaa taustaa"</string>
+    <string name="verify_prompt">"Nykyinen paikka on liian lähellä reunaa, mikä voi huonontaa tehostetta. Haluatko varmasti tehdä sekoituksen?"</string>
+    <string name="fg_too_large">"Edustakohde on liian suuri sekoitettavaksi."</string>
+    <string name="draw_tips">"Piirrä pitkin valkoista suorakaidetta"</string>
+    <string name="undo_faild">"toiminnon kumoaminen epäonnistui"</string>
+    <string name="get_forfround_tips">"Kaikkia edustakohteita ei voi muuttaa taustaksi. Piirrä uudelleen."</string>
+    <string name="blending_move_limit">"Näytön reuna saavutettu. Ei uusia toimintoja, jatka muuttamalla sijaintia."</string>
+    <string name="init_bitmap_faild">"Kuvan saanti epäonnistui, yritä uudelleen"</string>
+    <string name="next_video">"SeurVideo"</string>
+    <string name="pre_video">"EdVideo"</string>
+    <string name="lock_control">"LukOhjaus"</string>
+    <string name="lock_orintation">"LukSuunta"</string>
+    <string name="print_screen">"TulNäyttö"</string>
+    <string name="float_player">"KellSoitin"</string>
+    <string name="scale_screen">"SkaalNäyttö"</string>
+    <string name="back">"Takaisin"</string>
+    <string name="over_flow">"Ylivuoto"</string>
+    <string name="slide_music_play_fail">"Ikävä kyllä tiedoston toisto epäonnistui"</string>
+    <string name="refocus_quit">"Lopeta"</string>
+    <string name="refocus_save_change">"Tallenna muutokset"</string>
+    <string name="refocus_confirm_save">"Haluatko tallentaa vai lopettaa suoraan?"</string>
+    <string name="refocus_save_success">"Tallensit onnistuneesti"</string>
+    <string name="refocus_save_fail">"Tallennus epäonnistui"</string>
+    <string name="none_input_tips">"Nimi ei voi olla tyhjä"</string>
+    <string name="floatview_notification_text">"Video toistetaan erillisessä ikkunassa."</string>
+    <string name="voice_photo">"Äänikuva"</string>
+    <string name="continuous_shooting">"Erote"</string>
+    <string name="refocus_image">"Pehmennä kuvaa"</string>
+    <string name="blur_image_wait">"Kuvan pehmennystä käsitellään, odota hetki"</string>
+    <string name="blur_save_fail">"Pehmennetyn kuvan tallennus epäonnistui"</string>
+    <string name="refocus_init_fail">"Tietojen alustus epäonnistui"</string>
+    <string name="conversing">"Muunnetaan"</string>
+    <string name="share_as_image">"Jaa kuvana"</string>
+    <string name="share_as_video">"Jaa videona"</string>
+    <string name="converse_video_failed">"Muunto videoksi epäonnistui."</string>
+    <string name="app_photo_edit">"Valokuvan muokkaus"</string>
+    <string name="cant_select_file">"Tiedostoa ei tueta"</string>
+    <string name="input_reached_max_length">"Syöttö saavutti maksimipituuden"</string>
+    <string name="v2_photo">"Valokuva"</string>
+    <string name="v2_album">"Albumi"</string>
+    <string name="v2_discover">"Etsi"</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">"%1$d kuva"</item>
+        <item quantity="one">"%1$d kuva"</item>
+        <item quantity="other">"%1$d kuvaa"</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">"%1$d video"</item>
+        <item quantity="one">"%1$d video"</item>
+        <item quantity="other">"%1$d videota"</item>
+    </plurals>
+    <string name="new_album">"Uusi albumi"</string>
+    <string name="already_select_count">"Valittu %1$d"</string>
+    <string name="no_photos_or_videos">"Ei valokuvia tai videoita."</string>
+    <string name="no_albums">"Ei albumeita."</string>
+    <string name="badname_as_point">"Ei saisi nimetä /,\\,. tai .., se voi sekoittua tiedostojärjestelmäsi kanssa "</string>
+    <string name="msg_folder_input_empty">"Tiedostonimi tyhjä"</string>
+    <string name="badname_endwith_point">"Kansion nimen loppu ei saa olla yhdessä ."</string>
+    <string name="illegal_chars_of_foldername">"Kansion nimessä ei saa olla kiellettyjä merkkejä \\:*?\"\u003C\u003E|/"</string>
+    <string name="msg_file_input_repeat">"Nimi %1$s on jo olemassa, kirjoita toinen."</string>
+    <string name="menu_mkdir_failed">"Kansion luonti epäonnistui %1$sti"</string>
+    <string name="add_to_album">"Lisää albumiin"</string>
+    <string name="internal_storage">"Sisäinen tallennustila"</string>
+    <string name="external_storage">"SD-kortti"</string>
+    <string name="my_album">"Oma albumi"</string>
+    <string name="failed_add_to_album">"Albumiin lisääminen epäonnistui"</string>
+    <string name="select_images_or_videos">"Valitse kuvat tai videot"</string>
+    <string name="fragment_state_lost_msg">"Tila kadonnut, käytä uudelleen"</string>
+    <string name="recently_deleted">"Äskettäin poistettu"</string>
+    <string name="trash_restore">Palauta</string>
+    <string name="wait_for_restoring">"Palautetaan, odota&#8230;"</string>
+    <plurals name="restore_selection">
+        <item quantity="one">"Palautetaanko valittu kohde?"</item>
+        <item quantity="other">"Palautetaanko valitut kohteet?"</item>
+    </plurals>
+    <string name="trash_date_tip">"Valokuvat poistetaan lopullisesti 30 päivän kuluttua."</string>
+    <plurals name="left_day">
+        <item quantity="one">"%1$d päivä"</item>
+        <item quantity="other">"%1$d päivää"</item>
+    </plurals>
+    <string name="tf_discover_things">"Esineet"</string>
+    <string name="tf_discover_people">"Ihmiset"</string>
+    <string name="tf_discover_location">"Sijainti"</string>
+    <string name="tf_unknown">"Tuntematon"</string>
+    <string name="tf_aircraft">"Lentokone"</string>
+    <string name="tf_animal">"Eläin"</string>
+    <string name="tf_baby">"Vauva"</string>
+    <string name="tf_basketball">"Koripallo"</string>
+    <string name="tf_bedroom">"Makuuhuone"</string>
+    <string name="tf_bicycle">"Polkupyörä"</string>
+    <string name="tf_bird">"Lintu"</string>
+    <string name="tf_bridge">"Silta"</string>
+    <string name="tf_building">"Rakennus"</string>
+    <string name="tf_bus">"Bussi"</string>
+    <string name="tf_car">"Auto"</string>
+    <string name="tf_cat">"Kissa"</string>
+    <string name="tf_classroom">"Luokkahuone"</string>
+    <string name="tf_conference_room">"Kokoushuone"</string>
+    <string name="tf_crawling_animal">"Ryömivä eläin"</string>
+    <string name="tf_desktop_computer">"Pöytätietokone"</string>
+    <string name="tf_document">"Asiakirja"</string>
+    <string name="tf_dog">"Koira"</string>
+    <string name="tf_electric_bicycle">"Sähköpolkupyörä"</string>
+    <string name="tf_evergreen">"Ikivihreä"</string>
+    <string name="tf_farmland">"Maatila"</string>
+    <string name="tf_fish">"Kala"</string>
+    <string name="tf_flower">"Kukka"</string>
+    <string name="tf_food">"Ruoka"</string>
+    <string name="tf_football">"Jalkapallo"</string>
+    <string name="tf_graduation_photo">"Valmistujaiskuva"</string>
+    <string name="tf_grassland">"Ruohikko"</string>
+    <string name="tf_group_photo">"Ryhmävalokuva"</string>
+    <string name="tf_helicopter">"Helikopteri"</string>
+    <string name="tf_kitchen">"Keittiö"</string>
+    <string name="tf_laptop">"Kannettava tietokone"</string>
+    <string name="tf_metro">"Metro"</string>
+    <string name="tf_mobile_phone">"Matkapuhelin"</string>
+    <string name="tf_motorcycle">"Moottoripyörä"</string>
+    <string name="tf_mountain">"Vuori"</string>
+    <string name="tf_office">"Toimisto"</string>
+    <string name="tf_parlour">"Salonki"</string>
+    <string name="tf_party">"Juhlat"</string>
+    <string name="tf_people">"Ihmiset"</string>
+    <string name="tf_playground">"Leikkikenttä"</string>
+    <string name="tf_river">"Joki"</string>
+    <string name="tf_road">"Tie"</string>
+    <string name="tf_sea">"Meri"</string>
+    <string name="tf_selfie">"Selfie"</string>
+    <string name="tf_ship">"Laiva"</string>
+    <string name="tf_shopping_mall">"Kauppakeskus"</string>
+    <string name="tf_sky">"Taivas"</string>
+    <string name="tf_telephone">"Puhelin"</string>
+    <string name="tf_train">"Juna"</string>
+    <string name="tf_tree">"Puu"</string>
+    <string name="tf_waiting_room">"Odotustila"</string>
+    <string name="tf_night_scene">"Öinen maisema"</string>
+    <string name="tf_cake">"Kakku"</string>
+    <string name="tf_lake">"Järvi"</string>
+    <string name="tf_indoor">"Sisätila"</string>
+    <string name="tf_computer">"Tietokone"</string>
+    <string name="tf_sport">"Urheilu"</string>
+    <string name="tf_sea_river">"Meri, joki, järvi"</string>
+    <string name="tf_phone">"Puhelin"</string>
+    <string name="move_out_of_this_classification">"Siirtymä"</string>
+    <string name="move_out_classification_dialog_title">"Haluatko varmasti poistaa valitut kohteet luokittelusta?"</string>
+    <string name="moving_out">"Siirrytään&#8230;"</string>
+    <string name="image">"Kuvat"</string>
+    <string name="video">"Videot"</string>
+    <string name="all_medias">"Kaikki"</string>
+    <string name="un_named">"Nimetön"</string>
+    <string name="move_out_of_this_people">"Siirtymä"</string>
+    <string name="move_out_people_dialog_title">"Haluatko varmasti poistaa valitut kohteet ihmisistä?"</string>
+    <string name="add_name">"Lisää nimi"</string>
+    <string name="illegal_chars_of_name">"Nimessä ei saa olla kiellettyjä merkkejä \\:*?\"\u003C\u003E|/"</string>
+    <string name="repeated_name">"Nimi on jo käytössä"</string>
+    <string name="replay">"Lopeta ja toista uudelleen"</string>
+    <string name="bokeh_editor">"Bokeh-muokkaus"</string>
+    <string name="merge_to">"Yhdistä:"</string>
+    <string name="hide_albums_v2">"Piilota albumit"</string>
+    <string name="request_delete_permission_title">"Annetaanko Gallerialle SD-kortin käyttöoikeus?"</string>
+    <string name="request_delete_permission_msg">"Galleria tarvitsee käyttöoikeuden valokuvien SD-korttiin tallennettujen valokuvien muokkaamiseen, poistamiseen tai siirtämiseen"</string>
+    <string name="no_delete_permission_title">"Ei voida suorittaa loppuun"</string>
+    <string name="no_delete_permission_msg">"Gallerialla ei ole SD-kortin käyttöoikeutta. Anna käyttöoikeus tai tyhjennä sovelluksen tallennustila ja yritä uudelleen."</string>
+    <string name="trash_restore_fail">"Korjaa vika"</string>
+    <string name="delete_drm_file">"DRM-tiedosto poistetaan pysyvästi, eikä sitä laiteta Äskettäin poistetut -kansioon. Haluatko varmasti jatkaa?"</string>
+    <string name="tf_discover_story">"Muistot"</string>
+    <string name="prefered_motion_photo">"Ensisijainen kuva"</string>
+    <string name="play_motion_photo">"Toista"</string>
+    <string name="stop_motion_photo">"Lopeta"</string>
+    <string name="superuser_request_confirm">"Videosoittimella ei ole SD-kortin käyttöoikeutta, valitse ulkoinen juurihakemisto SANDISK SD -kortti ja hyväksy videosoittimen toiminta"</string>
+    <string name="smarterase">"Älykäs poistaminen"</string>
+    <string name="share_max_warning">"Yli 100 tiedostoa oli valittuna eikä jakotoiminto ollut käytettävissä"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"Haluatko säilyttää sarjakuvauksen %1$d valokuvan?"</item>
+        <item quantity="other">"Haluatko säilyttää sarjakuvauksen muut %1$d valokuvaa?"</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"Tallenna vain %1$d valittu valokuva"</item>
+        <item quantity="other">"Tallenna vain %1$d valittua valokuvaa"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">"%1$d kohdetta valittu"</item>
+        <item quantity="one">"%1$d kohde valittu"</item>
+        <item quantity="other">"%1$d kohdetta valittu"</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"Poista %1$d valittu valokuva"</item>
+        <item quantity="other">"Poista %1$d valittua valokuvaa"</item>
+    </plurals>
+    <string name="no_sd_write_permission">"Videosoittimen käyttöoikeus ei riitä videoiden poistamiseen"</string>
+    <string name="next">"Seuraava"</string>
+</resources>

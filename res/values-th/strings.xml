@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"แกลเลอรี"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"โปรแกรมเล่นวิดีโอ"</string>
+    <string name="loading_video" msgid="4013492720121891585">"กำลังโหลดวิดีโอ..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"เล่นวิดีโอต่อ"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"ต้องการเล่นต่อจาก หรือไม่"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"เล่นต่อ"</string>
+    <string name="loading" msgid="7038208555304563571">"กำลังโหลด…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"ไม่สามารถโหลด"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"ไม่สามารถโหลดภาพ"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"ไม่มีภาพขนาดย่อ"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"เริ่มต้นใหม่"</string>
+    <string name="ok" msgid="5296833083983263293">"ตกลง"</string>
+    <string name="saving_image" msgid="7270334453636349407">"กำลังบันทึกภาพ..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"กำลังบันทึกภาพลงใน <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="crop_label" msgid="521114301871349328">"ตัดภาพ"</string>
+    <string name="trim_label" msgid="274203231381209979">"ตัดวิดีโอ"</string>
+    <string name="select_image" msgid="7841406150484742140">"เลือกรูปภาพ"</string>
+    <string name="select_video" msgid="4859510992798615076">"เลือกวิดีโอ"</string>
+    <string name="select_item" msgid="2816923896202086390">"เลือกรายการ"</string>
+    <string name="select_album" msgid="1557063764849434077">"เลือกอัลบั้ม"</string>
+    <string name="select_group" msgid="6744208543323307114">"เลือกกลุ่ม"</string>
+    <string name="set_image" msgid="2331476809308010401">"ตั้งค่าภาพเป็น"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"ภาพพื้นหลัง"</string>
+    <string name="delete" msgid="2839695998251824487">"ลบ"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"ลบรายการที่เลือกหรือไม่"</item>
+        <item msgid="5874316486520635333" quantity="other">"ลบรายการที่เลือกหรือไม่"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"ยืนยัน"</string>
+    <string name="cancel" msgid="3637516880917356226">"ยกเลิก"</string>
+    <string name="share" msgid="3619042788254195341">"แบ่งปัน"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"แบ่งปันภาพพาโนรามา"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"แบ่งปันเป็นรูปภาพ"</string>
+    <string name="deleted" msgid="6795433049119073871">"ลบแล้ว"</string>
+    <string name="undo" msgid="2930873956446586313">"เลิกทำ"</string>
+    <string name="select_all" msgid="3403283025220282175">"เลือกทั้งหมด"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"ยกเลิกการเลือกทั้งหมด"</string>
+    <string name="slideshow" msgid="4355906903247112975">"การนำเสนอภาพนิ่ง"</string>
+    <string name="details" msgid="8415120088556445230">"รายละเอียด"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d จาก %2$d รายการ:"</string>
+    <string name="close" msgid="5585646033158453043">"ปิด"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"สลับเป็นกล้องถ่ายรูป"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"เลือกไว้ %1$d"</item>
+        <item msgid="2478365152745637768" quantity="one">"เลือกไว้ %1$d"</item>
+        <item msgid="754722656147810487" quantity="other">"เลือกไว้ %1$d"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"แสดงบนแผนที่"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"หมุนไปทางซ้าย"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"หมุนไปทางขวา"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"ไม่พบรายการ"</string>
+    <string name="edit" msgid="1502273844748580847">"แก้ไข"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"แก้ไขแบบง่าย"</string>
+    <string name="crop_action" msgid="3427470284074377001">"ตัด"</string>
+    <string name="trim_action" msgid="703098114452883524">"ตัดแต่ง"</string>
+    <string name="mute_action" msgid="5296241754753306251">"ปิดเสียง"</string>
+    <string name="set_as" msgid="3636764710790507868">"ตั้งค่าเป็น"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"ไม่สามารถปิดเสียงวิดีโอ"</string>
+    <string name="video_err" msgid="7003051631792271009">"ไม่สามารถเล่นวิดีโอ"</string>
+    <string name="group_by_location" msgid="316641628989023253">"ตามตำแหน่ง"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"ตามเวลา"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"ตามแท็ก"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"จัดกลุ่มตามใบหน้าบุคคล"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"ตามอัลบั้ม"</string>
+    <string name="untagged" msgid="7281481064509590402">"ยกเลิกการติดแท็ก"</string>
+    <string name="no_location" msgid="4043624857489331676">"ไม่มีสถานที่"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"ไม่สามารถระบุบางตำแหน่งได้เนื่องจากปัญหาเกี่ยวกับเครือข่าย"</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"ไม่สามารถดาวน์โหลดรูปภาพในอัลบั้มนี้ โปรดลองอีกครั้งในภายหลัง"</string>
+    <string name="show_images_only" msgid="7263218480867672653">"เฉพาะภาพ"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"เฉพาะวิดีโอ"</string>
+    <string name="show_all" msgid="6963292714584735149">"ภาพและวิดีโอ"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"แกลเลอรีรูปภาพ"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"ไม่มีรูปภาพ"</string>
+    <string name="crop_saved" msgid="1595985909779105158">"บันทึกภาพที่ครอบตัดไว้ที่ <xliff:g id="FOLDER_NAME">%s</xliff:g>"</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"ไม่มีอัลบั้ม"</string>
+    <string name="empty_album" msgid="4542880442593595494">"O ภาพ/วิดีโอ"</string>
+    <string name="done" msgid="217672440064436595">"เสร็จสิ้น"</string>
+    <string name="title" msgid="7622928349908052569">"ชื่อ"</string>
+    <string name="description" msgid="3016729318096557520">"คำอธิบาย"</string>
+    <string name="time" msgid="1367953006052876956">"เวลา"</string>
+    <string name="location" msgid="3432705876921618314">"สถานที่"</string>
+    <string name="path" msgid="4725740395885105824">"เส้นทาง"</string>
+    <string name="width" msgid="9215847239714321097">"ความกว้าง"</string>
+    <string name="height" msgid="3648885449443787772">"ความสูง"</string>
+    <string name="orientation" msgid="4958327983165245513">"การวางแนว"</string>
+    <string name="duration" msgid="8160058911218541616">"ระยะเวลา"</string>
+    <string name="mimetype" msgid="8024168704337990470">"ประเภท MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"ขนาดไฟล์"</string>
+    <string name="maker" msgid="7921835498034236197">"ยี่ห้อ"</string>
+    <string name="model" msgid="8240207064064337366">"รุ่น"</string>
+    <string name="flash" msgid="2816779031261147723">"แฟลช"</string>
+    <string name="aperture" msgid="5920657630303915195">"รูรับแสง"</string>
+    <string name="focal_length" msgid="1291383769749877010">"ระยะโฟกัส"</string>
+    <string name="white_balance" msgid="1582509289994216078">"สมดุลแสงขาว"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"เวลารับแสง"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"มม."</string>
+    <string name="manual" msgid="6608905477477607865">"ปรับเอง"</string>
+    <string name="auto" msgid="4296941368722892821">"อัตโนมัติ"</string>
+    <string name="flash_on" msgid="7891556231891837284">"แฟลชทำงาน"</string>
+    <string name="flash_off" msgid="1445443413822680010">"ไม่เปิดแฟลช"</string>
+    <string name="unknown" msgid="3506693015896912952">"ไม่ทราบ"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"วินเทจ"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"รูปด่วน"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"ทำให้สีซีด"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"สีน้ำเงิน"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"ขาวดำ"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"พันช์"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"ครอสโพรเซส"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"ลาเต้"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"หิน"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"อัลบั้มทั้งหมด"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"อัลบั้มในเครื่อง"</string>
+    <string name="size_below" msgid="2074956730721942260">"ไม่เกิน <xliff:g id="SIZE">%1$s</xliff:g>"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> ขึ้นไป"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> ถึง <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"นำเข้า"</string>
+    <string name="import_complete" msgid="3875040287486199999">"นำเข้าเสร็จสมบูรณ์"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"เลือกอัลบั้ม"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"สุ่มภาพทั้งหมด"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"เลือกภาพ"</string>
+    <string name="widget_type" msgid="1364653978966343448">"เลือกภาพ"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"สไลด์โชว์"</string>
+    <string name="albums" msgid="7320787705180057947">"อัลบั้ม"</string>
+    <string name="times" msgid="2023033894889499219">"เวลา"</string>
+    <string name="locations" msgid="6649297994083130305">"สถานที่"</string>
+    <string name="people" msgid="4114003823747292747">"บุคคล"</string>
+    <string name="tags" msgid="5539648765482935955">"แท็ก"</string>
+    <string name="group_by" msgid="4308299657902209357">"จัดกลุ่มตาม"</string>
+    <string name="settings" msgid="1534847740615665736">"การตั้งค่า"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"กล้องถ่ายรูป"</string>
+    <string name="folder_download" msgid="7186215137642323932">"ดาวน์โหลด"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"รูปภาพออนไลน์ที่แก้ไขแล้ว"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"นำเข้าแล้ว"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"ภาพหน้าจอ"</string>
+    <string name="help" msgid="7368960711153618354">"ความช่วยเหลือ"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"มุมมองฟิล์มภาพยนตร์"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"มุมมองตาราง"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"มุมมองแบบเต็มหน้าจอ"</string>
+    <string name="trimming" msgid="9122385768369143997">"กำลังตัด"</string>
+    <string name="muting" msgid="5094925919589915324">"กำลังปิดเสียง"</string>
+    <string name="please_wait" msgid="7296066089146487366">"โปรดรอสักครู่"</string>
+    <string name="save_into" msgid="9155488424829609229">"กำลังบันทึกวิดีโอใน <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"กำลังแสดงภาพพาโนรามา"</string>
+    <string name="save" msgid="613976532235060516">"บันทึก"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"กำลังสแกนเนื้อหา..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"สแกน %1$d รายการแล้ว"</item>
+        <item msgid="4340019444460561648" quantity="one">"สแกน %1$d รายการแล้ว"</item>
+        <item msgid="3138021473860555499" quantity="other">"สแกน %1$d รายการแล้ว"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"กำลังจัดเรียง..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"สแกนเสร็จแล้ว"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"กำลังนำเข้า..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"ไม่มีเนื้อหาสำหรับการนำเข้าในอุปกรณ์นี้"</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"ไม่มีอุปกรณ์ MTP ที่เชื่อมต่อกัน"</string>
+    <string name="camera_label" msgid="6346560772074764302">"กล้อง"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"เล่นวิดีโอ"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"แถบเวลาของโปรแกรมเล่นวิดีโอ"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"กล้องถ่ายรูป"</string>
+    <string name="menu_search" msgid="7580008232297437190">"ค้นหา"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"รูปภาพ"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"อัลบั้ม"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d ภาพ"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d ภาพ"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"ไม่มีวีดีโอเฟรมหลัก จะเริ่มต้นเล่น"</string>
+    <string name="gif_decode_failed">"บิตแมปมีขนาดใหญ่เกินไปที่จะเล่น"</string>
+    <string name="spaceLow_content">"บันทึกการล้มเหลวของระบบอาจจะเป็นพื้นที่จัดเก็บไม่เพียงพอ".</string>
+    <string name="wait_for_deleting">"ลบโปรดรอ &#8230;"</string>
+    <string name="wait_for_rotating">"การหมุน,โปรดรอ&#8230;"</string>
+    <string name="video_bookmarks">"บุ๊กมาร์ก"</string>
+    <string name="video_edit_bookmark">แก้ไข</string>
+    <string name="video_delete_bookmark">ลบ</string>
+    <string name="empty_bookmarks">"บุ๊คมาร์คเปล่า"</string>
+    <string name="do_not_save">ยกเลิก</string>
+    <string name="net_location">"ที่อยู่"</string>
+    <string name="name">"ชื่อ"</string>
+    <string name="bookmark_needs_title">"มาร์คต้องมีชื่อ"</string>
+    <string name="bookmark_needs_url">"มาร์คต้องมีสถานที่"</string>
+    <string name="bookmark_invalid_url">ที่ตั้งจะต้องเริ่มต้นด้วย"http(s)://"หรือ"RTSP://"</string>
+    <string name="processing_please_wait">"ประมวลผลโปรดรอสักครู่."</string>
+    <string name="bookmark_exist">"มาร์คกับสถานที่เดียวกันอยู่."</string>
+    <string name="default_bookmark_title">"ชื่อเริ่มต้น"</string>
+    <string name="bookmark_added">"บันทึกบุ๊คมาร์ค"</string>
+    <string name="albums_video">"ภาพยนตร์"</string>
+    <string name="empty_album_video">"วิดีโอ O ใช้ได้."</string>
+    <string name="border_brush">"แปรง"</string>
+    <string name="border_grunge">"กรันจ์"</string>
+    <string name="border_sumi">"ซูมิ"</string>
+    <string name="border_tape">"เทป"</string>
+    <string name="border_black">"ดำ"</string>
+    <string name="border_black_rounded">"สีดำ_rd"</string>
+    <string name="border_white">"ขาว"</string>
+    <string name="border_white_rounded">"สีขาว_rd"</string>
+    <string name="border_cream">"ครีม"</string>
+    <string name="border_cream_rounded">"สีครีม_rd"</string>
+    <string name="no_face">"ไม่มีหน้า"</string>
+    <string name="can_not_share">"ไฟล์เลือกมากกว่า <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, คุณลักษณะที่ใช้ร่วมกันจะไม่สามารถใช้ได้"</string>
+
+    <string name="video_save_to_bookmark">"บันทึกไว้ในบุ๊กมาร์ก"</string>
+    <string name="video_view_bookmarks">"บุ๊กมาร์ก"</string>
+    <string name="movie_view_proxy_set">"การตั้งค่าพร็อกซี่"</string>
+    <string name="movie_view_network">"เครือข่าย"</string>
+    <string name="movie_view_apn_set">"รายการตั้งค่า APN"</string>
+    <string name="movie_view_proxy_ip_set">"ตั้งค่า IP พร็อกซี่"</string>
+    <string name="movie_view_proxy_port_set">"ตั้งค่าพอร์ตพร็อกซี"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"ตั้งค่าพอร์ต RTP / RTCP "</string>
+    <string name="movie_view_max_port_set">"ตั้งค่าพอร์ต RTP / RTCP มากที่สุด"</string>
+    <string name="movie_view_min_port_set">"ตั้งค่าพอร์ต RTP / RTCP น้อยที่สุด"</string>
+    <string name="movie_view_proxy_ok">ตกลง</string>
+    <string name="movie_view_proxy_port_seterror_info">"ตั้งค่าพอร์ตมูลค่าต้องเป็นจำนวนเต็มระหว่างช่วงที่กำหนด"</string>
+    <string name="movie_view_proxy_ip_seterror_info">"Ipไม่ถูกต้อง!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"พอร์ตที่ไม่ถูกต้อง!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"ตั้งช่วงพอร์ตแรก!"</string>
+    <string name="movie_view_proxy_enable">"พร็อกซีเปิด"</string>
+    <string name="movie_view_parameter_set">"ตั้งค่าพารามิเตอร์"</string>
+    <string name="dialog_dismiss">"เลิกแสดง"</string>
+    <string name="gallery_error_title">"ข้อผิดพลาดแกลลอรี่"</string>
+    <string name="videoplayer_error_title">"ข้อผิดพลาด เครื่องเล่นวิดีโอ"</string>
+    <string name="error_permissions">"แอปไม่มีสิทธิ์ที่จำเป็นในการเรียกใช้ โปรดตรวจสอบการตั้งค่าสิทธิ์ของคุณ"</string>
+    <string name="gallery_premission_change">"ได้รับอนุญาตเปลี่ยนแปลงแกลลอรี่,โปรดเลือกใหม่"</string>
+    <string name="gallery_premission_error">"ข้อผิดพลาด แกลลอรี่ได้รับอนุญาต,โปรดตั้งค่าสิทธิ์แกลเลอรี่."</string>
+    <string name="already_exist">"ผลที่มีอยู่แล้ว"</string>
+    <string name="show_details_error">"โหลดข้อมูลโปรดลองอีกครั้งในภายหลัง."</string>
+    <string name="none_playback">"ไม่มีการเล่น"</string>
+    <string name="single_playback">"เล่นเดี่ยว"</string>
+    <string name="all_playback">"เล่นทั้งหมด"</string>
+    <string name="playback_setting">"โหมดการเล่น"</string>
+    <string name="can_not_open_float_video">"วอลล์เปเปอร์วิดีโอปัจจุบัน,วิดีโอหน้าต่างลอยไม่สามารถเปิด."</string>
+    <string name="video_file_does_not_exist">"ไม่มีไฟล์วิดีโอ"</string>
+    <string name="movie_view_goto">"ไปที่"</string>
+    <string name="no_search_app">"ไม่มีการค้นหาแอป"</string>
+    <string name="channel_setting_title">"ตั้งค่าช่อง"</string>
+    <string name="channel_setting_left">"ซ้าย"</string>
+    <string name="channel_setting_right">"ขวา"</string>
+    <string name="channel_setting_dual">"คู่"</string>
+    <string name="channel_setting_ok">ตกลง</string>
+    <string name="channel_setting_cancel">ยกเลิก</string>
+    <string name="channel_setting">"ตั้งค่าช่อง"</string>
+    <string name="movie_view_calling_title">"กำลังโทร"</string>
+    <string name="movie_view_calling_msg">"โปรดลองอีกครั้งหลังวางสาย!"</string>
+    <string name="movie_view_calling_try">"ลอง"</string>
+    <string name="movie_view_calling_cancel">ยกเลิก</string>
+    <string name="time_out">"ระยะหมดเวลา"</string>
+    <string name="time_out_message">"ผิดปกติที่เครือข่ายหรือหมดเวลาการเชื่อมต่อ,ไม่ว่าจะเป็นการเริ่มต้นใหม่หรือไม่?"</string>
+    <string name="headset">หูฟัง</string>
+    <string name="loud_speaker">"ลำโพง"</string>
+    <string name="cannot_load_crop_image">"ความทรงจำ โปรแกรมประยุกต์รันไทม์ยังไม่พอ,โหลดภาพล้มเหลว."</string>
+
+    <string name="back_exit">"ออกเมื่อกดอีกครั้ง"</string>
+    <string name="slideshow_music">"สไลด์เพลง"</string>
+    <string name="system_ringtones">"ระบบเสียงเรียกเข้า"</string>
+    <string name="user_defined">"กำหนดผู้ใช้"</string>
+    <string name="cannot_play_music">"ขณะนี้ไม่สามารถเล่นเพลง"</string>
+    <string name="play_audio_failed">"ขณะนี้ไม่สามารถเล่นเสียง"</string>
+    <string-array name="planets_array">
+        <item>"วิดีโอทั้งหมด"</item>
+        <item>"วิดีโอท้องถิ่น"</item>
+        <item>"วิดีโอถ่ายทำ"</item>
+        <item>"เล่นเมื่อเร็วสักครู่"</item>
+    </string-array>
+    <string name="last_play">"เล่นครั้งสุดท้าย"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"ลบบันทึกตอนนี้หรือไม่"</item>
+        <item quantity="other">"ลบบันทึกตอนนี้หรือไม่"</item>
+    </plurals>
+    <string name="today">"วันนี้"</string>
+    <string name="yesterday">"เมื่อวานนี้"</string>
+    <string name="earlier">"ก่อนหน้านี้"</string>
+    <string name="drawer_open">"รายการวีดีโอ"</string>
+    <string name="drawer_close">"วิดีโอทั้งหมด"</string>
+    <string name="share_actionmode">"แบ่งปัน"</string>
+    <string name="delete_actionmode">"ลบ"</string>
+    <string name="clear_all">"ลบทั้งหมด"</string>
+    <string name="video_list">"รายการวีดีโอ"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"ลบรายการที่เลือกหรือไม่"</item>
+        <item quantity="other">"ลบรายการที่เลือกหรือไม่"</item>
+    </plurals>
+    <string name="current_select">"%d เลือก"</string>
+    <string name="no_video_play_records">"ไม่มีการบันทึกการเล่น"</string>
+    <string name="no_videos">"ไม่มีวิดีโอ"</string>
+    <string name="video_not_exist">"ไม่ได้มีวิดีโออยู่"</string>
+    <string name="save_picture">"จับได้รับการบันทึกไว้ใน%s"</string>
+    <string name="mute">"กำลังปิดเสียง"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"ข้อมูลการป้องกัน"</string>
+    <string name="drm_info">"ข้อมูลการป้องกัน"</string>
+    <string name="file_name">"ชื่อไฟล์:"</string>
+    <string name="rights_validity">"ตั้งแต่วันสิทธิ"</string>
+    <string name="rights_status">"สิทธิสถานะ:"</string>
+    <string name="start_time">"เวลาเริ่มต้น:"</string>
+    <string name="end_time">"เวลาจบ:"</string>
+    <string name="expiration_time">"เวลาหมดอายุ"</string>
+    <string name="remain_times">"เวลาเตือน"</string>
+    <string name="rights_validity_valid">"ใช้ได้"</string>
+    <string name="rights_validity_invalid">"ใช้ไม่ได้"</string>
+    <string name="rights_status_share">"ได้รับอนุญาตให้ได้รับการส่งต่อ"</string>
+    <string name="rights_status_not_share">"ไม่อนุญาตให้มีการส่งต่อ"</string>
+    <string name="drm_rights_no_limit">"ไม่ จำกัด "</string>
+    <string name="drm_rights_unknown">"ไม่ทราบ"</string>
+    <string name="drm_rights_inactive">"ไม่ได้ใช้สิทธิ"</string>
+    <string name="drm_file_invalid">"ไฟล์หมดอายุ"</string>
+    <string name="screenshot_failed">"ภาพหน้าจอล้มเหลว"</string>
+    <string name="floatwindow_unsupported_device">"หน้าต่างนี้ไม่ได้รับการสนับสนุนบนอุปกรณ์นี้"</string>
+    <string name="floatwindow_unsupported_camera">"หน้าต่างนี้ไม่ได้รับการสนับสนุนในกล้อง"</string>
+    <string name="floatwindow_unsupported_streaming">"หน้าต่างนี้ไม่สนับสนุนเมื่อเล่นวิดีโอสตรีมมิ่ง"</string>
+    <string name="stream_screenshot_not_supported">"ฟังก์ชั่นจับภาพไม่ได้รับการสนับสนุนในขณะที่เล่นวิดีโอสตรีมมิ่ง."</string>
+
+    <string name="movie_view_mms_processing_ok">"ได้รับเสร็จสิ้น"</string>
+    <string name="movie_view_sms_received_ok">"ส่งข้อความ"</string>
+    <string name="movie_view_mms_process_title">"Mms ประมวลผล"</string>
+    <string name="movie_view_sms_process_title">"Smsประมวลผล"</string>
+    <string name="movie_view_mms_ok">"ตกลง"</string>
+    <string name="invalid_rights">"แฟ้มนี้ไม่มีใบอนุญาต"</string>
+    <string name="choose_drm_alert">"ไม่สามารถเลือกไฟล์Drm โปรดใช้เวลาอีกหนึ่ง"</string>
+    <string name="drm_consume_title">"ผลาญDrmสงวน"</string>
+    <string name="drm_consume_hint">"การทำงานของคุณจะใช้สงวนDrm"</string>
+    <string name="drm_consumed">"การทำงานของคุณได้บริโภคDrm สิทธิ"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="slidemusic">"ตั้งเพลงสำหรับการนำเสนอภาพนิ่ง"</string>
+    <string name="setas">"ตั้งค่าเป็น"</string>
+    <string name="slide_music_system_ringtones">"ระบบเสียงเรียกเข้า"</string>
+    <string name="slide_music_user_defined">"กำหนดผู้ใช้"</string>
+    <string name="remove_usbdisk">"ถอดอุปกรณ์ของผู้ใช้ออกแล้ว"</string>
+    <string name="edit_crop_free">ฟรี</string>
+    <string name="edit_crop_square">"สี่เหลี่ยมจัตุรัส"</string>
+    <string name="edit_crop_origin">"ดั้งเดิม"</string>
+    <string name="hide_albums">"ซ่อนอัลบั้ม"</string>
+    <string name="show_local_albums">"แสดงอัลบั้มภายในเครื่อง"</string>
+    <string name="select">"เลือก"</string>
+    <string name="popup_title_save_all_selected">"บันทึกรูปถ่ายทั้งหมดหรือไม่"</string>
+    <string name="keep_all">"บันทึกทั้งหมด"</string>
+    <string name="burst_progress_dialog_title">"กำลังดำเนินการ..."</string>
+    <string name="side_bar_all_photos">"ทั้งหมด"</string>
+    <string name="side_bar_photo">"รูปภาพ"</string>
+    <string name="side_bar_video">"วิดีโอ"</string>
+    <string name="side_bar_album">"อัลบั้ม"</string>
+    <string name="label_select">"เลือก"</string>
+    <string name="no_photo_or_video">"ไม่มี %1$s"</string>
+    <string name="no_photo_or_video_hint">"รูปถ่ายหรือวิดีโอที่บันทึกไว้ในอุปกรณ์นี้จะแสดงที่นี่"</string>
+    <string name="detail_pop_title">"ข้อมูล"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"เพิ่มเติม"</string>
+    <string name="detail_location">"ตำแหน่ง"</string>
+    <string name="database_exception">"เกิดการยกเว้นในการประมวลผลข้อมูล การดำเนินการล้มเหลว"</string>
+    <string name="exit_multiwindow_tips">"ไม่รองรับการเรียกดูรูปถ่ายในโหมดแบ่งหน้าจอ"</string>
+    <string name="exit_multiwindow_video_tips">"ไม่รองรับการดูวิดีโอในโหมดแบ่งหน้าจอ"</string>
+    <string name="decode_image_faild">"การครอบตัดรูปภาพล้มเหลว"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"วันนี้"</string>
+    <string name="label_yesterday">"เมื่อวานนี้"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"กำลังโหลดข้อมูล โปรดรอสักครู่"</string>
+    <string name="distance_photo_unit_conversion">"การแปลงหน่วย"</string>
+    <string name="unit">"หน่วย"</string>
+    <string name="meter">"เมตร"</string>
+    <string name="centimeter">"เซนติเมตร"</string>
+    <string name="foot">"ฟุต"</string>
+    <string name="inch">"นิ้ว"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"วิดีโอนี้ไม่สามารถสตรีมไปยังอุปกรณ์นี้"</string>
+    <string name="VideoView_error_text_unknown">"ไม่สามารถเล่นวิดีโอนี้"</string>
+    <string name="no_touch_flip">"ไม่มีการแตะเพื่อพลิก"</string>
+    <string name="flip_summury">"บังกล้องเสริม 1 วินาทีเพื่อพลิกรูปภาพ"</string>
+    <string name="first_summary">"เลื่อนหน้าลงตามค่าเริ่มต้น"</string>
+    <string name="sencond_summury">"เลื่อนหน้าขึ้นเมื่อเพิ่มระดับเสียง"</string>
+    <string name="third_summury">"เลื่อนหน้าลงเมื่อลดระดับเสียง"</string>
+    <string name="fourth_summury">"สรุป: ใช้ปุ่มระดับเสียง"</string>
+    <string name="dealing">"กำลังโหลด..."</string>
+    <string name="slide_music_stop">"การเลื่อนเพลงหยุดแล้ว"</string>
+    <string name="select_tips">"วัตถุที่เลือกเป็นฉากหลัง โปรดสร้างจุดที่อยู่ในระยะเดียวกับภาพเบื้องหน้าอีกครั้ง"</string>
+    <string name="definition_subject">"กำหนดวัตถุ"</string>
+    <string name="fix_subject">"แก้ไขวัตถุ"</string>
+    <string name="fix_background">"แก้ไขฉากหลัง"</string>
+    <string name="replace_background">"เปลี่ยนฉากหลัง"</string>
+    <string name="correct_object_tips">"ขั้นแรก โปรดเขียนภาพร่างคร่าวๆ หรือป้ายที่ตำแหน่งที่เส้นโครงร่างไม่เที่ยงตรง\nจากนั้น ให้คลิกปุ่ม \"แก้ไขวัตถุ\" เพื่ออัพเดตบริเวณที่ป้ายให้แก่วัตถุ หรือคลิกปุ่ม \"แก้ไขฉากหลัง\" เพื่ออัพเดตบริเวณที่ป้ายให้แก่ฉากหลัง"</string>
+    <string name="def_object_tips">"กำหนดวัตถุ: วาดสี่เหลี่ยมล้อมรอบเส้นโครงร่างของวัตถุที่คุณต้องการแยกออก"</string>
+    <string name="valid_point">"จุดเริ่มต้นและจุดสิ้นสุดไม่อยู่ภายในช่วงระยะที่ถูกต้อง"</string>
+    <string name="small_rect">"รูปสี่เหลี่ยมที่วาดเล็กเกินไป"</string>
+    <string name="add">"เพิ่ม"</string>
+    <string name="use_phone_photo">"โปรดใช้รูปถ่ายที่ถ่ายด้วยโทรศัพท์มือถือของคุณ"</string>
+    <string name="extract_failed">"การแยกออกล้มเหลว โปรดเริ่มใหม่อีกครั้ง"</string>
+    <string name="blending_success">"การทำรูปภาพให้กลมกลืนกันสำเร็จแล้ว ทำการดำเนินการต่อไป หรือปุ่มย้อนกลับเพื่อออก"</string>
+    <string name="blending_failed">"การทำรูปภาพให้กลมกลืนกันล้มเหลว"</string>
+    <string name="extract_failed_notforground">"การแยกออกล้มเหลว ไม่ใช่วัตถุเบื้องหน้า โปรดเริ่มใหม่อีกครั้ง"</string>
+    <string name="extract_failed_nomemory">"การแยกออกล้มเหลว หน่วยความจำเหลือน้อยเกินไป โปรดเริ่มใหม่อีกครั้ง"</string>
+    <string name="extract_timeout">"เกินกำหนดเวลาสำหรับการแยกออกแล้ว โปรดเริ่มใหม่อีกครั้ง"</string>
+    <string name="extract_forground">"กำลังแยกเป้าหมายที่เป็นวัตถุเบื้องหน้าออก โปรดรอสักครู่"</string>
+    <string name="update_forground">"กำลังอัพเดตเป้าหมายที่เป็นวัตถุเบื้องหน้า โปรดรอสักครู่"</string>
+    <string name="blending_image">"กำลังทำรูปภาพให้กลมกลืนกัน โปรดรอสักครู่"</string>
+    <string name="select_foreground_subject">"คลิกเพื่อเลือกวัตถุเบื้องหน้า"</string>
+    <string name="adjust_foreground_subject">"ปรับวัตถุเบื้องหน้า"</string>
+    <string name="correct_subject_outline">"แก้ไขเส้นโครงร่างของวัตถุ"</string>
+    <string name="edit_background">"แก้ไขฉากหลัง"</string>
+    <string name="verify_prompt">"ตำแหน่งในปัจจุบันอยู่ใกล้กับขอบมากเกินไป ซึ่งจะทำให้ได้ลักษณะพิเศษที่ไม่ดี คุณแน่ใจว่าต้องการทำให้กลมกลืนหรือไม่"</string>
+    <string name="fg_too_large">"วัตถุเบื้องหน้าใหญ่เกินกว่าที่จะทำให้กลมกลืนกัน。"</string>
+    <string name="draw_tips">"โปรดวาดอยู่ภายในรูปสี่เหลี่ยมสีขาว"</string>
+    <string name="undo_faild">"การดำเนินการเลิกทำล้มเหลว"</string>
+    <string name="get_forfround_tips">"ไม่สามารถเปลี่ยนวัตถุเบื้องหน้าทั้งหมดให้เป็นฉากหลังได้ โปรดวาดใหม่"</string>
+    <string name="next_video">"วิดีโอถัดไป"</string>
+    <string name="pre_video">"วิดีโอก่อนหน้า"</string>
+    <string name="lock_control">"ล็อคการควบคุม"</string>
+    <string name="lock_orintation">"ล็อคการวางแนว"</string>
+    <string name="print_screen">"พิมพ์ภาพหน้าจอ"</string>
+    <string name="float_player">"เครื่องเล่นแบบลอย"</string>
+    <string name="scale_screen">"ปรับสเกลหน้าจอ"</string>
+    <string name="back">"ย้อนกลับ"</string>
+    <string name="over_flow">"เกิน"</string>
+    <string name="slide_music_play_fail">"ขออภัย การเล่นไฟล์ล้มเหลว"</string>
+    <string name="refocus_quit">"ออก"</string>
+    <string name="refocus_save_change">"บันทึกการเปลี่ยนแปลง"</string>
+    <string name="refocus_confirm_save">"คุณต้องการบันทึกหรือออกโดยตรง"</string>
+    <string name="refocus_save_success">"บันทึกสำเร็จแล้ว"</string>
+    <string name="refocus_save_fail">"การบันทึกล้มเหลว"</string>
+    <string name="none_input_tips">"ชื่อจะต้องไม่เว้นว่างไว้"</string>
+    <string name="floatview_notification_text">"วิดีโอกำลังเล่นอยู่ในหน้าต่างแบบลอย"</string>
+    <string name="voice_photo">"ภาพและเสียง"</string>
+    <string name="continuous_shooting">"ถ่ายภาพต่อเนื่อง"</string>
+    <string name="refocus_image">"เบลอรูปภาพ"</string>
+    <string name="blur_image_wait">"กำลังดำเนินการเบลอรูปภาพ โปรดรอสักครู่"</string>
+    <string name="blur_save_fail">"การบันทึกการเบลอรูปภาพล้มเหลว"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"เลือกรูปถ่ายแล้ว %1$d รูป"</item>
+        <item quantity="other">"เลือกรูปถ่ายแล้ว %1$d รูป"</item>
+    </plurals>
+    <string name="ffx_dehaze">"ลดหมอก"</string>
+    <string name="select_music">"เลือกเพลง"</string>
+    <string name="delete_all">"ลบทั้งหมด"</string>
+    <string name="refocus_photo_edit_save">"บันทึก"</string>
+    <string name="blending_move_limit">"สุดหน้าจอแล้วไม่มีการดำเนินการต่อ โปรดปรับตำแหน่งเพื่อทำต่อ"</string>
+    <string name="init_bitmap_faild">"รับรูปภาพไม่สำเร็จ โปรดลองอีกครั้ง"</string>
+    <string name="refocus_init_fail">"เตรียมข้อมูลไม่สำเร็จ"</string>
+    <string name="conversing">"กำลังแปลง"</string>
+    <string name="share_as_image">"แชร์เป็นรูปภาพ"</string>
+    <string name="share_as_video">"แชร์เป็นวิดีโอ"</string>
+    <string name="converse_video_failed">"แปลงเป็นวิดีโอไม่สำเร็จ"</string>
+    <string name="app_photo_edit">"แก้ไขรูปภาพ"</string>
+    <string name="cant_select_file">"ไฟล์ที่ไม่รองรับ"</string>
+    <string name="input_reached_max_length">"ข้อมูลที่ป้อนถึงขีดจำกัดความยาวสูงสุดแล้ว"</string>
+    <string name="v2_photo">"ภาพถ่าย"</string>
+    <string name="v2_album">"อัลบั้ม"</string>
+    <string name="v2_discover">"ค้นพบ"</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">"รูปภาพ %1$d รูป"</item>
+        <item quantity="one">"รูปภาพ %1$d รูป"</item>
+        <item quantity="other">"รูปภาพ %1$d รูป"</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">"วิดีโอ %1$d รายการ"</item>
+        <item quantity="one">"วิดีโอ %1$d รายการ"</item>
+        <item quantity="other">"วิดีโอ %1$d รายการ"</item>
+    </plurals>
+    <string name="new_album">"อัลบั้มใหม่"</string>
+    <string name="already_select_count">"เลือกไว้ %1$d รายการ"</string>
+    <string name="no_photos_or_videos">"ไม่มีรูปภาพหรือวิดีโอ"</string>
+    <string name="no_albums">"ไม่มีอัลบั้ม"</string>
+    <string name="badname_as_point">"ไม่ควรตั้งชื่อเป็น /,\\,. หรือ .. เนื่องจากอาจทำให้ระบบไฟล์ของคุณสับสน"</string>
+    <string name="msg_folder_input_empty">"ชื่อโฟลเดอร์ว่างเปล่า"</string>
+    <string name="badname_endwith_point">"ส่วนท้ายของชื่อโฟลเดอร์ไม่เป็นเครื่องหมาย ."</string>
+    <string name="illegal_chars_of_foldername">"ชื่อโฟลเดอร์จะต้องไม่มีอักขณะที่ไม่อนุญาตให้ใช้ \\:*?\"\u003C\u003E|/"</string>
+    <string name="msg_file_input_repeat">"มีชื่อ %1$s อยู่แล้ว โปรดป้อนชื่ออื่น"</string>
+    <string name="menu_mkdir_failed">"ไม่สามารถสร้างโฟลเดอร์ %1$s"</string>
+    <string name="add_to_album">"เพิ่มลงในอัลบั้ม"</string>
+    <string name="internal_storage">"ที่เก็บข้อมูลภายใน"</string>
+    <string name="external_storage">"การ์ด SD"</string>
+    <string name="my_album">"อัลบั้มของฉัน"</string>
+    <string name="failed_add_to_album">"เพิ่มลงในอัลบั้มไม่สำเร็จ"</string>
+    <string name="select_images_or_videos">"เลือกรูปภาพหรือวิดีโอ"</string>
+    <string name="fragment_state_lost_msg">"สถานะสูญหาย โปรดดำเนินการใหม่"</string>
+    <string name="recently_deleted">"เพิ่งลบไป"</string>
+    <string name="trash_restore">"เรียกคืน"</string>
+    <string name="wait_for_restoring">"กำลังกู้คืน โปรดรอสักครู่&#8230;"</string>
+    <plurals name="restore_selection">
+        <item quantity="one">"กู้คืนรายการที่เลือกไหม"</item>
+        <item quantity="other">"กู้คืนรายการที่เลือกไหม"</item>
+    </plurals>
+    <string name="trash_date_tip">"ระบบจะลบรูปภาพออกอย่างถาวรใน 30 วัน"</string>
+    <plurals name="left_day">
+        <item quantity="one">"%1$d วัน"</item>
+        <item quantity="other">"%1$d วัน"</item>
+    </plurals>
+    <string name="tf_discover_things">"สิ่งของ"</string>
+    <string name="tf_discover_people">"บุคคล"</string>
+    <string name="tf_discover_location">"ตำแหน่ง"</string>
+    <string name="tf_unknown">"ไม่รู้จัก"</string>
+    <string name="tf_aircraft">"เครื่องบิน"</string>
+    <string name="tf_animal">"สัตว์"</string>
+    <string name="tf_baby">"ทารก"</string>
+    <string name="tf_basketball">"บาสเกตบอล"</string>
+    <string name="tf_bedroom">"ห้องนอน"</string>
+    <string name="tf_bicycle">"รถจักรยาน"</string>
+    <string name="tf_bird">"นก"</string>
+    <string name="tf_bridge">"สะพาน"</string>
+    <string name="tf_building">"อาคาร"</string>
+    <string name="tf_bus">"รถประจำทาง"</string>
+    <string name="tf_car">"รถยนต์"</string>
+    <string name="tf_cat">"แมว"</string>
+    <string name="tf_classroom">"ชั้นเรียน"</string>
+    <string name="tf_conference_room">"ห้องประชุม"</string>
+    <string name="tf_crawling_animal">"สัตว์เลื้อยคลาน"</string>
+    <string name="tf_desktop_computer">"คอมพิวเตอร์เดสก์ท็อป"</string>
+    <string name="tf_document">"เอกสาร"</string>
+    <string name="tf_dog">"สุนัข"</string>
+    <string name="tf_electric_bicycle">"จักรยานไฟฟ้า"</string>
+    <string name="tf_evergreen">"ไม้ไม่ผลัดใบ"</string>
+    <string name="tf_farmland">"ฟาร์ม"</string>
+    <string name="tf_fish">"ปลา"</string>
+    <string name="tf_flower">"ดอกไม้"</string>
+    <string name="tf_food">"อาหาร"</string>
+    <string name="tf_football">"ฟุตบอล"</string>
+    <string name="tf_graduation_photo">"รูปภาพวันจบการศึกษา"</string>
+    <string name="tf_grassland">"ทุ่งหญ้า"</string>
+    <string name="tf_group_photo">"ภาพหมู่"</string>
+    <string name="tf_helicopter">"เฮลิคอปเตอร์"</string>
+    <string name="tf_kitchen">"ห้องครัว"</string>
+    <string name="tf_laptop">"แล็ปท็อป"</string>
+    <string name="tf_metro">"รถไฟใต้ดิน"</string>
+    <string name="tf_mobile_phone">"โทรศัพท์มือถือ"</string>
+    <string name="tf_motorcycle">"มอเตอร์ไซค์"</string>
+    <string name="tf_mountain">"ภูเขา"</string>
+    <string name="tf_office">"สำนักงาน"</string>
+    <string name="tf_parlour">"ห้องรับรอง"</string>
+    <string name="tf_party">"ปาร์ตี้"</string>
+    <string name="tf_people">"บุคคล"</string>
+    <string name="tf_playground">"สนามเด็กเล่น"</string>
+    <string name="tf_river">"แม่น้ำ"</string>
+    <string name="tf_road">"ถนน"</string>
+    <string name="tf_sea">"ทะเล"</string>
+    <string name="tf_selfie">"เซลฟี่"</string>
+    <string name="tf_ship">"เรือ"</string>
+    <string name="tf_shopping_mall">"ห้างสรรพสินค้า"</string>
+    <string name="tf_sky">"ท้องฟ้า"</string>
+    <string name="tf_telephone">"โทรศัพท์"</string>
+    <string name="tf_train">"รถไฟ"</string>
+    <string name="tf_tree">"ต้นไม้"</string>
+    <string name="tf_waiting_room">"ห้องรอ"</string>
+    <string name="tf_night_scene">"ฉากกลางคืน"</string>
+    <string name="tf_cake">"เค้ก"</string>
+    <string name="tf_lake">"ทะเลสาบ"</string>
+    <string name="tf_indoor">"ในอาคาร"</string>
+    <string name="tf_computer">"คอมพิวเตอร์"</string>
+    <string name="tf_sport">"กีฬา"</string>
+    <string name="tf_sea_river">"ทะเล, แม่น้ำ, ทะเลสาบ"</string>
+    <string name="tf_phone">"โทรศัพท์"</string>
+    <string name="move_out_of_this_classification">"ย้ายออก"</string>
+    <string name="move_out_classification_dialog_title">"คุณต้องการนำรายการที่เลือกออกจากการจัดประเภทไหม"</string>
+    <string name="moving_out">"กำลังย้ายออก&#8230;"</string>
+    <string name="image">"รูป"</string>
+    <string name="video">"วิดีโอ"</string>
+    <string name="all_medias">"ทั้งหมด"</string>
+    <string name="un_named">"ไม่ได้ตั้งชื่อ"</string>
+    <string name="move_out_of_this_people">"ย้ายออก"</string>
+    <string name="move_out_people_dialog_title">"คุณต้องการนำรายการที่เลือกออกจากผู้คนไหม"</string>
+    <string name="add_name">"เพิ่มชื่อ"</string>
+    <string name="illegal_chars_of_name">"ชื่อต้องไม่มีอักขระที่ไม่ถูกต้อง \\:*?\"\u003C\u003E|/"</string>
+    <string name="repeated_name">"มีชื่อนี้อยู่แล้ว"</string>
+    <string name="replay">"โปรดออกแล้วเล่นใหม่"</string>
+    <string name="bokeh_editor">"ตัวแก้ไขโบเก้"</string>
+    <string name="merge_to">"รวมกับ"</string>
+    <string name="hide_albums_v2">"ซ่อนอัลบั้ม"</string>
+    <string name="request_delete_permission_title">"ให้แกลเลอรีเข้าถึงการ์ด SD ไหม"</string>
+    <string name="request_delete_permission_msg">"ในการแก้ไข ลบ หรือย้ายรูปภาพจากการ์ด SD แกลเลอรีจะต้องมีสิทธิ์เข้าถึง"</string>
+    <string name="no_delete_permission_title">"ดำเนินการไม่ได้"</string>
+    <string name="no_delete_permission_msg">"แกลเลอรีไม่สามารถเข้าถึงการ์ด SD ได้ โปรดให้สิทธิ์หรือล้างเนื้อที่เก็บข้อมูลของแอปพลิเคชันแล้วลองอีกครั้ง"</string>
+    <string name="trash_restore_fail">"กู้คืนไม่สำเร็จ"</string>
+    <string name="delete_drm_file">"ระบบจะลบไฟล์ DRM อย่างถาวรและไม่ใส่ไว้ในที่ลบล่าสุด ทำต่อหรือไม่"</string>
+    <string name="tf_discover_story">"ความทรงจำ"</string>
+    <string name="prefered_motion_photo">"รูปภาพที่ต้องการ"</string>
+    <string name="play_motion_photo">"เล่น"</string>
+    <string name="stop_motion_photo">"หยุด"</string>
+    <string name="superuser_request_confirm">"เครื่องเล่นวิดีโอไม่มีสิทธิ์เข้าถึงการ์ด SD โปรดเลือกไดเรกทอรีรากภายนอก SANDISK SD card แล้วให้สิทธิ์เครื่องเล่นวิดีโอใช้งาน"</string>
+    <string name="smarterase">"การลบแบบสมาร์ท"</string>
+    <string name="share_max_warning">"เลือกไฟล์ไว้มากกว่า 100 ไฟล์ และฟังก์ชันแชร์ไม่สามารถใช้งานได้"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"คุณต้องการเก็บภาพถ่ายอีก %1$d ภาพในชุดนี้หรือไม่?"</item>
+        <item quantity="other">"คุณต้องการเก็บอีก %1$d รูปที่เหลือในการถ่ายภาพต่อเนื่องหรือไม่"</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"บันทึกเฉพาะภาพถ่ายที่เลือก %1$d ภาพ"</item>
+        <item quantity="other">"บันทึกเฉพาะรูปถ่ายที่เลือกไว้ %1$d รูปเท่านั้น"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">"เลือกแล้ว %1$d รายการ"</item>
+        <item quantity="one">"เลือกไว้ %1$d รายการ"</item>
+        <item quantity="other">"เลือกแล้ว %1$d รายการ"</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"ลบรูปภาพที่เลือกไว้ %1$d รูป"</item>
+        <item quantity="other">"ลบรูปภาพที่เลือก %1$d รูป"</item>
+    </plurals>
+    <string name="no_sd_write_permission">"เครื่องเล่นวิดีโอมีสิทธิ์ไม่เพียงพอที่จะลบวิดีโอ"</string>
+    <string name="next">"ถัดไป"</string>
+</resources>

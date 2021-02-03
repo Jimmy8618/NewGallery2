@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Галерија"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Видео плејер"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Учитавање видео снимка…"</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Наставак видео снимка"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Желите ли да наставите репродукцију од ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Настави репродукцију"</string>
+    <string name="loading" msgid="7038208555304563571">"Учитавање…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Учитавање није могуће"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Није могуће учитати слику"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Нема сличице"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Започни поново"</string>
+    <string name="ok" msgid="5296833083983263293">"Потврди"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Чување слике…"</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Чување слике у албум <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="crop_label" msgid="521114301871349328">"Опсеци слику"</string>
+    <string name="trim_label" msgid="274203231381209979">"Скрати видео"</string>
+    <string name="select_image" msgid="7841406150484742140">"Избор фотографије"</string>
+    <string name="select_video" msgid="4859510992798615076">"Избор видео снимка"</string>
+    <string name="select_item" msgid="2816923896202086390">"Избор ставке"</string>
+    <string name="select_album" msgid="1557063764849434077">"Избор албума"</string>
+    <string name="select_group" msgid="6744208543323307114">"Избор групе"</string>
+    <string name="set_image" msgid="2331476809308010401">"Постављање слике као"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Позадина"</string>
+    <string name="delete" msgid="2839695998251824487">"Избриши"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Бришете изабрану ставку?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Бришете изабране ставке?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Потврди"</string>
+    <string name="cancel" msgid="3637516880917356226">"Откажи"</string>
+    <string name="share" msgid="3619042788254195341">"Дели"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Дели панораму"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Дели као слику"</string>
+    <string name="deleted" msgid="6795433049119073871">"Избрисана"</string>
+    <string name="undo" msgid="2930873956446586313">"ОПОЗОВИ"</string>
+    <string name="select_all" msgid="3403283025220282175">"Изабери све"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Опозови све изборе"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Пројекција слајдова"</string>
+    <string name="details" msgid="8415120088556445230">"Детаљи"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d од %2$d ставке(и):"</string>
+    <string name="close" msgid="5585646033158453043">"Затвори"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Пребацивање на Камеру"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"Изабранo je %1$d"</item>
+        <item msgid="2478365152745637768" quantity="one">"Изабранo je %1$d"</item>
+        <item msgid="754722656147810487" quantity="other">"Изабранo je %1$d"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Прикажи на мапи"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Ротирај улево"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Ротирај удесно"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Није могуће пронаћи ставку."</string>
+    <string name="edit" msgid="1502273844748580847">"Измени"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Једноставне измене"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Опсеци"</string>
+    <string name="trim_action" msgid="703098114452883524">"Скрати"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Искључи звук"</string>
+    <string name="set_as" msgid="3636764710790507868">"Постави као"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Звук не може да се искључи."</string>
+    <string name="video_err" msgid="7003051631792271009">"Није могуће пустити видео."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Према локацији"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Према времену"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Према ознакама"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Према особама"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Према албуму"</string>
+    <string name="untagged" msgid="7281481064509590402">"Није означено"</string>
+    <string name="no_location" msgid="4043624857489331676">"Без локације"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Није могуће идентификовати неке локације због проблема са мрежом."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Није могуће преузети фотографије у овом албуму. Покушајте поново касније."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Само слике"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Само видео снимци"</string>
+    <string name="show_all" msgid="6963292714584735149">"Слике и видео снимци"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Фото-галерија"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Нема фотографија."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Опсечена слика је сачувана у директоријуму <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Ниједан албум није доступан."</string>
+    <string name="empty_album" msgid="4542880442593595494">"Доступно је 0 слика/видео снимака."</string>
+    <string name="done" msgid="217672440064436595">"Done"</string>
+    <string name="title" msgid="7622928349908052569">"Наслов"</string>
+    <string name="description" msgid="3016729318096557520">"Опис"</string>
+    <string name="time" msgid="1367953006052876956">"Време"</string>
+    <string name="location" msgid="3432705876921618314">"Локација"</string>
+    <string name="path" msgid="4725740395885105824">"Путања"</string>
+    <string name="width" msgid="9215847239714321097">"Ширина"</string>
+    <string name="height" msgid="3648885449443787772">"Висина"</string>
+    <string name="orientation" msgid="4958327983165245513">"Положај"</string>
+    <string name="duration" msgid="8160058911218541616">"Трајање"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME тип"</string>
+    <string name="file_size" msgid="8486169301588318915">"Величина датотеке"</string>
+    <string name="maker" msgid="7921835498034236197">"Аутор"</string>
+    <string name="model" msgid="8240207064064337366">"Модел"</string>
+    <string name="flash" msgid="2816779031261147723">"Блиц"</string>
+    <string name="aperture" msgid="5920657630303915195">"Отвор бленде"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Фокална дужина"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Баланс беле"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Време експозиције"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"мм"</string>
+    <string name="manual" msgid="6608905477477607865">"Ручно"</string>
+    <string name="auto" msgid="4296941368722892821">"Аутом."</string>
+    <string name="flash_on" msgid="7891556231891837284">"Блиц је актив."</string>
+    <string name="flash_off" msgid="1445443413822680010">"Без блица"</string>
+    <string name="unknown" msgid="3506693015896912952">"Непознато"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Instant"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Bleach"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Плаво"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"Црно-бело"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Пунч"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X Process"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Испрано"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Литографски"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Сви албуми"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Локални албуми"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> или мање"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> или више"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> до <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Увези"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Увоз је довршен"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Изабери албум"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Пусти све слике насумично"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Изабери слику"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Избор слика"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Пројекција слајдова"</string>
+    <string name="albums" msgid="7320787705180057947">"Албуми"</string>
+    <string name="times" msgid="2023033894889499219">"Пута"</string>
+    <string name="locations" msgid="6649297994083130305">"Локације"</string>
+    <string name="people" msgid="4114003823747292747">"Особе"</string>
+    <string name="tags" msgid="5539648765482935955">"Ознаке"</string>
+    <string name="group_by" msgid="4308299657902209357">"Групиши према"</string>
+    <string name="settings" msgid="1534847740615665736">"Подешавања"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Камера"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Преузето"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Измењене слике на мрежи"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Увезено"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Снимак екрана"</string>
+    <string name="help" msgid="7368960711153618354">"Помоћ"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Приказ филмске траке"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Приказ мреже"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Приказ целог екрана"</string>
+    <string name="trimming" msgid="9122385768369143997">"Скраћивање"</string>
+    <string name="muting" msgid="5094925919589915324">"Искључивање звука"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Сачекајте"</string>
+    <string name="save_into" msgid="9155488424829609229">"Чување видео снимка у <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Приказивање панораме"</string>
+    <string name="save" msgid="613976532235060516">"Сачувај"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Скенирање садржаја..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"Скенирано је %1$d ставки"</item>
+        <item msgid="4340019444460561648" quantity="one">"Скенирана је %1$d ставка"</item>
+        <item msgid="3138021473860555499" quantity="other">"Скенирано је %1$d ставки"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Сортирање..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Скенирање је завршено"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Увоз..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Нема доступног садржаја за увоз на овом уређају."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"MTP уређај није повезан"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Камера"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Пусти видео"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Трака за време видео плејера"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Камера"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Претражи"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Слике"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Албуми"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d слика"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d слика"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Нема кључног оквира, видео ће се поновно покренути"</string>
+    <string name="gif_decode_failed">"Битна мапа је преширока за покретање"</string>
+    <string name="spaceLow_content">"Снимање није успело, у систему можда нема довољно простора за похрану."</string>
+    <string name="wait_for_deleting">"Брише се, молимо сачекајте&#8230;"</string>
+    <string name="wait_for_rotating">"Окреће се, молимо сачекајте&#8230;"</string>
+    <string name="video_bookmarks">"Обележивачи"</string>
+    <string name="video_edit_bookmark">"Измени"</string>
+    <string name="video_delete_bookmark">"Избриши"</string>
+    <string name="empty_bookmarks">"Празна мапа са ознакама"</string>
+    <string name="do_not_save">"Откажи"</string>
+    <string name="net_location">"Адреса"</string>
+    <string name="name">"Име"</string>
+    <string name="bookmark_needs_title">"Ознака мора имати име."</string>
+    <string name="bookmark_needs_url">"Ознака мора имати место."</string>
+    <string name="bookmark_invalid_url">"Место мора почети са "http(s)://" или "rtsp://""</string>
+    <string name="processing_please_wait">"Обрађује се, молимо сачекајте."</string>
+    <string name="bookmark_exist">"Ознака са истим местом већ постоји."</string>
+    <string name="default_bookmark_title">"почетни_наслов"</string>
+    <string name="bookmark_added">"Снимљено у ознаке"</string>
+    <string name="albums_video">"Видео"</string>
+    <string name="empty_album_video">"0 доступних видеа"</string>
+    <string name="border_brush">"Четка"</string>
+    <string name="border_grunge">"Грунге"</string>
+    <string name="border_sumi">"Суми"</string>
+    <string name="border_tape">"Трака"</string>
+    <string name="border_black">"Црна"</string>
+    <string name="border_black_rounded">"Црно_рд"</string>
+    <string name="border_white">"Бела"</string>
+    <string name="border_white_rounded">"Бело_рд"</string>
+    <string name="border_cream">"Крем"</string>
+    <string name="border_cream_rounded">"Крем_рд"</string>
+    <string name="no_face">"Нема лица"</string>
+    <string name="can_not_share">"Величина одабране датотеке је већа од <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, Дељење није могуће"</string>
+
+    <string name="video_save_to_bookmark">"Сачувај у обележиваче"</string>
+    <string name="video_view_bookmarks">"Обележивачи"</string>
+    <string name="movie_view_proxy_set">"Подешавања проксија"</string>
+    <string name="movie_view_network">"Мрежа"</string>
+    <string name="movie_view_apn_set">"Подешавања уласка у мрежу приступне тачке"</string>
+    <string name="movie_view_proxy_ip_set">"Прокси IP подешавања"</string>
+    <string name="movie_view_proxy_port_set">"Прокси Улазна подешавања"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP Улазна подешавања"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP Максимална Улазна подешавања"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP Минимална Улазна подешавања"</string>
+    <string name="movie_view_proxy_ok">"Потврди"</string>
+    <string name="movie_view_proxy_port_seterror_info">"Валидна подешавања прикључка морају бити цео број између датог распона："</string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP је неисправан"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"Улаз је неисправан!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Прво подесите распон прикључка！"</string>
+    <string name="movie_view_proxy_enable">"Покренут прокси"</string>
+    <string name="movie_view_parameter_set">"Подешавања параметра"</string>
+    <string name="dialog_dismiss">"Одбаци"</string>
+    <string name="gallery_error_title">"Грешка у галерији"</string>
+    <string name="videoplayer_error_title">"Грешка код видео плејера"</string>
+    <string name="error_permissions">"Апликација нема неопходну дозволу потребну за покретање. Проверите подешавања дозвола."</string>
+    <string name="gallery_premission_change">"Дозвола за галерију је промењена, молимо вас изаберите поново"</string>
+    <string name="gallery_premission_error">""Грешка код дозволе за галерију, молимо вас ресетирајте дозволе за галерију"."</string>
+    <string name="already_exist">"Ефект већ постоји"</string>
+    <string name="show_details_error">""Преузимање података, молимо вас покушајте поново касније"."</string>
+    <string name="none_playback">"Нема репродукције"</string>
+    <string name="single_playback">"Једна репродукција"</string>
+    <string name="all_playback">"Све репродукције"</string>
+    <string name="playback_setting">"Начин рада репродукција"</string>
+    <string name="can_not_open_float_video">""Код тренутне видео позадине, плутајући видео прозори не могу бити отворени"."</string>
+    <string name="video_file_does_not_exist">"видео датотека не постоји"</string>
+    <string name="movie_view_goto">"Иди на"</string>
+    <string name="no_search_app">"нема апликације за претраживање"</string>
+    <string name="channel_setting_title">"Подешавање канала"</string>
+    <string name="channel_setting_left">"Лево"</string>
+    <string name="channel_setting_right">"Десно"</string>
+    <string name="channel_setting_dual">"Двоструко"</string>
+    <string name="channel_setting_ok">"Потврди"</string>
+    <string name="channel_setting_cancel">"Откажи"</string>
+    <string name="channel_setting">"Подешавање канала"</string>
+    <string name="movie_view_calling_title">"Позив у току"</string>
+    <string name="movie_view_calling_msg">"Молимо покушајте поново када завршите позив!"</string>
+    <string name="movie_view_calling_try">"Покушајте"</string>
+    <string name="movie_view_calling_cancel">"Откажи"</string>
+    <string name="time_out">"Време чекања"</string>
+    <string name="time_out_message">"Грешке у мрежи или је истекло време за конекцију, поновно покренути или не?</string>
+    <string name="headset">Слушалице</string>
+    <string name="loud_speaker">"Гласни звучник"</string>
+    <string name="cannot_load_crop_image">""Меморија за извршавање апликације је недовољна, преузимање слике није било успешно"."</string>
+    <string name="back_exit">"излаз када притиснете опет"</string>
+    <string name="slideshow_music">"Клизите кроз музику"</string>
+    <string name="system_ringtones">"Систем мелодије звона"</string>
+    <string name="user_defined">"Кориснички дефинисано"</string>
+    <string name="cannot_play_music">"Моментално не може репродуковати музику"</string>
+    <string name="play_audio_failed">"Моментално не може репродуковати аудио"</string>
+    <string-array name="planets_array">
+        <item>"Сви видео снимци"</item>
+        <item>"Локална видеа"</item>
+        <item>"Снимљена видеа"</item>
+        <item>"Недавно пуштено"</item>
+    </string-array>
+    <string name="last_play">"Задње пуштено:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Избрисати записе сада?"</item>
+        <item quantity="other">"Избрисати записе сада?"</item>
+    </plurals>
+    <string name="today">"Данас"</string>
+    <string name="yesterday">"Јуче"</string>
+    <string name="earlier">"Раније"</string>
+    <string name="drawer_open">"Видео листа"</string>
+    <string name="drawer_close">"Сви видео снимци"</string>
+    <string name="share_actionmode">"Дели"</string>
+    <string name="delete_actionmode">"Избриши"</string>
+    <string name="clear_all">"Избришите све"</string>
+    <string name="video_list">"Видео листа"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Бришете изабрану ставку?"</item>
+        <item quantity="other">"Бришете изабрану ставку?"</item>
+    </plurals>
+    <string name="current_select">"%d изабрано"</string>
+    <string name="no_video_play_records">"Нема записа пуштања"</string>
+    <string name="no_videos">"Нема видео снимака"</string>
+    <string name="video_not_exist">"Видео не постоји"</string>
+    <string name="save_picture">"Снимање јесачувано до %s"</string>
+    <string name="mute">"Искључивање звука"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Информације о заштити"</string>
+    <string name="drm_info">"Информације о заштити"</string>
+    <string name="file_name">"Име датотеке:"</string>
+    <string name="rights_validity">"Валидност права:"</string>
+    <string name="rights_status">"Статус права:"</string>
+    <string name="start_time">"Време почетка:"</string>
+    <string name="end_time">"Време завршетка:"</string>
+    <string name="expiration_time">"Време истека:"</string>
+    <string name="remain_times">"Преостала понављања:"</string>
+    <string name="rights_validity_valid">"Важећа"</string>
+    <string name="rights_validity_invalid">"Неважећа"</string>
+    <string name="rights_status_share">"Сме се прослеђивати</string>
+    <string name="rights_status_not_share">"Не сме се прослеђивати"</string>
+    <string name="drm_rights_no_limit">"Неограничена"</string>
+    <string name="drm_rights_unknown">"Непознато"</string>
+    <string name="drm_rights_inactive">"Права нису активна"</string>
+    <string name="drm_file_invalid">"Датотека је истекла"</string>
+    <string name="screenshot_failed">"Снимак екрана није успео"</string>
+    <string name="floatwindow_unsupported_device">"Плутајући прозор није подржан на овом уређају"</string>
+    <string name="floatwindow_unsupported_camera">"Плутајући прозор није подржан у камери"</string>
+    <string name="floatwindow_unsupported_streaming">"Плутајући прозор није подржан док се пуштају текућа видеа"</string>
+    <string name="stream_screenshot_not_supported">"Функција сликања није подржана док се пуштају текућа видеа."</string>
+    <string name="movie_view_mms_processing_ok">"пријем завршен"</string>
+    <string name="movie_view_sms_received_ok">"SMS примљен"</string>
+    <string name="movie_view_mms_process_title">"MMS се обрађује"</string>
+    <string name="movie_view_sms_process_title">"SMS се обрађује"</string>
+    <string name="movie_view_mms_ok">"Потврди"</string>
+    <string name="choose_drm_alert">"Није могуће одабрати Drm датотеку, молимо одаберите другу"</string>
+    <string name="drm_consume_title">"Искористите drm права"</string>
+    <string name="invalid_rights">"Ова датотека нема исправну лиценцу"</string>
+    <string name="drm_consume_hint">"Вашом радњом искористићете drm права"</string>
+    <string name="drm_unit_minutes">"с"</string>
+    <string name="drm_consumed">"Вашом радњом искористили сте drm права"</string>
+    <string name="ffx_dehaze">"Dehaze"</string>
+    <string name="select_music">"Izaberite muziku"</string>
+    <string name="slidemusic">"Podesite muziku za projekciju slajdova"</string>
+    <string name="setas">"Постави као"</string>
+    <string name="slide_music_system_ringtones">"Систем мелодије звона"</string>
+    <string name="slide_music_user_defined">"Кориснички дефинисано"</string>
+    <string name="remove_usbdisk">"Korisnički uređaj je uklonjen"</string>
+    <string name="edit_crop_free">"Бесплатно"</string>
+    <string name="edit_crop_square">"Квадрат"</string>
+    <string name="edit_crop_origin">"Оригинал"</string>
+    <string name="hide_albums">"Sakrij albume"</string>
+    <string name="show_local_albums">"Prikaži lokalne albume"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"Izabrana je %1$d fotografija"</item>
+        <item quantity="other">"Izabrano je %1$d fotografija"</item>
+    </plurals>
+    <string name="select">"Изабери"</string>
+    <string name="popup_title_save_all_selected">"Sačuvati sve fotografije?"</string>
+    <string name="keep_all">"Сачувaj све"</string>
+    <string name="delete_all">"Избришите све"</string>
+    <string name="burst_progress_dialog_title">"Обрађује се..."</string>
+    <string name="side_bar_all_photos">"Све"</string>
+    <string name="side_bar_photo">"Слике"</string>
+    <string name="side_bar_video">"Видео снимци"</string>
+    <string name="side_bar_album">"Албуми"</string>
+    <string name="label_select">"Изабери"</string>
+    <string name="no_photo_or_video">"Nema %1$s"</string>
+    <string name="no_photo_or_video_hint">"Fotografije ili video zapisi sačuvani na ovom uređaju će biti prikazani ovde."</string>
+    <string name="detail_pop_title">"Информације"</string>
+    <string name="detail_date_info_format">"MMM d, gggg"</string>
+    <string name="detail_more">"Још"</string>
+    <string name="detail_location">"Локација"</string>
+    <string name="database_exception">"izuzetak obrade podataka, operacija nije uspela."</string>
+    <string name="exit_multiwindow_tips">"Ne podržava pretraživanje fotografija u režimu deljenog ekrana"</string>
+    <string name="exit_multiwindow_video_tips">"Ne podržava gledanje video zapisa u režimu deljenog ekrana"</string>
+    <string name="decode_image_faild">"Opsecanje slike nije uspelo"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, gggg"</string>
+    <string name="label_today">"Данас"</string>
+    <string name="label_yesterday">"Јуче"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, gggg"</string>
+    <string name="album_set_loading_tip">"Podaci se učitavaju, sačekajte"</string>
+    <string name="refocus_photo_edit_save">"Сачувај"</string>
+    <string name="distance_photo_unit_conversion">"Konverzija jedinica"</string>
+    <string name="unit">"Jedinica"</string>
+    <string name="meter">"метар"</string>
+    <string name="centimeter">"Centimetar"</string>
+    <string name="foot">"Stopa"</string>
+    <string name="inch">"Inč"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"Овај видео не може да се стримује на овом уређају."</string>
+    <string name="VideoView_error_text_unknown">"Не можете да пустите овај видео."</string>
+    <string name="no_touch_flip">"nema preokretanja dodirom"</string>
+    <string name="flip_summury">"Prekrijte kameru uređaja na 1 s za preokretanje slike"</string>
+    <string name="first_summary">"stranica nadole podrazumevano"</string>
+    <string name="sencond_summury">"stranica nagore prilikom povećanja zvuka"</string>
+    <string name="third_summury">"stranica nadole prilikom smanjenja zvuka"</string>
+    <string name="fourth_summury">"sažetak: taster za jačinu zvuka podignite nagore"</string>
+    <string name="dealing">"Пуњење..."</string>
+    <string name="slide_music_stop">"Muzički slajd je zaustavljen"</string>
+    <string name="select_tips">"Izabrani objekat je u pozadini. Ponovo kreirajte tačku u opsegu prvog plana"</string>
+    <string name="definition_subject">"Definišite objekat"</string>
+    <string name="fix_subject">"Ažuriraj kao cilj"</string>
+    <string name="fix_background">"Ažuriraj kao pozadinu"</string>
+    <string name="replace_background">"Zameni pozadinu"</string>
+    <string name="correct_object_tips">"Zamutite oblast u kome struktura nije precizno predviđena jednim prstom, zatim kliknite na dugme "Ažuriraj kao cilj" da biste ažurirali oblast za slikanje kao ciljni objekat, ili kliknite na dugme "Ažuriraj kao pozadinu" da biste ga ažurirali kao pozadinu. Takođe možete da zumirate i pomerate slike sa dva prsta da biste ih načinili preciznijim za ažuriranje."</string>
+    <string name="def_object_tips">"Definišite objekat: nacrtajte pravougaonik da biste pokrili konture objekta koji želite da izdvojite."</string>
+    <string name="valid_point">"Početka tačka ili završna tačka nije u okviru važećeg opsega,"</string>
+    <string name="small_rect">"Nacrtani pravougaonik je suviše mali."</string>
+    <string name="add">"Додај"</string>
+    <string name="use_phone_photo">"Koristite fotografije snimljene vašim mobilnim telefonom"</string>
+    <string name="extract_failed">"Izdvajanje nije uspelo, počnite ponovo"</string>
+    <string name="blending_success">"Kombinovanje slika je uspešno, nastavite sa radom ili pritisnite taster Nazad da biste izašli"</string>
+    <string name="blending_failed">"Kombinovanje slika je neuspešno"</string>
+    <string name="extract_failed_notforground">"Izdvajanje nije uspelo, nema objekta u prvom planu, počnite ponovo"</string>
+    <string name="extract_failed_nomemory">"Izdvajanje nije uspelo, nema dovoljno memorije, počnite ponovo"</string>
+    <string name="extract_timeout">"Isteklo je vreme za izdvajanje, počnite ponovo"</string>
+    <string name="extract_forground">"Izdvajanje cilja u prvom planu, sačekajte trenutak."</string>
+    <string name="update_forground">"Ažuriranje cilja u prvom planu, sačekajte trenutak."</string>
+    <string name="blending_image">"Kombinovanje slike, sačekajte trenutak."</string>
+    <string name="select_foreground_subject">"Kliknite da biste izabrali cilj u prvom planu"</string>
+    <string name="adjust_foreground_subject">"Podesite cilj u prvom planu"</string>
+    <string name="correct_subject_outline">"Popravite ciljne konture"</string>
+    <string name="edit_background">"Uredite pozadinu"</string>
+    <string name="verify_prompt">"Trenutni položaj je preblizu ivici, što će dovesti do slabog efekta, da li ste sigurni da želite da obavite kombinovanje?"</string>
+    <string name="fg_too_large">"Cilj u prvom planu je suviše veliki za kombinovanje。"</string>
+    <string name="draw_tips">"Nacrtajte u okviru belog pravougaonika"</string>
+    <string name="undo_faild">"opozivanje operacije nije uspelo"</string>
+    <string name="get_forfround_tips">"Nije moguće premestiti sve predmete u prvom planu u pozadinu. Ponovo nacrtajte."</string>
+    <string name="blending_move_limit">"Dostignuta je ivica ekrana Nisu moguće nikakve dodatne radnje, podesite položaj da biste nastavili."</string>
+    <string name="init_bitmap_faild">"Nabavljanje slike nije uspelo, pokušajte ponovo kasnije"</string>
+    <string name="next_video">"NextVideo"</string>
+    <string name="pre_video">"PreVideo"</string>
+    <string name="lock_control">"LockControl"</string>
+    <string name="lock_orintation">"LockOrintation"</string>
+    <string name="print_screen">"PrintScreen"</string>
+    <string name="float_player">"FloatPlayer"</string>
+    <string name="scale_screen">"ScaleScreen"</string>
+    <string name="back">"Назад"</string>
+    <string name="over_flow">"OverFlow"</string>
+    <string name="slide_music_play_fail">"Žao nam je, reprodukcija datoteke nije uspela"</string>
+    <string name="refocus_quit">"Напусти"</string>
+    <string name="refocus_save_change">"Sačuvajte izmene"</string>
+    <string name="refocus_confirm_save">"Da li želite da sačuvate ili direktno izađete?"</string>
+    <string name="refocus_save_success">"Снимање није успело!"</string>
+    <string name="refocus_save_fail">"Čuvanje je neuspešno"</string>
+    <string name="none_input_tips">"Naziv ne može da bude nepopunjen"</string>
+    <string name="floatview_notification_text">"Video se reprodukuje u plutajućem prozoru."</string>
+    <string name="voice_photo">"Аудио слика"</string>
+    <string name="continuous_shooting">"Прасак"</string>
+    <string name="refocus_image">"Zamutite sliku"</string>
+    <string name="blur_image_wait">"Obrada zamućenja slike, sačekajte"</string>
+    <string name="blur_save_fail">"Čuvanje zamućenja slike neuspešno"</string>
+    <string name="refocus_init_fail">"Pokretanje podataka je neuspešno"</string>
+    <string name="conversing">"Konvertovanje"</string>
+    <string name="share_as_image">"Podeli kao sliku"</string>
+    <string name="share_as_video">"Podeli kao video zapis"</string>
+    <string name="converse_video_failed">"Konvertovanje u video zapis neuspešno."</string>
+    <string name="app_photo_edit">"Uređivanje fotografije"</string>
+    <string name="cant_select_file">"Nepodržana datoteka"</string>
+    <string name="input_reached_max_length">"Убацивање је досегло максималну дужину"</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/undo"
+        android:showAsAction="always"
+        android:icon="@drawable/btn_undo_selector" />
+    <item
+        android:id="@+id/help"
+        android:showAsAction="always"
+        android:icon="@drawable/btn_help_selector" />
+
+    <item
+        android:id="@+id/ok"
+        android:showAsAction="always"
+        android:icon="@drawable/btn_ok_selector" />
+    <item
+        android:id="@+id/save"
+        android:showAsAction="always"
+        android:icon="@drawable/btn_save_selector" />
+</menu>

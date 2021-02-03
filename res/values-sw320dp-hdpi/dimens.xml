@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Screan density=1.5(hdpi) , min Width is 480(1.5 x 320 = 480)
+-->
+<resources>
+    <integer name="albumset_image_max_count">6</integer>
+    <integer name="albumset_image_rows_land">5</integer>
+    <integer name="albumset_image_rows_port">3</integer>
+
+    <dimen name="thumbnail_video_duration_text_size">12sp</dimen>
+    <dimen name="thumbnail_image_type_size">24dp</dimen>
+</resources>

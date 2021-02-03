@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gallery_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.android.gallery3d.ui.GLRootView
+            android:id="@+id/gl_root_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55000000">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/photo_view_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/actionBarSize"
+            android:theme="?android:attr/actionBarTheme"
+            app:elevation="0dp"
+            app:navigationIcon="@drawable/ic_back_white"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+            app:titleTextAppearance="@style/Toolbar2TextAppearance" />
+    </FrameLayout>
+
+    <include layout="@layout/photo_control_bottom_bar_layout" />
+
+    <include layout="@layout/undo_bar_layout" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/thumb_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/gl_root_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack" />
+
+</FrameLayout>

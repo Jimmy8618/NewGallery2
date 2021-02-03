@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dip"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dip"
+    android:paddingTop="20dip"
+    android:layout_marginTop="20dip">
+
+    <TextView
+        android:id="@+id/edit_albums"
+        android:layout_width="200dip"
+        android:layout_height="44dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="18dip"
+        android:text="@string/hide_albums" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/pupo_background_line" />
+
+    <LinearLayout
+        android:layout_width="200dip"
+        android:layout_height="44dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:singleLine="true">
+
+        <TextView
+            android:id="@+id/show_local_albums"
+            android:layout_width="140dip"
+            android:layout_height="44dip"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="18dip"
+            android:text="@string/show_local_albums" />
+
+        <CheckBox
+            android:id="@+id/select_local_albums"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:paddingRight="10dip"
+            android:background="@drawable/ic_checkbox"
+            android:button="@null" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/pupo_background_line" />
+
+</LinearLayout>

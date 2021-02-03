@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/undo_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="45dp"
+    android:background="@drawable/panel_undo_holo"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:visibility="invisible">
+
+    <TextView
+        android:id="@+id/deleted_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/undo_bar_text_margin_size"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/deleted"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/list_divider_holo_dark" />
+
+    <TextView
+        android:id="@+id/undo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/undo_bar_text_margin_size"
+        android:layout_weight="0"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_menu_revert_holo_dark"
+        android:gravity="center_vertical"
+        android:text="@string/undo"
+        android:textColor="#FFAAAAAA"
+        android:textSize="12sp"
+        tools:layout_weight="0" />
+</LinearLayout>

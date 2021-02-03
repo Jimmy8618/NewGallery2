@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.android.gallery3d.v2.widget.WidgetConfigure"
+    android:initialLayout="@layout/appwidget_main"
+    android:minHeight="@dimen/appwidget_height"
+    android:minWidth="@dimen/appwidget_width"
+    android:previewImage="@drawable/preview"
+    android:updatePeriodMillis="86400000" /><!--android:configure="com.android.gallery3d.gadget.WidgetConfigure"-->

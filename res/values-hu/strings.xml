@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galéria"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Videolejátszó"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Videó betöltése…"</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Videó folytatása"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Folytatja a lejátszást innen: ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Lejátszás folytatása"</string>
+    <string name="loading" msgid="7038208555304563571">"Betöltés…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Nem sikerült betölteni"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Nem sikerült betölteni a képet"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Nincs indexkép"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Újrakezdés"</string>
+    <string name="ok" msgid="5296833083983263293">"OK"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Kép mentése..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Kép mentése ide: <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="crop_label" msgid="521114301871349328">"Kép levágása"</string>
+    <string name="trim_label" msgid="274203231381209979">"Videó vágása"</string>
+    <string name="select_image" msgid="7841406150484742140">"Fotó kiválasztása"</string>
+    <string name="select_video" msgid="4859510992798615076">"Videó kiválasztása"</string>
+    <string name="select_item" msgid="2816923896202086390">"Elem kiválasztása"</string>
+    <string name="select_album" msgid="1557063764849434077">"Album kiválasztása"</string>
+    <string name="select_group" msgid="6744208543323307114">"Csoport kiválasztása"</string>
+    <string name="set_image" msgid="2331476809308010401">"Kép beállítása, mint"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Háttérkép"</string>
+    <string name="delete" msgid="2839695998251824487">"Törlés"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Törli a kiválasztott elemet?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Törli a kiválasztott elemeket?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Megerősítés"</string>
+    <string name="cancel" msgid="3637516880917356226">"Mégse"</string>
+    <string name="share" msgid="3619042788254195341">"Megosztás"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Panorámakép megosztása"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Megosztás fényképként"</string>
+    <string name="deleted" msgid="6795433049119073871">"Törölve"</string>
+    <string name="undo" msgid="2930873956446586313">"VISSZAVONÁS"</string>
+    <string name="select_all" msgid="3403283025220282175">"Az összes kijelölése"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Az összes kijelölés törlése"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Diavetítés"</string>
+    <string name="details" msgid="8415120088556445230">"Részletek"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d/%2$d elem:"</string>
+    <string name="close" msgid="5585646033158453043">"Bezárás"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Váltás kamerára"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d kiválasztva"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d kiválasztva"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d kiválasztva"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Megjelenítés a térképen"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Forgatás balra"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Forgatás jobbra"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Nem található az elem."</string>
+    <string name="edit" msgid="1502273844748580847">"Szerkesztés"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Egyszerű szerkesztés"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Körbevágás"</string>
+    <string name="trim_action" msgid="703098114452883524">"Vágás"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Némítás"</string>
+    <string name="set_as" msgid="3636764710790507868">"Beállítás, mint"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"A videó nem némítható."</string>
+    <string name="video_err" msgid="7003051631792271009">"Nem lehet lejátszani a videót."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Helyszín szerint"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Idő szerint"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Címkék szerint"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Arcok alapján"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Album szerint"</string>
+    <string name="untagged" msgid="7281481064509590402">"Címke nélküli"</string>
+    <string name="no_location" msgid="4043624857489331676">"Nincs helyadat"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Néhány helyet nem lehetett azonosítani hálózati problémák miatt."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Nem sikerült letölteni ennek az albumnak a képeit. Próbálja újra később."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Csak képek"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Csak videók"</string>
+    <string name="show_all" msgid="6963292714584735149">"Képek és videók"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Fotógaléria"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Nincsenek fényképek."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"A vágott képet a(z) <xliff:g id="FOLDER_NAME">%s</xliff:g> mappába mentettük."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Nincs elérhető album."</string>
+    <string name="empty_album" msgid="4542880442593595494">"Nincs elérhető kép/videó."</string>
+    <string name="done" msgid="217672440064436595">"Kész"</string>
+    <string name="title" msgid="7622928349908052569">"Beosztás"</string>
+    <string name="description" msgid="3016729318096557520">"Leírás"</string>
+    <string name="time" msgid="1367953006052876956">"Idő"</string>
+    <string name="location" msgid="3432705876921618314">"Hely"</string>
+    <string name="path" msgid="4725740395885105824">"Elérési út"</string>
+    <string name="width" msgid="9215847239714321097">"Szélesség"</string>
+    <string name="height" msgid="3648885449443787772">"Magasság"</string>
+    <string name="orientation" msgid="4958327983165245513">"Tájolás"</string>
+    <string name="duration" msgid="8160058911218541616">"Időtartam"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME-típus"</string>
+    <string name="file_size" msgid="8486169301588318915">"Fájlméret"</string>
+    <string name="maker" msgid="7921835498034236197">"Készítő"</string>
+    <string name="model" msgid="8240207064064337366">"Modell"</string>
+    <string name="flash" msgid="2816779031261147723">"Vaku"</string>
+    <string name="aperture" msgid="5920657630303915195">"Rekesz"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Fókusztávolság"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Fehéregyensúly"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Exponálási idő"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Kézi"</string>
+    <string name="auto" msgid="4296941368722892821">"Automata"</string>
+    <string name="flash_on" msgid="7891556231891837284">"Vakuvillanás"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Vaku nélkül"</string>
+    <string name="unknown" msgid="3506693015896912952">"Ismeretlen"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Szépia"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Azonnali"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Fehérítő"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Kék"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"Fekete-fehér"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Kivágás"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"X folyamat"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litho"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Összes album"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Helyi albumok"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> vagy kevesebb"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> vagy több"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> - <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Importálás"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Importálás befejezve"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Album kiválasztása"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Az összes kép váltása"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Válasszon egy képet"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Képek kiválasztása"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Diavetítés"</string>
+    <string name="albums" msgid="7320787705180057947">"Albumok"</string>
+    <string name="times" msgid="2023033894889499219">"Alkalom"</string>
+    <string name="locations" msgid="6649297994083130305">"Helyek"</string>
+    <string name="people" msgid="4114003823747292747">"Személyek"</string>
+    <string name="tags" msgid="5539648765482935955">"Címkék"</string>
+    <string name="group_by" msgid="4308299657902209357">"Csoportosítás"</string>
+    <string name="settings" msgid="1534847740615665736">"Beállítások"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Kamera"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Letöltés"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Szerkesztett online fotók"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Importált"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Képernyőkép"</string>
+    <string name="help" msgid="7368960711153618354">"Súgó"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Filmszalag nézet"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Rácsnézet"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Teljes képernyő"</string>
+    <string name="trimming" msgid="9122385768369143997">"Vágás"</string>
+    <string name="muting" msgid="5094925919589915324">"Némítás..."</string>
+    <string name="please_wait" msgid="7296066089146487366">"Kérjük, várjon."</string>
+    <string name="save_into" msgid="9155488424829609229">"Videó mentése ide: <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Panorámakép megjelenítése"</string>
+    <string name="save" msgid="613976532235060516">"Mentés"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Tartalom beolvasása..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d elem beolvasva"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d elem beolvasva"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d elem beolvasva"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Rendezés..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"A beolvasás befejeződött."</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Importálás..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Nem áll rendelkezésre az eszközre importálható tartalom."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Nincs MTP-eszköz csatlakoztatva"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Kamera"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Videó lejátszása"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Videolejátszó idősávja"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Kamera"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Keresés"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Fotók"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Albumok"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d fotó"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d fotó"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Nem kerül lejátszásra kulcskocka videó"</string>
+    <string name="gif_decode_failed">"A bittérkép túl nagy lejátszáshoz"</string>
+    <string name="spaceLow_content">"A mentés sikertelen, a készüléken kevés a tárhely."</string>
+    <string name="wait_for_deleting">"Törlés, kérem, várjon&#8230;"</string>
+    <string name="wait_for_rotating">"Forgatás, kérjük, várjon&#8230;"</string>
+    <string name="video_bookmarks">"Könyvjelzők"</string>
+    <string name="video_edit_bookmark">"Szerkesztés..."</string>
+    <string name="video_delete_bookmark">"törlés"</string>
+    <string name="empty_bookmarks">"Üres könyvjelző"</string>
+    <string name="do_not_save">"Mégse"</string>
+    <string name="net_location">"Cím"</string>
+    <string name="name">"Név"</string>
+    <string name="bookmark_needs_title">"A könyvjelzőt el kell nevezni"</string>
+    <string name="bookmark_needs_url">"A könyvjelzőnek rendelkeznie kell hellyel"</string>
+    <string name="bookmark_invalid_url">"A helynek "http(s)://"-szel vagy "rtsp://"-vel kell kezdődnie"</string>
+    <string name="processing_please_wait">"Folyamatban, kérjük, várjon."</string>
+    <string name="bookmark_exist">"Már létezik azonos helyű könyvjelző."</string>
+    <string name="default_bookmark_title">"default_title"</string>
+    <string name="bookmark_added">"Elmentve könyvjelzőkbe"</string>
+    <string name="albums_video">"Videó"</string>
+    <string name="empty_album_video">"0 videó elérhető."</string>
+    <string name="border_brush">"Kefe"</string>
+    <string name="border_grunge">"Grunge"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Szalag"</string>
+    <string name="border_black">"Fekete"</string>
+    <string name="border_black_rounded">"Fekete_rd"</string>
+    <string name="border_white">"Fehér"</string>
+    <string name="border_white_rounded">"Fehér_rd"</string>
+    <string name="border_cream">"Krém"</string>
+    <string name="border_cream_rounded">"Krém_rd"</string>
+    <string name="no_face">Nincs arc</string>
+    <string name="can_not_share">"A kiválasztott fájl nagyobb, mint <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, a megosztás nem lehetséges"</string>
+
+    <string name="video_save_to_bookmark">"Mentés a könyvjelzők közé."</string>
+    <string name="video_view_bookmarks">"Könyvjelzők"</string>
+    <string name="movie_view_proxy_set">"Proxy beállítva"</string>
+    <string name="movie_view_network">"Hálózat"</string>
+    <string name="movie_view_apn_set">"APN bevitel beállítás"</string>
+    <string name="movie_view_proxy_ip_set">"Proxy IP beállítások"</string>
+    <string name="movie_view_proxy_port_set">"Proxy portbeállítások"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"RTP/RTCP portbeállítások"</string>
+    <string name="movie_view_max_port_set">"RTP/RTCP max. portbeállítások"</string>
+    <string name="movie_view_min_port_set">"RTP/RTCP min. portbeállítások"</string>
+    <string name="movie_view_proxy_ok">"OK"</string>
+    <string name="movie_view_proxy_port_seterror_info">"Az értékport beállításnak egész számnak kell lennie a következő tartományban："</string>
+    <string name="movie_view_proxy_ip_seterror_info">"Érvénytelen IP!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"Érvénytelen port!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Előbb állítsa be a porttartományt!"</string>
+    <string name="movie_view_proxy_enable">"Proxy engedélyezése"</string>
+    <string name="movie_view_parameter_set">"Paraméter beállítások"</string>
+    <string name="dialog_dismiss">"Elvetés"</string>
+    <string name="gallery_error_title">"Galéria hiba"</string>
+    <string name="videoplayer_error_title">"Videó lejátszó hiba"</string>
+    <string name="error_permissions">"Az alkalmazás nem rendelkezik a futtatáshoz szükséges alapvető engedélyekkel. Ellenőrizze az engedélybeállításokat."</string>
+    <string name="gallery_premission_change">"Galéria engedély megváltoztatva, kérem, válassza ki újra"</string>
+    <string name="gallery_premission_error">"Galéria engedély hiba, kérem, állítsa vissza a galéria engedélyeket."</string>
+    <string name="already_exist">"Az effekt már létezik"</string>
+    <string name="show_details_error">"Adat letöltés, kérem, próbálja újra később."</string>
+    <string name="none_playback">Nincs lejátszás</string>
+    <string name="single_playback">"Egyetlen lejátszása"</string>
+    <string name="all_playback">"Összes lejátszása"</string>
+    <string name="playback_setting">"Lejátszási mód"</string>
+    <string name="can_not_open_float_video">"Jelenlegi videó háttérkép, a videó lebegő ablak nem nyitható meg."</string>
+    <string name="video_file_does_not_exist">"a videófájl nem létezik"</string>
+    <string name="movie_view_goto">"Ugrás ide:"</string>
+    <string name="no_search_app">"nincs alkalmazás keresés"</string>
+    <string name="channel_setting_title">"Csatorna beállítások"</string>
+    <string name="channel_setting_left">"Bal"</string>
+    <string name="channel_setting_right">"Jobb"</string>
+    <string name="channel_setting_dual">"Duális"</string>
+    <string name="channel_setting_ok">"OK"</string>
+    <string name="channel_setting_cancel">"Mégse"</string>
+    <string name="channel_setting">"Csatorna beállítások"</string>
+    <string name="movie_view_calling_title">"Hívás..."</string>
+    <string name="movie_view_calling_msg">"Próbálja újra a hívás befejezése után!"</string>
+    <string name="movie_view_calling_try">"Próba"</string>
+    <string name="movie_view_calling_cancel">"Mégse"</string>
+    <string name="time_out">"Időtúllépés"</string>
+    <string name="time_out_message">"Hálózati anomália vagy kapcsolódási időtúllépés. Újraindítja?"</string>
+    <string name="headset">Fejhallgató</string>
+    <string name="loud_speaker">"Hangosbeszélő"</string>
+    <string name="cannot_load_crop_image">"Az alkalmazás runtime memóriája nem elegendő, a kép letöltése sikertelen."</string>
+    <string name="back_exit">ismételt megnyomásnál kilép</string>
+    <string name="slideshow_music">"Dia zene"</string>
+    <string name="system_ringtones">"Rendszer csengőhangok"</string>
+    <string name="user_defined">"Felhasználó megadva" </string>
+    <string name="cannot_play_music">"Jelenleg nem lehet zenét lejátszani"</string>
+    <string name="play_audio_failed">"Jelenleg nem lehet hangot lejátszani"</string>
+    <string-array name="planets_array">
+        <item>"Minden videó"</item>
+        <item>"Helyi videók"</item>
+        <item>"Felvett videók"</item>
+        <item>"Nemrég lejátszott"</item>
+    </string-array>
+    <string name="last_play">"Legutóbb lejátszott:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Törli a felvételeket most?"</item>
+        <item quantity="other">"Törli a felvételeket most?"</item>
+    </plurals>
+    <string name="today">"Ma"</string>
+    <string name="yesterday">"Tegnap"</string>
+    <string name="earlier">"Korábban"</string>
+    <string name="drawer_open">"Videólista"</string>
+    <string name="drawer_close">"Minden videó"</string>
+    <string name="share_actionmode">"Megosztás"</string>
+    <string name="delete_actionmode">Töröl</string>
+    <string name="clear_all">Összes törlése</string>
+    <string name="video_list">"Videólista"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Törli a kiválasztott elemet?"</item>
+        <item quantity="other">"Törli a kiválasztott elemet?"</item>
+    </plurals>
+    <string name="current_select">"%d kiválasztva"</string>
+    <string name="no_video_play_records">"Nincs felvétel lejátszás"</string>
+    <string name="no_videos">"Nincsenek videók"</string>
+    <string name="video_not_exist">"A videó nem létezik"</string>
+    <string name="save_picture">"A felvétel elmentve ide: %s"</string>
+    <string name="mute">"Némítás..."</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Védelmi információk"</string>
+    <string name="drm_info">"Védelmi információk"</string>
+    <string name="file_name">"Fájl neve:"</string>
+    <string name="rights_validity">"Jogok érvényessége:"</string>
+    <string name="rights_status">"Jogok státusza:"</string>
+    <string name="start_time">"Kezdő időpont:"</string>
+    <string name="end_time">"Befejező időpont:"</string>
+    <string name="expiration_time">"Lejárat ideje:"</string>
+    <string name="remain_times">"Hátralévő idő:"</string>
+    <string name="rights_validity_valid">"Érvényes"</string>
+    <string name="rights_validity_invalid">"Érvénytelen"</string>
+    <string name="rights_status_share">"Továbbítása engedélyezett"</string>
+    <string name="rights_status_not_share">"Továbbítása nem engedélyezett"</string>
+    <string name="drm_rights_no_limit">"Korlátlan"</string>
+    <string name="drm_rights_unknown">"Ismeretlen"</string>
+    <string name="drm_rights_inactive">"Inaktív jogok"</string>
+    <string name="drm_file_invalid">"A fájl érvényessége lejárt"</string>
+    <string name="screenshot_failed">"A képernyőmentés sikertelen"</string>
+    <string name="floatwindow_unsupported_device">"A készülék nem támogatja a lebegő ablakokat"</string>
+    <string name="floatwindow_unsupported_camera">"A kamera nem támogatja a lebegő ablakokat"</string>
+    <string name="floatwindow_unsupported_streaming">"A videó stream lejátszás nem támogatja a lebegő ablakokat"</string>
+    <string name="stream_screenshot_not_supported">"A videó stream lejátszás közben a felvétel funkció nem támogatott."</string>
+
+    <string name="movie_view_sms_process_title">"SMS feldolgozása"</string>
+    <string name="movie_view_mms_ok">"OK"</string>
+    <string name="movie_view_mms_processing_ok">"fogadás befejeződött"</string>
+    <string name="movie_view_sms_received_ok">"SMS fogadása"</string>
+    <string name="movie_view_mms_process_title">"MMS feldolgozás..."</string>
+    <string name="drm_consumed">"A művelet igénybe vette a DRM jogokat"</string>
+    <string name="drm_consume_title">"DRM jogok kihasználása"</string>
+    <string name="invalid_rights">"Ez a fájl nem rendelkezik érvényes licencszel"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="drm_consume_hint">"A művelet igénybe veszi a DRM jogokat"</string>
+    <string name="choose_drm_alert">"Nem választható DRM fájl, kérjük, válasszon egy másikat"</string>
+    <string name="slidemusic">"Diavetítés zenéjének beállítása"</string>
+    <string name="setas">"Beállítás, mint"</string>
+    <string name="slide_music_system_ringtones">"Rendszer csengőhangok"</string>
+    <string name="slide_music_user_defined">"Felhasználó megadva" </string>
+    <string name="remove_usbdisk">"A felhasználói eszköz el lett távolítva"</string>
+    <string name="edit_crop_free">Szabad</string>
+    <string name="edit_crop_square">"Négyzet"</string>
+    <string name="edit_crop_origin">"Eredeti"</string>
+    <string name="hide_albums">"Albumok elrejtése"</string>
+    <string name="show_local_albums">"Helyi albumok megjelenítése"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"%1$d fénykép kiválasztva"</item>
+        <item quantity="other">"%1$d fénykép kiválasztva"</item>
+    </plurals>
+    <string name="select">"Kiválasztás"</string>
+    <string name="popup_title_save_all_selected">"Az összes fénykép mentése?"</string>
+    <string name="keep_all">"Összes mentése"</string>
+    <string name="burst_progress_dialog_title">"Feldolgozás…"</string>
+    <string name="side_bar_all_photos">"Összes"</string>
+    <string name="side_bar_photo">"Fotók"</string>
+    <string name="side_bar_video">"Videók"</string>
+    <string name="side_bar_album">"Albumok"</string>
+    <string name="label_select">"Kiválasztás"</string>
+    <string name="no_photo_or_video">"Sz. %1$s"</string>
+    <string name="no_photo_or_video_hint">"A készüléken tárolt fényképek és videók itt jelennek meg."</string>
+    <string name="detail_pop_title">"Információ"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"Egyebek"</string>
+    <string name="detail_location">"Hely"</string>
+    <string name="database_exception">"Adatfeldolgozási kivétel, a művelet sikertelen."</string>
+    <string name="exit_multiwindow_tips">"A fotók böngészése osztott képernyős módban nem támogatott"</string>
+    <string name="exit_multiwindow_video_tips">"A videók nézése osztott képernyős módban nem támogatott"</string>
+    <string name="decode_image_faild">"A kép körülvágása sikertelen"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"Ma"</string>
+    <string name="label_yesterday">"Tegnap"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"Az adatok betöltése folyamatban, kérem, várjon"</string>
+    <string name="distance_photo_unit_conversion">"Mértékegység-átváltás"</string>
+    <string name="unit">"Egység"</string>
+    <string name="meter">"méter"</string>
+    <string name="centimeter">"Centiméter"</string>
+    <string name="foot">"Láb"</string>
+    <string name="inch">" Hüvelyk"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"Ezt a videót nem lehet megjeleníteni ezen az eszközön."</string>
+    <string name="VideoView_error_text_unknown">"Nem lehet lejátszani ezt a videót."</string>
+    <string name="no_touch_flip">"érintés nélküli átfordítás"</string>
+    <string name="flip_summury">"a kép átfordításához takarja el az alkamerát 1 másodpercen keresztül"</string>
+    <string name="first_summary">"lefelé lapozás alapértelmezés szerint"</string>
+    <string name="sencond_summury">"felelé lapozás a hangerő növelése gombbal"</string>
+    <string name="third_summury">"lefelé lapozás a hangerő csökkentése gombbal"</string>
+    <string name="fourth_summury">"összegzés: használja a hangerőgombot"</string>
+    <string name="dealing">"Betöltés..."</string>
+    <string name="slide_music_stop">"a diavetítés zenéje leállt"</string>
+    <string name="select_tips">"A kijelölt objektum a háttérben van. Kérjük, hozza létre újra a pontot az előtérben"</string>
+    <string name="definition_subject">"Objektum definiálása"</string>
+    <string name="fix_subject">"Objektum javítása"</string>
+    <string name="fix_background">"Háttér javítása"</string>
+    <string name="replace_background">"Háttér cseréje"</string>
+    <string name="correct_object_tips">"Először is, kérjük, durván vázolja a helyet, ahol a körvonal pontatlan.\nEzt követően, kattintson az \"Objektum javítása\" gombra az elkent terület objektumhoz való hozzáadásához, vagy a \"Háttér javítása\" gombra az elkent terület háttérhez való hozzáadásához."</string>
+    <string name="def_object_tips">"Objektum definiálása: Rajzoljon egy téglalapot, ami lefedi a kibontani kívánt objektum körvonalát."</string>
+    <string name="valid_point">"A kiindulási- vagy a végpont nem az érvényes tartományon belül van,"</string>
+    <string name="small_rect">"A rajzolt téglalap túl kicsi."</string>
+    <string name="add">"Hozzáadás:"</string>
+    <string name="use_phone_photo">"Kérjük, a mobil által készített fényképeket használja"</string>
+    <string name="extract_failed">"A kibontás sikertelen, próbálja újra"</string>
+    <string name="blending_success">"A képek egyesítése sikeres, folytassa a műveletet vagy nyomja meg a vissza gombot a kilépéshez"</string>
+    <string name="blending_failed">"A képek egyesítése sikertelen"</string>
+    <string name="extract_failed_notforground">"A kibontás sikertelen, nem előtéri objektum, próbálja újra"</string>
+    <string name="extract_failed_nomemory">"A kibontás sikertelen, alacsony memória, próbálja újra"</string>
+    <string name="extract_timeout">"A kibontás során időtúllépés történt, próbálja újra"</string>
+    <string name="extract_forground">"Előtéri kijelölés kibontása, kérjük, várjon egy pillanatot."</string>
+    <string name="update_forground">"Előtéri kijelölés frissítése, kérjük, várjon egy pillanatot."</string>
+    <string name="blending_image">"Képek egyesítése, kérjük, várjon egy pillanatot."</string>
+    <string name="select_foreground_subject">"Kattintson az előtér tárgyának kijelöléséhez"</string>
+    <string name="adjust_foreground_subject">"Előtér tárgyának módosítása"</string>
+    <string name="correct_subject_outline">"Tárgy körvonalának javítása"</string>
+    <string name="edit_background">"Háttér szerkesztése"</string>
+    <string name="verify_prompt">"A jelenlegi pozíció túl közel van a szélekhez, ami rossz hatáshoz vezet, biztosan egyesíteni akarja?"</string>
+    <string name="fg_too_large">"Az előtér tárgya túl nagy az egyesítéshez."</string>
+    <string name="draw_tips">"Rajzoljon a fehér téglalapon belülre"</string>
+    <string name="undo_faild">"visszavonási művelet sikertelen"</string>
+    <string name="get_forfround_tips">"Nem lehet minden előtéri tárgyat átvinni a háttérbe. Rajzolja újra."</string>
+    <string name="next_video">"Következő videó"</string>
+    <string name="pre_video">"Előző videó"</string>
+    <string name="lock_control">"Zárvezérlés"</string>
+    <string name="lock_orintation">"Zárorientáció"</string>
+    <string name="print_screen">"Képernyőkép"</string>
+    <string name="float_player">"FloatPlayer"</string>
+    <string name="scale_screen">"ScaleScreen"</string>
+    <string name="back">"Vissza"</string>
+    <string name="over_flow">"Túlcsordulás"</string>
+    <string name="slide_music_play_fail">"Sajnáljuk! A fájl lejátszása sikertelen"</string>
+    <string name="refocus_quit">"Kilépés"</string>
+    <string name="refocus_save_change">"Változtatások mentése"</string>
+    <string name="refocus_confirm_save">"Akarja menteni, vagy közvetlenül kilép?"</string>
+    <string name="refocus_save_success">"Mentés sikerült"</string>
+    <string name="refocus_save_fail">"Sikertelen mentés"</string>
+    <string name="none_input_tips">"A név nem maradhat üresen"</string>
+    <string name="floatview_notification_text">"A videó lejátszása a lebegő ablakban történik."</string>
+    <string name="voice_photo">"Audió Kép"</string>
+    <string name="continuous_shooting">Kitörés</string>
+    <string name="refocus_image">"Kép életlenítése"</string>
+    <string name="blur_image_wait">"Kép életlenítésének feldolgozása, kérjük várjon"</string>
+    <string name="blur_save_fail">"Életlen kép mentése sikertelen"</string>
+    <string name="refocus_init_fail">"Adatinicializálási hiba"</string>
+    <string name="conversing">"Konvertálás"</string>
+    <string name="share_as_image">"Megosztás képként"</string>
+    <string name="share_as_video">"Megosztás videóként"</string>
+    <string name="converse_video_failed">"Videóvá konvertálás sikertelen."</string>
+    <string name="app_photo_edit">"Fényképszerkesztés"</string>
+    <string name="ffx_dehaze">"Ködmentesítés"</string>
+    <string name="select_music">"Zene kiválasztása"</string>
+    <string name="delete_all">Összes törlése</string>
+    <string name="refocus_photo_edit_save">"Mentés"</string>
+    <string name="blending_move_limit">"Elérte a képernyő szélét, nincs további művelet, állítsa be a helyzetet a folytatáshoz."</string>
+    <string name="init_bitmap_faild">"Képek lekérése sikertelen, próbálja újra"</string>
+    <string name="cant_select_file">"Nem támogatott fájl"</string>
+    <string name="input_reached_max_length">"A bevitel elérte a max. hosszt"</string>
+    <string name="v2_photo">"Fénykép"</string>
+    <string name="v2_album">"Album"</string>
+    <string name="v2_discover">"Felfedezés"</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">"%1$d kép"</item>
+        <item quantity="one">"%1$d kép"</item>
+        <item quantity="other">"%1$d kép"</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">"%1$d videó"</item>
+        <item quantity="one">"%1$d videó"</item>
+        <item quantity="other">"%1$d videó"</item>
+    </plurals>
+    <string name="new_album">"Új album"</string>
+    <string name="already_select_count">"Kiválasztva %1$d"</string>
+    <string name="no_photos_or_videos">"Nincs fénykép vagy videó."</string>
+    <string name="no_albums">"Nincs album."</string>
+    <string name="badname_as_point">"A név nem lehet /,\\, vagy .., mert összezavarhatja a fájlrendszert"</string>
+    <string name="msg_folder_input_empty">"Könyvtár név üres"</string>
+    <string name="badname_endwith_point">"A mappanév nem végződhet ponttal."</string>
+    <string name="illegal_chars_of_foldername">A mappa neve nem tartalmazhat érvénytelen karaktereket \\:*?\"\u003C\u003E|/</string>
+    <string name="msg_file_input_repeat">"A(z) %1$s név már létezik, adjon meg egy másikat."</string>
+    <string name="menu_mkdir_failed">"%1$s mappa létrehozása sikertelen"</string>
+    <string name="add_to_album">"Albumhoz adás"</string>
+    <string name="internal_storage">"Belső tárhely"</string>
+    <string name="external_storage">"SD kártya"</string>
+    <string name="my_album">"Saját album"</string>
+    <string name="failed_add_to_album">"Albumhoz adás sikertelen"</string>
+    <string name="select_images_or_videos">"Képek vagy videók kiválasztása"</string>
+    <string name="fragment_state_lost_msg">"Állapot elveszett, ismételje meg"</string>
+    <string name="recently_deleted">"Nemrég törölt"</string>
+    <string name="trash_restore">Visszaállítás</string>
+    <string name="wait_for_restoring">"Visszaállítás, kérem, várjon&#8230;"</string>
+    <plurals name="restore_selection">
+        <item quantity="one">"Kiválasztott tétel visszaállítása?"</item>
+        <item quantity="other">"Kiválasztott tételek visszaállítása?"</item>
+    </plurals>
+    <string name="trash_date_tip">"A fényképek 30 nap után véglegesen törölve lesznek."</string>
+    <plurals name="left_day">
+        <item quantity="one">"%1$d nap"</item>
+        <item quantity="other">"%1$d nap"</item>
+    </plurals>
+    <string name="tf_discover_things">"Dolgok"</string>
+    <string name="tf_discover_people">"Emberek"</string>
+    <string name="tf_discover_location">"Hely"</string>
+    <string name="tf_unknown">"Ismeretlen"</string>
+    <string name="tf_aircraft">"Légijármű"</string>
+    <string name="tf_animal">"Állat"</string>
+    <string name="tf_baby">"Kisbaba"</string>
+    <string name="tf_basketball">"Kosárlabda"</string>
+    <string name="tf_bedroom">"Hálószoba"</string>
+    <string name="tf_bicycle">"Kerékpár"</string>
+    <string name="tf_bird">"Madár"</string>
+    <string name="tf_bridge">"Híd"</string>
+    <string name="tf_building">"Épület"</string>
+    <string name="tf_bus">"Busz"</string>
+    <string name="tf_car">"Autó"</string>
+    <string name="tf_cat">"Macska"</string>
+    <string name="tf_classroom">"Tanterem"</string>
+    <string name="tf_conference_room">"Konferenciaterem"</string>
+    <string name="tf_crawling_animal">"Kúszó állat"</string>
+    <string name="tf_desktop_computer">"Asztali számítógép"</string>
+    <string name="tf_document">"Dokumentum"</string>
+    <string name="tf_dog">"Kutya"</string>
+    <string name="tf_electric_bicycle">"Elektromos kerékpár"</string>
+    <string name="tf_evergreen">"Örökzöld"</string>
+    <string name="tf_farmland">"Tanyavilág"</string>
+    <string name="tf_fish">"Hal"</string>
+    <string name="tf_flower">"Virág"</string>
+    <string name="tf_food">"Étel"</string>
+    <string name="tf_football">"Futball"</string>
+    <string name="tf_graduation_photo">"Érettségi fotó"</string>
+    <string name="tf_grassland">"Mező"</string>
+    <string name="tf_group_photo">"Csoportkép"</string>
+    <string name="tf_helicopter">"Helikopter"</string>
+    <string name="tf_kitchen">"Konyha"</string>
+    <string name="tf_laptop">"Laptop"</string>
+    <string name="tf_metro">"Metró"</string>
+    <string name="tf_mobile_phone">"Mobiltelefon"</string>
+    <string name="tf_motorcycle">"Motorkerékpár"</string>
+    <string name="tf_mountain">"Hegy"</string>
+    <string name="tf_office">"Iroda"</string>
+    <string name="tf_parlour">"Társalgó"</string>
+    <string name="tf_party">"Parti"</string>
+    <string name="tf_people">"Emberek"</string>
+    <string name="tf_playground">"Játszótér"</string>
+    <string name="tf_river">"Folyó"</string>
+    <string name="tf_road">"Út"</string>
+    <string name="tf_sea">"Tenger"</string>
+    <string name="tf_selfie">"Szelfi"</string>
+    <string name="tf_ship">"Hajó"</string>
+    <string name="tf_shopping_mall">"Bevásárlóközpont"</string>
+    <string name="tf_sky">"Ég"</string>
+    <string name="tf_telephone">"Telefon"</string>
+    <string name="tf_train">"Vonat"</string>
+    <string name="tf_tree">"Fa"</string>
+    <string name="tf_waiting_room">"Váróterem"</string>
+    <string name="tf_night_scene">"Éjszakai látkép"</string>
+    <string name="tf_cake">"Torta"</string>
+    <string name="tf_lake">"Tó"</string>
+    <string name="tf_indoor">"Beltér"</string>
+    <string name="tf_computer">"Számítógép"</string>
+    <string name="tf_sport">"Sport"</string>
+    <string name="tf_sea_river">"Tenger, folyó, tó"</string>
+    <string name="tf_phone">"Telefon"</string>
+    <string name="move_out_of_this_classification">"Kimozdulás"</string>
+    <string name="move_out_classification_dialog_title">"Szeretné eltávolítani a kiválasztott tételeket a besorolásból?"</string>
+    <string name="moving_out">"Kimozdulás&#8230;"</string>
+    <string name="image">kép</string>
+    <string name="video">"Videók"</string>
+    <string name="all_medias">"Mind"</string>
+    <string name="un_named">"Névtelen"</string>
+    <string name="move_out_of_this_people">"Kimozdulás"</string>
+    <string name="move_out_people_dialog_title">"Szeretné eltávolítani a kiválasztott tételeket az emberek közül?"</string>
+    <string name="add_name">"Név hozzáadása"</string>
+    <string name="illegal_chars_of_name">"A név nem tartalmazhat érvénytelen karaktereket \\:*?\"\u003C\u003E|/"</string>
+    <string name="repeated_name">"A név már létezik"</string>
+    <string name="replay">"Lépjen ki és játssza le újra"</string>
+    <string name="bokeh_editor">"Bokeh-szerkesztő"</string>
+    <string name="merge_to">"Összefűzés a következőbe..."</string>
+    <string name="hide_albums_v2">Albumok elrejtése</string>
+    <string name="request_delete_permission_title">"Engedélyezi a Galériának az SD-kártya elérését?"</string>
+    <string name="request_delete_permission_msg">"SD-kártyáján lévő fényképei szerkesztéséhez, törléséhez vagy áthelyezéséhez a Galériának hozzáférésre van szüksége"</string>
+    <string name="no_delete_permission_title">"Nem lehet végrehajtani"</string>
+    <string name="no_delete_permission_msg">"A Galéria nem fér hozzá SD-kártyájához, engedélyezze, vagy törölje az alkalmazás tárhelyét, és kezdje újra."</string>
+    <string name="trash_restore_fail">visszaállítás sikertelen</string>
+    <string name="delete_drm_file">"A DRM fájl véglegesen törlésre kerül és nem került a Nemrég törölt mappába. Biztosan folytatja?"</string>
+    <string name="tf_discover_story">"Emlékek"</string>
+    <string name="prefered_motion_photo">"Előnyben részesített fénykép"</string>
+    <string name="play_motion_photo">"Lejátszás"</string>
+    <string name="stop_motion_photo">"Leállítás"</string>
+    <string name="superuser_request_confirm">"A Videólejátszó nem rendelkezik hozzáféréssel az SD-kártyához, kérjük, válassza a SANDISK SD kártya külső gyökérkönyvtárát, és hagyja jóvá a Videólejátszó működéséhez."</string>
+    <string name="smarterase">"Okos törlés"</string>
+    <string name="share_max_warning">"Több mint 100 fájl volt kiválasztva, és a megosztás funkció nem volt elérhető"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"Szeretné megtartani a másik %1$d képet ebben a sorozatban?"</item>
+        <item quantity="other">"Szeretné megtartani a maradék %1$d fényképet ebben a sorozatban?"</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"Csak %1$d kiválasztott fénykép mentése"</item>
+        <item quantity="other">"Csak a kijelölt %1$d fénykép mentése"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">"%d tétel kijelölve"</item>
+        <item quantity="one">"%1$d elem kiválasztva"</item>
+        <item quantity="other">"%d tétel kijelölve"</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"%1$d kiválasztott fénykép törlése"</item>
+        <item quantity="other">"%1$d kiválasztott kép törlése"</item>
+    </plurals>
+    <string name="no_sd_write_permission">"A videólejátszó nem rendelkezik elégséges engedéllyel videók törléséhez"</string>
+    <string name="next">"Tovább"</string>
+</resources>

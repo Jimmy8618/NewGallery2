@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galerie"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Player video"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Se încarcă videoclipul..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Reluaţi videoclipul"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Reluaţi redarea de la ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Reluaţi redarea"</string>
+    <string name="loading" msgid="7038208555304563571">"Se încarcă..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Nu s-au putut încărca"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"Nu s-a putut încărca imaginea"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"Nu există o miniatură"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Începeţi din nou"</string>
+    <string name="ok" msgid="5296833083983263293">"OK"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Se salvează fotografia..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Se salvează imaginea în <xliff:g id="ALBUM_NAME">%1$s</xliff:g> ..."</string>
+    <string name="crop_label" msgid="521114301871349328">"Decupaţi fotografia"</string>
+    <string name="trim_label" msgid="274203231381209979">"Decupaţi videoclipul"</string>
+    <string name="select_image" msgid="7841406150484742140">"Selectaţi fotografie"</string>
+    <string name="select_video" msgid="4859510992798615076">"Selectaţi videoclip"</string>
+    <string name="select_item" msgid="2816923896202086390">"Selectaţi un element"</string>
+    <string name="select_album" msgid="1557063764849434077">"Selectaţi un album"</string>
+    <string name="select_group" msgid="6744208543323307114">"Selectaţi un grup"</string>
+    <string name="set_image" msgid="2331476809308010401">"Setaţi fotografia ca"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Imagine de fundal"</string>
+    <string name="delete" msgid="2839695998251824487">"Ștergeţi"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"Ștergeţi articolul selectat?"</item>
+        <item msgid="5874316486520635333" quantity="other">"Ștergeţi articolele selectate?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Confirmaţi"</string>
+    <string name="cancel" msgid="3637516880917356226">"Anulaţi"</string>
+    <string name="share" msgid="3619042788254195341">"Distribuiţi"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Trimiteți panorama"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Trimiteți fotografia"</string>
+    <string name="deleted" msgid="6795433049119073871">"Ștearsă"</string>
+    <string name="undo" msgid="2930873956446586313">"ANULAȚI"</string>
+    <string name="select_all" msgid="3403283025220282175">"Selectaţi-le pe toate"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Deselectaţi-le pe toate"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Prezentare"</string>
+    <string name="details" msgid="8415120088556445230">"Detalii"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d din %2$d (de) elemente:"</string>
+    <string name="close" msgid="5585646033158453043">"Închideţi"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Comutaţi la Camera foto"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d selectate"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d selectat"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d selectate"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Afişaţi pe hartă"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Rotiţi spre stânga"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Rotiţi spre dreapta"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Elementul nu a putut fi găsit."</string>
+    <string name="edit" msgid="1502273844748580847">"Editaţi"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Editare simplă"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Decupaţi"</string>
+    <string name="trim_action" msgid="703098114452883524">"Decupaţi"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Dezact. sunetul"</string>
+    <string name="set_as" msgid="3636764710790507868">"Setaţi ca"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"Nu se poate dezactiva sunetul."</string>
+    <string name="video_err" msgid="7003051631792271009">"Nu se poate reda videoclipul."</string>
+    <string name="group_by_location" msgid="316641628989023253">"După locaţie"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"După dată"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"După etichete"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"În funcţie de persoane"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"După album"</string>
+    <string name="untagged" msgid="7281481064509590402">"Neetichetate"</string>
+    <string name="no_location" msgid="4043624857489331676">"Fără locaţie"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"Unele locaţii nu au putut fi identificate din cauza unor probleme de reţea."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"Descărcarea fotografiilor din acest album a eşuat. Încercaţi din nou mai târziu."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Numai imagini"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Numai videoclipuri"</string>
+    <string name="show_all" msgid="6963292714584735149">"Imagini şi videoclipuri"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Galerie foto"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Nicio fotografie."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"Imaginea decupată a fost salvată în <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"Nu există albume disponibile."</string>
+    <string name="empty_album" msgid="4542880442593595494">"Nu există imagini/videoclipuri disponibile."</string>
+    <string name="done" msgid="217672440064436595">"Terminat"</string>
+    <string name="title" msgid="7622928349908052569">"Titlu"</string>
+    <string name="description" msgid="3016729318096557520">"Descriere"</string>
+    <string name="time" msgid="1367953006052876956">"Oră"</string>
+    <string name="location" msgid="3432705876921618314">"Locaţie"</string>
+    <string name="path" msgid="4725740395885105824">"Cale"</string>
+    <string name="width" msgid="9215847239714321097">"Lăţime"</string>
+    <string name="height" msgid="3648885449443787772">"Înălţime"</string>
+    <string name="orientation" msgid="4958327983165245513">"Orientare"</string>
+    <string name="duration" msgid="8160058911218541616">"Durată"</string>
+    <string name="mimetype" msgid="8024168704337990470">"Tip MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"Dimens. fişier"</string>
+    <string name="maker" msgid="7921835498034236197">"Producător"</string>
+    <string name="model" msgid="8240207064064337366">"Model"</string>
+    <string name="flash" msgid="2816779031261147723">"Bliţ"</string>
+    <string name="aperture" msgid="5920657630303915195">"Diafragmă"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Dist. focală"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Balanţă de alb"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Timp expunere"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Manual"</string>
+    <string name="auto" msgid="4296941368722892821">"Auto"</string>
+    <string name="flash_on" msgid="7891556231891837284">"Bliţ activat"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Fără bliţ"</string>
+    <string name="unknown" msgid="3506693015896912952">"Necunoscută"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Instant"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Albire"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Albastru"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"Alb-negru"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Punch"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"Proces. încr."</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litografie"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Toate albumele"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Albume locale"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> sau mai puţin"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> sau mai mult"</string>
+    <string name="size_between" msgid="8779660840898917208">"Între <xliff:g id="MIN_SIZE">%1$s</xliff:g> şi <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Importaţi"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Import finalizat"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Alegeţi un album"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Redaţi aleatoriu toate imag."</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Alegeţi o imagine"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Alegeţi imagini"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Slideshow"</string>
+    <string name="albums" msgid="7320787705180057947">"Albume"</string>
+    <string name="times" msgid="2023033894889499219">"Ore"</string>
+    <string name="locations" msgid="6649297994083130305">"Locaţii"</string>
+    <string name="people" msgid="4114003823747292747">"Persoane"</string>
+    <string name="tags" msgid="5539648765482935955">"Etichete"</string>
+    <string name="group_by" msgid="4308299657902209357">"Grupaţi după"</string>
+    <string name="settings" msgid="1534847740615665736">"Setări"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Cameră foto"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Descărcate"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Fotografii online editate"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Importate"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Captură de ecran"</string>
+    <string name="help" msgid="7368960711153618354">"Ajutor"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Afişare tip bandă de film"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Afişare tip grilă"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Ecran complet"</string>
+    <string name="trimming" msgid="9122385768369143997">"Se ajustează"</string>
+    <string name="muting" msgid="5094925919589915324">"Se dezact. sunetul"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Aşteptaţi"</string>
+    <string name="save_into" msgid="9155488424829609229">"Se salvează videoclipul în <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Se redă panorama"</string>
+    <string name="save" msgid="613976532235060516">"Salvaţi"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Se scanează conținutul..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d elemente scanate"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d element scanat"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d (de) elemente scanate"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Se sortează..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Scanare finalizată"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Se importă..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"Nu există conținut disponibil de importat pe acest gadget."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"Nu există niciun gadget MTP conectat"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Cameră foto"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Redați videoclipul"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Bara temporală a playerului video"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Cameră foto"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Căutați"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Fotografii"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Albume"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d fotografie"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d fotografii"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Fişierele video cu cadre cheie va duce la repornirea redării."</string>
+    <string name="gif_decode_failed">"Imaginea bitmap este prea mare pentru a fi redată"</string>
+    <string name="spaceLow_content">"Salvare eşuată, sistemul poate nu are suficient spaţiu de stocare."</string>
+    <string name="wait_for_deleting">"Ştergere, vă rugăm aşteptaţi&#8230;"</string>
+    <string name="wait_for_rotating">"Se rotește, așteptați&#8230;"</string>
+    <string name="video_bookmarks">"Marcaje"</string>
+    <string name="video_edit_bookmark">Editează</string>
+    <string name="video_delete_bookmark">Ştergere</string>
+    <string name="empty_bookmarks">"Golire marcaje"</string>
+    <string name="do_not_save">Anulare</string>
+    <string name="net_location">"Adresă poştală"</string>
+    <string name="name">"Nume"</string>
+    <string name="bookmark_needs_title">Semnul de carte trebuie sa aiba un nume</string>
+    <string name="bookmark_needs_url">Semnul de carte trebuie sa aiba o locatie</string>
+    <string name="bookmark_invalid_url">"Locaţia trebuie să înceapă cu "http(s)://" sau "rtsp://""</string>
+    <string name="processing_please_wait">"Se procesează, așteptați."</string>
+    <string name="bookmark_exist">Exista un alt semn de carte cu acelasi nume.</string>
+    <string name="default_bookmark_title">titlu_implicit</string>
+    <string name="bookmark_added">"Salvat la marcaje"</string>
+    <string name="albums_video">"Video"</string>
+    <string name="empty_album_video">O videoclipuri disponibile.</string>
+    <string name="border_brush">"Perie"</string>
+    <string name="border_grunge">"Grunge"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Bandă"</string>
+    <string name="border_black">"Negru"</string>
+    <string name="border_black_rounded">"Black_rd"</string>
+    <string name="border_white">"Alb"</string>
+    <string name="border_white_rounded">"White_rd"</string>
+    <string name="border_cream">"Crem"</string>
+    <string name="border_cream_rounded">"Cream_rd"</string>
+    <string name="no_face">"Nu există imagine"</string>
+    <string name="can_not_share">"Fișierele selectate depășesc <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, partajarea nu este disponibilă"</string>
+
+    <string name="video_save_to_bookmark">"Salvaţi în Marcaje"</string>
+    <string name="video_view_bookmarks">"Marcaje"</string>
+    <string name="movie_view_proxy_set">"Setări Proxy"</string>
+    <string name="movie_view_network">"Rețea"</string>
+    <string name="movie_view_apn_set">"Intrare Apn setată"</string>
+    <string name="movie_view_proxy_ip_set">"Setări IP proxy"</string>
+    <string name="movie_view_proxy_port_set">"Setări port proxy"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"Setări port RTP/RTCP"</string>
+    <string name="movie_view_max_port_set">"Setări max. port RTP/RTCP"</string>
+    <string name="movie_view_min_port_set">"Setări min. port RTP/RTCP"</string>
+    <string name="movie_view_proxy_ok">OK</string>
+    <string name="movie_view_proxy_port_seterror_info">"Numărul portului trebuie să fie un număr întreg, în intervalul dat："</string>
+    <string name="movie_view_proxy_ip_seterror_info">"IP Invalid!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"Port Invalid!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"Setați mai întâi interval port!"</string>
+    <string name="movie_view_proxy_enable">"Activare proxy"</string>
+    <string name="movie_view_parameter_set">"Setări parametri"</string>
+    <string name="dialog_dismiss">"Renunţaţi"</string>
+    <string name="gallery_error_title">"Eroare Galerie"</string>
+    <string name="videoplayer_error_title">"Eroare player video"</string>
+    <string name="error_permissions">"Aplicația nu are permisiunile esențiale necesare pentru a funcționa. Verificați setările pentru permisiuni."</string>
+    <string name="gallery_premission_change">"Permisiunile Galeriei au fost modificate, selectați din nou"</string>
+    <string name="gallery_premission_error">"Eroare permisiuni Galerie, resetați permisiunile Galeriei."</string>
+    <string name="already_exist">"Efectul deja există"</string>
+    <string name="show_details_error">"Datele se încarcă, reîncercați mai târziu."</string>
+    <string name="none_playback">"Fără redare"</string>
+    <string name="single_playback">"O singură redare"</string>
+    <string name="all_playback">"Redare toate"</string>
+    <string name="playback_setting">"Mod de redare"</string>
+    <string name="can_not_open_float_video">"Imagine de fundal video curentă, ferestrele video plutitoare nu pot fi deschise."</string>
+    <string name="video_file_does_not_exist">"fișierul video nu există"</string>
+    <string name="movie_view_goto">"Mergi la"</string>
+    <string name="no_search_app">"nicio aplicație de căutare"</string>
+    <string name="channel_setting_title">"Setări canal"</string>
+    <string name="channel_setting_left">"Stânga"</string>
+    <string name="channel_setting_right">"Dreapta"</string>
+    <string name="channel_setting_dual">"Dual"</string>
+    <string name="channel_setting_ok">OK</string>
+    <string name="channel_setting_cancel">Anulare</string>
+    <string name="channel_setting">"Setări canal"</string>
+    <string name="movie_view_calling_title">"Apelare"</string>
+    <string name="movie_view_calling_msg">"Încercaţi din nou după încheierea apelului!"</string>
+    <string name="movie_view_calling_try">"Încearcă"</string>
+    <string name="movie_view_calling_cancel">Anulare</string>
+    <string name="time_out">"Timp limită"</string>
+    <string name="time_out_message">Anomalii in retea sau conexiune expirata, vreti sa reporniti sau nu?</string>
+    <string name="headset">"Căști"</string>
+    <string name="loud_speaker">"Difuzor"</string>
+    <string name="cannot_load_crop_image">"Memoria de execuție a aplicației este insuficientă, încărcarea imaginii nu a reușit."</string>
+    <string name="back_exit">iesiti cand apasati din nou</string>
+    <string name="slideshow_music">"Succesiune muzică"</string>
+    <string name="system_ringtones">"Tonuri de apel sistem"</string>
+    <string name="user_defined">"Definit de utilizator"</string>
+    <string name="cannot_play_music">"Nu se poate reda muzică acum"</string>
+    <string name="play_audio_failed">"Nu se poate reda audio acum"</string>
+    <string-array name="planets_array">
+        <item>"Toate clipurile video"</item>
+        <item>"Videoclipuri locale"</item>
+        <item>"Videoclipuri filmate"</item>
+        <item>"Redate recent"</item>
+    </string-array>
+    <string name="last_play">"Ultimul redat:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"Ștergeți înregistrările acum?"</item>
+        <item quantity="other">"Ștergeți înregistrările acum?"</item>
+    </plurals>
+    <string name="today">"Astăzi"</string>
+    <string name="yesterday">"Ieri"</string>
+    <string name="earlier">"Mai devreme"</string>
+    <string name="drawer_open">"Listă videoclipuri"</string>
+    <string name="drawer_close">"Toate clipurile video"</string>
+    <string name="share_actionmode">"Distrib."</string>
+    <string name="delete_actionmode">Ştergere</string>
+    <string name="clear_all">"Şterge toate canalele"</string>
+    <string name="video_list">"Listă videoclipuri"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"Ștergeţi articolul selectat?"</item>
+        <item quantity="other">"Ștergeţi articolul selectat?"</item>
+    </plurals>
+    <string name="current_select">"%d selectate"</string>
+    <string name="no_video_play_records">"Nu există înregistrari de redat"</string>
+    <string name="no_videos">"Niciun videoclip"</string>
+    <string name="video_not_exist">"Videoclipul nu a existat"</string>
+    <string name="save_picture">"Captura fost salvată la %s"</string>
+    <string name="mute">"Se dezact. sunetul"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Protejarea informaţiilor"</string>
+    <string name="drm_info">"Protejarea informaţiilor"</string>
+    <string name="file_name">"Nume fișier:"</string>
+    <string name="rights_validity">"Valabilitate drepturi:"</string>
+    <string name="rights_status">"Stare drepturi:"</string>
+    <string name="start_time">"Ora de începere:"</string>
+    <string name="end_time">"Ora de terminare:"</string>
+    <string name="expiration_time">"Timpul de expirare:"</string>
+    <string name="remain_times">"Număr de încercări rămase:"</string>
+    <string name="rights_validity_valid">"Valid"</string>
+    <string name="rights_validity_invalid">"Invalid"</string>
+    <string name="rights_status_share">"Înaintare permisă"</string>
+    <string name="rights_status_not_share">"Înaintare nepermisă"</string>
+    <string name="drm_rights_no_limit">"Nelimitat"</string>
+    <string name="drm_rights_unknown">Necunoscut</string>
+    <string name="drm_rights_inactive">"Drepturi inactive"</string>
+    <string name="drm_file_invalid">"Fişier expirat"</string>
+    <string name="screenshot_failed">"Nu s-a reușit captura de ecran"</string>
+    <string name="floatwindow_unsupported_device">"Fereastra plutitoare nu este acceptată pe acest dispozitiv"</string>
+    <string name="floatwindow_unsupported_camera">"Fereastra plutitoare nu este acceptată pe cameră"</string>
+    <string name="floatwindow_unsupported_streaming">"Fereastra plutitoare nu este acceptată atunci când se execută streaming de videoclipuri"</string>
+    <string name="stream_screenshot_not_supported">"Funcția de captură nu este acceptată atunci când se execută streaming de videoclipuri"</string>
+
+    <string name="movie_view_sms_received_ok">"sms primit"</string>
+    <string name="movie_view_mms_process_title">"Prelucrare MMS"</string>
+    <string name="movie_view_sms_process_title">"Procesare Sms"</string>
+    <string name="movie_view_mms_ok">OK</string>
+    <string name="movie_view_mms_processing_ok">"primire finalizată"</string>
+    <string name="drm_consumed">"Operaţiunea dvs.a necesitat utilizarea unor drepturi Drm"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="invalid_rights">"Acest fişier nu are o licenţă validă"</string>
+    <string name="drm_consume_title">"Drepturi utilizare Drm"</string>
+    <string name="drm_consume_hint">"Operaţiunea dvs. antrenează utilizarea de drepturi Drm"</string>
+    <string name="choose_drm_alert">"Nu puteţi alege un fişier Drm, vă rugăm selectaţi un altul"</string>
+</resources>

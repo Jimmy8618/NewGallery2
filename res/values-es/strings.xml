@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galería"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"Reproductor de vídeo"</string>
+    <string name="loading_video" msgid="4013492720121891585">"Cargando vídeo…"</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"Reanudar vídeo"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"Reanudar reproducción a partir de ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"Reanudar reproducción"</string>
+    <string name="loading" msgid="7038208555304563571">"Cargando..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"Error al cargar"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"No se puede cargar la imagen."</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"No hay miniaturas."</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"Volver a reproducir"</string>
+    <string name="ok" msgid="5296833083983263293">"Aceptar"</string>
+    <string name="saving_image" msgid="7270334453636349407">"Guardando imagen..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"Guardando imagen en <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="crop_label" msgid="521114301871349328">"Recortar"</string>
+    <string name="trim_label" msgid="274203231381209979">"Recortar vídeo"</string>
+    <string name="select_image" msgid="7841406150484742140">"Seleccionar foto"</string>
+    <string name="select_video" msgid="4859510992798615076">"Seleccionar vídeo"</string>
+    <string name="select_item" msgid="2816923896202086390">"Seleccionar elemento"</string>
+    <string name="select_album" msgid="1557063764849434077">"Seleccionar álbum"</string>
+    <string name="select_group" msgid="6744208543323307114">"Seleccionar grupo"</string>
+    <string name="set_image" msgid="2331476809308010401">"Establecer como..."</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"Fondo de pantalla"</string>
+    <string name="delete" msgid="2839695998251824487">"Borrar"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"¿Eliminar elemento seleccionado?"</item>
+        <item msgid="5874316486520635333" quantity="other">"¿Eliminar elementos seleccionados?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"Confirmar"</string>
+    <string name="cancel" msgid="3637516880917356226">"Cancelar"</string>
+    <string name="share" msgid="3619042788254195341">"Compartir"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"Compartir panorámica"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"Compartir como foto"</string>
+    <string name="deleted" msgid="6795433049119073871">"Eliminada"</string>
+    <string name="undo" msgid="2930873956446586313">"DESHACER"</string>
+    <string name="select_all" msgid="3403283025220282175">"Seleccionar todo"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"Desmarcar todo"</string>
+    <string name="slideshow" msgid="4355906903247112975">"Presentación"</string>
+    <string name="details" msgid="8415120088556445230">"Detalles"</string>
+    <string name="details_title" msgid="2611396603977441273">"Elemento: %1$d de %2$d"</string>
+    <string name="close" msgid="5585646033158453043">"Cerrar"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"Cambiar a la cámara"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d seleccionados"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d seleccionados"</item>
+        <item msgid="754722656147810487" quantity="other">"%1$d seleccionados"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"Mostrar en el mapa"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"Girar a la izquierda"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"Girar a la derecha"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"No se ha podido encontrar el elemento."</string>
+    <string name="edit" msgid="1502273844748580847">"Editar"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"Edición simple"</string>
+    <string name="crop_action" msgid="3427470284074377001">"Recortar"</string>
+    <string name="trim_action" msgid="703098114452883524">"Recortar"</string>
+    <string name="mute_action" msgid="5296241754753306251">"Silenciar"</string>
+    <string name="set_as" msgid="3636764710790507868">"Establecer como"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"No se puede silenciar el vídeo."</string>
+    <string name="video_err" msgid="7003051631792271009">"No se puede reproducir el vídeo."</string>
+    <string name="group_by_location" msgid="316641628989023253">"Por ubicación"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"Por fecha"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"Por etiquetas"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"Por personas"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"Por álbum"</string>
+    <string name="untagged" msgid="7281481064509590402">"Sin etiquetas"</string>
+    <string name="no_location" msgid="4043624857489331676">"Sin ubicación"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"No se ha podido identificar algunas ubicaciones debido a errores en la red."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"No se ha podido descargar las fotos del álbum. Inténtalo de nuevo más tarde."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"Solo imágenes"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"Solo vídeos"</string>
+    <string name="show_all" msgid="6963292714584735149">"Imágenes y vídeos"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Galería de fotos"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"No hay fotos."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"La imagen recortada se ha guardado en <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"No hay álbumes disponibles."</string>
+    <string name="empty_album" msgid="4542880442593595494">"No hay imágenes ni vídeos disponibles."</string>
+    <string name="done" msgid="217672440064436595">"Listo"</string>
+    <string name="title" msgid="7622928349908052569">"Título"</string>
+    <string name="description" msgid="3016729318096557520">"Descripción"</string>
+    <string name="time" msgid="1367953006052876956">"Hora"</string>
+    <string name="location" msgid="3432705876921618314">"Ubicación"</string>
+    <string name="path" msgid="4725740395885105824">"Ruta"</string>
+    <string name="width" msgid="9215847239714321097">"Ancho"</string>
+    <string name="height" msgid="3648885449443787772">"Altura"</string>
+    <string name="orientation" msgid="4958327983165245513">"Orientación"</string>
+    <string name="duration" msgid="8160058911218541616">"Duración"</string>
+    <string name="mimetype" msgid="8024168704337990470">"Tipo de MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"Tamaño del archivo"</string>
+    <string name="maker" msgid="7921835498034236197">"Creador"</string>
+    <string name="model" msgid="8240207064064337366">"Modelo"</string>
+    <string name="flash" msgid="2816779031261147723">"Flash"</string>
+    <string name="aperture" msgid="5920657630303915195">"Apertura"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Longitud focal"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Balance de blancos"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Tiempo exposición"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"mm"</string>
+    <string name="manual" msgid="6608905477477607865">"Manual"</string>
+    <string name="auto" msgid="4296941368722892821">"Automático"</string>
+    <string name="flash_on" msgid="7891556231891837284">"Flash activado"</string>
+    <string name="flash_off" msgid="1445443413822680010">"Sin flash"</string>
+    <string name="unknown" msgid="3506693015896912952">"Desconocido"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"Vintage"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"Instant"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"Decolorar"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"Azul"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"B/N"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"Punch"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"Proceso X"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"Latte"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litho"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"Todos los álbumes"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"Álbumes locales"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> o inferior"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> o superior"</string>
+    <string name="size_between" msgid="8779660840898917208">"De <xliff:g id="MIN_SIZE">%1$s</xliff:g> a <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"Importar"</string>
+    <string name="import_complete" msgid="3875040287486199999">"Importación completada"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Seleccionar un álbum"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"Mostrar imágenes aleatoriamente"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"Seleccionar una imagen"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Seleccionar imágenes"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"Presentación"</string>
+    <string name="albums" msgid="7320787705180057947">"Álbumes"</string>
+    <string name="times" msgid="2023033894889499219">"Fecha"</string>
+    <string name="locations" msgid="6649297994083130305">"Ubicaciones"</string>
+    <string name="people" msgid="4114003823747292747">"Personas"</string>
+    <string name="tags" msgid="5539648765482935955">"Etiquetas"</string>
+    <string name="group_by" msgid="4308299657902209357">"Agrupar por"</string>
+    <string name="settings" msgid="1534847740615665736">"Ajustes"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Cámara"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Descargadas"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Fotos online editadas"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Importadas"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Capturas de pantalla"</string>
+    <string name="help" msgid="7368960711153618354">"Ayuda"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"Vista de tira de película"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"Vista de cuadrícula"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"Pantalla completa"</string>
+    <string name="trimming" msgid="9122385768369143997">"Recortando..."</string>
+    <string name="muting" msgid="5094925919589915324">"Silenciando..."</string>
+    <string name="please_wait" msgid="7296066089146487366">"Espera..."</string>
+    <string name="save_into" msgid="9155488424829609229">"Guardando vídeo en <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"Creando panorámica..."</string>
+    <string name="save" msgid="613976532235060516">"Guardar"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"Analizando contenido..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"%1$d elementos analizados"</item>
+        <item msgid="4340019444460561648" quantity="one">"%1$d elemento analizado"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d elementos analizados"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"Ordenando..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"Análisis completo"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"Importando..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"No hay contenido disponible para importar en este dispositivo."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"No hay dispositivos MTP conectados"</string>
+    <string name="camera_label" msgid="6346560772074764302">"Cámara"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Ver un vídeo"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Barra de tiempo del reproductor de vídeo"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"Cámara"</string>
+    <string name="menu_search" msgid="7580008232297437190">"Buscar"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"Fotos"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"Álbumes"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d foto"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d fotos"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"Ningun keyframe reiniciará la  reproducción"</string>
+    <string name="gif_decode_failed">"el bitmap es demasiado largo para reproducir"</string>
+    <string name="spaceLow_content">"No se puede guardar, el sistema no debe tener suficiente espacio"</string>
+    <string name="wait_for_deleting">"Eliminando, por favor esperar&#8230;"</string>
+    <string name="wait_for_rotating">"Rotando, por favor esperar&#8230;"</string>
+    <string name="video_bookmarks">"Marcadores"</string>
+    <string name="video_edit_bookmark">Editar</string>
+    <string name="video_delete_bookmark">Borrar</string>
+    <string name="empty_bookmarks">"Marcador vacio"</string>
+    <string name="do_not_save">Cancelar</string>
+    <string name="net_location">"Dirección"</string>
+    <string name="name">"Nombre"</string>
+    <string name="bookmark_needs_title">El marcador de libros debe tener un nombre</string>
+    <string name="bookmark_needs_url">El macador de libros tiene que tener una ubicación</string>
+    <string name="bookmark_invalid_url">La ubicacion debe empezar con "http(s)://" o "rtsp://"</string>
+    <string name="processing_please_wait">"Procesando, por favor espere."</string>
+    <string name="bookmark_exist">Existe un marcador de libros con la misma ubicación</string>
+    <string name="default_bookmark_title">Titulo predeterminado</string>
+    <string name="bookmark_added">"guardado en los marcadores"</string>
+    <string name="albums_video">"Películas"</string>
+    <string name="empty_album_video">"0 videos disponibles."</string>
+    <string name="border_brush">"Cepillo"</string>
+    <string name="border_grunge">"bohemio"</string>
+    <string name="border_sumi">"Sumi"</string>
+    <string name="border_tape">"Cinta"</string>
+    <string name="border_black">"Negro"</string>
+    <string name="border_black_rounded">"rd_negro"</string>
+    <string name="border_white">"Blanco"</string>
+    <string name="border_white_rounded">"rd_blanco"</string>
+    <string name="border_cream">"crema"</string>
+    <string name="border_cream_rounded">"rd_crema"</string>
+    <string name="no_face">"Sin rostro"</string>
+    <string name="can_not_share">"Los archivos seleccionados se acabaron <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, Compartiendo función no está disponible"</string>
+
+    <string name="drm_file_invalid">"el archivo ha expirado"</string>
+    <string name="drm_consume_hint">"Su operación consumirá derechos Drm"</string>
+    <string name="expiration_time">"Tiempo de expiración"</string>
+    <string name="rights_validity_valid">"válido"</string>
+    <string name="drm_rights_inactive">"Derechos inactivos"</string>
+    <string name="choose_drm_alert">"no se puede escoger archivos Drm, por favor seleccione otro"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="drm_consume_title">"Derechos de consumo Drm"</string>
+    <string name="rights_status">"Estado de los derechos"</string>
+    <string name="remain_times">"Veces restantes"</string>
+    <string name="invalid_rights">"Este archivo no tiene licencia válida"</string>
+    <string name="file_name">Nombre de archivo</string>
+    <string name="rights_status_share">"Se permite re-enviar"</string>
+    <string name="drm_rights_no_limit">"Ilimitado"</string>
+    <string name="drm_rights_unknown">"Desconocida"</string>
+    <string name="rights_validity_invalid">"Invalido"</string>
+    <string name="rights_status_not_share">"No se permite re-enviar"</string>
+    <string name="drm_consumed">"Su operación ha consumido derechos Drm"</string>
+    <string name="drm_info">"Información de protección"</string>
+    <string name="rights_validity">"Validez de los derechos"</string>
+    <string name="start_time">"Hora de inicio"</string>
+    <string name="end_time">"Hora de finalización"</string>
+    <string name="ffx_dehaze">"Borrar neblina"</string>
+    <string name="video_save_to_bookmark">"Guardar en marcadores"</string>
+    <string name="video_view_bookmarks">"Marcadores"</string>
+    <string name="movie_view_proxy_set">"Establecer Proxy"</string>
+    <string name="movie_view_network">"Red"</string>
+    <string name="movie_view_apn_set">"Establecer entrada Apn"</string>
+    <string name="movie_view_proxy_ip_set">"Configuraciones IP Proxy"</string>
+    <string name="movie_view_proxy_port_set">"Configuraciones Puerto Proxy"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"Configuraciones Puertos RTP/RTCP"</string>
+    <string name="movie_view_max_port_set">"Configuraciones Puertos Max RTP/RTCP"</string>
+    <string name="movie_view_min_port_set">"Configuraciones Puertos Min RTP/RTCP"</string>
+    <string name="movie_view_proxy_ok">"OK"</string>
+    <string name="movie_view_proxy_port_seterror_info">"Una Configuración de Puerto Evaluado debe ser un entero entre un rango dado:"</string>
+    <string name="movie_view_proxy_ip_seterror_info">"¡IP no es válida!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"¡Puerto no es válido!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"¡Establecer Primero el Rango de Puerto!"</string>
+    <string name="movie_view_proxy_enable">"Proxy activado"</string>
+    <string name="movie_view_parameter_set">"Configuraciones"</string>
+    <string name="dialog_dismiss">"Descartar"</string>
+    <string name="gallery_error_title">"Error de galería"</string>
+    <string name="videoplayer_error_title">"Error al reproducir vídeo"</string>
+    <string name="error_permissions">"La aplicación no tiene permisos críticos necesarios para funcionar. Se recomienda consultar los permisos de configuración."</string>
+    <string name="gallery_premission_change">"Permiso de Galería cambiado, por favor vuelva a seleccionar"</string>
+    <string name="gallery_premission_error">"Error de permiso de Galería, por favor restablecer los permisos de galería."</string>
+    <string name="already_exist">"El efecto ya existe"</string>
+    <string name="show_details_error">"Cargando datos, por favor intente de nuevo más tarde."</string>
+    <string name="none_playback">"Ninguna reproducción"</string>
+    <string name="single_playback">"Reproducción de una sola"</string>
+    <string name="all_playback">"Reproducir todo"</string>
+    <string name="playback_setting">"Modo reproducción"</string>
+    <string name="can_not_open_float_video">"Fondo de pantalla de vídeo actual, ventanas flotantes de vídeo no se puede abrir".</string>
+    <string name="video_file_does_not_exist">"archivo de vídeo no existe"</string>
+    <string name="movie_view_goto">"Ir a"</string>
+    <string name="no_search_app">"Sin búsqueda de aplicación"</string>
+    <string name="channel_setting_title">"Configuración de Canal"</string>
+    <string name="channel_setting_left">"Izquierda"</string>
+    <string name="channel_setting_right">"Derecha"</string>
+    <string name="channel_setting_dual">"Dual"</string>
+    <string name="channel_setting_ok">"OK"</string>
+    <string name="channel_setting_cancel">"Cancelar"</string>
+    <string name="channel_setting">"Configuración de Canal"</string>
+    <string name="movie_view_calling_title">"Llamando"</string>
+    <string name="movie_view_calling_msg">"¡Por favor, inténtelo de nuevo después de finalizar la llamada!"</string>
+    <string name="movie_view_calling_try">"Trate"</string>
+    <string name="movie_view_calling_cancel">"Cancelar"</string>
+    <string name="time_out">"Tiempo de espera agotado"</string>
+    <string name="time_out_message">"Anomalías de red o tiempo de espera de conexión, ¿desea reiniciar o no?"</string>
+    <string name="headset">"Auriculares"</string>
+    <string name="loud_speaker">"Altavoz"</string>
+    <string name="back_exit">"Salir cuando pulse de nuevo"</string>
+    <string name="cannot_load_crop_image">"La memoria de tiempo de ejecución de las aplicaciones no es suficiente, falló la carga de imágenes."</string>
+    <string name="slideshow_music">"Deslizar música"</string>
+    <string name="system_ringtones">"Tonos del sistema"</string>
+    <string name="user_defined">"Usuario Definido"</string>
+    <string name="select_music">"Seleccionar música"</string>
+    <string name="cannot_play_music">"No se puede reproducir la música ahora"</string>
+    <string name="play_audio_failed">"No se puede reproducir el audio ahora"</string>
+    <string-array name="planets_array">
+        <item>"Todos"</item>
+        <item>"Vídeos locales"</item>
+        <item>"Cámara"</item>
+        <item>"Recientemente grabado"</item>
+    </string-array>
+    <string name="last_play">"Último reproducción:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"¿Eliminar el registro ahora?"</item>
+        <item quantity="other">"¿Eliminar los registros ahora?"</item>
+    </plurals>
+    <string name="today">"Hoy"</string>
+    <string name="yesterday">"Ayer"</string>
+    <string name="earlier">"Más temprano"</string>
+    <string name="drawer_open">"Lista de vídeos"</string>
+    <string name="drawer_close">"Todos los vídeos"</string>
+    <string name="share_actionmode">"Compartir"</string>
+    <string name="delete_actionmode">"Eliminar"</string>
+    <string name="clear_all">"Eliminar Todo"</string>
+    <string name="video_list">"Vídeo"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"¿Eliminar elemento seleccionado?"</item>
+        <item quantity="other">"¿Eliminar elementos seleccionados?"</item>
+    </plurals>
+    <string name="current_select">"%d seleccionado"</string>
+    <string name="no_video_play_records">"No hay registros de reproducción"</string>
+    <string name="no_videos">"No hay vídeos"</string>
+    <string name="video_not_exist">"El vídeo no existía"</string>
+    <string name="save_picture">"La captura se guardó en %s"</string>
+    <string name="mute">"Silenciando"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"Información de Protección"</string>
+    <string name="screenshot_failed">"Error en la captura de pantalla"</string>
+    <string name="slidemusic">"Establecer música de presentación"</string>
+    <string name="setas">"Establecer como"</string>
+    <string name="slide_music_system_ringtones">"Tonos del sistema"</string>
+    <string name="slide_music_user_defined">"Usuario Definido"</string>
+    <string name="remove_usbdisk">"El dispositivo del usuario se ha eliminado"</string>
+    <string name="edit_crop_free">"Libre"</string>
+    <string name="edit_crop_square">"Cuadrado"</string>
+    <string name="edit_crop_origin">"Original"</string>
+    <string name="hide_albums">"Ocultar álbumes"</string>
+    <string name="show_local_albums">"Mostrar álbumes locales"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"Fotografía %1$d seleccionada"</item>
+        <item quantity="other">"Fotografías %1$d seleccionadas"</item>
+    </plurals>
+    <string name="select">"Seleccionar"</string>
+    <string name="popup_title_save_all_selected">"¿Desea guardar todas las fotografías?"</string>
+    <string name="keep_all">"Guardar todo"</string>
+    <string name="delete_all">"Eliminar Todo"</string>
+    <string name="burst_progress_dialog_title">"Procesando…"</string>
+    <string name="side_bar_all_photos">"Todos"</string>
+    <string name="side_bar_photo">"Fotos"</string>
+    <string name="side_bar_video">"Vídeos"</string>
+    <string name="side_bar_album">"Álbumes"</string>
+    <string name="label_select">"Seleccionar"</string>
+    <string name="no_photo_or_video">"No %1$s"</string>
+    <string name="no_photo_or_video_hint">"Aquí se mostrarán las fotos o los vídeos guardados en este dispositivo."</string>
+    <string name="detail_pop_title">"Información"</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"Más"</string>
+    <string name="detail_location">"Ubicación"</string>
+    <string name="floatwindow_unsupported_device">"La ventana flotante no es compatible con este dispositivo"</string>
+    <string name="floatwindow_unsupported_camera">"La ventana flotante no es compatible con la cámara"</string>
+    <string name="floatwindow_unsupported_streaming">"No se admite la ventana flotante al reproducir vídeos en streaming"</string>
+    <string name="stream_screenshot_not_supported">"La función de captura no es compatible con la reproducción de vídeos en streaming."</string>
+    <string name="database_exception">"Se produjo una excepción en el procesamiento de datos, la operación no se realizó."</string>
+    <string name="exit_multiwindow_tips">"El modo de pantalla dividida no admite la exploración de fotografías"</string>
+    <string name="exit_multiwindow_video_tips">"El modo de pantalla dividida no admite la visualización de vídeos"</string>
+    <string name="decode_image_faild">"Error al recortar la imagen"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">"Hoy"</string>
+    <string name="label_yesterday">"Ayer"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="movie_view_mms_processing_ok">"Recibir completado"</string>
+    <string name="movie_view_sms_received_ok">"recibir sms"</string>
+    <string name="movie_view_mms_process_title">"Procesando mms"</string>
+    <string name="movie_view_sms_process_title">"Procesando sms"</string>
+    <string name="movie_view_mms_ok">"OK"</string>
+    <string name="album_set_loading_tip">"Los datos se están cargando, espere"</string>
+    <string name="refocus_photo_edit_save">"Guardar"</string>
+    <string name="distance_photo_unit_conversion">"Conversión de unidades"</string>
+    <string name="unit">"Unidad"</string>
+    <string name="meter">"metro"</string>
+    <string name="centimeter">"centímetro"</string>
+    <string name="foot">"Pie"</string>
+    <string name="inch">"Pulgada"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"Este vídeo no es válido para la transmisión de este dispositivo."</string>
+    <string name="VideoView_error_text_unknown">"No se puede reproducir el vídeo."</string>
+    <string name="no_touch_flip">"sin funda plegable"</string>
+    <string name="flip_summury">"cubrir la cámara 1 s para voltear la imagen"</string>
+    <string name="first_summary">"avanzar página por defecto"</string>
+    <string name="sencond_summury">"página anterior al subir el volumen"</string>
+    <string name="third_summury">"página siguiente al bajar el volumen"</string>
+    <string name="fourth_summury">"resumen: suba la tecla de volumen "</string>
+    <string name="dealing">"Cargando…"</string>
+    <string name="slide_music_stop">"Música de presentación detenida"</string>
+    <string name="select_tips">"El objeto seleccionado está en segundo plano. Vuelva a crear el punto en el rango frontal"</string>
+    <string name="definition_subject">"Definir objeto"</string>
+    <string name="fix_subject">"Actualizar como destino"</string>
+    <string name="fix_background">"Actualizar como fondo"</string>
+    <string name="replace_background">"Sustituir fondo"</string>
+    <string name="correct_object_tips">"Manche el área donde el contorno no se predice con precisión con un solo dedo, luego haga clic en el botón "Actualizar como destino" para actualizar el área de dibujo como el objeto de destino, o haga clic en el botón "Actualizar como fondo" para actualizarlo como fondo. También puede hacer zoom y mover imágenes con dos dedos para hacer que la actualización sea más precisa."</string>
+    <string name="def_object_tips">"Definir objeto: dibuje un rectángulo para cubrir el contorno del objeto que desea extraer, y el objeto debe quedar bien cubierto por el rectángulo."</string>
+    <string name="valid_point">"El punto de partida o el punto de terminación no están dentro del rango válido,"</string>
+    <string name="small_rect">"El rectángulo trazado es demasiado pequeño."</string>
+    <string name="add">"Añadir"</string>
+    <string name="use_phone_photo">"Use las fotografías tomadas con su teléfono móvil"</string>
+    <string name="extract_failed">"Error al extraer, comience de nuevo"</string>
+    <string name="blending_success">"Fusión de imagen correcta, Continúe la operación o pulse el botón Atrás para salir"</string>
+    <string name="blending_failed">"Error al fusionar imagen"</string>
+    <string name="extract_failed_notforground">"Error al extraer, no hay objeto de fondo, comience de nuevo"</string>
+    <string name="extract_failed_nomemory">"Error al extraer, hay muy poca memoria, comience de nuevo"</string>
+    <string name="extract_timeout">"Se ha superado el tiempo de espera al extraer, comience de nuevo"</string>
+    <string name="extract_forground">"Extrayendo destino del fondo, espere un momento."</string>
+    <string name="update_forground">"Actualizando destino del fondo, espere un momento."</string>
+    <string name="blending_image">"Fusionando imagen, espere un momento."</string>
+    <string name="select_foreground_subject">"Hacer clic para seleccionar el destino en primer plano"</string>
+    <string name="adjust_foreground_subject">"Ajustar destino en primer plano"</string>
+    <string name="correct_subject_outline">"Corregir contorno de destino"</string>
+    <string name="edit_background">"Editar fondo"</string>
+    <string name="verify_prompt">"La posición actual está demasiado cerca del borde, lo que no favorecerá el efecto, ¿seguro que desea realizar la fusión?"</string>
+    <string name="fg_too_large">"El destino en primer plano es demasiado grande para combinar."</string>
+    <string name="draw_tips">"Dibuje dentro del rectángulo blanco"</string>
+    <string name="undo_faild">"error en la operación de deshacer"</string>
+    <string name="get_forfround_tips">"No se pueden cambiar todos los sujetos de primer plano al fondo. Vuelva a dibujar."</string>
+    <string name="blending_move_limit">"Se ha alcanzado el borde de la pantalla. No puede hacer nada más; ajuste la posición y continúe."</string>
+    <string name="init_bitmap_faild">"Error de imagen; inténtelo de nuevo"</string>
+    <string name="back">"Regresar"</string>
+    <string name="slide_music_play_fail">"Error al reproducir el archivo"</string>
+    <string name="refocus_quit">"Abandonar"</string>
+    <string name="refocus_save_change">"Guardar cambios"</string>
+    <string name="refocus_confirm_save">"¿Desea guardar o salir directamente?"</string>
+    <string name="refocus_save_success">"Guardar correctamente"</string>
+    <string name="refocus_save_fail">"Error al guardar"</string>
+    <string name="none_input_tips">"El nombre no puede estar vacío"</string>
+    <string name="floatview_notification_text">"El vídeo se está reproduciendo en una ventana flotante."</string>
+    <string name="voice_photo">"Imagen de audio"</string>
+    <string name="continuous_shooting">"Ráfaga"</string>
+    <string name="refocus_image">"Difuminar imagen"</string>
+    <string name="blur_image_wait">"El difuminado de la imagen se está procesando. Espere"</string>
+    <string name="blur_save_fail">"Error al guardar imagen difuminada"</string>
+    <string name="refocus_init_fail">"Error de inic. de datos"</string>
+    <string name="conversing">"Convirtiendo"</string>
+    <string name="share_as_image">"Compartir como imagen"</string>
+    <string name="share_as_video">"Compartir como vídeo"</string>
+    <string name="converse_video_failed">"Error de conversión a vídeo."</string>
+    <string name="app_photo_edit">"Edición de fotos"</string>
+    <string name="cant_select_file">"Archivo no admitido"</string>
+    <string name="input_reached_max_length">"La entrada alcanzó la longitud máxima"</string>
+    <string name="v2_photo">"Foto"</string>
+    <string name="v2_album">"Álbum"</string>
+    <string name="v2_discover">"Detectar"</string>
+    <plurals name="album_info_images">
+        <item quantity="zero">"%1$d imagen"</item>
+        <item quantity="one">"%1$d Image"</item>
+        <item quantity="other">"%1$d imágenes"</item>
+    </plurals>
+    <plurals name="album_info_videos">
+        <item quantity="zero">"%1$d vídeo"</item>
+        <item quantity="one">"%1$d Video"</item>
+        <item quantity="other">"%1$d vídeos"</item>
+    </plurals>
+    <string name="new_album">"Álbum nuevo"</string>
+    <string name="already_select_count">"Seleccionado %1$d"</string>
+    <string name="no_photos_or_videos">"No hay fotos ni vídeos."</string>
+    <string name="no_albums">"No hay álbumes."</string>
+    <string name="badname_as_point">"No debe ser nombrado como /, \\,. ó .., eso puede confundir con su sistema de archivos"</string>
+    <string name="msg_folder_input_empty">"Nombre de la carpeta está vacío"</string>
+    <string name="badname_endwith_point">"El final del nombre de la carpeta no puede estar con ella."</string>
+    <string name="illegal_chars_of_foldername">"El nombre de carpeta no puede contener caracteres no válidos \\:*?\"\u003C\u003E|/"</string>
+    <string name="msg_file_input_repeat">"El nombre %1$s ya existe, por favor, introduzca otro."</string>
+    <string name="menu_mkdir_failed">"No se pudo crear la carpeta %1$s"</string>
+    <string name="add_to_album">"Añadir al álbum"</string>
+    <string name="internal_storage">"Almacenamiento interno"</string>
+    <string name="external_storage">"Tarjeta SD"</string>
+    <string name="my_album">"Mi álbum"</string>
+    <string name="failed_add_to_album">"Error al añadir al álbum"</string>
+    <string name="select_images_or_videos">"Seleccionar imágenes o vídeos"</string>
+    <string name="fragment_state_lost_msg">"Estado perdido; reestablézcalo"</string>
+    <string name="recently_deleted">"Eliminado recientemente"</string>
+    <string name="trash_restore">"Restaurar"</string>
+    <string name="wait_for_restoring">"Restaurando; por favor, espere&#8230;"</string>
+    <plurals name="restore_selection">
+        <item quantity="one">"¿Restaurar elemento seleccionado?"</item>
+        <item quantity="other">"¿Restaurar elementos seleccionados?"</item>
+    </plurals>
+    <string name="trash_date_tip">"Las fotos se eliminarán definitivamente en 30 días."</string>
+    <plurals name="left_day">
+        <item quantity="one">"%1$d día"</item>
+        <item quantity="other">"%1$d días"</item>
+    </plurals>
+    <string name="tf_discover_things">"Cosas"</string>
+    <string name="tf_discover_people">"Personas"</string>
+    <string name="tf_discover_location">"Ubicación"</string>
+    <string name="tf_unknown">"Desconocido"</string>
+    <string name="tf_aircraft">"Aeronave"</string>
+    <string name="tf_animal">"Animal"</string>
+    <string name="tf_baby">"Bebé"</string>
+    <string name="tf_basketball">"Baloncesto"</string>
+    <string name="tf_bedroom">"Dormitorio"</string>
+    <string name="tf_bicycle">"Bicicleta"</string>
+    <string name="tf_bird">"Pájaro"</string>
+    <string name="tf_bridge">"Puente"</string>
+    <string name="tf_building">"Edificio"</string>
+    <string name="tf_bus">"Autobús"</string>
+    <string name="tf_car">"Coche"</string>
+    <string name="tf_cat">"Gato"</string>
+    <string name="tf_classroom">"Aula"</string>
+    <string name="tf_conference_room">"Sala de conferencias"</string>
+    <string name="tf_crawling_animal">"Animal que se arrastra"</string>
+    <string name="tf_desktop_computer">"Ordenador de escritorio"</string>
+    <string name="tf_document">"Documento"</string>
+    <string name="tf_dog">"Perro"</string>
+    <string name="tf_electric_bicycle">"Bicicleta eléctrica"</string>
+    <string name="tf_evergreen">"Perenne"</string>
+    <string name="tf_farmland">"Tierras agrícolas"</string>
+    <string name="tf_fish">"Pez"</string>
+    <string name="tf_flower">"Flor"</string>
+    <string name="tf_food">"Comida"</string>
+    <string name="tf_football">"Fútbol"</string>
+    <string name="tf_graduation_photo">"Foto de graduación"</string>
+    <string name="tf_grassland">"Prado"</string>
+    <string name="tf_group_photo">"Foto de grupo"</string>
+    <string name="tf_helicopter">"Helicóptero"</string>
+    <string name="tf_kitchen">"Cocina"</string>
+    <string name="tf_laptop">"Ordenador portátil"</string>
+    <string name="tf_metro">"Metro"</string>
+    <string name="tf_mobile_phone">"Teléfono móvil"</string>
+    <string name="tf_motorcycle">"Motocicleta"</string>
+    <string name="tf_mountain">"Montaña"</string>
+    <string name="tf_office">"Oficina"</string>
+    <string name="tf_parlour">"Salón"</string>
+    <string name="tf_party">"Fiesta"</string>
+    <string name="tf_people">"Personas"</string>
+    <string name="tf_playground">"Parque infantil"</string>
+    <string name="tf_river">"Río"</string>
+    <string name="tf_road">"Carretera"</string>
+    <string name="tf_sea">"Mar"</string>
+    <string name="tf_selfie">"Selfie"</string>
+    <string name="tf_ship">"Barco"</string>
+    <string name="tf_shopping_mall">"Centro comercial"</string>
+    <string name="tf_sky">"Cielo"</string>
+    <string name="tf_telephone">"Teléfono"</string>
+    <string name="tf_train">"Tren"</string>
+    <string name="tf_tree">"Árbol"</string>
+    <string name="tf_waiting_room">"Sala de espera"</string>
+    <string name="tf_night_scene">"Escena nocturna"</string>
+    <string name="tf_cake">"Pastel"</string>
+    <string name="tf_lake">"Lago"</string>
+    <string name="tf_indoor">"Interior"</string>
+    <string name="tf_computer">"Ordenador"</string>
+    <string name="tf_sport">"Deporte"</string>
+    <string name="tf_sea_river">"Mar,Río,Lago"</string>
+    <string name="tf_phone">"Teléfono"</string>
+    <string name="move_out_of_this_classification">"Quítese"</string>
+    <string name="move_out_classification_dialog_title">"¿Quiere eliminar los elementos seleccionados de la clasificación?"</string>
+    <string name="moving_out">"Sacando&#8230;"</string>
+    <string name="image">"Imágenes"</string>
+    <string name="video">"Vídeos"</string>
+    <string name="all_medias">"Todos"</string>
+    <string name="un_named">"sin nombre"</string>
+    <string name="move_out_of_this_people">"Move out"</string>
+    <string name="move_out_people_dialog_title">"¿Quiere eliminar los elementos seleccionados de las personas?"</string>
+    <string name="add_name">"Añadir nombre"</string>
+    <string name="illegal_chars_of_name">"El nombre no puede contener caracteres no admitidos \\:*?\"\u003C\u003E|/"</string>
+    <string name="repeated_name">"El nombre ya existe"</string>
+    <string name="replay">"Salga y vuelva a reproducir"</string>
+    <string name="bokeh_editor">"Editor de bokeh"</string>
+    <string name="merge_to">"Combinar en"</string>
+    <string name="hide_albums_v2">"Ocultar álbumes"</string>
+    <string name="request_delete_permission_title">"¿Quiere que la galería tenga acceso a la tarjeta SD?"</string>
+    <string name="request_delete_permission_msg">"Para editar, eliminar o mover fotos desde la tarjeta SD, es preciso conceder acceso a la galería"</string>
+    <string name="no_delete_permission_title">"No se puede completar"</string>
+    <string name="no_delete_permission_msg">"La galería no tiene acceso a la tarjeta SD; dé autorización o limpie el almacenamiento de la aplicación y vuelva a intentarlo."</string>
+    <string name="trash_restore_fail">"Error de restauración"</string>
+    <string name="delete_drm_file">"El archivo DRM se eliminará permanentemente y no se colocará en Eliminado recientemente. ¿Realmente quiere continuar?"</string>
+    <string name="tf_discover_story">"Recuerdos"</string>
+    <string name="prefered_motion_photo">"Foto preferida"</string>
+    <string name="play_motion_photo">"Reproducir"</string>
+    <string name="stop_motion_photo">"Detener"</string>
+    <string name="superuser_request_confirm">"El reproductor de vídeo no tiene acceso a su tarjeta SD, seleccione el directorio raíz de la tarjeta SD externa SANDISK y autorice que el reproductor de vídeo pueda acceder."</string>
+    <string name="smarterase">"Borrado inteligente"</string>
+    <string name="share_max_warning">"Se han seleccionado más de 100 archivos, por lo que la función de compartir no estaba disponible"</string>
+    <string name="scale_screen">"Escalar pantalla"</string>
+    <string name="print_screen">"Imprimir pantalla"</string>
+    <string name="pre_video">"Vídeo anterior"</string>
+    <plurals name="popup_title_save_unselected">
+        <item quantity="one">"¿Desea conservar las otras %1$d fotos de esta ráfaga?"</item>
+        <item quantity="other">"¿Desea conservar las %1$d fotografías restantes de esta ráfaga?"</item>
+    </plurals>
+    <plurals name="keep_selected">
+        <item quantity="one">"Guardar solo %1$d foto seleccionada"</item>
+        <item quantity="other">"Guardar solo %1$d fotografías seleccionadas"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">"%1$d elementos seleccionados"</item>
+        <item quantity="one">"%1$d elemento seleccionado"</item>
+        <item quantity="other">"%1$d elementos seleccionados"</item>
+    </plurals>
+    <plurals name="delete_selected">
+        <item quantity="one">"Eliminar %1$d foto seleccionada"</item>
+        <item quantity="other">"Se han eliminado %1$d fotos seleccionadas"</item>
+    </plurals>
+    <string name="over_flow">"Desbordamiento"</string>
+    <string name="no_sd_write_permission">"El reproductor de vídeo no tiene permisos suficientes para eliminar vídeos"</string>
+    <string name="next_video">"Vídeo siguiente"</string>
+    <string name="next">"Próximo"</string>
+    <string name="lock_orintation">"Bloqueo orientación"</string>
+    <string name="lock_control">"Bloqueo control"</string>
+    <string name="float_player">"Reproductor flotante"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Screan density=2(xhdpi) , min Width is 720(2 x 360 = 720)
+-->
+<resources>
+    <integer name="albumset_image_max_count">8</integer>
+    <integer name="albumset_image_rows_land">6</integer>
+    <integer name="albumset_image_rows_port">4</integer>
+
+    <dimen name="thumbnail_video_duration_text_size">12sp</dimen>
+    <dimen name="thumbnail_image_type_size">24dp</dimen>
+</resources>

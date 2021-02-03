@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"גלריה"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"נגן סרטוני וידאו"</string>
+    <string name="loading_video" msgid="4013492720121891585">"טוען  וידאו…"</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"המשך את הקרנת הווידאו"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"‏להמשיך להפעיל מ-?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"המשך את ההפעלה"</string>
+    <string name="loading" msgid="7038208555304563571">"טוען..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"לא ניתן להעלות"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"לא היתה אפשרות לטעון את התמונה"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"ללא תמונה ממוזערת"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"התחל מחדש"</string>
+    <string name="ok" msgid="5296833083983263293">"אישור"</string>
+    <string name="saving_image" msgid="7270334453636349407">"שומר תמונה..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"שומר את התמונה ב-<xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="crop_label" msgid="521114301871349328">"חתוך תמונה"</string>
+    <string name="trim_label" msgid="274203231381209979">"חתוך סרטון"</string>
+    <string name="select_image" msgid="7841406150484742140">"בחר תמונה"</string>
+    <string name="select_video" msgid="4859510992798615076">"בחר סרטון"</string>
+    <string name="select_item" msgid="2816923896202086390">"בחר פריט"</string>
+    <string name="select_album" msgid="1557063764849434077">"בחר אלבום"</string>
+    <string name="select_group" msgid="6744208543323307114">"בחר קבוצה"</string>
+    <string name="set_image" msgid="2331476809308010401">"הגדר תמונה בתור"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"טפט"</string>
+    <string name="delete" msgid="2839695998251824487">"מחק"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"האם למחוק את הפריט שנבחר?"</item>
+        <item msgid="5874316486520635333" quantity="other">"האם למחוק את הפריטים שנבחרו?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"אשר"</string>
+    <string name="cancel" msgid="3637516880917356226">"ביטול"</string>
+    <string name="share" msgid="3619042788254195341">"שיתוף"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"שתף פנורמה"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"שתף כתמונה"</string>
+    <string name="deleted" msgid="6795433049119073871">"נמחק"</string>
+    <string name="undo" msgid="2930873956446586313">"בטל"</string>
+    <string name="select_all" msgid="3403283025220282175">"בחר הכול"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"בטל בחירה של הכל"</string>
+    <string name="slideshow" msgid="4355906903247112975">"מצגת"</string>
+    <string name="details" msgid="8415120088556445230">"פרטים"</string>
+    <string name="details_title" msgid="2611396603977441273">"‏%1$d מתוך %2$d פריטים:"</string>
+    <string name="close" msgid="5585646033158453043">"סגור"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"עבור למצלמה"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"‏%1$d נבחרו"</item>
+        <item msgid="2478365152745637768" quantity="one">"‏%1$d נבחר"</item>
+        <item msgid="754722656147810487" quantity="other">"‏%1$d נבחרו"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"הצג במפה"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"סובב שמאלה"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"סובב ימינה"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"הפריט לא נמצא."</string>
+    <string name="edit" msgid="1502273844748580847">"ערוך"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"עריכה פשוטה"</string>
+    <string name="crop_action" msgid="3427470284074377001">"חתוך"</string>
+    <string name="trim_action" msgid="703098114452883524">"חתוך"</string>
+    <string name="mute_action" msgid="5296241754753306251">"השתק"</string>
+    <string name="set_as" msgid="3636764710790507868">"הגדר בתור"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"לא ניתן להשתיק את הסרטון."</string>
+    <string name="video_err" msgid="7003051631792271009">"לא ניתן להפעיל את סרטון הווידאו."</string>
+    <string name="group_by_location" msgid="316641628989023253">"לפי מיקום"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"לפי שעה"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"לפי תגים"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"לפי אנשים"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"לפי אלבום"</string>
+    <string name="untagged" msgid="7281481064509590402">"ללא תג"</string>
+    <string name="no_location" msgid="4043624857489331676">"ללא מיקום"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"לא ניתן לזהות מיקומים מסוימים בשל בעיות ברשת."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"לא ניתן להוריד את התמונות באלבום זה. נסה שוב מאוחר יותר."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"תמונות בלבד"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"סרטונים בלבד"</string>
+    <string name="show_all" msgid="6963292714584735149">"תמונות וסרטונים"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"גלריית תמונות"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"אין תמונות."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"התמונה שנחתכה נשמרה ב-<xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"אין אלבומים זמינים."</string>
+    <string name="empty_album" msgid="4542880442593595494">"‏O תמונות/סרטוני וידאו זמינים."</string>
+    <string name="done" msgid="217672440064436595">"סיום"</string>
+    <string name="title" msgid="7622928349908052569">"כותרת"</string>
+    <string name="description" msgid="3016729318096557520">"תיאור"</string>
+    <string name="time" msgid="1367953006052876956">"שעה"</string>
+    <string name="location" msgid="3432705876921618314">"מיקום"</string>
+    <string name="path" msgid="4725740395885105824">"נתיב"</string>
+    <string name="width" msgid="9215847239714321097">"רוחב"</string>
+    <string name="height" msgid="3648885449443787772">"גובה"</string>
+    <string name="orientation" msgid="4958327983165245513">"כיוון"</string>
+    <string name="duration" msgid="8160058911218541616">"משך"</string>
+    <string name="mimetype" msgid="8024168704337990470">"‏סוג MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"גודל הקובץ"</string>
+    <string name="maker" msgid="7921835498034236197">"יוצר"</string>
+    <string name="model" msgid="8240207064064337366">"דגם"</string>
+    <string name="flash" msgid="2816779031261147723">"פלאש"</string>
+    <string name="aperture" msgid="5920657630303915195">"צמצם"</string>
+    <string name="focal_length" msgid="1291383769749877010">"רוחק מוקד"</string>
+    <string name="white_balance" msgid="1582509289994216078">"איזון לבן"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"זמן חשיפה"</string>
+    <string name="iso" msgid="5028296664327335940">"‏מהירות ISO‏"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"מ\"מ"</string>
+    <string name="manual" msgid="6608905477477607865">"ידנית"</string>
+    <string name="auto" msgid="4296941368722892821">"אוטומטי"</string>
+    <string name="flash_on" msgid="7891556231891837284">"צילום עם פלאש"</string>
+    <string name="flash_off" msgid="1445443413822680010">"ללא פלאש"</string>
+    <string name="unknown" msgid="3506693015896912952">"לא ידוע"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"וינטאג\'"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"מיידי"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"הלבנה"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"כחול"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"ש/ל"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"פונץ\'"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"‏תהליך X"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"לאטה"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"ליתו"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"כל האלבומים"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"אלבומים מקומיים"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> ומטה"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> ומעלה"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> עד <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"ייבא"</string>
+    <string name="import_complete" msgid="3875040287486199999">"היבוא הושלם"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"בחר אלבום"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"ערבב את כל התמונות"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"בחר תמונה"</string>
+    <string name="widget_type" msgid="1364653978966343448">"בחר תמונות"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"מצגת"</string>
+    <string name="albums" msgid="7320787705180057947">"אלבומים"</string>
+    <string name="times" msgid="2023033894889499219">"פעמים"</string>
+    <string name="locations" msgid="6649297994083130305">"מיקומים"</string>
+    <string name="people" msgid="4114003823747292747">"אנשים"</string>
+    <string name="tags" msgid="5539648765482935955">"תגים"</string>
+    <string name="group_by" msgid="4308299657902209357">"קבץ לפי"</string>
+    <string name="settings" msgid="1534847740615665736">"הגדרות"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"מצלמה"</string>
+    <string name="folder_download" msgid="7186215137642323932">"הורד"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"תמונות מקוונות ערוכות"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"מיובאות"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"צילום מסך"</string>
+    <string name="help" msgid="7368960711153618354">"עזרה"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"תצוגה בסרט שקופיות"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"תצוגת רשת"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"תצוגה במסך מלא"</string>
+    <string name="trimming" msgid="9122385768369143997">"קיצור"</string>
+    <string name="muting" msgid="5094925919589915324">"משתיק"</string>
+    <string name="please_wait" msgid="7296066089146487366">"המתן"</string>
+    <string name="save_into" msgid="9155488424829609229">"שומר את הסרטון ב-<xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"יוצר פנורמה"</string>
+    <string name="save" msgid="613976532235060516">"שמור"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"סורק תוכן..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"‏%1$d פריטים נסרקו"</item>
+        <item msgid="4340019444460561648" quantity="one">"‏פריט %1$d נסרק"</item>
+        <item msgid="3138021473860555499" quantity="other">"‏%1$d פריטים נסרקו"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"ממיין..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"הסריקה הסתיימה"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"מייבא..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"אין תוכן זמין לייבוא במכשיר זה."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"‏לא מחובר אף מכשיר MTP"</string>
+    <string name="camera_label" msgid="6346560772074764302">"מצלמה"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"הפעל סרטון"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"סרגל הזמן של נגן הסרטונים"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"מצלמה"</string>
+    <string name="menu_search" msgid="7580008232297437190">"חיפוש"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"תמונות"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"אלבומים"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"‏תמונה %1$d"</item>
+        <item msgid="3813306834113858135" quantity="other">"‏%1$d תמונות"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"אין סרטוני וידאו מרכזיים שיתחילו לנגן"</string>
+    <string name="gif_decode_failed">"תמונת ה-GIF גדולה מדי לניגון"</string>
+    <string name="spaceLow_content">"השמירה נכשלה, ייתכן שאין די מקום אחסון במערכת."</string>
+    <string name="wait_for_deleting">"מוחק, בבקשה המתינו&#8230;"</string>
+    <string name="wait_for_rotating">"מסובב, בבקשה המתינו&#8230;"</string>
+    <string name="video_save_to_bookmark">"שמור בסימניות"</string>
+    <string name="video_view_bookmarks">"סימניות"</string>
+    <string name="video_bookmarks">"סימניות"</string>
+    <string name="video_edit_bookmark">"ערוך"</string>
+    <string name="video_delete_bookmark">"מחק"</string>
+    <string name="empty_bookmarks">"סימניה ריקה"</string>
+    <string name="do_not_save">"בטל"</string>
+    <string name="net_location">"כתובת"</string>
+    <string name="name">"שם"</string>
+    <string name="bookmark_needs_title">"לסימניה חייב להיות שם"</string>
+    <string name="bookmark_needs_url">"הסימניה חייבת שיהיה לה מיקום"</string>
+    <string name="bookmark_invalid_url">"המיקום חייב להתחיל בקידומת "http(s)://" או "rtsp://""</string>
+    <string name="processing_please_wait">"מעבד, אנא המתינו."</string>
+    <string name="bookmark_exist">"קיימת סימניה בעלת אותו המיקום."</string>
+    <string name="default_bookmark_title">"כותרת ברירת מחדל"</string>
+    <string name="bookmark_added">"נשמר לסימניות"</string>
+    <string name="albums_video">"סרטון"</string>
+    <string name="empty_album_video">"0 קבצי וידאו זמינים."</string>
+    <string name="border_brush">"מברשת"</string>
+    <string name="border_grunge">"גראנג\'"</string>
+    <string name="border_sumi">"ציור דיו"</string>
+    <string name="border_tape">"טייפ"</string>
+    <string name="border_black">"שחור"</string>
+    <string name="border_black_rounded">"RD שחור"</string>
+    <string name="border_white">"לבן"</string>
+    <string name="border_white_rounded">"RD לבן"</string>
+    <string name="border_cream">"קרם"</string>
+    <string name="border_cream_rounded">"RD קרם"</string>
+    <string name="no_face">"אין פנים"</string>
+    <string name="can_not_share">"הקבצים שנבחרו עולים על <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, תכונת השיתוף לפיכך אינה זמינה"</string>
+    <string name="movie_view_proxy_set">"הגדרות פרוקסי"</string>
+    <string name="movie_view_network">רשת תקשורת</string>
+    <string name="movie_view_apn_set">הגדרת כניסת APN</string>
+    <string name="movie_view_proxy_ip_set">הגדרות   IP Proxy</string>
+    <string name="movie_view_proxy_port_set">הגדרות Port Proxy</string>
+    <string name="movie_view_rtp_rtcp_port_set">הגדרות יציאת RTP / RTCP</string>
+    <string name="movie_view_max_port_set">הגדרות  RTP/RTCP Max Port </string>
+    <string name="movie_view_min_port_set">הגדרות RTP/RTCP Min Port</string>
+    <string name="movie_view_proxy_ok">"אישור"</string>
+    <string name="movie_view_proxy_port_seterror_info">"הגדרות כניסה מוערכת חייבות להיות מספר בטווח הנתון: "</string>
+    <string name="movie_view_proxy_ip_seterror_info">"כתובת IP לא חוקית!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"כניסה לא חוקית!"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">הגדר קודם את טווח ה-Port!</string>
+    <string name="movie_view_proxy_enable">Proxy מופעל</string>
+    <string name="movie_view_parameter_set">הגדרות פרמטרים</string>
+    <string name="dialog_dismiss">"בטל"</string>
+    <string name="gallery_error_title">"שגיאת גלריה"</string>
+    <string name="videoplayer_error_title">"שגיאת נגן וידאו"</string>
+    <string name="error_permissions">"האפליקציה זקוקה להרשאות קריטיות בשביל לפעול. בדוק את הגדרת ההרשאות."</string>
+    <string name="gallery_premission_change">"הרשאת הגלריה שונתה, בבקשה בחרו מחדש"</string>
+    <string name="gallery_premission_error">"שגיאת הרשאת גלריה, בבקשה אפסו את הרשאות הגלריה."</string>
+    <string name="already_exist">"האפקט קיים כבר"</string>
+    <string name="show_details_error">"הנתונים נטענים, אנא נסו שוב מאוחר יותר.""</string>
+    <string name="none_playback">ללא ניגון רקע</string>
+    <string name="single_playback">להשמיע אחת</string>
+    <string name="all_playback">להשמיע הכל</string>
+    <string name="playback_setting">מצב השמעה</string>
+    <string name="can_not_open_float_video">"טפט הוידאו הנוכחי, חלונות וידאו צפים לא יכולים להיפתח."</string>
+    <string name="video_file_does_not_exist">"קובץ הווידאו אינו קיים"</string>
+    <string name="movie_view_goto">לך אל</string>
+    <string name="no_search_app">"אין יישומון חיפוש"</string>
+    <string name="channel_setting_title">"הגדרות ערוץ"</string>
+    <string name="channel_setting_left">"שמאלה"</string>
+    <string name="channel_setting_right">"ימינה"</string>
+    <string name="channel_setting_dual">"כפול"</string>
+    <string name="channel_setting_ok">"אישור"</string>
+    <string name="channel_setting_cancel">"בטל"</string>
+    <string name="channel_setting">"הגדרות ערוץ"</string>
+    <string name="movie_view_calling_title">"מתקשר"</string>
+    <string name="movie_view_calling_msg">"בבקשה נסו שנית אחרי סיום השיחה!"</string>
+    <string name="movie_view_calling_try">"נסה"</string>
+    <string name="movie_view_calling_cancel">"בטל"</string>
+    <string name="time_out">"זמן קצוב לתפוגה"</string>
+    <string name="time_out_message">"חריגויות רשת או פקיעת זמן החיבור, האם להפעיל מחדש או לא?"</string>
+    <string name="headset">אוזניות</string>
+    <string name="loud_speaker">רמקול חזק</string>
+    <string name="back_exit">"בצע יציאה כאשר יילחץ שוב"</string>
+    <string name="cannot_load_crop_image">"זיכרון זמן הריצה של היישומון אינו מספיק, טעינת התמונה נכשלה."</string>
+    <string name="slideshow_music">"החלק מוסיקה"</string>
+    <string name="system_ringtones">"צלצולי מערכת"</string>
+    <string name="user_defined">"הגדרת משתמש"</string>
+
+    <string name="cannot_play_music">"לא ניתן להשמיע מוסיקה כעת"</string>
+    <string name="play_audio_failed">"לא ניתן להשמיע קבצי שמע כעת"</string>
+    <string-array name="planets_array">
+        <item>כל קבצי הווידאו</item>
+        <item>"סרטונים מקומיים"</item>
+        <item>"סרטונים שצלמו"</item>
+        <item>"הושמע לאחרונה"</item>
+    </string-array>
+    <string name="last_play">"האחרון שהושמע:"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"למחוק את הרשומות עכשיו?"</item>
+        <item quantity="other">"למחוק את הרשומות עכשיו?"</item>
+    </plurals>
+    <string name="today">"היום"</string>
+    <string name="yesterday">"אתמול"</string>
+    <string name="earlier">"מוקדם יותר"</string>
+    <string name="drawer_open">"רשימת וידאו"</string>
+    <string name="drawer_close">כל קבצי הווידאו</string>
+    <string name="share_actionmode">"שתף"</string>
+    <string name="delete_actionmode">"מחק"</string>
+    <string name="clear_all">מחק הכל</string>
+    <string name="video_list">"רשימת וידאו"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"האם למחוק את הפריט שנבחר?"</item>
+        <item quantity="other">"האם למחוק את הפריט שנבחר?"</item>
+    </plurals>
+    <string name="current_select">"%d נבחר"</string>
+    <string name="no_video_play_records">"אין רשומות להצגה"</string>
+    <string name="no_videos">"אין סרטוני וידאו."</string>
+    <string name="video_not_exist">"הסרטון לא קיים"</string>
+    <string name="save_picture">"לכידה נשמרה ב-%s"</string>
+    <string name="mute">"משתיק"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"נתוני הגנה"</string>
+    <string name="drm_info">"נתוני הגנה"</string>
+    <string name="file_name">"שם קובץ:"</string>
+    <string name="rights_validity">"תוקף זכויות:"</string>
+    <string name="rights_status">"מצב זכויות:"</string>
+    <string name="start_time">"שעת התחלה:"</string>
+    <string name="end_time">"שעת סיום:"</string>
+    <string name="expiration_time">"מועד תפוגה:"</string>
+    <string name="remain_times">"הזמן שנשאר:"</string>
+    <string name="rights_validity_valid">"חוקי"</string>
+    <string name="rights_validity_invalid">"לא חוקי"</string>
+    <string name="rights_status_share">"מותר להעברה"</string>
+    <string name="rights_status_not_share">"לא מותר להעברה"</string>
+    <string name="drm_rights_no_limit">"בלתי מוגבל"</string>
+    <string name="drm_rights_unknown">"לא ידוע"</string>
+    <string name="drm_rights_inactive">"הזכויות מנוטרלות"</string>
+    <string name="drm_file_invalid">"הקובץ פג תוקף"</string>
+    <string name="screenshot_failed">"צילום מסך נכשל"</string>
+    <string name="floatwindow_unsupported_device">"חלון צף אינו נתמך במכשיר זה"</string>
+    <string name="floatwindow_unsupported_camera">"חלון צף אינו נתמך במצלמה"</string>
+    <string name="floatwindow_unsupported_streaming">"חלון צף אינו נתמך כאשר מנגנים סרטונים בזרימה"</string>
+    <string name="stream_screenshot_not_supported">"אופציית הלכידה אינה נתמכת כאשר מנגנים סרטונים בזרימה"</string>
+
+    <string name="movie_view_mms_processing_ok">"הקבלה הושלמה"</string>
+    <string name="movie_view_sms_received_ok">"התקבל מסרון"</string>
+    <string name="movie_view_mms_process_title">"מעבד הודעת מולטימדיה"</string>
+    <string name="movie_view_sms_process_title">"עיבוד מסרון"</string>
+    <string name="movie_view_mms_ok">"אישור"</string>
+    <string name="choose_drm_alert">"לא ניתן לבחור בקובץ DRM, בבקשה נסו קובץ אחר"</string>
+    <string name="drm_unit_minutes">"שנ\'"</string>
+    <string name="drm_consume_hint">"הפעולה שלכם תצרוך זכויות DRM"</string>
+    <string name="invalid_rights">"לקובץ זה אין רשיון תקף"</string>
+    <string name="drm_consumed">"הפעולה שלכם צרכה זכויות DRM"</string>
+    <string name="drm_consume_title">"צריכת זכויות DRM"</string>
+</resources>

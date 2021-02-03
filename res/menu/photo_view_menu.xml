@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--add for feature motion photo Bug #1033745-->
+    <item
+        android:id="@+id/action_play_motion_photo"
+        android:icon="@drawable/ic_ab_motion_photo_play"
+        android:title="@string/play_motion_photo"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_slideshow"
+        android:title="@string/slideshow"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_slideshow_music"
+        android:title="@string/slideshow_music"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_setas"
+        android:title="@string/set_image"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_move_out_things"
+        android:title="@string/move_out_of_this_classification"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_move_out_people"
+        android:title="@string/move_out_of_this_people"
+        android:visible="false"
+        app:showAsAction="never" />
+
+</menu>

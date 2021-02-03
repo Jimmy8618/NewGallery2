@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"ຄັງຮູບ"</string>
+    <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
+    <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"ເຄື່ອງຫຼິ້ນວິດີໂອ"</string>
+    <string name="loading_video" msgid="4013492720121891585">"ກໍາລັງໂຫລດວີດີໂອ..."</string>
+    <string name="resume_playing_title" msgid="8996677350649355013">"ສືບຕໍ່ວິດີໂອ"</string>
+    <string name="resume_playing_message" msgid="5184414518126703481">"ສືບຕໍ່ຫຼິ້ນຈາກ ?"</string>
+    <string name="resume_playing_resume" msgid="3847915469173852416">"ສືບຕໍ່ຫຼິ້ນວິດີໂອ"</string>
+    <string name="loading" msgid="7038208555304563571">"ກຳລັງໂຫລດ..."</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"ບໍ່ສາມາດໂຫຼດໄດ້"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"ບໍ່ສາມາດໂຫຼດຮູບພາບດັ່ງກ່າວ"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"ບໍ່ມີຮູບນ້ອຍ"</string>
+    <string name="resume_playing_restart" msgid="5471008499835769292">"ເລີ່ມຕົ້ນໃຫມ່"</string>
+    <string name="ok" msgid="5296833083983263293">"ຕົກລົງ"</string>
+    <string name="saving_image" msgid="7270334453636349407">"ກຳລັງບັນທຶກຮູບ..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"ກຳລັງບັກທຶກຮູບໃສ່ <xliff:g id="ALBUM_NAME">%1$s</xliff:g> ..."</string>
+    <string name="crop_label" msgid="521114301871349328">"ຕັດຮູບ"</string>
+    <string name="trim_label" msgid="274203231381209979">"ຕັດວິດີໂອ"</string>
+    <string name="select_image" msgid="7841406150484742140">"ເລືອກຮູບ"</string>
+    <string name="select_video" msgid="4859510992798615076">"ເລືອກວິດີໂອ"</string>
+    <string name="select_item" msgid="2816923896202086390">"ກະລຸນາເລືອກລາຍການ"</string>
+    <string name="select_album" msgid="1557063764849434077">"ເລືອກອະລະບ້ຳ"</string>
+    <string name="select_group" msgid="6744208543323307114">"ເລືອກກຸ່ມ"</string>
+    <string name="set_image" msgid="2331476809308010401">"ຕັ້ງຮູບເປັນ"</string>
+    <string name="camera_setas_wallpaper" msgid="797463183863414289">"ຮູບພື້ນຫຼັງ"</string>
+    <string name="delete" msgid="2839695998251824487">"ລຶບ"</string>
+    <plurals name="delete_selection">
+        <item msgid="6453379735401083732" quantity="one">"ລຶບລາຍການທີ່ເລືອກ?"</item>
+        <item msgid="5874316486520635333" quantity="other">"ລຶບລາຍການທີ່ເລືອກບໍ່?"</item>
+    </plurals>
+    <string name="confirm" msgid="8646870096527848520">"ຢືນຢັນ"</string>
+    <string name="cancel" msgid="3637516880917356226">"ຍົກເລີກ"</string>
+    <string name="share" msgid="3619042788254195341">"ແບ່ງປັນ"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"ແບ່ງປັນພາໂນຣາມາ"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"ແບ່ງປັນເປັນຮູບ"</string>
+    <string name="deleted" msgid="6795433049119073871">"ລຶບແລ້ວ"</string>
+    <string name="undo" msgid="2930873956446586313">"ແກ້ໄຂຄືນ"</string>
+    <string name="select_all" msgid="3403283025220282175">"ເລືອກທັງໝົດ"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"ຍົກເລີກການເລືອກທັງໝົດ"</string>
+    <string name="slideshow" msgid="4355906903247112975">"ສະໄລ້ໂຊ"</string>
+    <string name="details" msgid="8415120088556445230">"ລາຍລະອຽດ"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d of %2$d ລາຍການ:"</string>
+    <string name="close" msgid="5585646033158453043">"ປິດ"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"ປ່ຽນໄປຫາກ້ອງ"</string>
+    <plurals name="number_of_items_selected">
+        <item msgid="2142579311530586258" quantity="zero">"%1$d ຖືກເລືອກແລ້ວ"</item>
+        <item msgid="2478365152745637768" quantity="one">"%1$d ຖືກເລືອກແລ້ວ"</item>
+        <item msgid="754722656147810487" quantity="other">"ເລືອກ %1$d ລາຍການແລ້ວ"</item>
+    </plurals>
+    <string name="show_on_map" msgid="6157544221201750980">"ສະແດງໃນແຜນທີ່"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"ໝຸນຊ້າຍ"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"ໝຸນຂວາ"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"ບໍ່ສາມາດຊອກຫາລາຍການໄດ້."</string>
+    <string name="edit" msgid="1502273844748580847">"ແກ້ໄຂ"</string>
+    <string name="simple_edit" msgid="2792835918347498211">"ແກ້ໄຂແບບງ່າຍດາຍ"</string>
+    <string name="crop_action" msgid="3427470284074377001">"ຕັດ"</string>
+    <string name="trim_action" msgid="703098114452883524">"ຕັດ"</string>
+    <string name="mute_action" msgid="5296241754753306251">"ປີດສຽງ"</string>
+    <string name="set_as" msgid="3636764710790507868">"ຕັ້ງເປັນ"</string>
+    <string name="video_mute_err" msgid="6392457611270600908">"ບໍ່ສາມາດປິດສຽງວິດີໂອ."</string>
+    <string name="video_err" msgid="7003051631792271009">"ບໍ່ສາມາດຫຼິ້ນວີດີໂອໄດ້."</string>
+    <string name="group_by_location" msgid="316641628989023253">"ໂດຍສະຖານທີ່"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"ຕາມເວລາ"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"ຕາມແທັກ"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"ຕາມຄົນ"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"ຕາມອະລະ້ຳ"</string>
+    <string name="untagged" msgid="7281481064509590402">"ບໍ່ມີແທັກ"</string>
+    <string name="no_location" msgid="4043624857489331676">"ບໍ່ມີສະຖານທີ່"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"ຕຳແໜ່ງບາງບ່ອນບໍ່ສາມາດລະບຸໄດ້ ເນື່ອງຈາກບັນຫາການເຊື່ອມຕໍ່ເຄືອຂ່າຍ."</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"ບໍ່ສາມາດດາວໂຫລດຮູບຈາກອະລະບ້ຳນີ້ໄດ້. ລອງໃໝ່ໃນພາຍຫຼັງ."</string>
+    <string name="show_images_only" msgid="7263218480867672653">"ຮູບເທົ່ານັ້ນ"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"ວິດີໂອເທົ່ານັ້ນ"</string>
+    <string name="show_all" msgid="6963292714584735149">"ຮູບ &amp; ວິດີໂອ"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"ຄັງຮູບພາບ"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"ບໍ່ມີຮູບ."</string>
+    <string name="crop_saved" msgid="1595985909779105158">"ຮູບທີ່ຖືກຕັດໄດ້ຖືກບັນທຶກໄປຫາ <xliff:g id="FOLDER_NAME">%s</xliff:g> ແລ້ວ."</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"ບໍ່ມີອະລະບ້ຳ."</string>
+    <string name="empty_album" msgid="4542880442593595494">"ມີ 0 ຮູບ/ວິດີໂອ."</string>
+    <string name="done" msgid="217672440064436595">"ແລ້ວໆ"</string>
+    <string name="title" msgid="7622928349908052569">"ຊື່"</string>
+    <string name="description" msgid="3016729318096557520">"ຄຳອະທິບາຍ"</string>
+    <string name="time" msgid="1367953006052876956">"ເວລາ"</string>
+    <string name="location" msgid="3432705876921618314">"ຕຳແໜ່ງ"</string>
+    <string name="path" msgid="4725740395885105824">"ເສັ້ນທາງ"</string>
+    <string name="width" msgid="9215847239714321097">"ກວ້າງ"</string>
+    <string name="height" msgid="3648885449443787772">"ລວງສູງ"</string>
+    <string name="orientation" msgid="4958327983165245513">"ທິດທາງໜ້າຈໍ"</string>
+    <string name="duration" msgid="8160058911218541616">"ໄລຍະເວລາ"</string>
+    <string name="mimetype" msgid="8024168704337990470">"ປະເພດ MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"ຂະໜາດໄຟລ໌"</string>
+    <string name="maker" msgid="7921835498034236197">"ຍີ່ຫໍ້"</string>
+    <string name="model" msgid="8240207064064337366">"ໂມເດວ"</string>
+    <string name="flash" msgid="2816779031261147723">"ແຟລຊ"</string>
+    <string name="aperture" msgid="5920657630303915195">"ຮູຮັບແສງ"</string>
+    <string name="focal_length" msgid="1291383769749877010">"ໄລຍະໂຟກັສ:"</string>
+    <string name="white_balance" msgid="1582509289994216078">"ຄວາມດຸ່ນດ່ຽວສີຂາວ"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"ເວລາການຮັບແສງ"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"ມມ"</string>
+    <string name="manual" msgid="6608905477477607865">"ຕັ້ງຄ່າເອງ"</string>
+    <string name="auto" msgid="4296941368722892821">"ອັດຕະໂນມັດ"</string>
+    <string name="flash_on" msgid="7891556231891837284">"ຍິງແຟລດ"</string>
+    <string name="flash_off" msgid="1445443413822680010">"ບໍ່ມີແຟລດ"</string>
+    <string name="unknown" msgid="3506693015896912952">"ບໍ່ຮູ້ຈັກ"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"ຍ້ອນຍຸກ"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"ແຈ້ງ"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"ກັດສີ"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"ສີຟ້າ"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"ຂາວດຳ"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"ພັນ"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"ຂະບວນການ X"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"ລາເຕ້"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"Litho"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"ອະລະບ້ຳທັງໝົດ"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"ອະລະບ້ຳໃນເຄື່ອງ"</string>
+    <string name="size_below" msgid="2074956730721942260">"<xliff:g id="SIZE">%1$s</xliff:g> ຫຼື ຕ່ຳກວ່າ"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> ຫຼືສູງກວ່າ"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> ຫາ <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"ນຳເຂົ້າ"</string>
+    <string name="import_complete" msgid="3875040287486199999">"ການນຳເຂົ້າສຳເລັດແລ້ວ"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"ເລືອກອະລະບ້ຳ"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"ສະລັບຮູບທັງໝົດ"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"ເລືອກຮູບໃດນຶ່ງ"</string>
+    <string name="widget_type" msgid="1364653978966343448">"ເລືອກຮູບ"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"ສະໄລ້ໂຊ"</string>
+    <string name="albums" msgid="7320787705180057947">"ອະລະບ້ຳ"</string>
+    <string name="times" msgid="2023033894889499219">"ເວລາ"</string>
+    <string name="locations" msgid="6649297994083130305">"ສະຖານທີ່"</string>
+    <string name="people" msgid="4114003823747292747">"ຄົນ"</string>
+    <string name="tags" msgid="5539648765482935955">"ແທັກ"</string>
+    <string name="group_by" msgid="4308299657902209357">"ຈັດກຸ່ມຕາມ"</string>
+    <string name="settings" msgid="1534847740615665736">"ຕັ້ງຄ່າ"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"ກ້ອງ"</string>
+    <string name="folder_download" msgid="7186215137642323932">"ດາວໂຫລດ"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"ແກ້ໄຂຮູບອອນລາຍ"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"ນຳເຂົ້າແລ້ວ"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"ພາບໜ້າຈໍ"</string>
+    <string name="help" msgid="7368960711153618354">"ຊ່ວຍເຫຼືອ"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"ມຸມມອງ Filmstrip"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"ມຸມມອງຕາຂ່າຍ"</string>
+    <string name="switch_photo_fullscreen" msgid="8360489096099127071">"ເບິ່ງແບບເຕັມຈໍ"</string>
+    <string name="trimming" msgid="9122385768369143997">"ກຳລັງຕັດ"</string>
+    <string name="muting" msgid="5094925919589915324">"ກຳລັງປິດສຽງ"</string>
+    <string name="please_wait" msgid="7296066089146487366">"ກະລຸນາລໍຖ້າ"</string>
+    <string name="save_into" msgid="9155488424829609229">"ກຳລັງບັນທຶກວິດີໂອໃສ່ <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"ກຳລັງປະມວນຜົນຮູບພາໂນຣາມາ"</string>
+    <string name="save" msgid="613976532235060516">"ບັນທຶກ"</string>
+    <string name="ingest_scanning" msgid="1062957108473988971">"ກຳລັງສະແກນຂໍ້ມູນ..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item msgid="2623289390474007396" quantity="zero">"ສະແກນ %1$d ລາຍການແລ້ວ"</item>
+        <item msgid="4340019444460561648" quantity="one">"ສະແກນ %1$d ລາຍການແລ້ວ"</item>
+        <item msgid="3138021473860555499" quantity="other">"%1$d ລາຍການຖືກສະແກນແລ້ວ"</item>
+    </plurals>
+    <string name="ingest_sorting" msgid="1028652103472581918">"ກຳລັງຈັດຮຽງ..."</string>
+    <string name="ingest_scanning_done" msgid="8911916277034483430">"ການສະແກນແລ້ວໆ"</string>
+    <string name="ingest_importing" msgid="7456633398378527611">"ກຳລັງນຳເຂົ້າ..."</string>
+    <string name="ingest_empty_device" msgid="2010470482779872622">"ບໍ່ມີຂໍ້ມູນເພື່ອນຳເຂົ້າສຳລັບອຸປະກອນນີ້."</string>
+    <string name="ingest_no_device" msgid="3054128223131382122">"ບໍ່ມີອຸປະກອນ MTP ເຊື່ອມຕໍ່ຢູ່"</string>
+    <string name="camera_label" msgid="6346560772074764302">"ກ້ອງ"</string>
+    <!-- no translation found for pref_camera_timer_sound_default (7066624532144402253) -->
+    <skip />
+    <!-- no translation found for pref_camera_hdr_default (1336869406134365882) -->
+    <skip />
+    <string name="accessibility_play_video" msgid="7596298365794810207">"ຫຼິ້ນວິດີໂອ"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"ແຖບເວລາຂອງໂປຣແກຣມຫຼິ້ນວິດີໂອ"</string>
+    <string name="menu_camera" msgid="3476709832879398998">"ກ້ອງ"</string>
+    <string name="menu_search" msgid="7580008232297437190">"ຊອກຫາ"</string>
+    <string name="tab_photos" msgid="9110813680630313419">"ຮູບພາບ"</string>
+    <string name="tab_albums" msgid="8079449907770685691">"ອະລະບ້ຳ"</string>
+    <plurals name="number_of_photos">
+        <item msgid="6949174783125614798" quantity="one">"%1$d ຮູບ"</item>
+        <item msgid="3813306834113858135" quantity="other">"%1$d ຮູບ"</item>
+    </plurals>
+    <string name="special_video_restart_playing">"ບໍ່​ມີ​ເຟມ​ວິ​ດີ​ໂອ​ທີ່​ຈະ​ຫລີ້ນ​ອີກ​ຄັ້ງ"</string>
+    <string name="gif_decode_failed">"ຮູບ​ພາບ​ໃຫ​ຍ່​ເກີ​ໄປ ບໍ່​ສາ​ມາດ​ຫລີ້ນ"</string>
+    <string name="spaceLow_content">"ບັນ​ທຶກ​ລົ້ມ​ເຫລວ ອາດ​ເພາະ​ພື້ນ​ທີ່​ໜ່ວຍ​ຄວາມ​ຈຳ​ລະ​ບົບ​ບໍ່​ພຽງ​ພໍ"</string>
+    <string name="wait_for_deleting">"ກຳ​ລັງ​ລຶບ ກະ​ລຸ​ນາ​ລໍ​ຖ້າ&#8230;"</string>
+    <string name="wait_for_rotating">"ກຳ​ລັງ​ໝຸນ ກະ​ລຸ​ນາ​ລໍ​ຖ້າ&#8230;"</string>
+    <string name="video_save_to_bookmark">"ບັນ​ທຶກ​ໄປ​ຍັງ​ບຸກ​ມາກ"</string>
+    <string name="video_view_bookmarks">"ບຸກ​ມາກ"</string>
+    <string name="video_bookmarks">"ບຸກ​ມາກ"</string>
+    <string name="video_edit_bookmark">"ແກ້ໄຂ"</string>
+    <string name="video_delete_bookmark">"ລຶບ"</string>
+    <string name="empty_bookmarks">"ບໍ່​ມີ​ບຸກ​ມາກ"</string>
+    <string name="do_not_save">"ຍົກເລີກ"</string>
+    <string name="net_location">"ທີ່ຢູ່"</string>
+    <string name="name">"ຊື່"</string>
+    <string name="bookmark_needs_title">"ບຸກ​ມາກ​ຈຳ​ເປັນ​ຕ້ອງ​ມີ​ຊື່"</string>
+    <string name="bookmark_needs_url">"ບຸກມ​ມາກ​ຕ້ອງ​ມີ​ທີ່​ຢູ່"</string>
+    <string name="bookmark_invalid_url">"ທີ່​ຢູ່​ເວັບ​ໄຊ​ທ໌​ຕ້ອງ​ຂື້ນ​ຕົ້ນ​ດ້ວຍ "http(s)://" ​ຫຼື"rtsp://"</string>
+    <string name="processing_please_wait">"ກຳ​ລັງ​ປະ​ມວນ​ຜົນ ກະ​ລຸ​ນາ​ຖ້າ"</string>
+    <string name="bookmark_exist">"ບຸກມ​ມາກ​ມີ​ຢູ່​ແລ້ວ"</string>
+    <string name="default_bookmark_title">"ຫົວ​ຂໍ້​ຄ່າ​ເລີ່ມ​ຕົ້ນ"</string>
+    <string name="bookmark_added">"ບຸກ​ມາກ​ບັນ​ທຶກ​ແລ້ວ"</string>
+    <string name="albums_video">"Google Video"</string>
+    <string name="empty_album_video">"ບໍ່​ມີ​ວິ​ດີ​ໂອ​ທີ່​ສາ​ມາດ​ໃຊ້​ງານ​ໄດ້"</string>
+    <string name="border_brush">"ພອຍປັດ"</string>
+    <string name="border_grunge">"ເປ່​ເພ"</string>
+    <string name="border_sumi">"ນ້ຳໝຶກ"</string>
+    <string name="border_tape">"ເທັບ"</string>
+    <string name="border_black">"ດຳ"</string>
+    <string name="border_black_rounded">"ກ່ອບ​ດຳ"</string>
+    <string name="border_white">"ສີຂາວ"</string>
+    <string name="border_white_rounded">"ກ່ອບ​ຂາວ"</string>
+    <string name="border_cream">"ປະ​ສົມ"</string>
+    <string name="border_cream_rounded">"ປະ​ສົມ​ມຸມ"</string>
+    <string name="no_face">"ຈັບ​ບໍ່​ພົບ​ໃບ​ໜ້າ"</string>
+    <string name="can_not_share">"ເລືອກ​ໄຟ​ລ໌​ຫລາຍ​ກ່​ວາ <xliff:g id="MAX_CAN_SHARE">%1$s</xliff:g>, ​ອັນ​ຟັງ​ຊັນ​ການ​ແຊ​ຣ໌ບໍ່​ສາ​ມາດ​ໃຊ້​ງານ"</string>
+    <string name="movie_view_proxy_set">"ກຳ​ໜົດ​ຄ່າ​ປ໊ອກ​ຊີ"</string>
+    <string name="movie_view_network">"ເຄືອຂ່າຍ"</string>
+    <string name="movie_view_apn_set">"ກຳ​ໜົດ​ຄ່າ APN"</string>
+    <string name="movie_view_proxy_ip_set">"ກຳ​ໜົດ​ຄ່າIPປ໊ອກ​ຊີ"</string>
+    <string name="movie_view_proxy_port_set">"ກຳ​ໜົດ​ຄ່າ​ພ໊ອດ​ປ໊ອກ​ຊີ"</string>
+    <string name="movie_view_rtp_rtcp_port_set">"ກຳ​ໜົດ​ຄ່າ​ພ໊ອດRTP/RTCP"</string>
+    <string name="movie_view_max_port_set">"ກຳ​ໜົດ​ຄ່າ​ພ໊ອດແມັກRTP/RTCP"</string>
+    <string name="movie_view_min_port_set">"ກຳ​ໜົດ​ຄ່າ​ພ໊ອດມິນRTP/RTCP"</string>
+    <string name="movie_view_proxy_ok">"ການເຂົ້າໃຈ"</string>
+    <string name="movie_view_proxy_port_seterror_info">"ການ​ຕັ້ງ​ຄ່າ​ພ​ຣ໌ອດ​ຕ້ອງ​ຢູ່​ໃນ​ຂອບ​ເຂດ​ທີ່​ກັບ​ໜົດ​ໃຫ້:"</string>
+    <string name="movie_view_proxy_ip_seterror_info">"ປ້ອນIPບໍ່​ຖືກ​ຕ້ອງ"</string>
+    <string name="movie_view_rtp_rtcp_port_set_seterror_info">"ປ້ອນ​ພ​ຣ໊ອດບໍ່​ຖືກ​ຕ້ອງ"</string>
+    <string name="movie_view_rtp_rtcp_port_set_first_error_info">"ກຳ​ໜົດ​ຄ່າ​ຂອບ​ເຂດ​ພ​ຣ໊ອດ"</string>
+    <string name="movie_view_proxy_enable">"ໃຊ້​ພ​ຣ໊ອດ"</string>
+    <string name="movie_view_parameter_set">"ກຳ​ໜົດ​ຄ່າ​ພາ​ລາ​ມິ​ເຕີ"</string>
+    <string name="dialog_dismiss">"ຍົກເລີກ"</string>
+    <string name="gallery_error_title">"ແກນ​ເລີ​ຣີ​ເກີດ​ຜິດ​ພາດ"</string>
+    <string name="videoplayer_error_title">"ເຄື່ອງ​ຫລີ້ນ​ວິ​ດີ​ໂອ​ຜິດ​ພາດ"</string>
+    <string name="error_permissions">"ແອັບ​ບໍ່​ມີ​ການ​ອະ​ນຸ​ຍາດ​ສຳ​ຄັນ​ຈຳ​ເປັນເພື່ອ​ແລ່ນ. ກະ​ລຸ​ນາ​ກວດ​ເບິ່ງ​ການ​ຕັ້ງ​ຄ່າ​ການ​ອະ​ນຸ​ຍາດ​ຂອງ​ທ່ານ."</string>
+    <string name="gallery_premission_change">"ສິດແກນ​ເລີ​ຣີ​ປ່ຽນ​ແປງ​ແລ້ວ ກະ​ລຸ​ນາ​ເລືອກ​ອີກ​ຄັ້ງ"</string>
+    <string name="gallery_premission_error">"ສິດ​ແກນ​ເລີ​ຣີ​ຜິດ​ພາດ ກະ​ລຸ​ນາ​ກຳ​ໜົດ​ຄ່າ​ສິດ​ອາ​ລະ​ບ້ຳ​ພາບ​ອີກ​ຄັ້ງ"ສິດ​ແກນ​ເລີ​ຣີ​ອີກ​ຄັ້ງ​"</string>
+    <string name="already_exist">"ເອບ​ເຟັກ​ນີ້​ມີ​ຢູ່​ແລ້ວ"</string>
+    <string name="show_details_error">"ຂໍ້​ມູນ​ກຳ​ລັງ​ໂຫລດ ກະ​ລຸ​ນາ​ລອງ​ໃໝ່"</string>
+    <string name="none_playback">"ບໍ່​ຫລີ້ນ​ກັບ"</string>
+    <string name="single_playback">"ຫລີ້ນ​ກັບ​ດ່ຽວ"</string>
+    <string name="all_playback">"ຫລີ້ນ​ກັບ​ທັ່ງ​ໝົດ"</string>
+    <string name="playback_setting">"ໂຫມດ​ຫລີ້ນ​ກັບ"</string>
+    <string name="can_not_open_float_video">"ຂະ​ນະ​ນີ້​ເປັນ​ວໍ​ເປ​ເປີ​ວິ​ດີ​ໂອ ບໍ່​ສາ​ມາດ​ເປີດ​ໜ້າ​ຕ່າງວິ​ດີ​ໂອ​ຟອງ"</string>
+    <string name="video_file_does_not_exist">"​ໄຟ​ລ໌​ວິ​ດີ​ໂອບໍ່​ມີ​ຢູ່"</string>
+    <string name="movie_view_goto">"ໄປ​ທີ່"</string>
+    <string name="no_search_app">"ບໍ່​ໄດ້​ຄົ້ນ​ຫາ​ແອັບ"</string>
+    <string name="channel_setting_title">"ກຳ​ໜົດ​ຄ່າ​ຊ່ອງ"</string>
+    <string name="channel_setting_left">"ຊ້າຍ"</string>
+    <string name="channel_setting_right">"ຂວາ"</string>
+    <string name="channel_setting_dual">"ຄູ່"</string>
+    <string name="channel_setting_ok">"ການເຂົ້າໃຈ"</string>
+    <string name="channel_setting_cancel">"ຍົກເລີກ"</string>
+    <string name="channel_setting">"ກຳ​ໜົດ​ຄ່າ​ຊ່ອງ"</string>
+    <string name="movie_view_calling_title">"ກຳ​ລັງ​ໂທ"</string>
+    <string name="movie_view_calling_msg">"ລອງ​ໃໝ່​ຫລັງ​ຈາກ​ສີ້ນ​ສຸດ​ການ​ໂທ"</string>
+    <string name="movie_view_calling_try">"ລອງ​ໃໝ່"</string>
+    <string name="movie_view_calling_cancel">"ຍົກເລີກ"</string>
+    <string name="time_out">"ໄລຍະໝົດເວລາ"</string>
+    <string name="time_out_message">"ເຄືອ​ຂ່າຍ​ຜິດ​ປົກ​ກະ​ຕິ ຫຼື ເຊື່ອມ​ຕໍ່​ເກີນ​ເວ​ລາ ເລີ່ມ​ຫລີ້ນ​ໃໝ່​ຫລືບໍ່?"</string>
+    <string name="headset">"ສາຍ​ຫູ​ຟັງ"</string>
+    <string name="loud_speaker">"ລຳ​ໂພງ"</string>
+    <string name="back_exit">"ກົດ​ອີກ​ຄັ້ງ​ເພື່​ອອກ"</string>
+    <string name="cannot_load_crop_image">"ໜ່ວຍ​ຄວາມ​ຈຳ​ບໍ່​ພຽງ​ພໍ ໂຫລດ​ລົ້ມ​ເຫລວ"</string>
+    <string name="slideshow_music">"ເພງ​ສະ​ໄລ​ທ໌"</string>
+    <string name="system_ringtones">"ຣິງ​ໂທນ​ລະ​ບົບ"</string>
+    <string name="user_defined">"ຜູ້​ໃຊ້​ກຳ​ໜົດ​ເອງ"</string>
+
+    <string name="cannot_play_music">"ບໍ່ສາມາດເປີດເພັງ"</string>
+    <string name="play_audio_failed">"ບໍ່ສາມາດເປີດສຽງ"</string>
+    <string-array name="planets_array">
+        <item>"ວິ​ດີ​ໂອ​ທັ່ງ​ໝົດ"</item>
+        <item>"ວິດີໂອທ້ອງຖິ່ນ"</item>
+        <item>"ວິດີໂອ"</item>
+        <item>"ເປິດໃນຊ່ວງນີ້"</item>
+    </string-array>
+    <string name="last_play">"ເປີດຫລ້າສຸດ"</string>
+    <plurals name="records_delete_confirm">
+        <item quantity="one">"ຕົກລົງລຶບບັນທືກທັງໝົດບໍ？"</item>
+        <item quantity="other">"ຕົກລົງລຶບບັນທືກທັງໝົດບໍ？"</item>
+    </plurals>
+    <string name="today">"ມື້ນີ້"</string>
+    <string name="yesterday">"ມື້​ວານ​ນີ້"</string>
+    <string name="earlier">"ເຊົ້າສຸດ"</string>
+    <string name="drawer_open">"ລາຍການວິດີໂອ"</string>
+    <string name="drawer_close">"ວິ​ດີ​ໂອ​ທັ່ງ​ໝົດ"</string>
+    <string name="share_actionmode">"ແບ່ງປັນ"</string>
+    <string name="delete_actionmode">"ລຶບ"</string>
+    <string name="clear_all">"ລົບທັງໝົດ"</string>
+    <string name="video_list">"ລາຍການວິດີໂອ"</string>
+    <plurals name="delete_confirm">
+        <item quantity="one">"ລຶບລາຍການທີ່ເລືອກ?"</item>
+        <item quantity="other">"ລຶບລາຍການທີ່ເລືອກ?"</item>
+    </plurals>
+    <string name="current_select">"ເລືອກແລ້ວ %d ລາຍການ"</string>
+    <string name="no_video_play_records">"ບໍ່ມີບັນທຶກລາຍການທີ່ຫລີ້ນ"</string>
+    <string name="no_videos">"ບໍ່​ມີ​ວິ​ດີ​ໂອ"</string>
+    <string name="video_not_exist">"ວິດີໂອນີ້ບໍ່ມີຢູ່"</string>
+    <string name="save_picture">"ຮູບພາບບັນທຶກໄວ້ໃນ%s"</string>
+    <string name="mute">"ກຳລັງປິດສຽງ"</string>
+    <string name="date_format">"M/dd/yyyy"</string>
+    <string name="protected_info">"ຂໍ້ມູນຂອງການປ້ອງກັນ"</string>
+    <string name="drm_info">"ຂໍ້ມູນຂອງການປ້ອງກັນ"</string>
+    <string name="file_name">"ຊື່ໄຟລ໌"</string>
+    <string name="rights_validity">"ລິຂະສິດໂຕເລກ"</string>
+    <string name="rights_status">"ສະຖານະການປົກປັກຮັກສາ:"</string>
+    <string name="start_time">"ເລີ່ມ:"</string>
+    <string name="end_time">"ຈົບ:"</string>
+    <string name="expiration_time">"ເວລາໝົດກຳໜົດ"</string>
+    <string name="remain_times">"ຍັງເຫລືອຈຳນວນຄັ້ງ:"</string>
+    <string name="rights_validity_valid">"ໃຊ້ງານໄດ້"</string>
+    <string name="rights_validity_invalid">"ໃຊ້ງານບໍ່ໄດ້"</string>
+    <string name="rights_status_share">"ອະນຸຍາດໃຫ້ມີການສົ່ງຕໍ່ໄດ້"</string>
+    <string name="rights_status_not_share">"ບໍ່\'t ອະນຸຍາດໃຫ້ມີການສົ່ງຕໍ່ໄດ້"</string>
+    <string name="drm_rights_no_limit">"ບໍ່ຈຳກັດ"</string>
+    <string name="drm_rights_unknown">"ບໍ່ຮູ້ຈັກ"</string>
+    <string name="drm_rights_inactive">"ສິດທິໃຊ້ງານບໍ່ໄດ້"</string>
+    <string name="drm_file_invalid">"ຟາຍໝົດອາຍຸ"</string>
+    <string name="screenshot_failed">"ຕັດຮູບຜິດພາດ"</string>
+    <string name="floatwindow_unsupported_device">"ອຸປະກອນນບໍ່ສະໜັບສະໜຸນໜ້າຕ່າງລອຍ"</string>
+    <string name="floatwindow_unsupported_camera">"ໜ້າຕ່າງລອຍບໍ່ສາມາດເປີດໃນກ້ອງຖ່າຍ"</string>
+    <string name="floatwindow_unsupported_streaming">"ໜ້າຕ່າງລອຍບໍ່ສາມາດເປີດໃນວິດີໂອ"</string>
+    <string name="stream_screenshot_not_supported">"ບໍ່ສາມາດກົດປຸ່ມແຄັບໜ້າຈໍເມື່ອຫລີ້ນວິດີໂອ"</string>
+
+    <string name="movie_view_mms_processing_ok">"ດາວໂຫລດສຳເລັດ"</string>
+    <string name="movie_view_sms_received_ok">"ຂໍ້ຄວາມເຖິງແລ້ວ"</string>
+    <string name="movie_view_mms_process_title">"ເອັມເອັມເອສ"</string>
+    <string name="movie_view_sms_process_title">"ຂໍ້ຄວາມ"</string>
+    <string name="movie_view_mms_ok">"ການເຂົ້າໃຈ"</string>
+    <string name="invalid_rights">"ຟາຍນີ້ ບໍ່ມີໃບອະນຸຍາດທີ່ນຳໃຊ້ໄດ້"</string>
+    <string name="drm_consumed">" ການດຳເນີນງານຂອງທ່ານຈະນຳໃຊ້ສິດ Drm"</string>
+    <string name="drm_unit_minutes">"s"</string>
+    <string name="drm_consume_title">"ນຳໃຊ້ສິດ Drm"</string>
+    <string name="drm_consume_hint">" ການດຳເນີນງານຂອງທ່ານຈະນຳໃຊ້ສິດ Drm"</string>
+    <string name="choose_drm_alert">"ບໍ່ສາມາດເລືອກຟາຍ Drm, ກະລຸນາເລືອກຟາຍອື່ນ"</string>
+    <string name="slidemusic">"ຕັ້ງເພງໃນການສະແດງແບບເລື່ອນ"</string>
+    <string name="setas">"ຕັ້ງເປັນ"</string>
+    <string name="slide_music_system_ringtones">"ຣິງ​ໂທນ​ລະ​ບົບ"</string>
+    <string name="slide_music_user_defined">"ຜູ້​ໃຊ້​ກຳ​ໜົດ​ເອງ"</string>
+    <string name="remove_usbdisk">"ອຸປະກອນຂອງຜູ້ໃຊ້ຖືກລຶບແລ້ວ"</string>
+    <string name="edit_crop_free">"ວ່າງ"</string>
+    <string name="edit_crop_square">"ສີ່ລ່ຽມ"</string>
+    <string name="edit_crop_origin">ຮູບຕົ້ນສະບັບ</string>
+    <string name="hide_albums">"ເຊື່ອງອາລະບ້ຳ"</string>
+    <string name="show_local_albums">"ສະແດງອາລະບ້ຳທ້ອງຖິ່ນ"</string>
+    <plurals name="selected_images">
+        <item quantity="one">"ຮູບ%1$dທີ່ເລືອກ"</item>
+        <item quantity="other">"ຮູບ%1$dທີ່ເລືອກ"</item>
+    </plurals>
+    <string name="select">"ເລືອກ"</string>
+    <string name="popup_title_save_all_selected">"ຈັດເກັບຮູບທັງໝົດບໍ?"</string>
+    <string name="keep_all">"ບັນທຶກທັງໝົດ"</string>
+    <string name="burst_progress_dialog_title">"ກໍາລັງປະມວນຜົນ..."</string>
+    <string name="side_bar_all_photos">"ທັງໝົດ"</string>
+    <string name="side_bar_photo">"ຮູບ​ພາບ"</string>
+    <string name="side_bar_video">"ວິດີໂອ"</string>
+    <string name="side_bar_album">"ອະລະບ້ຳ"</string>
+    <string name="label_select">"ເລືອກ"</string>
+    <string name="no_photo_or_video">"ບໍ່%1$s"</string>
+    <string name="no_photo_or_video_hint">"ຮູບ ຫຼື ວິດີໂອຕ່າງໆທີ່ບັນທຶກໃນອຸປະກອນນີ້ຈະສະແດງຢູ່ທີ່ນີ້."</string>
+    <string name="detail_pop_title">ຂໍ້ມູນ</string>
+    <string name="detail_date_info_format">"MMM d, yyyy"</string>
+    <string name="detail_more">"ເພີ່ມເຕີມ"</string>
+    <string name="detail_location">"ສະຖານທີ່"</string>
+    <string name="database_exception">"ຂະບວນການຈັດເກັບຂໍ້ມູນຜິດປົກກະຕິ, ບໍ່ສາມາດດຳເນີນການໄດ້."</string>
+    <string name="exit_multiwindow_tips">"ບໍ່ສາມາດສະໜັບສະໜູນການເປີດຮູບໃນໂໝດແຍກໜ້າຈໍ"</string>
+    <string name="exit_multiwindow_video_tips">"ບໍ່ສະໜັບສະໜູນການເບິ່ງວິດີໂອໃນໂໝດແຍກໜ້າຈໍ"</string>
+    <string name="decode_image_faild">"ບໍ່ສາມາດຕັດຮູບໄດ້"</string>
+    <string name="label_after_today_format">"EEEE, MMM d, yyyy"</string>
+    <string name="label_today">ມື້​ນີ້</string>
+    <string name="label_yesterday">"ມື້​ວານ​ນີ້"</string>
+    <string name="label_in_a_year_format">"EEEE, MMM d"</string>
+    <string name="label_before_this_year_format">"EEEE, MMM d, yyyy"</string>
+    <string name="album_set_loading_tip">"ກຳລັງໂຫຼດຂໍ້ມູນ, ກະລຸນາລໍຖ້າ"</string>
+    <string name="distance_photo_unit_conversion">"ການປ່ຽນຫົວໜ່ວຍ"</string>
+    <string name="unit">"ຫົວໜ່ວຍ"</string>
+    <string name="meter">"ແມັດ"</string>
+    <string name="centimeter">"ເຊັນຕີແມັດ"</string>
+    <string name="foot">"ຟຸດ"</string>
+    <string name="inch">"ນິ້ວ"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"ວິດີໂອນີ້່\’ໃຊ້ຫຼິ້ນກັບອຸປະກອນນີ້ບໍ່ໄດ້."</string>
+    <string name="VideoView_error_text_unknown">"ບໍ່\’ສາມາດຫຼິ້ນວິດີໂອນີ້ໄດ້."</string>
+    <string name="no_touch_flip">"ບໍ່ມີຝາປົກໜ້າຈໍ"</string>
+    <string name="flip_summury">"ປິດກ້ອງຖ່າຍຮູບ 1 ວິນາທີເພື່ອປີ້ນຮູບ "</string>
+    <string name="first_summary">"ລະບົບຈະເລື່ອນໜ້າຈໍລົງມາລຸ່ມສຸດທຸກຄັ້ງ"</string>
+    <string name="sencond_summury">"ເລື່ອນຂຶ້ນດ້ານເທິງເມື່ອເພີ່ມສຽງຂຶ້ນ "</string>
+    <string name="third_summury">"ເລື່ອນລົງລຸ່ມເມື່ອປັບສຽງລົງ "</string>
+    <string name="fourth_summury">"ສະຫຼຸບ: ກົດປຸ່ມຄວບຄຸມສຽງ "</string>
+    <string name="dealing">"ກໍາລັງດາວໂຫຼດ..."</string>
+    <string name="slide_music_stop">"ສຽງເພງໃນການສະແດງແບບເລື່ອນຈະຢຸດລົງ"</string>
+    <string name="select_tips">"ສິ່ງຂອງທີ່ເລືອກຢູ່ເບື້ອງຫຼັງ. ກະລຸນາສ້າງຈຸດຢູ່ດ້ານໜ້າ"</string>
+    <string name="definition_subject">"ກຳນົດສິ່ງຂອງ"</string>
+    <string name="fix_subject">"ປັບສິ່ງຂອງໃຫ້ຖືກຕ້ອງ"</string>
+    <string name="fix_background">"ປັບເບື້ອງຫຼັງໃຫ້ຖືກຕ້ອງ"</string>
+    <string name="replace_background">"ປ່ຽນເບື້ອງຫຼັງ"</string>
+    <string name="correct_object_tips">"ທຳອິດ, ກະລຸນາແຕ້ມແບບບໍ່ລະອຽດ ຫຼື ແຕ້ມໃສ່ຈຸດທີ່ຂອບເສັ້ນຕົກໃສ່.\nແລ້ວ, ຄລິກໃສ່ປຸ່ມ \"ແກ້ໄຂສິ່ງຂອງ\" ເພື່ອອັບເດດພື້ນທີ່ທີ່ແຕ້ມໄວ້ໃສ່ສິ່ງຂອງດັ່ງກ່າວ, ຫຼື ຄລິກໃສ່ປຸ່ມ \"ແກ້ໄຂເບື້ອງຫຼັງ\" ເພື່ອອັບເດດພື້ນທີ່ທີ່ແຕ້ມໄວ້ໃສ່ເບື້ອງຫຼັງ."</string>
+    <string name="def_object_tips">"ກຳນົດສິ່ງຂອງ: ແຕ້ມເສັ້ນສີ່ລ່ຽມ ເພື່ອອ້ອມເອົາຂອບຂອງສິ່ງຂອງທີ່ທ່ານຕ້ອງການ."</string>
+    <string name="valid_point">"ຈຸດເລີ່ມຕົ້ນ ຫຼື ຈຸດສິ້ນສຸດບໍ່ໄດ້ຢູ່ໃນໄລຍະທີ່ນຳໃຊ້ໄດ້,"</string>
+    <string name="small_rect">"ຮູບສີ່ຫຼ່ຽມທີ່ແຕ້ມແມ່ນນ້ອຍໂພດ."</string>
+    <string name="add">"ເພີ່ມ"</string>
+    <string name="use_phone_photo">"ກະລຸນານຳໃຊ້ຮູບພາບທີ່ຖ່າຍດ້ວຍໂທລະສັບມືຖືຂອງທ່ານ"</string>
+    <string name="extract_failed">"ບໍ່ສາມາດຄັດອອກມາໄດ້, ກະລຸນາລອງອີກເທື່ອໜຶ່ງ"</string>
+    <string name="blending_success">"ປະສົມຮູບພາບສຳເລັດແລ້ວ, ສືບຕໍ່ດຳເນີນການ ຫຼື ກົດປຸ່ມກັບຄືນເພື່ອອອກຈາກລະບົບ"</string>
+    <string name="blending_failed">"ບໍ່ສາມາດປະສົມຮູບໄດ້"</string>
+    <string name="extract_failed_notforground">"ບໍ່ສາມາດຄັດອອກມາໄດ້, ບໍ່ແມ່ນສິ່ງຂອງທີ່ຢູ່ດ້ານໜ້າ, ກະລຸນາເລີ່ມຕົ້ນອີກເທື່ອໜຶ່ງ"</string>
+    <string name="extract_failed_nomemory">"ບໍ່ສາມາດຄັດອອກມາໄດ້, ໜ່ວຍຄວາມຈຳໜ້ອຍເກີນໄປ, ກະລຸນາເລີ່ມຕົ້ນໃໝ່ອີກເທື່ອໜຶ່ງ"</string>
+    <string name="extract_timeout">"ເວລາໃນການຄັດໝົດແລ້ວ, ກະລຸນາເລີ່ມຕົ້ນໃໝ່ອີກເທື່ອໜຶ່ງ"</string>
+    <string name="extract_forground">"ກຳລັງຄັດເປົ້າໝາຍທີ່ຢູ່ດ້ານໜ້າ, ກະລຸນາລໍຖ້າຈັກໜ້ອຍ."</string>
+    <string name="update_forground">"ກຳລັງອັບເດດເປົ້າໝາຍທີ່ຢູ່ດ້ານໜ້າ, ກະລຸນາລໍຖ້າຈັກໜ້ອຍ."</string>
+    <string name="blending_image">"ກຳລັງປະສົມຮູບ, ກະລຸນາລໍຖ້າຈັກໜ້ອຍ."</string>
+    <string name="select_foreground_subject">"ຄລິກເພື່ອເລືອກເປົ້າໝາຍທີ່ຢູ່ດ້ານໜ້າ"</string>
+    <string name="adjust_foreground_subject">"ປັບເປົ້າໝາຍທີ່ຢູ່ດ້ານໜ້າ"</string>
+    <string name="correct_subject_outline">"ປັບຂອບຂອງເປົ້າໝາຍໃຫ້ຖືກຕ້ອງ"</string>
+    <string name="edit_background">"ແກ້ໄຂເບື້ອງຫຼັງ"</string>
+    <string name="verify_prompt">"ຕຳແໜ່ງປະຈຸບັນແມ່ນໃກ້ກັບຂອບຫຼາຍເກີນໄປ, ເຊິ່ງຈະເຮັດໃຫ້ຮູບມີຄຸນນະພາບຕ່ຳ, ທ່ານແນ່ໃຈບໍວ່າຈະປະສົມຮູບ?"</string>
+    <string name="fg_too_large">"ເປົ້າໝາຍທີ່ຢູ່ດ້ານໜ້າໃຫຍ່ເກີນໄປທີ່ຈະປະສົມ。"</string>
+    <string name="draw_tips">"ກະລຸນາແຕ້ມພາຍໃນຮູບສີ່ລ່ຽມສີຂາວ"</string>
+    <string name="undo_faild">"ບໍ່ສາມາດຢ້ອນກັບໄດ້"</string>
+    <string name="get_forfround_tips">"ບໍ່ສາມາດປ່ຽນເປົ້າໝາຍທີ່ຢູ່ເບື້ອງໜ້າໄປຍັງເບື້ອງຫຼັງໄດ້. ກະລຸນາແຕ້ມຄືນໃໝ່."</string>
+    <string name="next_video">"ວິດີໂອຕໍ່ໄປ"</string>
+    <string name="pre_video">"ວິດີໂອກ່ອນໜ້ານີ້"</string>
+    <string name="lock_control">"ຄວບຄຸມການລ໋ອກ"</string>
+    <string name="lock_orintation">"ປັບການລ໋ອກ"</string>
+    <string name="print_screen">"ຖ່າຍພາບໜ້າຈໍ"</string>
+    <string name="float_player">"FloatPlayer"</string>
+    <string name="scale_screen">"ຂະໜາດໜ້າຈໍ"</string>
+    <string name="back">"ກັບຄືນ"</string>
+    <string name="over_flow">"ລົ້ນ"</string>
+    <string name="slide_music_play_fail">"ຂໍອະໄພ, ບໍ່ສາມາດຫຼິ້ນໄຟລ໌ໄດ້"</string>
+    <string name="refocus_quit">"ອອກ"</string>
+    <string name="refocus_save_change">"ບັນທຶກການປ່ຽນແປງ"</string>
+    <string name="refocus_confirm_save">"ທ່ານຕ້ອງການບັນທຶກ ຫຼື ອອກເລີຍ? "</string>
+    <string name="refocus_save_success">"ບັນທຶກສຳເລັດແລ້ວ"</string>
+    <string name="refocus_save_fail">"ບໍ່ສາມາດບັນທຶກໄດ້"</string>
+    <string name="none_input_tips">"ບໍ່ສາມາດປະຊື່ໃຫ້ຫວ່າງເປົ່າໄດ້"</string>
+    <string name="floatview_notification_text">"ກຳລັງຫຼິ້ນວິດີໂອໃນໜ້າຈໍນ້ອຍ"</string>
+    <string name="voice_photo">"ຮູບພາບສຽງ"</string>
+    <string name="continuous_shooting">"ຖ່າຍ​ຕໍ່​ເນື່ອງ"</string>
+    <string name="refocus_image">"ຮູບບໍ່ແຈ້ງ"</string>
+    <string name="blur_image_wait">"ກຳລັງດຳເນີນການກັບຮູບບໍ່ແຈ້ງ, ກະລຸນາລໍຖ້າ"</string>
+    <string name="blur_save_fail">"ບໍ່ສາມາດຈັດເກັບຮູບບໍ່ແຈ້ງ"</string>
+    <string name="refocus_init_fail">"ບໍ່ສາມາດສ້າງຂໍ້ມູນພື້ນຖານໄດ້"</string>
+    <string name="conversing">"ກຳລັງປ່ຽນ"</string>
+    <string name="share_as_image">"ແບ່ງປັນຮູບ"</string>
+    <string name="share_as_video">"ແບ່ງປັນວິດີໂອ"</string>
+    <string name="converse_video_failed">"ບໍ່ສາມາດປ່ຽນວິດີໂອໄດ້."</string>
+    <string name="app_photo_edit">"ແກ້ໄຂຮູບພາບ"</string>
+</resources>
